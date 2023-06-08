@@ -1,0 +1,12 @@
+.header {
+    background: url(../../assets/img/bg01.webp) no-repeat center top #091217;
+    background-size: 100%;
+}
+
+.main {
+    position: relative;
+    padding-top: 30px;
+    width: 90%;
+    min-width: 1280px;
+    margin: 0 auto;
+}
