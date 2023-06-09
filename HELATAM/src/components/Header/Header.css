@@ -3,6 +3,16 @@
     background-size: 100%;
 }
 
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-width: 1280px;
+    max-width: 1920px;
+    margin: 0 auto;
+    color: #fff;
+}
+
 .main {
     position: relative;
     padding-top: 30px;

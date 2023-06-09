@@ -9,7 +9,13 @@
     height: 80px;
     margin: 0 auto;
     line-height: 49px;
-    background: url(../assets/img/navbar.webp) no-repeat center top;
+    background: rgb(5,48,103);
+    background: linear-gradient(180deg, rgba(5,48,103,1) 0%, rgba(6,38,89,1) 100%);
+}
+
+.nav ul {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -20,4 +26,18 @@
     width: 22%;
     text-align: center;
     margin-top: -5%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.clearfix {
+    display: flex;
+    flex-direction: row;
 }

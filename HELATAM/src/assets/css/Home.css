@@ -1,9 +1,9 @@
-.fullbg, .content {
+.fullbg {
     overflow: hidden;
     
 }
 
-.fullbg, .header{
+.fullbg {
     position: relative;
     width: 100%;
     height: 100vh;    

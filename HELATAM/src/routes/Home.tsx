@@ -3,7 +3,7 @@ import '../assets/css/home.css';
 
 export default function Home() {
     return (
-        <div className='fullbg gameindex'>
+        <div className='fullbg'>
             <Header/>
         </div>
     );
