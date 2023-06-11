@@ -1,6 +1,6 @@
-import { TopArticle } from "../components/TopArticle";
-import { Slogan } from "../components/slogan";
-import { Navbar } from "../constant/Navbar";
+import { TopArticle } from "./TopArticle";
+import { Slogan } from "./Slogan";
+import { Navbar } from "../../constant/Navbar";
 
 export const Header = () => {
     return (

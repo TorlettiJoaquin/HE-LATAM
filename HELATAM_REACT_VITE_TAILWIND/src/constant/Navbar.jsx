@@ -1,16 +1,18 @@
 // importar una img de assets images "newlogo.webp" en typescript
 import { Link } from "react-router-dom";
-import logo from "../assets/images/newlogo.webp";
 import { useState } from "react";
+// import logo from "../assets/images/newlogo.webp";
+import hemlogo from "../assets/images/hemlogo.webp";
 
 export const Navbar = () => {
     const [openGf, setOpenGf] = useState(false);
     const [openRs, setOpenRs] = useState(false);
 
     return (
-        <nav className="relative w-3/4 max-w-[1800px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-r-2xl">
-            <div className="absolute -top-7 -left-12">
-                <img src={logo} alt="HEM MAWEL LOGO" />
+        <nav className="relative w-3/4 max-w-[1700px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-2xl">
+            <div className="absolute -top-11 -left-12">
+                <img src={hemlogo} alt="HEM MAWEL LOGO" className="w-[370px]"/>
+                {/* <img src={logo} alt="HEM MAWEL LOGO" /> */}
             </div>
             <ul className="flex justify-around text-base ml-20 h-full [&>*]:w-[14%] [&>*]:text-center [&>*]:leading-[70px] [&>*]:uppercase [&>*]:relative ">
                 <li className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200">

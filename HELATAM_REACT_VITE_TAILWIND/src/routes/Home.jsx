@@ -1,7 +1,11 @@
-import { Header } from '../pages/Header'
+import { Content } from "../components/Content/Content";
+import { Header } from "../components/Header/Header";
 
 export const Home = () => {
-  return (
-    <Header/>
-  )
-}
+    return (
+        <div>
+            <Header />
+            <Content />
+        </div>
+    );
+};
