@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header-bg': "url('/src/assets/img/bg01.webp')"
+        'header-bg': "url('/src/assets/images/bg01.webp')",
+        'view-bg': "url('/src/assets/images/viewmore.webp')"
       }
     },
   },

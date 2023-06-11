@@ -1,12 +1,10 @@
-import { Header } from "./components/Header";
+import { Home } from "./routes/Home";
 
 function App() {
     return (
-        <div>
-            <>
-                <Header />
-            </>
-        </div>
+        <>
+            <Home />
+        </>
     );
 }
 
