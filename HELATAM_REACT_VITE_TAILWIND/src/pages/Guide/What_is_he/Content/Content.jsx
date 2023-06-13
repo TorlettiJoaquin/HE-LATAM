@@ -1,14 +1,14 @@
 import wih1 from "../../../../assets/images/wih1.webp";
 import wih2 from "../../../../assets/images/wih2.webp";
 import wih3 from "../../../../assets/images/wih3.webp";
+import { FacebookEmbed } from "./FacebookEmbed";
 
 export const Content = () => {
-
     return (
         <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-24">
             <div className="w-[1280px] mx-auto my-0">
                 <div className="py-[10%]">
-                    <section className="relative float-left w-[68%] mr-[2%] text-[#bbcace] bg-[#0f2b55] p-8 border-t-8 border-t-[#420398] ">
+                    <section className="relative float-left w-8/12 mx-7 text-[#bbcace] bg-[#0f2b55] p-8 border-t-8 border-t-[#420398] ">
                         <h1 className="py-5 leading-10 text-white text-4xl font-normal uppercase">
                             {" "}
                             ¿QUÉ ES HEROES EVOLVED?
@@ -61,7 +61,8 @@ export const Content = () => {
                             className="w-[620px] border border-blue-400 max-w-full h-auto m-auto my-8"
                         />
                     </section>
-                    <aside className="relative bg-green-600">
+                    <aside className="relative">
+                        <FacebookEmbed />
                     </aside>
                 </div>
             </div>
