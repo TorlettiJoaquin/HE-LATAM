@@ -9,7 +9,7 @@ export const Navbar = () => {
     const [openRs, setOpenRs] = useState(false);
 
     return (
-        <nav className="relative w-3/4 max-w-[1700px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-2xl">
+        <nav className="relative w-3/4 max-w-[1700px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-2xl z-50">
             <div className="absolute -top-11 -left-12">
                 <Link to="/">
                     <img
@@ -81,17 +81,17 @@ export const Navbar = () => {
                         } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:h-14 [&>*]:leading-[55px] [&>*]:border-b [&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
                     >
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://www.facebook.com/hem.mawel">
+                            <a href="https://www.facebook.com/hem.mawel" target="_blank" rel="noreferrer">
                                 Facebook
                             </a>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://www.instagram.com/hemmawel/">
+                            <a href="https://www.instagram.com/hemmawel/" target="_blank" rel="noreferrer">
                                 Instagram
                             </a>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://discord.gg/heroesevolved">
+                            <a href="https://discord.gg/heroesevolved" target="_blank" rel="noreferrer">
                                 Discord Oficial
                             </a>
                         </li>
