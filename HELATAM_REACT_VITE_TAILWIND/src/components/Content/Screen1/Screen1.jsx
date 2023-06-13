@@ -1,3 +1,6 @@
+import { ViewMore } from "./ViewMore";
+import { HeroesSc1 } from "./HeroesSc1";
+
 export const Screen1 = () => {
     return (
         <div className="h-[1045px] pt-20">
@@ -9,7 +12,8 @@ export const Screen1 = () => {
                 heroes worldwide are waiting for your call! Get to know their
                 attributes and skills and lead them to win the battle!
             </p>
-            <div className="h-[730px]"></div>
+            <HeroesSc1 />
+            <ViewMore />
         </div>
     );
 };

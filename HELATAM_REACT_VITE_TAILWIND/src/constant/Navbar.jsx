@@ -11,7 +11,13 @@ export const Navbar = () => {
     return (
         <nav className="relative w-3/4 max-w-[1700px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-2xl">
             <div className="absolute -top-11 -left-12">
-                <img src={hemlogo} alt="HEM MAWEL LOGO" className="w-[370px]"/>
+                <Link to="/">
+                    <img
+                        src={hemlogo}
+                        alt="HEM MAWEL LOGO"
+                        className="w-[370px]"
+                    />
+                </Link>
                 {/* <img src={logo} alt="HEM MAWEL LOGO" /> */}
             </div>
             <ul className="flex justify-around text-base ml-20 h-full [&>*]:w-[14%] [&>*]:text-center [&>*]:leading-[70px] [&>*]:uppercase [&>*]:relative ">
@@ -34,19 +40,19 @@ export const Navbar = () => {
                         } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:h-14 [&>*]:leading-[55px] [&>*]:border-b [&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
                     >
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/what_is_he>">What&apos;s HE?</Link>
+                            <Link to="/guide/what_is_he">What&apos;s HE?</Link>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/terminology>">Terminology</Link>
+                            <Link to="/guide/terminology">Terminology</Link>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/battleground>">Battleground</Link>
+                            <Link to="/guide/battleground">Battleground</Link>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/items>">Items</Link>
+                            <Link to="/guide/items">Items</Link>
                         </li>
                         <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/media>">media</Link>
+                            <Link to="/media">media</Link>
                         </li>
                     </ul>
                 </li>
