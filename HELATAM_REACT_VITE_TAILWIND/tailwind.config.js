@@ -15,6 +15,14 @@ export default {
                 "wih1-bg": "url('/src/assets/images/wih1.webp')",
                 "wih2-bg": "url('/src/assets/images/wih2.webp')",
                 "wih3-bg": "url('/src/assets/images/wih3.webp')",
+                "gameinfo-bg": "url('/src/assets/images/gameinfobg.webp')",
+                "battleground-bg": "url('/src/assets/images/battleground-bg.webp')",
+            },
+            dropShadow: {
+                glow: [
+                    "0 0px 5px rgba(0, 135, 255, 0.9)",
+                    "0 0px 10px rgba(135, 0, 255, 0.75)",
+                ],
             },
         },
     },

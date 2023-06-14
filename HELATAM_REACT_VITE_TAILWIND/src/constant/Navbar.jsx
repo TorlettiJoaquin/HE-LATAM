@@ -21,10 +21,14 @@ export const Navbar = () => {
                 {/* <img src={logo} alt="HEM MAWEL LOGO" /> */}
             </div>
             <ul className="flex justify-around text-base ml-20 h-full [&>*]:w-[14%] [&>*]:text-center [&>*]:leading-[70px] [&>*]:uppercase [&>*]:relative ">
-                <li className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200">
-                    <Link to="/">Inicio</Link>
-                </li>
-                <li
+                <Link
+                    to="/"
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                >
+                    <li className="">Inicio</li>
+                </Link>
+                <Link
+                    to="/guide/gameinfo"
                     className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                     onMouseEnter={() => {
                         setOpenGf(true);
@@ -33,73 +37,113 @@ export const Navbar = () => {
                         setOpenGf(false);
                     }}
                 >
-                    <Link to="/guide/gameinfo">Game Info ⇓</Link>
-                    <ul
-                        className={`${
-                            openGf ? "block" : "hidden"
-                        } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:h-14 [&>*]:leading-[55px] [&>*]:border-b [&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
-                    >
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/what_is_he">What&apos;s HE?</Link>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/terminology">Terminology</Link>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/battleground">Battleground</Link>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/guide/items">Items</Link>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <Link to="/media">media</Link>
-                        </li>
-                    </ul>
-                </li>
-                <li className="bg-gradient-to-b  hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200">
-                    <Link to="/heroes">Heroes</Link>
-                </li>
-                <li className="bg-gradient-to-b  hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200">
-                    <Link to="/news">News</Link>
-                </li>
-                <li className="bg-gradient-to-b  hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200">
-                    <Link to="/guide">Guide</Link>
-                </li>
+                    <li>
+                        Game Info ⇓
+                        <ul
+                            className={`${
+                                openGf ? "block" : "hidden"
+                            } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                        >
+                            <Link to="/guide/whatishe">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    What&apos;s HE?
+                                </li>
+                            </Link>
+                            <Link to="/guide/terminology">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    Terminology
+                                </li>
+                            </Link>
+
+                            <Link to="/guide/battleground">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    Battleground
+                                </li>
+                            </Link>
+
+                            <Link to="/guide/items">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    Items
+                                </li>
+                            </Link>
+                            <Link to="/media">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    media
+                                </li>
+                            </Link>
+                        </ul>
+                    </li>
+                </Link>
+                <Link
+                    to="/heroes"
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                >
+                    <li className="">Heroes</li>
+                </Link>
+                <Link
+                    to="/news"
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                >
+                    <li className="">News</li>
+                </Link>
+                <Link
+                    to="/guide"
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                >
+                    <li className="">Guide</li>
+                </Link>
+
                 <li
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200 cursor-pointer"
                     onMouseEnter={() => {
                         setOpenRs(true);
                     }}
                     onMouseLeave={() => {
                         setOpenRs(false);
                     }}
-                    className="bg-gradient-to-b  hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
-                    <Link to="/community">Comunnity ⇓</Link>
+                    Comunnity ⇓
                     <ul
                         className={`${
                             openRs ? "block" : "hidden"
-                        } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:h-14 [&>*]:leading-[55px] [&>*]:border-b [&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                        } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
                     >
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://www.facebook.com/hem.mawel" target="_blank" rel="noreferrer">
+                        <a
+                            href="https://www.facebook.com/hem.mawel"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <li className="hover:border-b hover:border-b-yellow-200">
                                 Facebook
-                            </a>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://www.instagram.com/hemmawel/" target="_blank" rel="noreferrer">
+                            </li>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/hemmawel/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <li className="hover:border-b hover:border-b-yellow-200">
                                 Instagram
-                            </a>
-                        </li>
-                        <li className="hover:border-b hover:border-b-yellow-200">
-                            <a href="https://discord.gg/heroesevolved" target="_blank" rel="noreferrer">
+                            </li>
+                        </a>
+
+                        <a
+                            href="https://discord.gg/heroesevolved"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <li className="hover:border-b hover:border-b-yellow-200">
                                 Discord Oficial
-                            </a>
-                        </li>
+                            </li>
+                        </a>
                     </ul>
                 </li>
-                <li className="bg-gradient-to-b  hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200 rounded-r-2xl">
-                    <Link to="/download">Download</Link>
-                </li>
+                <Link
+                    to="/download"
+                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                >
+                    <li className="">Download</li>
+                </Link>
             </ul>
         </nav>
     );
