@@ -16,6 +16,7 @@ export default {
                 "wih2-bg": "url('/src/assets/images/wih2.webp')",
                 "wih3-bg": "url('/src/assets/images/wih3.webp')",
                 "gameinfo-bg": "url('/src/assets/images/gameinfobg.webp')",
+                "battleground-bg": "url('/src/assets/images/battleground-bg.webp')",
             },
             dropShadow: {
                 glow: [

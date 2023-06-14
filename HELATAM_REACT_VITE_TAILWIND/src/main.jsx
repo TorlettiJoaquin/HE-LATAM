@@ -5,8 +5,10 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Guide } from "./routes/Guide.jsx";
 import { Admin } from "./routes/Admin.jsx";
-import { What_Is_He } from "./pages/Guide/What_is_he/What_Is_He.jsx";
+import { WhatIsHe } from "./pages/Guide/WhatIsHe/WhatIsHe.jsx";
 import { GameInfo } from "./pages/Guide/Gameinfo/GameInfo.jsx";
+import { Terminology } from "./pages/Guide/Terminology/Terminology.jsx";
+import { Battleground } from "./pages/Guide/Battleground/Battleground.jsx";
 
 const router = createBrowserRouter([
     {
@@ -18,8 +20,16 @@ const router = createBrowserRouter([
         element: <Guide />,
     },
     {
-        path: "/guide/what_is_he",
-        element: <What_Is_He />,
+        path: "/guide/whatishe",
+        element: <WhatIsHe />,
+    },
+    {
+        path: "/guide/terminology",
+        element: <Terminology />,
+    },
+    {
+        path: "/guide/battleground",
+        element: <Battleground />,
     },
     {
         path: "/guide/gameinfo",
