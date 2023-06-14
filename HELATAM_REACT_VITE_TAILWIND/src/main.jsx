@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Guide } from "./routes/Guide.jsx";
 import { Admin } from "./routes/Admin.jsx";
 import { What_Is_He } from "./pages/Guide/What_is_he/What_Is_He.jsx";
+import { GameInfo } from "./pages/Guide/Gameinfo/GameInfo.jsx";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     {
         path: "/guide/what_is_he",
         element: <What_Is_He />,
+    },
+    {
+        path: "/guide/gameinfo",
+        element: <GameInfo />,
     },
     {
         path: "/admin",

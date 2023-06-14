@@ -1,7 +1,8 @@
 import wih1 from "../../../../assets/images/wih1.webp";
 import wih2 from "../../../../assets/images/wih2.webp";
 import wih3 from "../../../../assets/images/wih3.webp";
-import { FacebookEmbed } from "./FacebookEmbed";
+import { FacebookEmbed } from "../../../../components/Facebook/FacebookEmbed";
+import { Highlight } from "../../../../components/Highlight/Highlight";
 
 export const Content = () => {
     return (
@@ -61,11 +62,9 @@ export const Content = () => {
                             className="w-[620px] border border-blue-400 max-w-full h-auto m-auto my-8"
                         />
                     </section>
-                    <aside className="relative">
+                    <aside className="relative float-left w-[364px]">
                         <FacebookEmbed />
-                        <ul>
-                            
-                        </ul>
+                        <Highlight />
                     </aside>
                 </div>
             </div>
