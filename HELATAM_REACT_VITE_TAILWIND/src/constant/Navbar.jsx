@@ -61,6 +61,12 @@ export const Navbar = () => {
                                 </li>
                             </Link>
 
+                            <Link to="/guide/modes">
+                                <li className="hover:border-b hover:border-b-yellow-200">
+                                    Modes
+                                </li>
+                            </Link>
+
                             <Link to="/guide/items">
                                 <li className="hover:border-b hover:border-b-yellow-200">
                                     Items
@@ -140,7 +146,7 @@ export const Navbar = () => {
                 </li>
                 <Link
                     to="/download"
-                    className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
+                    className="bg-gradient-to-b rounded-r-2xl hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
                     <li className="">Download</li>
                 </Link>
