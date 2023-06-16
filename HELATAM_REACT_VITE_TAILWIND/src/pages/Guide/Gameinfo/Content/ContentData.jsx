@@ -11,7 +11,7 @@ const ContentData = [
         srcImg: gameinfo1,
         srcAlt: "game info 1",
         title: "Que es heroes evolved?",
-        url: "/guide/what_is_he",
+        url: "/guide/whatishe",
     },
     {
         id: 2,

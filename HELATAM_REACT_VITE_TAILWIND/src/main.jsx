@@ -10,6 +10,7 @@ import { Terminology } from "./pages/Guide/Terminology/Terminology.jsx";
 import { Battleground } from "./pages/Guide/Battleground/Battleground.jsx";
 import { Modes } from "./pages/Guide/Modes/Modes.jsx";
 import { Admin } from "./routes/Admin.jsx";
+import { Download } from "./pages/Download/Download.jsx";
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
     {
         path: "/guide/gameinfo",
         element: <GameInfo />,
+    },
+    {
+        path: "/download",
+        element: <Download />,
     },
 ]);
 
