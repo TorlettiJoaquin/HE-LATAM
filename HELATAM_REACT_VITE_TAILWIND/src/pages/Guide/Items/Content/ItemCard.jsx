@@ -1,11 +1,30 @@
+import { useState } from "react";
 import i10004 from "../../../../assets/images/items/10004.webp";
 
 export const ItemCard = () => {
+    const [showItem, setShowItem] = useState(false);
+
     return (
         <div>
-            <li className="relative float-left p-1 mx-[18px] my-[10px] border-4 border-purple-900 rounded-2xl">
-                <img src={i10004} alt="" className="w-[100px] h-[100px] rounded-lg" />
-                <div className="absolute top-[60px] left-[60px] w-[620px] p-[20px] bg-black border border-[#0f3db8] z-50 rounded-xl">
+            <li
+                onMouseEnter={() => {
+                    setShowItem(true);
+                }}
+                onMouseLeave={() => {
+                    setShowItem(false);
+                }}
+                className="relative float-left p-1 mx-[18px] my-[10px] border-4 border-purple-900 rounded-2xl"
+            >
+                <img
+                    src={i10004}
+                    alt=""
+                    className="w-[100px] h-[100px] rounded-lg"
+                />
+                <div
+                    className={`${
+                        showItem ? "block" : "hidden"
+                    } absolute top-[60px] left-[60px] w-[620px] p-[20px] bg-black border border-[#0f3db8] z-50 rounded-xl`}
+                >
                     <p className="py-[5px]">
                         <img
                             src={i10004}
@@ -40,7 +59,6 @@ export const ItemCard = () => {
                     </p>
                 </div>
             </li>
-            
         </div>
     );
 };
