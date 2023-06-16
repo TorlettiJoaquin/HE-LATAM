@@ -5,7 +5,7 @@ export const Content = () => {
         <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-24">
             <div className="w-[1280px] mx-auto my-0">
                 <div className="py-[10%]">
-                    <section className="relative float-left w-8/12 mx-7 text-[#bbcace] bg-[#0f2b55] p-8 border-t-8 border-t-[#420398] ">
+                    <section className="relative float-left w-8/12 mx-7 text-[#bbcace] bg-[#0f2b55] p-8 border-t-8 border-t-[#420398] rounded-lg">
                         <h1 className="leading-10 text-white text-4xl font-bold uppercase">
                             HEROES EVOLVED TERMINOLOGY
                         </h1>

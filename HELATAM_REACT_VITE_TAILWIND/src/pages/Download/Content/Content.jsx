@@ -17,6 +17,7 @@ export const Content = () => {
                                 href="https://play.google.com/store/apps/details?id=com.rsg.heroesevolved"
                                 target="_blank"
                                 rel="noreferrer"
+                                className="hover:scale-110 transform transition-all ease-linear duration-200"
                             >
                                 <img src={AppStore} alt="" />
                             </a>
