@@ -11,6 +11,7 @@ import { Battleground } from "./pages/Guide/Battleground/Battleground.jsx";
 import { Modes } from "./pages/Guide/Modes/Modes.jsx";
 import { Admin } from "./routes/Admin.jsx";
 import { Download } from "./pages/Download/Download.jsx";
+import { Items } from "./pages/Guide/Items/Items.jsx";
 
 const router = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
     {
         path: "/guide/gameinfo",
         element: <GameInfo />,
+    },
+    {
+        path: "/guide/items",
+        element: <Items />,
     },
     {
         path: "/download",
