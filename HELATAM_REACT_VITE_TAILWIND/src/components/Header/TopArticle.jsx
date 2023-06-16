@@ -15,12 +15,13 @@ export const TopArticle = () => {
                         <div className="p-2 h-1/2 flex flex-col">
                             <span className="flex flex-col h-4/5 gap-1 pb-3">
                                 <strong className="h-1/2 text-xl">
-                                    Help Center Guide
+                                    Guia del Centro de Ayuda
                                 </strong>
                                 <i className="h-1/2 overflow-hidden">
-                                    Help Center is where you could submit the
-                                    bug you met and suggestions you have to
-                                    Heroes Evolved
+                                    El Centro de ayuda es donde puedes reportar
+                                    errores y enviar sugerencias a Heroes
+                                    Evolved. Un GM del centro de ayuda te
+                                    asistirá lo antes posible.
                                 </i>
                             </span>
                             <span className="flex flex-col-reverse h-1/5 text-cyan-500 ">

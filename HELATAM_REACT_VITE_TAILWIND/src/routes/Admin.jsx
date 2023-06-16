@@ -7,7 +7,7 @@ export const Admin = () => {
             <div className="max-w-md w-full space-y-8 p-10 rounded-xl bg-black bg-opacity-95 ">
                 <div>
                     <img
-                        className="mx-auto h-20 w-auto animate-spin "
+                        className="mx-auto h-20 w-auto animate-bounce"
                         src={heicon}
                         alt="Workflow"
                     />

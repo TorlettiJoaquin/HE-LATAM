@@ -7,17 +7,17 @@ export const Content = () => {
         <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-10">
             <div className="w-[1300px] mx-auto my-0">
                 <div className="h-[520px] p-[175px_0_0_52%]">
-                    <h1 className="w-0 h-0 hidden">Battleground</h1>
+                    <h1 className="w-0 h-0 hidden">Campo de batalla</h1>
                     <h3 className="text-[32px] py-[30px] w-[600px]">
-                        Altar of Strife
+                        ALTAR DE LA LUCHA
                     </h3>
                     <p className="w-[85%]">
-                        This battleground is the primary focus of all conflict
-                        in the world of Heroes Evolved. Assemble your allies,
-                        and face off in intense 5v5 matches on this iconic map.
-                        Featuring three lanes, a vast jungle, and a dividing
-                        river, the Altar of Strife has ample room for complex
-                        strategic gameplay.
+                        Este campo de batalla es el principal centro de todo
+                        conflicto en el mundo de Heroes Evolved. Reúne a tus
+                        aliados y enfrenta batallas 5 vs 5 en este mapa icónico.
+                        Presentando tres líneas, una enorme jungla y un río que
+                        divide el mapa. El Altar de la Lucha tiene un amplio
+                        espacio para jugar complejas estrategias.
                     </p>
                 </div>
                 <div className="pt-[3%]">
@@ -28,57 +28,60 @@ export const Content = () => {
                     <div className="leading-[40px] w-[85%] mx-auto my-0 pb-[100px]">
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
-                                How to Win:
+                                CÓMO GANAR:
                             </strong>
-                            Destroy the Aegis in the middle of enemies&apos;
-                            base.
+                            Destruye la Égida ubicada en el centro de la base
+                            enemiga.
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
-                                Attack Route:
+                                RUTA DE ATAQUE:
                             </strong>
-                            Attack from 3 lanes. Destroy turrets in order.
+                            Ataca desde 3 líneas y destruye las torres en orden.
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
                                 Minions:
                             </strong>
-                            Warrior, Wizard and Cannons. They will get more
-                            powerful after the enemy barracks are destroyed.
+                            Guerreros, hechiceros y cañones. Ellos se volveran
+                            mas poderosos despues de que caigan todas las torres
+                            enemigas.
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
                                 Heroes:
                             </strong>
-                            All heroes and skins can be used. Initial Level of
-                            Hero: 1.
+                            Se pueden utilizar todos los héroes y las
+                            apariencias. Nivel inicial del héroe: 1.
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
                                 Items:
                             </strong>
-                            All items can be used. Initial Gold: 700. Potion
-                            Effect: 100%.
+                            Todos los ítems pueden ser utilizados. Oro inicial:
+                            700. Efecto de las pociones: 100%
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
-                                Bonus Attribute:
+                                Items Activos:
                             </strong>
-                            Battle Gifts can be used.
+                            Los regalos de batalla pueden ser utilizados.
                         </p>
                         <p>
                             <strong className="mr-[8px] text-[#2a83ff] uppercase">
-                                Jungle Monsters:
+                                MONSTRUOS DE LA JUNGLA:
                             </strong>
-                            common monsters, Forest Protector and Zakar, the
-                            boss. Killing the Forest Protector will bring a
-                            random temporary buff of attack, defense, Gold or
-                            movement speed. Killing the boss will bring Gold and
-                            a powerful buff to all heroes.
+                            Monstruos comunes, el Protector del Bosque y Zakar,
+                            el jefe. Matar al Protector del Bosque otorga un
+                            buff aleatorio de ataque, defensa, oro o velocidad
+                            de movimiento. Matar a Zakar otorga oro y un
+                            poderoso buff a todos los héroes del equipo.
                         </p>
                     </div>
                     <div className="h-[92px] leading-[92px] text-[38px] text-center uppercase ">
-                        <h3 className="drop-shadow-glow">Battleground guide</h3>
+                        <h3 className="drop-shadow-glow">
+                            GUÍA DEL CAMPO DE BATALLA
+                        </h3>
                     </div>
                     <div className="w-[85%] leading-[26px] my-0 mx-auto pb-[100px]">
                         <div className="py-[50px] flex flex-row items-center">
@@ -88,20 +91,22 @@ export const Content = () => {
                                 className="mr-[20px] border-2 border-blue-500"
                             />
                             <p className="w-1/2 ">
-                                Lanes are the paths that minions take to attack
-                                in the game. As shown above, your minions will
-                                attack enemies from three blue lanes and enemy
-                                minions will take three red lanes to fight back.
-                                Altar of Chaos has three lanes (left, middle and
-                                right), which are defended by three turrets. The
-                                right lane is your advantaged lane and the left
-                                lane is your disadvantaged lane. For your enemy,
-                                the left one is the advantaged lane and the
-                                right one is the disadvantaged lane. The turret
-                                on the advantaged lane is in the middle of the
-                                two sides, making it easier to affect the war
-                                situation, while the turret on the disadvantaged
-                                lane is far away from the middle position.
+                                Las líneas son el camino que siguen las tropas
+                                para atacar en el juego. Tus tropas atacarán
+                                desde tres líneas azules y el enemigo
+                                contraatacará desde las tres líneas rojas. El
+                                altar del caos tiene tres líneas (izquierda). El
+                                Altar del Caos tiene tres líneas (izquierda,
+                                medio y derecha) las cuales son defendidas por
+                                tres torres. La línea de la derecha presenta más
+                                ventajas en comparación con la izquierda. En el
+                                equipo rival es al revés, ya que están
+                                invertidas. Las torres con la mayor ventaja se
+                                encuentran en el medio de los dos lados,
+                                teniendo más facilidad para afectar la situación
+                                del combate, mientras que las torres más
+                                alejadas del centro tienden a ser las más
+                                vulnerables.
                             </p>
                         </div>
                         <div className="py-[50px] flex flex-row-reverse items-center">
@@ -111,30 +116,35 @@ export const Content = () => {
                                 className="ml-[20px] border-2 border-blue-500 w-[450px]"
                             />
                             <div className="">
-                                <h3>FUNCTIONS AND FEATURES OF TURRETS</h3>
+                                <h3>
+                                    FUNCIONES Y CARACTERÍSTICAS DE LAS TORRES
+                                </h3>
                                 <p>
-                                    1. Destroying turrets will bring Gold and
-                                    EXP to your team.
+                                    1. Destruir las torres otorga oro y
+                                    experiencia a tu equipo.
                                     <br />
-                                    2. Turrets can inflict greater damage and
-                                    provide stronger defense.
+                                    2. Las torres infligen mucho daño y son una
+                                    defensa muy poderosa.
                                     <br />
-                                    3. Turrets allow your team to discover the
-                                    invisible enemies and traps.
+                                    3. Permiten descubrir a los enemigos
+                                    invisibles y las trampas.
                                     <br />
-                                    4. Heroes can be teleported to turrets.
+                                    4. Se pueden usar como punto de
+                                    teletransportación.
                                     <br />
-                                    5. The turret in the middle lane is very
-                                    important. If you lose it too early, your
-                                    enemy will control the whole map in no time.
+                                    5. La torre ubicada en el medio es muy
+                                    importante. Si se pierde muy rápido, el
+                                    enemigo no tardará en controlar el mapa.
                                     <br />
-                                    6. Its wise to stay under the turrets to
-                                    avoid danger at the beginning.
+                                    6. Al principio de la partida, las torres
+                                    son una excelente cobertura para evitar el
+                                    peligro.
                                     <br />
-                                    7. It wont be safe to stay under the turrets
-                                    in the middle or later stage, because
-                                    enemies with strengthened equipment are able
-                                    to kill you under the attack of the turrets.
+                                    7. En el juego medio (mid game) y en el
+                                    tardío (late game) las torres no son una
+                                    protección infalible, ya que los enemigos
+                                    con un equipamiento elevado pueden matarte
+                                    rápidamente incluso debajo de la torre.
                                 </p>
                             </div>
                         </div>
@@ -145,14 +155,17 @@ export const Content = () => {
                                 className="ml-[20px] border-2 border-blue-500 w-[450px]"
                             />
                             <div className="">
-                                <h3>FUNCTIONS AND FEATURES OF LANES</h3>
+                                <h3>
+                                    FUNCIONES Y CARACTERÍSTICAS DE LAS LÍNEAS
+                                </h3>
                                 <p>
-                                    1. The advantaged lane is relatively safer.
-                                    It is suggested that heroes with good Gold
-                                    farming ability take the advantaged lane.
+                                    1. La línea favorecida es relativamente
+                                    segura. Se sugiere que los heroes con buen
+                                    farmeo de oro tomen esta línea.
                                     <br />
-                                    2. On the contrary, heroes with high HP or
-                                    defense should take the disadvantaged lane.
+                                    2. Por el contrario, se recomienda que los
+                                    héroes con alta resistencia y capacidades
+                                    defensivas ocupen la línea más débil.
                                     <br />
                                     3. Heroes with advanced Gift can teleport to
                                     minions. Don’t miss the chance to teleport

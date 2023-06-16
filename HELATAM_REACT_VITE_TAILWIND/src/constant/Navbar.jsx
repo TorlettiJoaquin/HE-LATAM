@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 // import logo from "../assets/images/newlogo.webp";
 import hemlogo from "../assets/images/hemlogo.webp";
+import { AiFillCaretDown }  from "react-icons/ai";
 
 export const Navbar = () => {
     const [openGf, setOpenGf] = useState(false);
@@ -25,7 +26,7 @@ export const Navbar = () => {
                     to="/"
                     className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
-                    <li className="">Inicio</li>
+                    <li>Inicio</li>
                 </Link>
                 <Link
                     to="/guide/gameinfo"
@@ -38,7 +39,8 @@ export const Navbar = () => {
                     }}
                 >
                     <li>
-                        Game Info ⇓
+                        Informacion <AiFillCaretDown className="inline-block"/>
+                        
                         <ul
                             className={`${
                                 openGf ? "block" : "hidden"
@@ -46,24 +48,24 @@ export const Navbar = () => {
                         >
                             <Link to="/guide/whatishe">
                                 <li className="hover:border-b hover:border-b-yellow-200">
-                                    What&apos;s HE?
+                                    Juego
                                 </li>
                             </Link>
                             <Link to="/guide/terminology">
                                 <li className="hover:border-b hover:border-b-yellow-200">
-                                    Terminology
+                                    Glosario
                                 </li>
                             </Link>
 
                             <Link to="/guide/battleground">
                                 <li className="hover:border-b hover:border-b-yellow-200">
-                                    Battleground
+                                    batalla
                                 </li>
                             </Link>
 
                             <Link to="/guide/modes">
                                 <li className="hover:border-b hover:border-b-yellow-200">
-                                    Modes
+                                    Modos
                                 </li>
                             </Link>
 
@@ -74,7 +76,7 @@ export const Navbar = () => {
                             </Link>
                             <Link to="/media">
                                 <li className="hover:border-b hover:border-b-yellow-200">
-                                    media
+                                    Multimedia
                                 </li>
                             </Link>
                         </ul>
@@ -90,13 +92,13 @@ export const Navbar = () => {
                     to="/news"
                     className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
-                    <li className="">News</li>
+                    <li className="">Noticias</li>
                 </Link>
                 <Link
                     to="/guide"
                     className="bg-gradient-to-b hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
-                    <li className="">Guide</li>
+                    <li className="">Guia</li>
                 </Link>
 
                 <li
@@ -108,7 +110,7 @@ export const Navbar = () => {
                         setOpenRs(false);
                     }}
                 >
-                    Comunnity ⇓
+                    Comunidad <AiFillCaretDown className="inline-block"/>
                     <ul
                         className={`${
                             openRs ? "block" : "hidden"
@@ -148,7 +150,7 @@ export const Navbar = () => {
                     to="/download"
                     className="bg-gradient-to-b rounded-r-2xl hover:from-blue-900 hover:to-slate-900 hover:border-b hover:border-b-yellow-200"
                 >
-                    <li className="">Download</li>
+                    <li className="">Decargas</li>
                 </Link>
             </ul>
         </nav>
