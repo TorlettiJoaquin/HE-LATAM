@@ -16,7 +16,7 @@ export const ItemCard = () => {
                 className="relative float-left p-1 mx-[18px] my-[10px] border-4 border-purple-900 rounded-2xl"
             >
                 <img
-                    src={i10004}
+                    src="https://img6.99.com/yhkd/image/data/hero/head/89001.jpg"
                     alt=""
                     className="w-[100px] h-[100px] rounded-lg"
                 />
