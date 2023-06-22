@@ -2,7 +2,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 // import logo from "../assets/images/newlogo.webp";
-import hemlogo from "../assets/images/hemlogo.webp";
+// import hemlogo from "../assets/images/hemlogo.webp";
+import hemlogo2 from "../assets/images/hemlogo2.png";
 import { AiFillCaretDown }  from "react-icons/ai";
 
 export const Navbar = () => {
@@ -11,10 +12,10 @@ export const Navbar = () => {
 
     return (
         <nav className="relative w-3/4 max-w-[1700px] h-20 pl-[14%] bg-gradient-to-b from-blue-900 to-blue-950  mx-auto rounded-2xl z-50">
-            <div className="absolute -top-11 -left-12">
+            <div className="absolute -top-14 -left-12">
                 <Link to="/">
                     <img
-                        src={hemlogo}
+                        src={hemlogo2}
                         alt="HEM MAWEL LOGO"
                         className="w-[370px]"
                     />

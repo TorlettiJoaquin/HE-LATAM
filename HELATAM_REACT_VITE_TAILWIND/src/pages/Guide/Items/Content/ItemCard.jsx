@@ -1,8 +1,11 @@
 import { useState } from "react";
-import i10004 from "../../../../assets/images/items/10004.webp";
 
-export const ItemCard = () => {
+import PropTypes from "prop-types";
+
+export const ItemCard = ({ name, img, prop, effect, price, lvl }) => {
     const [showItem, setShowItem] = useState(false);
+
+    const iPrefix = "https://img6.99.com/yhkd/image/data/equip/";
 
     return (
         <div>
@@ -16,8 +19,8 @@ export const ItemCard = () => {
                 className="relative float-left p-1 mx-[18px] my-[10px] border-4 border-purple-900 rounded-2xl"
             >
                 <img
-                    src={i10004}
-                    alt=""
+                    src={`${iPrefix}${img}`}
+                    alt={`${name} imagen`} 
                     className="w-[100px] h-[100px] rounded-lg"
                 />
                 <div
@@ -27,34 +30,26 @@ export const ItemCard = () => {
                 >
                     <p className="py-[5px]">
                         <img
-                            src={i10004}
-                            alt=""
+                            src={`${iPrefix}${img}`}
+                            alt={`${name} imagen`} 
                             className="w-[64px] h-[64px] mr-[20px] float-left border border-[#0f3db8]"
                         />
                         <span className="text-[#adceff]">
-                            Nombre: ENCHANTED ORB
+                            {name}
                         </span>
                         <br />
-                        <span className="text-[#adceff]">Precio: 2100</span>
+                        <span className="text-[#adceff]">Precio: {price}</span>
                         <br />
-                        <span className="text-[#adceff]">Star Level: 2</span>
+                        <span className="text-[#adceff]">Star Level: {lvl}</span>
                     </p>
                     <p>
                         Attribute: {"  "}
-                        <span className="text-[#adceff]">Health +300</span>
+                        <span className="text-[#adceff]">{prop}</span>
                     </p>
                     <br />
                     <p>
-                        Passive: {"  "}
-                        <span className="text-[#adceff]">Spell Resist +15</span>
-                    </p>
-                    <br />
-                    <p>
-                        Unique Passive: {"  "}
                         <span className="text-[#adceff]">
-                            Exorcism I: If your Health is lower than 35% by
-                            taking magical damage, further magical damage is
-                            reduced by 20% for 4s. Auto Cooldown is 30s.
+                            {effect}
                         </span>
                     </p>
                 </div>
@@ -62,3 +57,12 @@ export const ItemCard = () => {
         </div>
     );
 };
+
+ItemCard.propTypes = {
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired,
+    prop: PropTypes.array.isRequired,
+    effect: PropTypes.array.isRequired,
+    price: PropTypes.number.isRequired,
+    lvl: PropTypes.number.isRequired,
+}

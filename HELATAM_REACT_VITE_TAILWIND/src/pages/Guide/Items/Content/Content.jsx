@@ -1,4 +1,5 @@
 import { ItemCard } from "./ItemCard";
+import ItemData2 from "./ItemData2";
 
 export const Content = () => {
     return (
@@ -41,7 +42,17 @@ export const Content = () => {
                 </ul>
                 <div>
                     <ul className="w-[94%] p-[30px] mx-auto my-0">
-                        <ItemCard />
+                        {ItemData2.map((item, idx) => (
+                            <ItemCard
+                                key={idx}
+                                effect={item.effect}
+                                img={item.img}
+                                lvl={item.lvl}
+                                name={item.name}
+                                price={item.price}
+                                prop={item.prop}
+                            />
+                        ))}
                     </ul>
                 </div>
             </div>
