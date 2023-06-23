@@ -17,7 +17,7 @@ export const Navbar = () => {
                     <img
                         src={hemlogo2}
                         alt="HEM MAWEL LOGO"
-                        className="w-[370px]"
+                        className="w-[330px]"
                     />
                 </Link>
                 {/* <img src={logo} alt="HEM MAWEL LOGO" /> */}
