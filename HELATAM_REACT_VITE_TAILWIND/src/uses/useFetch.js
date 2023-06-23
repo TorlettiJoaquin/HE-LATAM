@@ -6,9 +6,9 @@ export function useFetch(url) {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        con
+        const abortController = new AbortController();
         setLoading(true);
-        fetch(url)
+        fetch(url, { signal: abortController.signal })
             .then((response) => response.json())
             .then((data) => setData(data))
             .catch((error) => setError(error))
@@ -18,4 +18,4 @@ export function useFetch(url) {
     }, []);
 
     return { data, loading, error };
-}
+}
