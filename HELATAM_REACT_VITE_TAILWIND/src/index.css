@@ -6,6 +6,9 @@
   .navLi {
     @apply text-white;
   }
+  .active {
+    @apply bg-purple-500 overflow-visible relative rounded-full;
+  }
 }
 
 :root {
