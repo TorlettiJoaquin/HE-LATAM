@@ -1,6 +1,6 @@
 // importar una img de assets images "newlogo.webp" en typescript
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 import hemlogo2 from "../assets/images/hemlogo2.png";
 import heico from "../../src/assets/images/he.ico";
@@ -11,49 +11,93 @@ export const Navbar = () => {
     const [openGf, setOpenGf] = useState(false);
     const [openRs, setOpenRs] = useState(false);
 
+    const [pathname, setPathname] = useState(window.location.pathname);
+    const location = useLocation();
+
+    useEffect(() => {
+        setPathname(location.pathname);
+    }, [location]);
+
     return (
-        <div className="sticky top-0 flex flex-row gap-6 items-center bg-gradient-to-b from-blue-900 to-blue-950 shadow-[0_0_10px_0_rgba(0,0,0,.3)] z-20">
+        <div
+            className="sticky top-0 flex flex-row gap-6 h-14 items-center bg-gradient-to-b from-blue-900 to-blue-950 shadow-[0_0_10px_0_rgba(0,0,0,.3)] z-20"
+            onMouseLeave={() => {
+                setOpenGf(false);
+                setOpenRs(false);
+            }}
+        >
             <div className="relative basis-1/4">
                 <Link
                     to="/"
-                    className="block relative left-0 top-0 p-[5px_0_0_24px]"
+                    className="absolute left-0 -top-10 p-[1px_0_0_24px]"
                 >
                     <img
                         src={hemlogo2}
                         alt="HEM MAWEL LOGO"
-                        className="w-[200px] max-w-auto -mt-4 -mb-14"
+                        className="w-[200px] max-w-auto"
                     />
                 </Link>
             </div>
             <nav className="lg:visible w-full basis-3/4 flex flex-row-reverse">
                 <ul className="flex items-center font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
-                    <Link to="/" className="">
-                        <li className="active hover:active">
+                    <NavLink
+                        to="/"
+                        end
+                        onMouseEnter={() => {
+                            setOpenGf(false);
+                        }}
+                        className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                    >
+                        <li className="">
                             Inicio
-                            <img
-                                src={heico}
-                                alt=""
-                                className="block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                            />
+                            {pathname === "/" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                ""
+                            )}
                         </li>
-                    </Link>
-                    <Link
+                    </NavLink>
+                    <NavLink
                         to="/guide/gameinfo"
-                        className="hover:active"
+                        end
+                        className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
                         onMouseEnter={() => {
                             setOpenGf(true);
-                        }}
-                        onMouseLeave={() => {
-                            setOpenGf(false);
                         }}
                     >
                         <li>
                             Informacion{" "}
                             <AiFillCaretDown className="inline-block" />
+                            {pathname === "/guide/gameinfo" ||
+                            pathname === "/guide/whatishe" ||
+                            pathname === "/guide/terminology" ||
+                            pathname === "/guide/battleground" ||
+                            pathname === "/guide/modes" ||
+                            pathname === "/guide/items" ||
+                            pathname === "/media" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                " "
+                            )}
                             <ul
                                 className={`${
                                     openGf ? "block" : "hidden"
-                                } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
+                                onMouseLeave={() => {
+                                    setOpenGf(false);
+                                }}
                             >
                                 <Link to="/guide/whatishe">
                                     <li className="hover:border-b hover:border-b-yellow-200">
@@ -90,25 +134,77 @@ export const Navbar = () => {
                                 </Link>
                             </ul>
                         </li>
-                    </Link>
-                    <Link to="/heroes" className="hover:active">
-                        <li className="">Heroes</li>
-                    </Link>
-                    <Link to="/news" className="hover:active">
-                        <li className="">Noticias</li>
-                    </Link>
-                    <Link to="/guide" className="hover:active">
-                        <li className="">Guia</li>
-                    </Link>
+                    </NavLink>
+                    <NavLink
+                        to="/heroes"
+                        className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                        onMouseEnter={() => {
+                            setOpenGf(false);
+                        }}
+                    >
+                        <li className="">
+                            Heroes
+                            {pathname === "/heroes" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                ""
+                            )}
+                        </li>
+                    </NavLink>
+                    <NavLink
+                        to="/news"
+                        cclassName={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                    >
+                        <li className="">
+                            Noticias{" "}
+                            {pathname === "/news" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                ""
+                            )}
+                        </li>
+                    </NavLink>
+                    <NavLink
+                        to="/guide"
+                        end
+                        className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                        onMouseEnter={() => {
+                            setOpenRs(false);
+                        }}
+                    >
+                        <li className="">
+                            Guia{" "}
+                            {pathname === "/guide" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                ""
+                            )}
+                        </li>
+                    </NavLink>
 
                     <div>
                         <li
-                            className="hover:active"
+                            className="hover:active cursor-pointer"
                             onMouseEnter={() => {
                                 setOpenRs(true);
-                            }}
-                            onMouseLeave={() => {
-                                setOpenRs(false);
                             }}
                         >
                             Comunidad{" "}
@@ -116,7 +212,10 @@ export const Navbar = () => {
                             <ul
                                 className={`${
                                     openRs ? "block" : "hidden"
-                                } absolute top-20 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                onMouseLeave={() => {
+                                    setOpenRs(false);
+                                }}
                             >
                                 <a
                                     href="https://www.facebook.com/hem.mawel"
@@ -150,9 +249,28 @@ export const Navbar = () => {
                         </li>
                     </div>
 
-                    <Link to="/download" className="hover:active">
-                        <li className="">Decargas</li>
-                    </Link>
+                    <NavLink
+                        to="/download"
+                        className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                        onMouseEnter={() => {
+                            setOpenRs(false);
+                        }}
+                    >
+                        <li className="">
+                            Decargas{" "}
+                            {pathname === "/download" ? (
+                                <img
+                                    src={heico}
+                                    alt=""
+                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                />
+                            ) : (
+                                ""
+                            )}
+                        </li>
+                    </NavLink>
                 </ul>
             </nav>
         </div>

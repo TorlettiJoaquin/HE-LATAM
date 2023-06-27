@@ -4,7 +4,7 @@ import map3 from "../../../../assets/images/map3.webp";
 
 export const Content = () => {
     return (
-        <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-10">
+        <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-10 pt-14">
             <div className="w-[1300px] mx-auto my-0">
                 <div className="h-[520px] p-[200px_0_0_52%]">
                     <h1 className="w-0 h-0 hidden">Campo de batalla</h1>
