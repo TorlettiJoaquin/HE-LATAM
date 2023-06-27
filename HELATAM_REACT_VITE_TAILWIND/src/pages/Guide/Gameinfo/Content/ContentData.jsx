@@ -3,6 +3,7 @@ import gameinfo2 from '../../../../assets/images/gameinfo2.webp';
 import gameinfo4 from '../../../../assets/images/gameinfo4.webp';
 import gameinfo5 from '../../../../assets/images/gameinfo5.webp';
 import gameinfo6 from '../../../../assets/images/gameinfo6.webp';
+import gameinfo7 from '../../../../assets/images/s6.webp';
 
 
 const ContentData = [
@@ -40,6 +41,13 @@ const ContentData = [
         srcAlt: "game info 5",
         title: "Items",
         url: "/guide/items",
+    },
+    {
+        id: 6,
+        srcImg: gameinfo7,
+        srcAlt: "game info 6",
+        title: "Media",
+        url: "/guide/media",
     },
 ];
 

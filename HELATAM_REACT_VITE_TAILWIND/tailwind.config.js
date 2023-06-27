@@ -25,6 +25,9 @@ export default {
                     "0 0px 10px rgba(135, 0, 255, 0.75)",
                 ],
             },
+            animation: {
+                "spin-slow": "spin 10s linear infinite",
+            },
         },
     },
     plugins: [],

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import PropTypes from "prop-types";
 
-export const ItemCard = ({ name, img, prop, effect, price, lvl }) => {
+export const ItemCard = ({ name, img, prop, effect, prize, lvl }) => {
     const [showItem, setShowItem] = useState(false);
 
     const iPrefix = "https://img6.99.com/yhkd/image/data/equip/";
@@ -38,7 +38,7 @@ export const ItemCard = ({ name, img, prop, effect, price, lvl }) => {
                             {name}
                         </span>
                         <br />
-                        <span className="text-[#adceff]">Precio: {price}</span>
+                        <span className="text-[#adceff]">Precio: {prize}</span>
                         <br />
                         <span className="text-[#adceff]">Star Level: {lvl}</span>
                     </p>
@@ -63,6 +63,6 @@ ItemCard.propTypes = {
     img: PropTypes.string.isRequired,
     prop: PropTypes.array.isRequired,
     effect: PropTypes.array.isRequired,
-    price: PropTypes.number.isRequired,
+    prize: PropTypes.number.isRequired,
     lvl: PropTypes.number.isRequired,
 }

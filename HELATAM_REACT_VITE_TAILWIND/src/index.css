@@ -7,7 +7,7 @@
     @apply text-white;
   }
   .active {
-    @apply bg-purple-500 overflow-visible relative rounded-full;
+    @apply bg-[#44124a] overflow-visible relative rounded-full scale-105 transition-all duration-200;
   }
 }
 
