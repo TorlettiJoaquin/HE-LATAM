@@ -49,7 +49,7 @@ export const Content = () => {
                                 img={item.img}
                                 lvl={item.lvl}
                                 name={item.name}
-                                price={item.price}
+                                prize={item.prize}
                                 prop={item.prop}
                             />
                         ))}

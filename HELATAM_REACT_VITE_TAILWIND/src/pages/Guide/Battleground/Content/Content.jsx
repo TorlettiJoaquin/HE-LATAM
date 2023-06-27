@@ -6,7 +6,7 @@ export const Content = () => {
     return (
         <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-10">
             <div className="w-[1300px] mx-auto my-0">
-                <div className="h-[520px] p-[175px_0_0_52%]">
+                <div className="h-[520px] p-[200px_0_0_52%]">
                     <h1 className="w-0 h-0 hidden">Campo de batalla</h1>
                     <h3 className="text-[32px] py-[30px] w-[600px]">
                         ALTAR DE LA LUCHA

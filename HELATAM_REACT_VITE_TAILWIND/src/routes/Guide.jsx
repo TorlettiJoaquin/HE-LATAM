@@ -1,5 +1,9 @@
+import { Navbar } from "../constant/Navbar";
+
 export const Guide = () => {
-  return (
-    <div>Guide</div>
-  )
-}
+    return (
+        <div>
+            <Navbar />
+        </div>
+    );
+};
