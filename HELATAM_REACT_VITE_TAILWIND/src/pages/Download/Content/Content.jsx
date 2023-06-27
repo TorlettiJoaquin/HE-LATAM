@@ -25,6 +25,7 @@ export const Content = () => {
                                 href="https://apps.apple.com/us/app/id1173388413"
                                 target="_blank"
                                 rel="noreferrer"
+                                className="hover:scale-110 transform transition-all ease-linear duration-200"
                             >
                                 <img src={GooglePlay} alt="" />
                             </a>

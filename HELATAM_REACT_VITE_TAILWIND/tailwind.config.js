@@ -27,7 +27,9 @@ export default {
             },
             animation: {
                 "spin-slow": "spin 10s linear infinite",
+                "pulse-slow": "pulse 10s cubic-bezier(0.4, 0, 0.6, 1) infinite",
             },
+
         },
     },
     plugins: [],

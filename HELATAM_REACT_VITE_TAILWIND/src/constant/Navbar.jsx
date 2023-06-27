@@ -259,7 +259,7 @@ export const Navbar = () => {
                         }}
                     >
                         <li className="">
-                            Decargas{" "}
+                            <p className="animate-bounce">Decargar{" "}</p>
                             {pathname === "/download" ? (
                                 <img
                                     src={heico}
