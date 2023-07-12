@@ -21,14 +21,21 @@ export default {
             },
             dropShadow: {
                 glow: [
-                    "0 0px 5px rgba(0, 135, 255, 0.9)",
-                    "0 0px 10px rgba(135, 0, 255, 0.75)",
+                    "0 0px 2px rgba(0, 0, 0, 1)",
+                    "0 0px 5px rgba(239, 218, 126, 0.65)",
+                    "0 0px 10px rgba(239, 218, 126, 0.5)",
                 ],
             },
             animation: {
                 "spin-slow": "spin 10s linear infinite",
                 "pulse-slow": "pulse 10s cubic-bezier(0.4, 0, 0.6, 1) infinite",
             },
+            fontFamily: {
+                'basime': ['Bacasime Antique', 'serif'],
+                'ptserif': ['PT Serif', 'serif'],
+                'garamond': ['EB Garamond', 'serif'],
+
+            }
 
         },
     },
