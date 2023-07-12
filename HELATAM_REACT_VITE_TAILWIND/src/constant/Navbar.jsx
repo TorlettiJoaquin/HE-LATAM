@@ -157,7 +157,7 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="/news"
-                        cclassName={`
+                        className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
                         hover:active`}
                     >
