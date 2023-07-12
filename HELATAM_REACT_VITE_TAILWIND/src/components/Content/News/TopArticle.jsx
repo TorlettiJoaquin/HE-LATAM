@@ -1,83 +1,67 @@
 import { ViewMore } from "../../Header/ViewMore";
-import helpcenter from "../../../assets/images/helpcenter.webp";
-import note0607 from "../../../assets/images/note0607.webp";
-import banlist from "../../../assets/images/banlist.webp";
 
 export const TopArticle = () => {
     return (
-        <div className="relative w-[1200px] max-w-full my-0 mx-auto -mb-[150px] text-cyan-200">
+        <div className="relative w-[1200px] max-w-full my-0 mx-auto -mb-[150px] z-10">
             <ViewMore />
-            <ul className="flex justify-center w-full gap-4">
-                <li className="border-2 w-1/4 h-[400px] border-cyan-700 bg-indigo-950 hover:-translate-y-3 transition-all duration-300">
+            <ul className="flex justify-between w-full">
+                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
-                        <div className="border-b-4 border-cyan-700 transition-all duration-500 opacity-80 group-hover/img:opacity-100">
-                            <img src={helpcenter} alt="Help Center Guide" />
-                        </div>
-                        <div className="p-2 h-1/2 flex flex-col">
-                            <span className="flex flex-col h-4/5 gap-1 pb-3">
-                                <strong className="h-1/2 text-xl">
-                                    Guia del Centro de Ayuda
-                                </strong>
-                                <i className="h-1/2 overflow-hidden">
-                                    El Centro de ayuda es donde puedes reportar
-                                    errores y enviar sugerencias a Heroes
-                                    Evolved. Un GM del centro de ayuda te
-                                    asistirá lo antes posible.
-                                </i>
-                            </span>
-                            <span className="flex flex-col-reverse h-1/5 text-cyan-500 ">
-                                May 29, 2023
-                            </span>
+                        <div className=" w-[400px] h-full overflow-hidden relative bg-helpcenter bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                            <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
+                                <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-start justify-end h-full m-[0px_10px_8px_20px]">
+                                <span className="mb-2 drop-shadow-bxshdw font-medium">
+                                    May 29, 2023
+                                </span>
+                                <span className="flex flex-col gap-1 pb-3 drop-shadow-bxshdw">
+                                    <strong className="h-1/2 text-2xl font-bold">
+                                        Guia del Centro de Ayuda
+                                    </strong>
+                                </span>
+                            </div>
                         </div>
                     </a>
                 </li>
-                <li className="border-2 w-1/4 h-[400px] border-cyan-700 bg-indigo-950 hover:-translate-y-3 transition-all duration-300">
-                    <a href="">
-                        <div className="border-b-4 border-cyan-700">
-                            <img src={note0607} alt="Nota 0607" />
-                        </div>
-                        <div className="p-2 h-1/2 flex flex-col">
-                            <span className="flex flex-col h-4/5 gap-1 pb-3">
-                                <strong className="h-1/2 text-xl">
-                                    Heroes Evolved Update Note - June 7th
-                                </strong>
-                                <i className="h-1/2 overflow-hidden">
-                                    Servers will be down for 2 hours of
-                                    maintenance beginning at 3:00 PM (UTC +8) on
-                                    June 7th. The maintenance schedule is
-                                    subject to change. You won&apos;t be able to
-                                    login once the server is down and any
-                                    matches in progress will be halted. Please
-                                    do not start any matches right before the
-                                    maintenance.
-                                </i>
-                            </span>
-                            <span className="flex flex-col-reverse h-1/5 text-cyan-500 ">
-                                Jun 07, 2023
-                            </span>
+                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                    <a href="" className="group/img">
+                        <div className=" w-[400px] h-full overflow-hidden relative bg-updateNote bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                            <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
+                                <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-start justify-end h-full m-[0px_10px_8px_20px]">
+                                <span className="mb-2 drop-shadow-bxshdw font-medium">
+                                    Jun 07, 2023
+                                </span>
+                                <span className="flex flex-col gap-1 pb-3 drop-shadow-bxshdw">
+                                    <strong className="h-1/2 text-2xl font-bold">
+                                        Update Note - June 7th
+                                    </strong>
+                                </span>
+                            </div>
                         </div>
                     </a>
                 </li>
-                <li className="border-2 w-1/4 h-[400px] border-cyan-700 bg-indigo-950 hover:-translate-y-3 transition-all duration-300">
-                    <a href="">
-                        <div className="border-b-4 border-cyan-700">
-                            <img src={banlist} alt="ban list" />
-                        </div>
-                        <div className="p-2 h-1/2 flex flex-col">
-                            <span className="flex flex-col h-4/5 gap-1 pb-3">
-                                <strong className="h-1/2 text-xl">
-                                    Notice Regarding Account Punishment on June
-                                    7th 2023
-                                </strong>
-                                <i className="h-1/2 overflow-hidden">
-                                    To maintain a fair and pleasant gaming
-                                    environment, all players need to comply with
-                                    the policies of Heroes Evolved.
-                                </i>
-                            </span>
-                            <span className="flex flex-col-reverse h-1/5 text-cyan-500 ">
-                                Jun 07, 2023
-                            </span>
+                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                    <a href="" className="group/img">
+                        <div className=" w-[400px] h-full overflow-hidden relative bg-banlist bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                            <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
+                                <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
+                                </div>
+                            </div>
+                            <div className="flex flex-col items-start justify-end h-full m-[0px_10px_8px_20px]">
+                                <span className="mb-2 drop-shadow-bxshdw font-medium">
+                                    Jun 07, 2023
+                                </span>
+                                <span className="flex flex-col gap-1 pb-3 drop-shadow-bxshdw">
+                                    <strong className="h-1/2 text-2xl font-bold">
+                                        Regarding Account Punishment
+                                    </strong>
+                                </span>
+                            </div>
                         </div>
                     </a>
                 </li>

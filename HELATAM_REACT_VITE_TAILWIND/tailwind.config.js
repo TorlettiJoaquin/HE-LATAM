@@ -18,6 +18,9 @@ export default {
                 "gameinfo-bg": "url('/src/assets/images/gameinfobg.webp')",
                 "battleground-bg": "url('/src/assets/images/battleground-bg.webp')",
                 "item-bg": "url('/src/assets/images/itembg.webp')",
+                "helpcenter": "url('/src/assets/images/helpcenter.webp')",
+                "updateNote": "url('/src/assets/images/note0607.webp')",
+                "banlist": "url('/src/assets/images/banlist.webp')"
             },
             dropShadow: {
                 glow: [
@@ -25,6 +28,7 @@ export default {
                     "0 0px 5px rgba(239, 218, 126, 0.65)",
                     "0 0px 10px rgba(239, 218, 126, 0.5)",
                 ],
+                bxshdw: "0px 0px 10px #000",
             },
             animation: {
                 "spin-slow": "spin 10s linear infinite",

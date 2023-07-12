@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 export const ViewMore = () => {
     return (
-        <div className=" w-[1240px] mx-auto my-0 pt-2">
-            ULTIMAS NOTICIAS {' '}
+        <div className="mb-[10px] ml-[15px] flex flex-row gap-10 z-30">
+            <div>ULTIMAS NOTICIAS</div>
             <Link
                 to="/news"
-                className="transition-all duration-500 hover:scale-y-110 w-48 h-14 bg-view-bg bg-no-repeat bg-left-top inline-block "
+                className="transition-all duration-500 hover:scale-y-110"
             >  VER TODOS</Link>
         </div>
     );

@@ -2,7 +2,7 @@ import { TopArticle } from "./TopArticle"
 
 const News = () => {
   return (
-    <div className="bg-transparent border-y-8 border-white">
+    <div className="bg-transparent">
         <TopArticle/>
     </div>
   )
