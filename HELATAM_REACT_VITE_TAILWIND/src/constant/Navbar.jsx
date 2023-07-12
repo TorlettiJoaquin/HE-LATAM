@@ -13,13 +13,33 @@ export const Navbar = () => {
     const [pathname, setPathname] = useState(window.location.pathname);
     const location = useLocation();
 
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        if (scrollPosition > 150) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [])
+    
+
     useEffect(() => {
         setPathname(location.pathname);
     }, [location]);
 
     return (
         <div
-            className="sticky top-0 flex flex-row gap-6 h-20 w-[80%] mx-auto items-center z-20 bg-transparent"
+            className={`${(scrolled ? "bg-blue" : "bg-transparent")} sticky top-0 flex flex-row gap-6 h-20 w-[80%] mx-auto items-center z-20 rounded-b-3xl`}
+            
             onMouseLeave={() => {
                 setOpenGf(false);
                 setOpenRs(false);
