@@ -1,11 +1,12 @@
-import { ViewMore } from "./ViewMore";
-import helpcenter from "../../assets/images/helpcenter.webp";
-import note0607 from "../../assets/images/note0607.webp";
-import banlist from "../../assets/images/banlist.webp";
+import { ViewMore } from "../../Header/ViewMore";
+import helpcenter from "../../../assets/images/helpcenter.webp";
+import note0607 from "../../../assets/images/note0607.webp";
+import banlist from "../../../assets/images/banlist.webp";
 
 export const TopArticle = () => {
     return (
-        <div className="w-full my-0 mx-auto text-cyan-200 max-w-7xl">
+        <div className="relative w-[1200px] max-w-full my-0 mx-auto -mb-[150px] text-cyan-200">
+            <ViewMore />
             <ul className="flex justify-center w-full gap-4">
                 <li className="border-2 w-1/4 h-[400px] border-cyan-700 bg-indigo-950 hover:-translate-y-3 transition-all duration-300">
                     <a href="" className="group/img">
@@ -81,7 +82,6 @@ export const TopArticle = () => {
                     </a>
                 </li>
             </ul>
-            <ViewMore />
         </div>
     );
 };
