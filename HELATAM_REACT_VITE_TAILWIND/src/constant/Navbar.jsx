@@ -28,12 +28,12 @@ export const Navbar = () => {
             <div className="relative w-[200px]">
                 <Link
                     to="/"
-                    className="absolute left-4 -top-8 w-full"
+                    className="absolute left-4 -top-9 w-full"
                 >
                     <img
                         src={hemlogo2}
                         alt="HEM MAWEL LOGO"
-                        className="w-[200px]"
+                        className="w-[200px] h-[85px] object-cover"
                     />
                 </Link>
             </div>
