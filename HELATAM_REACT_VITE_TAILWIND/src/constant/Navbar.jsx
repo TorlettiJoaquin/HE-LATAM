@@ -1,4 +1,3 @@
-// importar una img de assets images "newlogo.webp" en typescript
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -20,26 +19,26 @@ export const Navbar = () => {
 
     return (
         <div
-            className="sticky top-0 flex flex-row gap-6 h-14 items-center bg-gradient-to-b from-blue-900 to-blue-950 shadow-[0_0_10px_0_rgba(0,0,0,.3)] z-20"
+            className="sticky top-0 flex flex-row gap-6 h-14 w-[80%] mx-auto items-center z-20"
             onMouseLeave={() => {
                 setOpenGf(false);
                 setOpenRs(false);
             }}
         >
-            <div className="relative basis-1/4">
+            <div className="relative w-[200px]">
                 <Link
                     to="/"
-                    className="absolute left-0 -top-10 p-[1px_0_0_24px]"
+                    className="absolute left-4 -top-8 w-full"
                 >
                     <img
                         src={hemlogo2}
                         alt="HEM MAWEL LOGO"
-                        className="w-[200px] max-w-auto"
+                        className="w-[200px]"
                     />
                 </Link>
             </div>
-            <nav className="lg:visible w-full basis-3/4 flex flex-row-reverse">
-                <ul className="flex items-center font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
+            <nav className="lg:visible flex w-full pl-5">
+                <ul className="flex w-full items-center font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
                     <NavLink
                         to="/"
                         end
@@ -77,12 +76,12 @@ export const Navbar = () => {
                             Informacion{" "}
                             <AiFillCaretDown className="inline-block" />
                             {pathname === "/guide/gameinfo" ||
-                            pathname === "/guide/whatishe" ||
-                            pathname === "/guide/terminology" ||
-                            pathname === "/guide/battleground" ||
-                            pathname === "/guide/modes" ||
-                            pathname === "/guide/items" ||
-                            pathname === "/media" ? (
+                                pathname === "/guide/whatishe" ||
+                                pathname === "/guide/terminology" ||
+                                pathname === "/guide/battleground" ||
+                                pathname === "/guide/modes" ||
+                                pathname === "/guide/items" ||
+                                pathname === "/media" ? (
                                 <img
                                     src={heico}
                                     alt=""
@@ -92,9 +91,8 @@ export const Navbar = () => {
                                 " "
                             )}
                             <ul
-                                className={`${
-                                    openGf ? "block" : "hidden"
-                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
+                                className={`${openGf ? "block" : "hidden"
+                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
                                 onMouseLeave={() => {
                                     setOpenGf(false);
                                 }}
@@ -210,9 +208,8 @@ export const Navbar = () => {
                             Comunidad{" "}
                             <AiFillCaretDown className="inline-block" />
                             <ul
-                                className={`${
-                                    openRs ? "block" : "hidden"
-                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                className={`${openRs ? "block" : "hidden"
+                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
                                 onMouseLeave={() => {
                                     setOpenRs(false);
                                 }}
@@ -253,13 +250,13 @@ export const Navbar = () => {
                         to="/download"
                         className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
+                        hover:active ml-auto border-2 rounded border-[rgba(255,255,255,0.5)]`}
                         onMouseEnter={() => {
                             setOpenRs(false);
                         }}
                     >
                         <li className="">
-                            <p className="animate-bounce">Decargar{" "}</p>
+                            <p className="animate-bounce">JUEGA GRATIS</p>
                             {pathname === "/download" ? (
                                 <img
                                     src={heico}
