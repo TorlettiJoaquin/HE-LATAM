@@ -19,7 +19,7 @@ export const Navbar = () => {
 
     return (
         <div
-            className="sticky top-0 flex flex-row gap-6 h-14 w-[80%] mx-auto items-center z-20"
+            className="sticky top-0 flex flex-row gap-6 h-20 w-[80%] mx-auto items-center z-20"
             onMouseLeave={() => {
                 setOpenGf(false);
                 setOpenRs(false);
