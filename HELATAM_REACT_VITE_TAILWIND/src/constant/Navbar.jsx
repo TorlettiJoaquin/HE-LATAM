@@ -1,12 +1,16 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+// import Sound from 'react-sound';
 
 import hemlogo2 from "../assets/images/hemlogo2.png";
 import heico from "../../src/assets/images/he.ico";
 
 import { AiFillCaretDown } from "react-icons/ai";
 
+
 export const Navbar = () => {
+    const [isPlaying, setIsPlaying] = useState(false);
+
     const [openGf, setOpenGf] = useState(false);
     const [openRs, setOpenRs] = useState(false);
 
@@ -38,7 +42,7 @@ export const Navbar = () => {
 
     return (
         <div
-            className={`${(scrolled ? "bg-blue" : "bg-transparent")} sticky top-0 flex flex-row gap-6 h-20 w-[80%] mx-auto items-center z-20 rounded-b-3xl`}
+            className={`${(scrolled ? "bg-[#000d40]" : "bg-transparent")} sticky top-0 flex flex-row gap-6 h-24 w-[80%] mx-auto items-center z-20 rounded-b-3xl`}
             
             onMouseLeave={() => {
                 setOpenGf(false);
@@ -58,7 +62,7 @@ export const Navbar = () => {
                 </Link>
             </div>
             <nav className="lg:visible flex w-full pl-5">
-                <ul className="flex w-full items-center font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
+                <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
                     <NavLink
                         to="/"
                         end
@@ -266,17 +270,21 @@ export const Navbar = () => {
                         </li>
                     </div>
 
+                    <div>
+                        <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
+                    </div>
+
                     <NavLink
                         to="/download"
                         className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active ml-auto border-2 rounded border-[rgba(255,255,255,0.5)]`}
+                        hover:active bg-[#000d40] border-2 rounded border-[rgba(255,255,255,0.5)]`}
                         onMouseEnter={() => {
                             setOpenRs(false);
                         }}
                     >
                         <li className="">
-                            <p className="animate-bounce">JUEGA GRATIS</p>
+                            <p className="">JUEGA GRATIS</p>
                             {pathname === "/download" ? (
                                 <img
                                     src={heico}

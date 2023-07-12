@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +9,7 @@
     @apply text-white;
   }
   .active {
-    @apply bg-[#44124a] overflow-visible relative rounded-full scale-105 transition-all duration-200;
+    @apply bg-[#1b3b66] overflow-visible relative rounded scale-105 transition-all duration-200;
   }
 }
 
