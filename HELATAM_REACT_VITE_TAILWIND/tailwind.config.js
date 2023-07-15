@@ -20,7 +20,8 @@ export default {
                 "item-bg": "url('/src/assets/images/itembg.webp')",
                 "helpcenter": "url('/src/assets/images/helpcenter.webp')",
                 "updateNote": "url('/src/assets/images/note0607.webp')",
-                "banlist": "url('/src/assets/images/banlist.webp')"
+                "banlist": "url('/src/assets/images/banlist.webp')",
+                "map5v5": "url('/src/assets/images/map5v5.png')",
             },
             dropShadow: {
                 glow: [
