@@ -1,6 +1,12 @@
 //	https://img6.99.com/yhkd/image/data/hero/head/
 // .jpg
 
+var tag = [
+   "1" = "fuerza",
+   "2" = "agilidad",
+   "3" = "inteligencia"
+]
+
 var HeroesData = [
     {
         id: 3001,
