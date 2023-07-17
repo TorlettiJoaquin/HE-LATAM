@@ -2,10 +2,9 @@ import { TopArticle } from "./TopArticle"
 
 const News = () => {
   return (
-    <div className="relative bg-black top-0">
-        <div className="absolute inset-0 bg-black overflow-hidden h-[150px] blur-xl"></div>
+    <div className="relative bottom w-screen h-full overflow-clip">
         <TopArticle/>
-        <div className="absolute inset-x-0 bottom-0 h-[150px] bg-black blur-xl"></div>
+        <div className="absolute w-[calc(100%_+_500px)] h-[300px] bg-gradient-to-t from-black via-[#000000ec] to-transparent -left-48 bottom-0"/>
     </div>
   )
 }

@@ -1,10 +1,9 @@
 import MapInteractivo from "./MapInteractivo/MapInteractivo";
-import News from "./News/News";
+// import News from "./News/News";
 
 export const Content = () => {
     return (
-        <section className="relative">
-            <News />
+        <section className="relative bg-black">
             <MapInteractivo />
         </section>
     );

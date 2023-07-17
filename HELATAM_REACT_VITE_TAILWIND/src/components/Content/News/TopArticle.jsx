@@ -2,10 +2,10 @@ import { ViewMore } from "../../Header/ViewMore";
 
 export const TopArticle = () => {
     return (
-        <div className="relative w-[1200px] max-w-full my-0 mx-auto -mb-[150px] z-10">
+        <div className="absolute w-auto bottom-0 items-center right-0 left-0 z-10">
             <ViewMore />
-            <ul className="flex justify-between w-full">
-                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+            <ul className="flex justify-center w-full">
+                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
                         <div className=" w-[400px] h-full overflow-hidden relative bg-helpcenter bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
@@ -25,7 +25,7 @@ export const TopArticle = () => {
                         </div>
                     </a>
                 </li>
-                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
                         <div className=" w-[400px] h-full overflow-hidden relative bg-updateNote bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
@@ -45,7 +45,7 @@ export const TopArticle = () => {
                         </div>
                     </a>
                 </li>
-                <li className="w-[400px] h-[245px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
                         <div className=" w-[400px] h-full overflow-hidden relative bg-banlist bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">

@@ -39,10 +39,10 @@ export const Navbar = () => {
     useEffect(() => {
         setPathname(location.pathname);
     }, [location]);
-
+// #000d40
     return (
-        <div
-            className={`${(scrolled ? "bg-[#000d40]" : "bg-transparent")} sticky top-0 flex flex-row gap-6 h-24 w-[80%] mx-auto items-center z-20 rounded-b-3xl`}
+        <div className={`${(scrolled ? "bg-gradient-to-b from-[#000d40] via-[#000d40] to-[#000d4000]" : "bg-transparent")} sticky top-0 z-20 h-24 rounded-b-3xl`}>
+            <div className={"flex flex-row gap-6 h-24 w-[80%] mx-auto items-center"}
             
             onMouseLeave={() => {
                 setOpenGf(false);
@@ -299,5 +299,7 @@ export const Navbar = () => {
                 </ul>
             </nav>
         </div>
+        </div>
+        
     );
 };
