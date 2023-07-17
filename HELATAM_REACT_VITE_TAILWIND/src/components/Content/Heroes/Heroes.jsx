@@ -1,7 +1,7 @@
 
 
 // const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
-const TAGS = ['HTML', 'CSS', 'JavaScript', 'Typescript', 'Tailwind', 'React', 'Next.js', 'Gatsby', 'UI/UX', 'SVG', 'animation', 'webdev'];
+const TAGS = ['Heroe1', 'Heroe1', 'Heroe1', 'Heroe1', 'Heroe1', 'React', 'Heroe1', 'Heroe1', 'Heroe1', 'Heroe1', 'Heroe1', 'Heroe1'];
 const DURATION = 15000;
 const ROWS = 5;
 const TAGS_PER_ROW = 5;
@@ -30,10 +30,6 @@ const Tag = ({ text }) => (
 const Heroes = () => {
     return (
         <div className='heroes'>
-            <header>
-                <h1>Infinite Scroll Animation</h1>
-                <p>CSS only, content independent, bi-directional, customizable</p>
-            </header>
             <div className='tag-list'>
                 {[...new Array(ROWS)].map((_, i) => (
                     <InfiniteLoopSlider key={i} duration={random(DURATION - 5000, DURATION + 5000)} reverse={i % 2}>
