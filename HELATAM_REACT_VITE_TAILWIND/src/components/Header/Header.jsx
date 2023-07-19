@@ -1,19 +1,6 @@
-// import AudioBG from '../../assets/audio/audioBG.mp3'
-
 import News from "../Content/News/News";
-// import AudioPlayer from "./AudioPlayer";
 
 export const Header = () => {
-    const audio = document.querySelector('audio');
-    document.addEventListener('click', function() {
-        audio.play()
-        .then(() => {
-            console.log('Audio played successfully');
-        })
-        .catch((error) => {
-            console.log(`Error: ${error}`)
-        })
-    })
 
 
     return (

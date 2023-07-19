@@ -50,7 +50,7 @@ ol {
 	flex-direction: column;
 }
 .tag-list {
-	width: 50%;
+	width: 50rem;
 	max-width: 90vw;
 	display: flex;
 	flex-shrink: 0;
@@ -73,17 +73,10 @@ ol {
 	display: flex;
 	align-items: center;
 	gap: 0 0.2rem;
-	color: #e2e8f0;
-	font-size: 0.9rem;
-	background-color: #334155;
-	border-radius: 1rem;
-	padding: 3rem 4rem;
+	height: 150px;
+	border-radius: 10%;
 	margin-right: 1rem;
 	box-shadow: 0 0.1rem 0.2rem #000, 0 0.1rem 0.5rem #000, 0 0.2rem 1.5rem #000;
-}
-.tag span {
-	font-size: 1.2rem;
-	color: #64748b;
 }
 .fade {
 	pointer-events: none;
@@ -96,6 +89,6 @@ ol {
 		transform: translateX(0);
    }
 	100% {
-		transform: translateX(-50%);
+		transform: translateX(-104%);
    }
 }
