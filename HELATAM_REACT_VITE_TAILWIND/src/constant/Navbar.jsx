@@ -1,45 +1,68 @@
-// importar una img de assets images "newlogo.webp" en typescript
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+// import Sound from 'react-sound';
 
 import hemlogo2 from "../assets/images/hemlogo2.png";
 import heico from "../../src/assets/images/he.ico";
 
 import { AiFillCaretDown } from "react-icons/ai";
 
+
 export const Navbar = () => {
+    const [isPlaying, setIsPlaying] = useState(false);
+
     const [openGf, setOpenGf] = useState(false);
     const [openRs, setOpenRs] = useState(false);
 
     const [pathname, setPathname] = useState(window.location.pathname);
     const location = useLocation();
 
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        if (scrollPosition > 150) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [])
+    
+
     useEffect(() => {
         setPathname(location.pathname);
     }, [location]);
-
+// #000d40
     return (
-        <div
-            className="sticky top-0 flex flex-row gap-6 h-14 items-center bg-gradient-to-b from-blue-900 to-blue-950 shadow-[0_0_10px_0_rgba(0,0,0,.3)] z-20"
+        <div className={`${(scrolled ? "bg-gradient-to-b from-[#000d40] via-[#000d40] to-[#000d4000]" : "bg-transparent")} sticky top-0 z-20 h-24 rounded-b-3xl`}>
+            <div className={"flex flex-row gap-6 h-24 w-[80%] mx-auto items-center"}
+            
             onMouseLeave={() => {
                 setOpenGf(false);
                 setOpenRs(false);
             }}
         >
-            <div className="relative basis-1/4">
+            <div className="relative w-[200px]">
                 <Link
                     to="/"
-                    className="absolute left-0 -top-10 p-[1px_0_0_24px]"
+                    className="absolute left-4 -top-9 w-full"
                 >
                     <img
                         src={hemlogo2}
                         alt="HEM MAWEL LOGO"
-                        className="w-[200px] max-w-auto"
+                        className="w-[200px] h-[85px] object-cover"
                     />
                 </Link>
             </div>
-            <nav className="lg:visible w-full basis-3/4 flex flex-row-reverse">
-                <ul className="flex items-center font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
+            <nav className="lg:visible flex w-full pl-5">
+                <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
                     <NavLink
                         to="/"
                         end
@@ -77,12 +100,12 @@ export const Navbar = () => {
                             Informacion{" "}
                             <AiFillCaretDown className="inline-block" />
                             {pathname === "/guide/gameinfo" ||
-                            pathname === "/guide/whatishe" ||
-                            pathname === "/guide/terminology" ||
-                            pathname === "/guide/battleground" ||
-                            pathname === "/guide/modes" ||
-                            pathname === "/guide/items" ||
-                            pathname === "/media" ? (
+                                pathname === "/guide/whatishe" ||
+                                pathname === "/guide/terminology" ||
+                                pathname === "/guide/battleground" ||
+                                pathname === "/guide/modes" ||
+                                pathname === "/guide/items" ||
+                                pathname === "/media" ? (
                                 <img
                                     src={heico}
                                     alt=""
@@ -92,9 +115,8 @@ export const Navbar = () => {
                                 " "
                             )}
                             <ul
-                                className={`${
-                                    openGf ? "block" : "hidden"
-                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
+                                className={`${openGf ? "block" : "hidden"
+                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
                                 onMouseLeave={() => {
                                     setOpenGf(false);
                                 }}
@@ -159,7 +181,7 @@ export const Navbar = () => {
                     </NavLink>
                     <NavLink
                         to="/news"
-                        cclassName={`
+                        className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
                         hover:active`}
                     >
@@ -210,9 +232,8 @@ export const Navbar = () => {
                             Comunidad{" "}
                             <AiFillCaretDown className="inline-block" />
                             <ul
-                                className={`${
-                                    openRs ? "block" : "hidden"
-                                } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                className={`${openRs ? "block" : "hidden"
+                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
                                 onMouseLeave={() => {
                                     setOpenRs(false);
                                 }}
@@ -249,17 +270,21 @@ export const Navbar = () => {
                         </li>
                     </div>
 
+                    <div>
+                        <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
+                    </div>
+
                     <NavLink
                         to="/download"
                         className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
+                        hover:active bg-[#000d40] border-2 rounded border-[rgba(255,255,255,0.5)]`}
                         onMouseEnter={() => {
                             setOpenRs(false);
                         }}
                     >
                         <li className="">
-                            Decargas{" "}
+                            <p className="">JUEGA GRATIS</p>
                             {pathname === "/download" ? (
                                 <img
                                     src={heico}
@@ -274,5 +299,7 @@ export const Navbar = () => {
                 </ul>
             </nav>
         </div>
+        </div>
+        
     );
 };

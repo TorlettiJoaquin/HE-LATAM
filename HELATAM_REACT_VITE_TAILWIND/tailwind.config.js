@@ -18,16 +18,30 @@ export default {
                 "gameinfo-bg": "url('/src/assets/images/gameinfobg.webp')",
                 "battleground-bg": "url('/src/assets/images/battleground-bg.webp')",
                 "item-bg": "url('/src/assets/images/itembg.webp')",
+                "helpcenter": "url('/src/assets/images/helpcenter.webp')",
+                "updateNote": "url('/src/assets/images/note0607.webp')",
+                "banlist": "url('/src/assets/images/banlist.webp')",
+                "map5v5": "url('/src/assets/images/map5v5.png')",
             },
             dropShadow: {
                 glow: [
-                    "0 0px 5px rgba(0, 135, 255, 0.9)",
-                    "0 0px 10px rgba(135, 0, 255, 0.75)",
+                    "0 0px 2px rgba(0, 0, 0, 1)",
+                    "0 0px 5px rgba(239, 218, 126, 0.65)",
+                    "0 0px 10px rgba(239, 218, 126, 0.5)",
                 ],
+                bxshdw: "0px 0px 10px #000",
             },
             animation: {
                 "spin-slow": "spin 10s linear infinite",
+                "pulse-slow": "pulse 10s cubic-bezier(0.4, 0, 0.6, 1) infinite",
             },
+            fontFamily: {
+                'basime': ['Bacasime Antique', 'serif'],
+                'ptserif': ['PT Serif', 'serif'],
+                'garamond': ['EB Garamond', 'serif'],
+
+            }
+
         },
     },
     plugins: [],
