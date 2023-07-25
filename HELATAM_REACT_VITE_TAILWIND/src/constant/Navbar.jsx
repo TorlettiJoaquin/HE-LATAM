@@ -20,286 +20,287 @@ export const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-      const handleScroll = () => {
-        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-        if (scrollPosition > 150) {
-            setScrolled(true);
-        } else {
-            setScrolled(false);
-        }
-      };
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+            if (scrollPosition > 150) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
 
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, [])
-    
+
 
     useEffect(() => {
         setPathname(location.pathname);
     }, [location]);
-// #000d40
+    // #000d40
     return (
-        <div className={`${(scrolled ? "bg-gradient-to-b from-[#000d40] via-[#000d40] to-[#000d4000]" : "bg-transparent")} sticky top-0 z-20 h-24 rounded-b-3xl`}>
-            <div className={"flex flex-row gap-6 h-24 w-[80%] mx-auto items-center"}
-            
-            onMouseLeave={() => {
-                setOpenGf(false);
-                setOpenRs(false);
-            }}
-        >
-            <div className="relative w-[200px]">
-                <Link
-                    to="/"
-                    className="absolute left-4 -top-9 w-full"
-                >
-                    <img
-                        src={hemlogo2}
-                        alt="HEM MAWEL LOGO"
-                        className="w-[200px] h-[85px] object-cover"
-                    />
-                </Link>
-            </div>
-            <nav className="lg:visible flex w-full pl-5">
-                <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
-                    <NavLink
+        <div className={`sticky top-0 z-20 h-24 rounded-b-3xl`}>
+            <div className={"flex flex-row gap-6 h-24 w-[80%] mx-auto items-center z-20"}
+
+                onMouseLeave={() => {
+                    setOpenGf(false);
+                    setOpenRs(false);
+                }}
+            >
+                <div className="relative w-[200px]">
+                    <Link
                         to="/"
-                        end
-                        onMouseEnter={() => {
-                            setOpenGf(false);
-                        }}
-                        className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
+                        className="absolute left-4 -top-9 w-full"
                     >
-                        <li className="">
-                            Inicio
-                            {pathname === "/" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                ""
-                            )}
-                        </li>
-                    </NavLink>
-                    <NavLink
-                        to="/guide/gameinfo"
-                        end
-                        className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                        onMouseEnter={() => {
-                            setOpenGf(true);
-                        }}
-                    >
-                        <li>
-                            Informacion{" "}
-                            <AiFillCaretDown className="inline-block" />
-                            {pathname === "/guide/gameinfo" ||
-                                pathname === "/guide/whatishe" ||
-                                pathname === "/guide/terminology" ||
-                                pathname === "/guide/battleground" ||
-                                pathname === "/guide/modes" ||
-                                pathname === "/guide/items" ||
-                                pathname === "/media" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                " "
-                            )}
-                            <ul
-                                className={`${openGf ? "block" : "hidden"
-                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
-                                onMouseLeave={() => {
-                                    setOpenGf(false);
-                                }}
-                            >
-                                <Link to="/guide/whatishe">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Juego
-                                    </li>
-                                </Link>
-                                <Link to="/guide/terminology">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Glosario
-                                    </li>
-                                </Link>
-
-                                <Link to="/guide/battleground">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        batalla
-                                    </li>
-                                </Link>
-
-                                <Link to="/guide/modes">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Modos
-                                    </li>
-                                </Link>
-
-                                <Link to="/guide/items">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Items
-                                    </li>
-                                </Link>
-                                <Link to="/media">
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Multimedia
-                                    </li>
-                                </Link>
-                            </ul>
-                        </li>
-                    </NavLink>
-                    <NavLink
-                        to="/heroes"
-                        className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                        onMouseEnter={() => {
-                            setOpenGf(false);
-                        }}
-                    >
-                        <li className="">
-                            Heroes
-                            {pathname === "/heroes" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                ""
-                            )}
-                        </li>
-                    </NavLink>
-                    <NavLink
-                        to="/news"
-                        className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                    >
-                        <li className="">
-                            Noticias{" "}
-                            {pathname === "/news" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                ""
-                            )}
-                        </li>
-                    </NavLink>
-                    <NavLink
-                        to="/guide"
-                        end
-                        className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                        onMouseEnter={() => {
-                            setOpenRs(false);
-                        }}
-                    >
-                        <li className="">
-                            Guia{" "}
-                            {pathname === "/guide" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                ""
-                            )}
-                        </li>
-                    </NavLink>
-
-                    <div>
-                        <li
-                            className="hover:active cursor-pointer"
+                        <img
+                            src={hemlogo2}
+                            alt="HEM MAWEL LOGO"
+                            className="w-[200px] h-[85px] object-cover"
+                        />
+                    </Link>
+                </div>
+                <nav className="lg:visible flex w-full pl-5">
+                    <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
+                        <NavLink
+                            to="/"
+                            end
                             onMouseEnter={() => {
-                                setOpenRs(true);
+                                setOpenGf(false);
+                            }}
+                            className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                        >
+                            <li className="">
+                                Inicio
+                                {pathname === "/" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    ""
+                                )}
+                            </li>
+                        </NavLink>
+                        <NavLink
+                            to="/guide/gameinfo"
+                            end
+                            className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                            onMouseEnter={() => {
+                                setOpenGf(true);
                             }}
                         >
-                            Comunidad{" "}
-                            <AiFillCaretDown className="inline-block" />
-                            <ul
-                                className={`${openRs ? "block" : "hidden"
-                                    } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
-                                onMouseLeave={() => {
-                                    setOpenRs(false);
+                            <li>
+                                Informacion{" "}
+                                <AiFillCaretDown className="inline-block" />
+                                {pathname === "/guide/gameinfo" ||
+                                    pathname === "/guide/whatishe" ||
+                                    pathname === "/guide/terminology" ||
+                                    pathname === "/guide/battleground" ||
+                                    pathname === "/guide/modes" ||
+                                    pathname === "/guide/items" ||
+                                    pathname === "/media" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    " "
+                                )}
+                                <ul
+                                    className={`${openGf ? "block" : "hidden"
+                                        } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
+                                    onMouseLeave={() => {
+                                        setOpenGf(false);
+                                    }}
+                                >
+                                    <Link to="/guide/whatishe">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Juego
+                                        </li>
+                                    </Link>
+                                    <Link to="/guide/terminology">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Glosario
+                                        </li>
+                                    </Link>
+
+                                    <Link to="/guide/battleground">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            batalla
+                                        </li>
+                                    </Link>
+
+                                    <Link to="/guide/modes">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Modos
+                                        </li>
+                                    </Link>
+
+                                    <Link to="/guide/items">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Items
+                                        </li>
+                                    </Link>
+                                    <Link to="/media">
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Multimedia
+                                        </li>
+                                    </Link>
+                                </ul>
+                            </li>
+                        </NavLink>
+                        <NavLink
+                            to="/heroes"
+                            className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                            onMouseEnter={() => {
+                                setOpenGf(false);
+                            }}
+                        >
+                            <li className="">
+                                Heroes
+                                {pathname === "/heroes" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    ""
+                                )}
+                            </li>
+                        </NavLink>
+                        <NavLink
+                            to="/news"
+                            className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                        >
+                            <li className="">
+                                Noticias{" "}
+                                {pathname === "/news" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    ""
+                                )}
+                            </li>
+                        </NavLink>
+                        <NavLink
+                            to="/guide"
+                            end
+                            className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                            onMouseEnter={() => {
+                                setOpenRs(false);
+                            }}
+                        >
+                            <li className="">
+                                Guia{" "}
+                                {pathname === "/guide" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    ""
+                                )}
+                            </li>
+                        </NavLink>
+
+                        <div>
+                            <li
+                                className="hover:active cursor-pointer"
+                                onMouseEnter={() => {
+                                    setOpenRs(true);
                                 }}
                             >
-                                <a
-                                    href="https://www.facebook.com/hem.mawel"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                Comunidad{" "}
+                                <AiFillCaretDown className="inline-block" />
+                                <ul
+                                    className={`${openRs ? "block" : "hidden"
+                                        } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                    onMouseLeave={() => {
+                                        setOpenRs(false);
+                                    }}
                                 >
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Facebook
-                                    </li>
-                                </a>
-                                <a
-                                    href="https://www.instagram.com/hemmawel/"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Instagram
-                                    </li>
-                                </a>
+                                    <a
+                                        href="https://www.facebook.com/hem.mawel"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Facebook
+                                        </li>
+                                    </a>
+                                    <a
+                                        href="https://www.instagram.com/hemmawel/"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Instagram
+                                        </li>
+                                    </a>
 
-                                <a
-                                    href="https://discord.gg/heroesevolved"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <li className="hover:border-b hover:border-b-yellow-200">
-                                        Discord Oficial
-                                    </li>
-                                </a>
-                            </ul>
-                        </li>
-                    </div>
+                                    <a
+                                        href="https://discord.gg/heroesevolved"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <li className="hover:border-b hover:border-b-yellow-200">
+                                            Discord Oficial
+                                        </li>
+                                    </a>
+                                </ul>
+                            </li>
+                        </div>
 
-                    <div>
-                        <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
-                    </div>
+                        <div>
+                            <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
+                        </div>
 
-                    <NavLink
-                        to="/download"
-                        className={`
+                        <NavLink
+                            to="/download"
+                            className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
                         hover:active bg-[#000d40] border-2 rounded border-[rgba(255,255,255,0.5)]`}
-                        onMouseEnter={() => {
-                            setOpenRs(false);
-                        }}
-                    >
-                        <li className="">
-                            <p className="">JUEGA GRATIS</p>
-                            {pathname === "/download" ? (
-                                <img
-                                    src={heico}
-                                    alt=""
-                                    className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                />
-                            ) : (
-                                ""
-                            )}
-                        </li>
-                    </NavLink>
-                </ul>
-            </nav>
+                            onMouseEnter={() => {
+                                setOpenRs(false);
+                            }}
+                        >
+                            <li className="">
+                                <p className="">JUEGA GRATIS</p>
+                                {pathname === "/download" ? (
+                                    <img
+                                        src={heico}
+                                        alt=""
+                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                    />
+                                ) : (
+                                    ""
+                                )}
+                            </li>
+                        </NavLink>
+                    </ul>
+                </nav>
+            </div>
+            <div className={`${(scrolled ? "backdrop-filter backdrop-blur-2xl" : "bg-transparent")} absolute top-0 w-full h-full inset-0 -z-10`}></div>
         </div>
-        </div>
-        
+
     );
 };
