@@ -92,9 +92,7 @@ export const Navbar = () => {
                         <NavLink
                             to="/guide/gameinfo"
                             end
-                            className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
+                            className={`${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
                             onMouseEnter={() => {
                                 setOpenGf(true);
                             }}
@@ -303,7 +301,7 @@ export const Navbar = () => {
                 </nav>
             </nav>
             <div className={`${(scrolled ? "backdrop-filter backdrop-blur-2xl" : "bg-transparent")} hidden lg:block absolute top-0 w-full h-full inset-0 -z-10`}></div>
-            <div className="absolute right-0 lg:hidden p-6">
+            <div className="absolute right-0 lg:hidden p-6 z-10">
                 <button
                     type="button"
                     className="-m-2.5 inline-flex items-center justify-center bg-white rounded-full p-2.5 text-gray-700"
@@ -315,48 +313,138 @@ export const Navbar = () => {
             </div>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-2 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link
                             to="/"
-                            className="absolute left-4 -top-9 w-full"
+                            className="w-[140px] mx-auto"
                         >
                             <img
                                 src={hemlogo2}
                                 alt="HEM MAWEL LOGO"
-                                className="w-[200px] h-[85px] object-cover"
+                                className="w-[140px] h-[65px] object-cover"
                             />
                         </Link>
-                        <button
-                            type="button"
-                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
-                            onClick={() => setMobileMenuOpen(false)}
-                        >
-                            <span className="sr-only">Close menu</span>
-                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                        </button>
+                        <div className="absolute right-0 lg:hidden p-6 z-50">
+                            <button
+                                type="button"
+                                className="-m-2.5 inline-flex items-center justify-center bg-white rounded-full p-2.5 text-gray-700"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                <span className="sr-only">Close menu</span>
+                                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                            </button>
+                        </div>
+
                     </div>
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                <NavLink
+                                    to="/"
+                                    className={`
+                                        ${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                    onMouseEnter={() => {
+                                        setOpenGf(false);
+                                    }}
                                 >
-                                    Features
-                                </a>
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    <li className="-mx-3 flex items-center gap-2 rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        Inicio
+                                        {pathname === "/" ? (
+                                            <img
+                                                src={heico}
+                                                alt=""
+                                                className="animate-spin-slow h-[15px] w-[15--px]"
+                                            />
+                                        ) : (
+                                            ""
+                                        )}
+                                    </li>
+                                </NavLink>
+                                <NavLink
+                                    to="/guide/gameinfo"
+                                    className={`
+                                        ${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                    onMouseEnter={() => {
+                                        setOpenGf(false);
+                                    }}
                                 >
-                                    Marketplace
-                                </a>
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    <li className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        Informacion
+                                        {pathname === "/guide/gameinfo" ? (
+                                            <img
+                                                src={heico}
+                                                alt=""
+                                                className="animate-spin-slow h-[15px] w-[15--px]"
+                                            />
+                                        ) : (
+                                            ""
+                                        )}
+                                    </li>
+                                </NavLink>
+                                <NavLink
+                                    to="/news"
+                                    className={`
+                                        ${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                    onMouseEnter={() => {
+                                        setOpenGf(false);
+                                    }}
                                 >
-                                    Company
-                                </a>
+                                    <li className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        Noticias
+                                        {pathname === "/news" ? (
+                                            <img
+                                                src={heico}
+                                                alt=""
+                                                className="animate-spin-slow h-[15px] w-[15--px]"
+                                            />
+                                        ) : (
+                                            ""
+                                        )}
+                                    </li>
+                                </NavLink>
+                                <NavLink
+                                    to="/guide"
+                                    className={`
+                                        ${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                    onMouseEnter={() => {
+                                        setOpenGf(false);
+                                    }}
+                                >
+                                    <li className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        Guia
+                                        {pathname === "/guide" ? (
+                                            <img
+                                                src={heico}
+                                                alt=""
+                                                className="animate-spin-slow h-[15px] w-[15--px]"
+                                            />
+                                        ) : (
+                                            ""
+                                        )}
+                                    </li>
+                                </NavLink>
+                                <NavLink
+                                    to="/download"
+                                    className={`
+                                        ${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                    onMouseEnter={() => {
+                                        setOpenGf(false);
+                                    }}
+                                >
+                                    <li className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                        Juega Gratis
+                                        {pathname === "/download" ? (
+                                            <img
+                                                src={heico}
+                                                alt=""
+                                                className="animate-spin-slow h-[15px] w-[15--px]"
+                                            />
+                                        ) : (
+                                            ""
+                                        )}
+                                    </li>
+                                </NavLink>
                             </div>
                             <div className="py-6">
                                 <a

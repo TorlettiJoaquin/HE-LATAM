@@ -4,10 +4,10 @@ export const Header = () => {
 
 
     return (
-        <header className="relative -mt-24 w-full h-screen flex -mb-[90px]">
-            <h1 className="absolute w-[70%] pb-48 mx-auto inset-0 flex items-center text-center justify-center font-semibold font-garamond text-[70px] z-10 uppercase tracking-widest leading-relaxed drop-shadow-glow">« Heroes Evolved <br />El primer juego en línea de batalla de héroes 5 vs 5 »</h1>
+        <header className="lg:relative flex lg:-mt-24 w-full h-screen lg:-mb-[90px]">
+            <h1 className="flex items-center text-center justify-center absolute lg:w-[70%] pb-48 px-6 mx-auto inset-0 font-semibold font-garamond text-2xl lg:text-[70px] z-10 uppercase tracking-widest lg:leading-relaxed drop-shadow-glow">« Heroes Evolved »<br />El primer juego en línea de batalla de héroes 5 vs 5</h1>
             <News/>
-            <video src="/videos/hecomprimed2.mp4" autoPlay loop muted className="absolute inset-0 w-full h-full object-cover -z-10" />
+            <video src="/videos/videoplayback.webm" autoPlay loop muted className="absolute inset-0 w-full h-full object-cover object-center -z-10" />
         </header>
     );
 };
