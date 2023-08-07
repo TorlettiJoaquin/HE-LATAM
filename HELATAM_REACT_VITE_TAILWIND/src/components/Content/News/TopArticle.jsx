@@ -2,12 +2,12 @@ import { ViewMore } from "../../Header/ViewMore";
 
 export const TopArticle = () => {
     return (
-        <div className="absolute w-auto bottom-0 items-center right-0 left-0 z-10">
+        <div className="lg:absolute w-full lg:w-auto items-center bottom-0 right-0 left-0 z-10 p-6 lg:p-0">
             <ViewMore />
-            <ul className="flex justify-center w-full">
-                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+            <ul className="relative lg:block flex flex-col gap-5 lg:gap-0 lg:flex-row justify-center w-full py-5 lg:py-0">
+                <li className="w-full lg:w-[400px] h-[200px] lg:h-[220px] lg:m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
-                        <div className=" w-[400px] h-full overflow-hidden relative bg-helpcenter bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                        <div className="w-full lg:w-[400px] h-full overflow-hidden relative bg-helpcenter bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
                                 <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
                                 </div>
@@ -25,9 +25,9 @@ export const TopArticle = () => {
                         </div>
                     </a>
                 </li>
-                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                <li className="w-full lg:w-[400px] h-[200px] lg:h-[220px] lg:m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
-                        <div className=" w-[400px] h-full overflow-hidden relative bg-updateNote bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                        <div className="w-full lg:w-[400px] h-full overflow-hidden relative bg-updateNote bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
                                 <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
                                 </div>
@@ -45,9 +45,9 @@ export const TopArticle = () => {
                         </div>
                     </a>
                 </li>
-                <li className="w-[400px] h-[220px] m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
+                <li className="w-full lg:w-[400px] h-[200px] lg:h-[220px] lg:m-[15px] justify-center relative flex flex-wrap hover:-translate-y-3 hover:scale-105 transition-all duration-300">
                     <a href="" className="group/img">
-                        <div className=" w-[400px] h-full overflow-hidden relative bg-banlist bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
+                        <div className="w-full lg:w-[400px] h-full overflow-hidden relative bg-banlist bg-top bg-cover bg-no-repeat bg-[#333] drop-shadow-bxshdw text-left border-b-2 border-gray-400 transition-all ease-in-out duration-500 group-hover/img:bg-[rgba(0,0,0,.7) after:bg-[rgba(0,0,0,.7)]">
                             <div className="left-0 bottom-0 right-0 w-full h-full absolute pointer-events-none">
                                 <div className="bg-[linear-gradient(rgba(19,23,28,0)_60%,_rgba(19,23,28,0.733)_70%,_rgb(19,23,28)_90%)] absolute w-full h-full">
                                 </div>

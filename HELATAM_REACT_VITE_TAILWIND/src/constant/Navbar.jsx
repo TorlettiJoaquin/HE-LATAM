@@ -44,7 +44,7 @@ export const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className={`sticky top-0 z-20 h-24 rounded-b-3xl`}>
+        <div className={`sticky top-0 z-20 lg:h-24 h-[75px] bg-[#e7e6e4] lg:bg-transparent rounded-b-3xl`}>
             <nav className={"hidden lg:flex flex-row gap-6 h-24 w-[80%] mx-auto items-center z-20"}
 
                 onMouseLeave={() => {
@@ -301,6 +301,16 @@ export const Navbar = () => {
                 </nav>
             </nav>
             <div className={`${(scrolled ? "backdrop-filter backdrop-blur-2xl" : "bg-transparent")} hidden lg:block absolute top-0 w-full h-full inset-0 -z-10`}></div>
+            <Link
+                to="/"
+                className="w-[140px] mx-auto lg:hidden absolute left-0 right-0 top-2"
+            >
+                <img
+                    src={hemlogo2}
+                    alt="HEM MAWEL LOGO"
+                    className="w-[140px] h-[65px] object-cover"
+                />
+            </Link>
             <div className="absolute right-0 lg:hidden p-6 z-10">
                 <button
                     type="button"
