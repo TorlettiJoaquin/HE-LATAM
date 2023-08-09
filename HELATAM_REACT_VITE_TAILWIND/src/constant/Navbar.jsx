@@ -52,20 +52,8 @@ export const Navbar = () => {
                     setOpenRs(false);
                 }}
             >
-                <div className="relative w-[200px]">
-                    <Link
-                        to="/"
-                        className="absolute left-4 -top-9 w-full"
-                    >
-                        <img
-                            src={hemlogo2}
-                            alt="HEM MAWEL LOGO"
-                            className="w-[200px] h-[85px] object-cover"
-                        />
-                    </Link>
-                </div>
                 <nav className="lg:visible flex w-full pl-5">
-                    <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]: [&>*]:[&>*]:relative ">
+                    <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]:relative ">
                         <NavLink
                             to="/"
                             end
@@ -97,7 +85,7 @@ export const Navbar = () => {
                                 setOpenGf(true);
                             }}
                         >
-                            <li>
+                            <li className="flex items-center justify-evenly">
                                 Informacion{" "}
                                 <AiFillCaretDown className="inline-block" />
                                 {pathname === "/guide/gameinfo" ||
@@ -199,6 +187,18 @@ export const Navbar = () => {
                                 )}
                             </li>
                         </NavLink>
+                        <div className="relative w-[200px]">
+                            <Link
+                                to="/"
+                                className="w-full"
+                            >
+                                <img
+                                    src={hemlogo2}
+                                    alt="HEM MAWEL LOGO"
+                                    className="w-[200px] h-[85px] object-contain object-center"
+                                />
+                            </Link>
+                        </div>
                         <NavLink
                             to="/guide"
                             end
@@ -225,7 +225,7 @@ export const Navbar = () => {
 
                         <div>
                             <li
-                                className="hover:active cursor-pointer"
+                                className="hover:active cursor-pointer flex items-center justify-evenly"
                                 onMouseEnter={() => {
                                     setOpenRs(true);
                                 }}
