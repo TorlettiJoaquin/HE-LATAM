@@ -44,16 +44,16 @@ export const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className={`sticky top-0 z-20 lg:h-24 h-[75px] bg-[#e7e6e4] lg:bg-transparent rounded-b-3xl`}>
-            <nav className={"hidden lg:flex flex-row gap-6 h-24 w-[80%] mx-auto items-center z-20"}
+        <div className={`sticky top-0 z-20 bg-[#e7e6e4] h-[75px] lg:h-auto lg:bg-transparent rounded-b-3xl`}>
+            <nav className={"hidden lg:flex w-[80%] mx-auto items-center z-20"}
 
                 onMouseLeave={() => {
                     setOpenGf(false);
                     setOpenRs(false);
                 }}
             >
-                <nav className="lg:visible flex w-full pl-5">
-                    <ul className="flex w-full items-center justify-around font-semibold [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:mr-2 [&>*]:uppercase [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]:relative ">
+                <nav className="lg:visible flex w-full">
+                    <ul className="flex w-full lg:text-xs xl:text-base items-center justify-center font-semibold uppercase  lg:gap-5 [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]:relative">
                         <NavLink
                             to="/"
                             end
@@ -187,18 +187,18 @@ export const Navbar = () => {
                                 )}
                             </li>
                         </NavLink>
-                        <div className="relative w-[200px]">
-                            <Link
-                                to="/"
-                                className="w-full"
-                            >
-                                <img
-                                    src={hemlogo2}
-                                    alt="HEM MAWEL LOGO"
-                                    className="w-[200px] h-[85px] object-contain object-center"
-                                />
-                            </Link>
-                        </div>
+
+                        <Link
+                            to="/"
+                            className="grid place-content-center min-w-[160px] max-w-[200px] lg:h-[65px] xl:h-[100px] items-center overflow-hidden"
+                        >
+                            <img
+                                src={hemlogo2}
+                                alt="HEM MAWEL LOGO"
+                                className="object-contain min-h-full"
+                            />
+                        </Link>
+
                         <NavLink
                             to="/guide"
                             end
@@ -285,7 +285,8 @@ export const Navbar = () => {
                             }}
                         >
                             <li className="">
-                                <p className="">JUEGA GRATIS</p>
+                                <p className="hidden xl:block text-center">JUEGA GRATIS</p>
+                                <p className="xl:hidden">JUGAR</p>
                                 {pathname === "/download" ? (
                                     <img
                                         src={heico}
