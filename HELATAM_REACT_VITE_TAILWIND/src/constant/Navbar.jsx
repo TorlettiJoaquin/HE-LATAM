@@ -315,7 +315,7 @@ export const Navbar = () => {
             <div className="absolute right-0 lg:hidden p-6 z-10">
                 <button
                     type="button"
-                    className="-m-2.5 inline-flex items-center justify-center bg-white rounded-full p-2.5 text-gray-700"
+                    className="-m-2.5 inline-flex items-center justify-center bg-[#ffffffab] rounded-full p-2.5 text-gray-700"
                     onClick={() => setMobileMenuOpen(true)}
                 >
                     <span className="sr-only">Open main menu</span>
