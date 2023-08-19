@@ -53,251 +53,252 @@ export const Navbar = () => {
                 }}
             >
                 <nav className="lg:visible flex w-full">
-                    <ul className="flex w-full lg:text-xs xl:text-base items-center justify-center font-semibold uppercase  lg:gap-5 [&>*]:transition-all [&>*]:duration-200 [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:[&>*]:px-4 [&>*]:[&>*]:py-[7px] [&>*]:[&>*]:relative">
-                        <NavLink
-                            to="/"
-                            end
-                            onMouseEnter={() => {
-                                setOpenGf(false);
-                            }}
-                            className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                        >
-                            <li className="">
-                                Inicio
-                                {pathname === "/" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    ""
-                                )}
-                            </li>
-                        </NavLink>
-                        <NavLink
-                            to="/guide/gameinfo"
-                            end
-                            className={`${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
-                            onMouseEnter={() => {
-                                setOpenGf(true);
-                            }}
-                        >
-                            <li className="flex items-center justify-evenly">
-                                Informacion{" "}
-                                <AiFillCaretDown className="inline-block" />
-                                {pathname === "/guide/gameinfo" ||
-                                    pathname === "/guide/whatishe" ||
-                                    pathname === "/guide/terminology" ||
-                                    pathname === "/guide/battleground" ||
-                                    pathname === "/guide/modes" ||
-                                    pathname === "/guide/items" ||
-                                    pathname === "/media" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    " "
-                                )}
-                                <ul
-                                    className={`${openGf ? "block" : "hidden"
-                                        } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
-                                    onMouseLeave={() => {
-                                        setOpenGf(false);
-                                    }}
-                                >
-                                    <Link to="/guide/whatishe">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Juego
-                                        </li>
-                                    </Link>
-                                    <Link to="/guide/terminology">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Glosario
-                                        </li>
-                                    </Link>
-
-                                    <Link to="/guide/battleground">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            batalla
-                                        </li>
-                                    </Link>
-
-                                    <Link to="/guide/modes">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Modos
-                                        </li>
-                                    </Link>
-
-                                    <Link to="/guide/items">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Items
-                                        </li>
-                                    </Link>
-                                    <Link to="/media">
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Multimedia
-                                        </li>
-                                    </Link>
-                                </ul>
-                            </li>
-                        </NavLink>
-                        <NavLink
-                            to="/heroes"
-                            className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                            onMouseEnter={() => {
-                                setOpenGf(false);
-                            }}
-                        >
-                            <li className="">
-                                Heroes
-                                {pathname === "/heroes" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    ""
-                                )}
-                            </li>
-                        </NavLink>
-                        <NavLink
-                            to="/news"
-                            className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                        >
-                            <li className="">
-                                Noticias{" "}
-                                {pathname === "/news" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    ""
-                                )}
-                            </li>
-                        </NavLink>
-
-                        <Link
-                            to="/"
-                            className="grid place-content-center min-w-[160px] max-w-[200px] lg:h-[65px] xl:h-[100px] items-center overflow-hidden"
-                        >
-                            <img
-                                src={hemlogo2}
-                                alt="HEM MAWEL LOGO"
-                                className="object-contain min-h-full"
-                            />
-                        </Link>
-
-                        <NavLink
-                            to="/guide"
-                            end
-                            className={`
-                        ${({ isActive }) => (isActive ? "active" : " ")} 
-                        hover:active`}
-                            onMouseEnter={() => {
-                                setOpenRs(false);
-                            }}
-                        >
-                            <li className="">
-                                Guia{" "}
-                                {pathname === "/guide" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    ""
-                                )}
-                            </li>
-                        </NavLink>
-
-                        <div>
-                            <li
-                                className="hover:active cursor-pointer flex items-center justify-evenly"
+                    <ul className="flex w-full lg:text-xs xl:text-base items-center justify-center font-semibold uppercase lg:gap-5 [&>*]:flex [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:[&>*]:[&>*]:transition-all [&>*]:[&>*]:[&>*]:duration-200 [&>*]:[&>*]:[&>*]:px-4 [&>*]:[&>*]:[&>*]:py-[7px] [&>*]:[&>*]:[&>*]:relative">
+                        <div className="w-5/12">
+                            <NavLink
+                                to="/"
+                                end
                                 onMouseEnter={() => {
-                                    setOpenRs(true);
+                                    setOpenGf(false);
+                                }}
+                                className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                            >
+                                <li className="">
+                                    Inicio
+                                    {pathname === "/" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </li>
+                            </NavLink>
+                            <NavLink
+                                to="/guide/gameinfo"
+                                end
+                                className={`${({ isActive }) => (isActive ? "active" : " ")} hover:active`}
+                                onMouseEnter={() => {
+                                    setOpenGf(true);
                                 }}
                             >
-                                Comunidad{" "}
-                                <AiFillCaretDown className="inline-block" />
-                                <ul
-                                    className={`${openRs ? "block" : "hidden"
-                                        } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
-                                    onMouseLeave={() => {
-                                        setOpenRs(false);
+                                <li className="flex items-center justify-evenly">
+                                    Informacion{" "}
+                                    <AiFillCaretDown className="inline-block" />
+                                    {pathname === "/guide/gameinfo" ||
+                                        pathname === "/guide/whatishe" ||
+                                        pathname === "/guide/terminology" ||
+                                        pathname === "/guide/battleground" ||
+                                        pathname === "/guide/modes" ||
+                                        pathname === "/guide/items" ||
+                                        pathname === "/media" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        " "
+                                    )}
+                                    <ul
+                                        className={`${openGf ? "block" : "hidden"
+                                            } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full rounded-2xl [&>*]:[&>*]:h-12 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 [&>*]:[&>*]:mb-[3px] transition-all ease-linear duration-500`}
+                                        onMouseLeave={() => {
+                                            setOpenGf(false);
+                                        }}
+                                    >
+                                        <Link to="/guide/whatishe">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Juego
+                                            </li>
+                                        </Link>
+                                        <Link to="/guide/terminology">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Glosario
+                                            </li>
+                                        </Link>
+
+                                        <Link to="/guide/battleground">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                batalla
+                                            </li>
+                                        </Link>
+
+                                        <Link to="/guide/modes">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Modos
+                                            </li>
+                                        </Link>
+
+                                        <Link to="/guide/items">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Items
+                                            </li>
+                                        </Link>
+                                        <Link to="/media">
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Multimedia
+                                            </li>
+                                        </Link>
+                                    </ul>
+                                </li>
+                            </NavLink>
+                            <NavLink
+                                to="/heroes"
+                                className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                                onMouseEnter={() => {
+                                    setOpenGf(false);
+                                }}
+                            >
+                                <li className="">
+                                    Heroes
+                                    {pathname === "/heroes" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </li>
+                            </NavLink>
+                            <NavLink
+                                to="/news"
+                                className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                            >
+                                <li className="">
+                                    Noticias{" "}
+                                    {pathname === "/news" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </li>
+                            </NavLink>
+                        </div>
+                        <div className="w-2/12 justify-center">
+                            <Link
+                                to="/"
+                                className="grid place-content-center min-w-[160px] max-w-[200px] lg:h-[65px] xl:h-[100px] items-center overflow-hidden"
+                            >
+                                <img
+                                    src={hemlogo2}
+                                    alt="HEM MAWEL LOGO"
+                                    className="object-contain min-h-full"
+                                />
+                            </Link>
+                        </div>
+                        <div className="w-5/12 justify-end items-center">
+                            <NavLink
+                                to="/guide"
+                                end
+                                className={`
+                        ${({ isActive }) => (isActive ? "active" : " ")} 
+                        hover:active`}
+                                onMouseEnter={() => {
+                                    setOpenRs(false);
+                                }}
+                            >
+                                <li className="">
+                                    Guia{" "}
+                                    {pathname === "/guide" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </li>
+                            </NavLink>
+                            <div>
+                                <li
+                                    className="hover:active cursor-pointer flex items-center justify-evenly"
+                                    onMouseEnter={() => {
+                                        setOpenRs(true);
                                     }}
                                 >
-                                    <a
-                                        href="https://www.facebook.com/hem.mawel"
-                                        target="_blank"
-                                        rel="noreferrer"
+                                    Comunidad{" "}
+                                    <AiFillCaretDown className="inline-block" />
+                                    <ul
+                                        className={`${openRs ? "block" : "hidden"
+                                            } absolute top-[45px] left-0 bg-slate-900 text-xs px-4 w-full [&>*]:[&>*]:h-14 [&>*]:[&>*]:leading-[55px] [&>*]:[&>*]:border-b [&>*]:[&>*]:border-b-blue-400 transition-all ease-linear duration-500`}
+                                        onMouseLeave={() => {
+                                            setOpenRs(false);
+                                        }}
                                     >
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Facebook
-                                        </li>
-                                    </a>
-                                    <a
-                                        href="https://www.instagram.com/hemmawel/"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Instagram
-                                        </li>
-                                    </a>
+                                        <a
+                                            href="https://www.facebook.com/hem.mawel"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Facebook
+                                            </li>
+                                        </a>
+                                        <a
+                                            href="https://www.instagram.com/hemmawel/"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Instagram
+                                            </li>
+                                        </a>
 
-                                    <a
-                                        href="https://discord.gg/heroesevolved"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        <li className="hover:border-b hover:border-b-yellow-200">
-                                            Discord Oficial
-                                        </li>
-                                    </a>
-                                </ul>
-                            </li>
-                        </div>
-
-                        <div>
-                            <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
-                        </div>
-
-                        <NavLink
-                            to="/download"
-                            className={`
+                                        <a
+                                            href="https://discord.gg/heroesevolved"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            <li className="hover:border-b hover:border-b-yellow-200">
+                                                Discord Oficial
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div>
+                                <button onClick={() => setIsPlaying(!isPlaying)}>{!isPlaying ? 'PLAY' : 'STOP'}</button>
+                            </div>
+                            <NavLink
+                                to="/download"
+                                className={`
                         ${({ isActive }) => (isActive ? "active" : " ")} 
                         hover:active bg-[#000d40] border-2 rounded border-[rgba(255,255,255,0.5)]`}
-                            onMouseEnter={() => {
-                                setOpenRs(false);
-                            }}
-                        >
-                            <li className="">
-                                <p className="hidden xl:block text-center">JUEGA GRATIS</p>
-                                <p className="xl:hidden">JUGAR</p>
-                                {pathname === "/download" ? (
-                                    <img
-                                        src={heico}
-                                        alt=""
-                                        className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
-                                    />
-                                ) : (
-                                    ""
-                                )}
-                            </li>
-                        </NavLink>
+                                onMouseEnter={() => {
+                                    setOpenRs(false);
+                                }}
+                            >
+                                <li className="">
+                                    <p className="hidden xl:block text-center">JUEGA GRATIS</p>
+                                    <p className="xl:hidden">JUGAR</p>
+                                    {pathname === "/download" ? (
+                                        <img
+                                            src={heico}
+                                            alt=""
+                                            className="animate-spin-slow block absolute h-[16px] w-[16px] -bottom-2 left-[calc(50%_-_(16px/2))]"
+                                        />
+                                    ) : (
+                                        ""
+                                    )}
+                                </li>
+                            </NavLink>
+                        </div>
                     </ul>
                 </nav>
             </nav>
