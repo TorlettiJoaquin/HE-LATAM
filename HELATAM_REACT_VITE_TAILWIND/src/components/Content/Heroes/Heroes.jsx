@@ -25,7 +25,7 @@ const Heroes = () => {
     return (
         <div className='relative'>
             <div className='flex justify-center pb-5 text-lg'>
-                <h1 className='text-3xl xl:text-4xl font-extrabold tracking-widest bg-gradient-to-b from-orange-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-glow font-garamond px-5 py-3'>Elige tus HEROES INMORTALES</h1>
+                <h1 className='text-3xl xl:text-4xl font-extrabold tracking-widest bg-gradient-to-b from-orange-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-glow font-garamond px-5 py-3 text-center'>Elige tus HEROES INMORTALES</h1>
             </div>
             <div className='relative'>
                 <div className='pb-10 md:py-10 w-[80%] mx-auto min-h-0 flex flex-col relative overflow-hidden gap-4'>

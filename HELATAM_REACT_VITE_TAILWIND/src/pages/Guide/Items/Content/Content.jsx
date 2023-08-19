@@ -3,13 +3,13 @@ import ItemData2 from "./ItemData2";
 
 export const Content = () => {
     return (
-        <section className="min-w-[1280px] max-w-[1920px] w-full mx-auto my-0 relative pb-[180px] ">
-            <div className="w-[1200px] mx-auto my-0">
-                <section className="h-[530px] p-[230px_0_0_47%] text-[#adceff] text-base">
-                    <h1 className="w-0 h-0 overflow-hidden">
+        <section className="max-w-screen-lg w-full mx-auto my-0 relative pb-[180px] ">
+            <div className="">
+                <section className="text-[#adceff] text-base py-10">
+                    <h1 className="text-3xl xl:text-4xl font-extrabold tracking-widest bg-gradient-to-b from-orange-500 to-yellow-500 text-transparent bg-clip-text drop-shadow-glow font-garamond px-5 py-3 text-center">
                         Items y Equipamiento
                     </h1>
-                    <p className="">
+                    <p className="py-5 text-xl font-garamond font-bold text-center">
                         Mientras el juego progresa irás adquiriendo oro que
                         puedes gastar en ítems más poderosos que mejoran las
                         características de tu héroe. Estos ítems pueden varios
@@ -20,28 +20,28 @@ export const Content = () => {
                         donde apareces al comienzo del juego.
                     </p>
                 </section>
-                <ul className="flex bg-indigo-950 text-xl  border-l [&>*]:border-r [&>*]:cursor-pointer ">
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                <ul className="flex justify-around text-center font-semibold bg-indigo-950 text-xl border-x [&>*]:uppercase [&>*]:cursor-pointer font-garamond">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Todos
                     </li>
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Fisicos
                     </li>
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Magicos
                     </li>
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Defensivos
                     </li>
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Tillas
                     </li>
-                    <li className="left w-[200px] h-[40px] leading-10 text-center hover:bg-indigo-900">
+                    <li className="w-1/6 leading-10 text-center hover:bg-indigo-900">
                         Vigilante
                     </li>
                 </ul>
                 <div>
-                    <ul className="w-[94%] p-[30px] mx-auto my-0">
+                    <ul className="p-[30px] mx-auto my-0">
                         {ItemData2.map((item, idx) => (
                             <ItemCard
                                 key={idx}
