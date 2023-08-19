@@ -12,6 +12,8 @@ import { Modes } from "./pages/Guide/Modes/Modes.jsx";
 import { Admin } from "./routes/Admin.jsx";
 import { Download } from "./pages/Download/Download.jsx";
 import { Items } from "./pages/Guide/Items/Items.jsx";
+import { TermsServices } from "./constant/TermsServices.jsx";
+import { PrivacyPolicy } from "./constant/PrivacyPolicy.jsx";
 
 const router = createBrowserRouter([
     {
@@ -53,6 +55,14 @@ const router = createBrowserRouter([
     {
         path: "/download",
         element: <Download />,
+    },
+    {
+        path: "/terms_of_service",
+        element: <TermsServices />,
+    },
+    {
+        path: "/privacy_policy",
+        element: <PrivacyPolicy />,
     },
 ]);
 
