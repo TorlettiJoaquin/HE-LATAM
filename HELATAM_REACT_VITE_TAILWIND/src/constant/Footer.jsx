@@ -50,10 +50,10 @@ export const Footer = () => {
             <div className="px-10 lg:px-0 py-10 text-center bg-footer-bg bg-no-repeat bg-center text-[#2882ff] drop-shadow-lg shadow-black shadow-xl">
                 <p className="py-[6px]">Copyright © 2023 Mawel (Latam) Todos Los Derechos Reservados.</p>
                 <p className="py-[6px]">
-                    <a href="/terms_of_service">Terms of Service</a> |
-                    <a href="/privacy_policy"> Privacy Policy</a> |
-                    <a href="https://www.facebook.com/hem.mawel"> Contact Us</a> |
-                    <a href="https://heroes.99.com/en/"> Official Website</a></p>
+                    <a href="/terms_of_service">Terminos de servicio</a> |
+                    <a href="/privacy_policy"> Política de privacidad</a> |
+                    <a href="https://www.facebook.com/hem.mawel"> Contactanos</a> |
+                    <a href="https://heroes.99.com/en/"> Sitio oficial</a></p>
             </div>
         </div>
     );
