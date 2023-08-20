@@ -54,7 +54,7 @@ export const Navbar = () => {
             >
                 <nav className="lg:visible flex w-full">
                     <ul className="flex w-full lg:text-xs xl:text-base items-center justify-center font-semibold uppercase lg:gap-5 [&>*]:flex [&>*]:[&>*]:transition-all [&>*]:[&>*]:duration-200 [&>*]:[&>*]:[&>*]:transition-all [&>*]:[&>*]:[&>*]:duration-200 [&>*]:[&>*]:[&>*]:px-4 [&>*]:[&>*]:[&>*]:py-[7px] [&>*]:[&>*]:[&>*]:relative">
-                        <div className="w-5/12">
+                        <div className="w-5/12 justify-around">
                             <NavLink
                                 to="/"
                                 end
@@ -201,7 +201,7 @@ export const Navbar = () => {
                                 />
                             </Link>
                         </div>
-                        <div className="w-5/12 justify-end items-center">
+                        <div className="w-5/12 justify-around items-center">
                             <NavLink
                                 to="/guide"
                                 end
