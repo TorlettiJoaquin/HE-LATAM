@@ -23,32 +23,34 @@ export const ItemCard = ({ name, img, prop, effect, prize, lvl }) => {
             />
             <div
                 className={`${showItem ? "block" : "hidden"
-                    } absolute top-[60px] left-[60px] w-[620px] p-[20px] bg-black border border-[#0f3db8] z-50 rounded-xl`}
+                    } absolute left-0 top-[110px] w-[calc(100vw-135px)] p-3 backdrop-blur-3xl border-4 border-[#0f3db8] z-50 rounded-xl`}
             >
-                <p className="py-[5px]">
+                <div className="flex gap-3 justify-around">
                     <img
                         src={`${iPrefix}${img}`}
                         alt={`${name}`}
-                        className="w-[64px] h-[64px] mr-[20px] float-left border border-[#0f3db8]"
+                        className="w-[64px] h-[64px] rounded border-2 border-[#0f3db8]"
                     />
-                    <span className="text-[#adceff]">
-                        {name}
-                    </span>
-                    <br />
-                    <span className="text-[#adceff]">Precio: {prize}</span>
-                    <br />
-                    <span className="text-[#adceff]">Star Level: {lvl}</span>
-                </p>
-                <p>
-                    Attribute: {"  "}
-                    <span className="text-[#adceff]">{prop}</span>
-                </p>
-                <br />
-                <p>
-                    <span className="text-[#adceff]">
-                        {effect}
-                    </span>
-                </p>
+                    <div className="flex flex-col text-center">
+                        <h2 className="font-medium">
+                            {name}
+                        </h2>
+                        <span className="text-[#adceff]">Precio: {prize}</span>
+                        <span className="text-[#adceff]">Star Level: {lvl}</span>
+                    </div>
+                </div>
+                <div className="flex flex-col">
+                    <p>
+                        Atributo: {"  "}
+                        <span className="text-[#adceff]">{prop}</span>
+                    </p>
+                    <p>
+                        <span className="text-[#adceff]">
+                            {effect}
+                        </span>
+                    </p>
+                </div>
+
             </div>
         </li>
 
