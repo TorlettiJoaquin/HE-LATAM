@@ -4,10 +4,10 @@ import { Content } from "./Content/Content";
 
 export const WhatIsHe = () => {
     return (
-        <div className="w-full min-w-[1280px] max-w-[1920px] mx-auto my-0 bg-newbg-bg bg-no-repeat bg-[center_top] bg-[#060a0f] bg-fixed flex flex-col">
+        <section className="bg-newbg-bg bg-fixed bg-cover">
             <Navbar />
             <Content />
             <Footer />
-        </div>
+        </section>
     );
 };
