@@ -109,20 +109,20 @@ const ItemData2 = [
         prize: 2000,
         lvl: 2,
     },
-    {
-        id: 10122,
-        name: "Corazon de Jade",
-        type: "1",
-        img: "10122.jpg",
-        prop: ["Health +250", "Mana +200"],
-        effect: [
-            "Unique Passive: Spell Resist +20",
-            "Active Ability - Immunity: Activate to become immune to stun, slow and trap effects. Lasts 3.5s for melee heroes and 2.5s for ranged heroes.",
-            "Mana Cost: 50, Cooldown: 55s",
-        ],
-        prize: 2750,
-        lvl: 3,
-    },
+    // {
+    //     id: 10122,
+    //     name: "Corazon de Jade",
+    //     type: "1",
+    //     img: "10122.jpg",
+    //     prop: ["Health +250", "Mana +200"],
+    //     effect: [
+    //         "Unique Passive: Spell Resist +20",
+    //         "Active Ability - Immunity: Activate to become immune to stun, slow and trap effects. Lasts 3.5s for melee heroes and 2.5s for ranged heroes.",
+    //         "Mana Cost: 50, Cooldown: 55s",
+    //     ],
+    //     prize: 2750,
+    //     lvl: 3,
+    // },
     {
         id: 10035,
         name: "DEVORA ALMAS",
@@ -384,7 +384,7 @@ const ItemData2 = [
     {
         id: 10071,
         name: "VARITA DE LA CELERIDAD",
-        type: "1",
+        type: "2",
         img: "10071.png",
         prop: [
             "Intelligence +16",
@@ -629,7 +629,7 @@ const ItemData2 = [
     {
         id: 10095,
         name: "VITALITY BELT",
-        type: "3",
+        type: "5",
         img: "10095.png",
         prop: ["All Attributes +3"],
         effect: ["", ""],
@@ -758,19 +758,19 @@ const ItemData2 = [
         prize: 1850,
         lvl: 2,
     },
-    {
-        id: 12508,
-        name: "DEMONIC COWL",
-        type: "3",
-        img: "12508.jpg",
-        prop: ["Strength +30", "Armor +30", "Health Regen: +10"],
-        effect: [
-            "Unique Passive - Life Steal: Activates to gain 125% bonus Physical Life Steal for 3s. Cooldown: 45s Mana Cost: 50",
-            "",
-        ],
-        prize: 5600,
-        lvl: 5,
-    },
+    // {
+    //     id: 12508,
+    //     name: "DEMONIC COWL",
+    //     type: "3",
+    //     img: "12508.jpg",
+    //     prop: ["Strength +30", "Armor +30", "Health Regen: +10"],
+    //     effect: [
+    //         "Unique Passive - Life Steal: Activates to gain 125% bonus Physical Life Steal for 3s. Cooldown: 45s Mana Cost: 50",
+    //         "",
+    //     ],
+    //     prize: 5600,
+    //     lvl: 5,
+    // },
     {
         id: 10271,
         name: "CORAZON DE JADE",
@@ -1131,7 +1131,7 @@ const ItemData2 = [
     {
         id: 125131,
         name: "QUICK PULSE",
-        type: "3",
+        type: "2",
         img: "125131.png",
         prop: [
             "Health +350",
@@ -1177,8 +1177,8 @@ const ItemData2 = [
     },
     {
         id: 125101,
-        name: "ESPADA DEL FEIX",
-        type: "5",
+        name: "ESPADA DEL FENIX",
+        type: "1",
         img: "125101.png",
         prop: ["Damage +30"],
         effect: ["Unique Passive: Critical Chance. +15%"],
@@ -1188,7 +1188,7 @@ const ItemData2 = [
     {
         id: 125111,
         name: "ESPIRAL DEL CICLON",
-        type: "5",
+        type: "1",
         img: "125111.png",
         prop: ["Damage +25", "Attack Speed +15"],
         effect: [
@@ -1210,18 +1210,18 @@ const ItemData2 = [
         prize: 1800,
         lvl: 2,
     },
-    {
-        id: "k14",
-        name: "HOJA SOMBRIA",
-        type: "1",
-        img: "k14.jpg",
-        prop: ["Damage +30"],
-        effect: [
-            "Unique Passive - Thorn Slash I: Your attacks reduce target's 30 points of Armor for 5s, and cannot be stacked.",
-        ],
-        prize: 2550,
-        lvl: 3,
-    },
+    // {
+    //     id: "k14",
+    //     name: "HOJA SOMBRIA",
+    //     type: "1",
+    //     img: "k14.jpg",
+    //     prop: ["Damage +30"],
+    //     effect: [
+    //         "Unique Passive - Thorn Slash I: Your attacks reduce target's 30 points of Armor for 5s, and cannot be stacked.",
+    //     ],
+    //     prize: 2550,
+    //     lvl: 3,
+    // },
     {
         id: 125151,
         name: "DANCER'S GREAVES",
@@ -1276,32 +1276,32 @@ const ItemData2 = [
         prize: 6350,
         lvl: 5,
     },
-    {
-        id: 12502,
-        name: "GUARDIAN BOOTS",
-        type: "2",
-        img: "12502.jpg",
-        prop: ["Armor +35"],
-        effect: [
-            "Attribute - Dash II: Movement Speed: +80",
-            "Unique Passive -Iron Wall: Gives 70% chance to block 30/15 damage for melee/ranged.",
-        ],
-        prize: 1800,
-        lvl: 2,
-    },
-    {
-        id: 12503,
-        name: "WIZARD BOOTS",
-        type: "2",
-        img: "12503.jpg",
-        prop: ["Spell Power +20"],
-        effect: [
-            "Unique Passive - Fast Casting Ⅱ: Reduces abilities cooldown by 10%",
-            "Unique Passive - Dash II: Movement Speed: +80",
-        ],
-        prize: 1800,
-        lvl: 2,
-    },
+    // {
+    //     id: 12502,
+    //     name: "GUARDIAN BOOTS",
+    //     type: "4",
+    //     img: "12502.jpg",
+    //     prop: ["Armor +35"],
+    //     effect: [
+    //         "Attribute - Dash II: Movement Speed: +80",
+    //         "Unique Passive -Iron Wall: Gives 70% chance to block 30/15 damage for melee/ranged.",
+    //     ],
+    //     prize: 1800,
+    //     lvl: 2,
+    // },
+    // {
+    //     id: 12503,
+    //     name: "WIZARD BOOTS",
+    //     type: "4",
+    //     img: "12503.jpg",
+    //     prop: ["Spell Power +20"],
+    //     effect: [
+    //         "Unique Passive - Fast Casting Ⅱ: Reduces abilities cooldown by 10%",
+    //         "Unique Passive - Dash II: Movement Speed: +80",
+    //     ],
+    //     prize: 1800,
+    //     lvl: 2,
+    // },
     {
         id: 12684,
         name: "COLLAR DE DESPERTAR",

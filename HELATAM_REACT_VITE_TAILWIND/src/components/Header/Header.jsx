@@ -5,7 +5,7 @@ export const Header = () => {
 
 
     return (
-        <header className="flex flex-col w-full h-screen relative lg:flex-row mt-[-90px] lg:mt-[-65px] xl:mt-[-100px] lg:mb-[-40px]">
+        <header className="flex flex-col w-full h-screen relative lg:flex-row mt-[-90px] lg:mt-[-65px] xl:mt-[-100px] lg:mb-[-40px] ">
             <h1 className="flex items-center text-center justify-center absolute pb-48 px-6 mx-auto inset-0 font-semibold font-garamond lg:w-[85%] 2xl:w-[70%] text-2xl lg:text-[50px] 2xl:text-[70px] z-10 uppercase tracking-widest lg:leading-relaxed drop-shadow-glow">« Heroes Evolved »<br />El primer juego en línea de batalla de héroes 5 vs 5</h1>
             <div className="hidden lg:block w-full">
                 <News />

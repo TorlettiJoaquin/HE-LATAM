@@ -7,7 +7,7 @@ export const Content = () => {
         "0": "Todos",
         "1": "Fisico",
         "2": "Magico",
-        "3": "Defensa",
+        "3": "Resistencia",
         "4": "Botas",
         "5": "Accesorio",
     }
