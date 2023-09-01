@@ -7,54 +7,73 @@
 @tailwind utilities;
 
 @layer components {
-	.navLi {
-		@apply text-white;
-	}
-	.active {
-		@apply bg-[#1b3b66] overflow-visible relative rounded scale-105 transition-all duration-200;
-	}
+  .navLi {
+    @apply text-white;
+  }
+  .active {
+    @apply bg-[#1b3b66] overflow-visible relative rounded scale-105 transition-all duration-200;
+  }
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  background-color: #031137;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background-color: #031137;
+  -webkit-box-shadow: inset 0 0 6px #031137;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #9f5900;
+  border-radius: 0.5rem;
 }
 
 :root {
-	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-	line-height: 1.5;
-	font-weight: 400;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
 
 a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul,
 ol {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 /* Seccion CSS de HEROES en content main page */
 .loop-slider .inner {
-	animation-name: loop;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: var(--direction);
-	animation-duration: var(--duration);
+  animation-name: loop;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: var(--direction);
+  animation-duration: var(--duration);
 }
 
 @keyframes loop {
-	0% {
-		transform: translateX(0);
-	}
-	100% {
-		transform: translateX(-50%);
-	}
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
