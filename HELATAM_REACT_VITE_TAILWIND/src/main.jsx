@@ -14,60 +14,70 @@ import { Download } from "./pages/Download/Download.jsx";
 import { Items } from "./pages/Guide/Items/Items.jsx";
 import { TermsServices } from "./constant/TermsServices.jsx";
 import { PrivacyPolicy } from "./constant/PrivacyPolicy.jsx";
+import { Heroes } from "./pages/Heroes/Heroes.jsx";
+import { Details } from "./pages/Details/Details.jsx";
 
 const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <App />,
-    },
-    {
-        path: "/admin",
-        element: <Admin />,
-    },
-    {
-        path: "/guide",
-        element: <Guide />,
-    },
-    {
-        path: "/guide/whatishe",
-        element: <WhatIsHe />,
-    },
-    {
-        path: "/guide/terminology",
-        element: <Terminology />,
-    },
-    {
-        path: "/guide/battleground",
-        element: <Battleground />,
-    },
-    {
-        path: "/guide/modes",
-        element: <Modes />,
-    },
-    {
-        path: "/guide/gameinfo",
-        element: <GameInfo />,
-    },
-    {
-        path: "/guide/items",
-        element: <Items />,
-    },
-    {
-        path: "/download",
-        element: <Download />,
-    },
-    {
-        path: "/terms_of_service",
-        element: <TermsServices />,
-    },
-    {
-        path: "/privacy_policy",
-        element: <PrivacyPolicy />,
-    },
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+  },
+  {
+    path: "/guide",
+    element: <Guide />,
+  },
+  {
+    path: "/guide/whatishe",
+    element: <WhatIsHe />,
+  },
+  {
+    path: "/guide/terminology",
+    element: <Terminology />,
+  },
+  {
+    path: "/guide/battleground",
+    element: <Battleground />,
+  },
+  {
+    path: "/guide/modes",
+    element: <Modes />,
+  },
+  {
+    path: "/guide/gameinfo",
+    element: <GameInfo />,
+  },
+  {
+    path: "/guide/items",
+    element: <Items />,
+  },
+  {
+    path: "/download",
+    element: <Download />,
+  },
+  {
+    path: "/terms_of_service",
+    element: <TermsServices />,
+  },
+  {
+    path: "/privacy_policy",
+    element: <PrivacyPolicy />,
+  },
+  {
+    path: "/heroes",
+    element: <Heroes />,
+  },
+  {
+    path: "/heroes/:heroId",
+    element: <Details />
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <RouterProvider router={router} />
-    </React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
 );
