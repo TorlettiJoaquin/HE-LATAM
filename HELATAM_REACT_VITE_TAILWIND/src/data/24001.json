@@ -1,0 +1,120 @@
+{
+  "id": "24001",
+  "name": "Sylvana",
+  "type": "3",
+  "features": ["Ranged", "Intelligence"],
+  "data": [1, 6, 6, 4],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Continuously harass enemies while healing our allied heroes."],
+  "vid": "fONb5TQBjZI",
+  "skin": [
+    {
+      "id": "24001301",
+      "imgSrc": "2.jpg?",
+      "skinName": "Ixora Spirit"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Entangling Roots",
+      "desc": [
+        "Releases energy roots towards the target direction, dealing damage to enemies along the path. When hitting the first enemy hero or reaching the maximum distance, the energy roots explode and entangle, rooting all enemy units within range."
+      ],
+      "data": [
+        "Magic Damage: 120/140/160/180",
+        "Root Duration: 1.25/1.5/1.75/2s",
+        "Mana Cost: 85",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "01.png",
+      "keyword": "Control",
+      "study": ["Deals damage and causes a crowd control effect."],
+      "update": ["CC Duration â†‘ Cooldown â†“"],
+      "tag": ["Control"]
+    },
+    {
+      "name": "Forest's Blessing",
+      "desc": [
+        "Purifies an allied hero and grants continuous healing and Speedup effects to all allied heroes within range for 3s. (This ability can be cast while moving and is not affected by cooldown reduction effects.)<br>Purification: Removes crowd control effects (except Suppress, Blind, Taunt, and Knock-back) and other negative effects."
+      ],
+      "data": [
+        "Continuous Healing Amount: 15/20/25/30",
+        "Healing Frequency: once every 0.5s",
+        "Speedup Effect: 25%",
+        "Duration: 3s",
+        "Mana Cost: 75/80/85/90",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "02.png",
+      "keyword": "Heal, Speedup",
+      "study": ["Applies purification, healing, and speedup effects."],
+      "update": ["Heal â†‘ Cooldown â†“"],
+      "tag": ["æ²»ç–—"]
+    },
+    {
+      "name": "Forest's Prayer",
+      "desc": [
+        "After a brief chant, Sylvana creates a healing sanctuary in the target area for 6s, providing continuous healing to all allied units within the area."
+      ],
+      "data": [
+        "Healing Amount: 60/75/90",
+        "Healing Frequency: once every 0.5s",
+        "Duration: 6s",
+        "Mana Cost: 200/250/300",
+        "Cooldown: 45/40/35s"
+      ],
+      "img": "03.png",
+      "keyword": "Heal",
+      "study": [
+        "After a brief chant, applies an AoE healing effect in the target area."
+      ],
+      "update": ["Heal â†‘ Cooldown â†“"],
+      "tag": ["Heal"]
+    },
+    {
+      "name": "Power Infusion",
+      "desc": [
+        "Sylvana infuses energy towards the target direction, gradually accelerating as it travels, dealing damage and applying a 2-second Slow effect to enemies along the path. When reaching the maximum speed, it also silences enemies for 1.25s."
+      ],
+      "data": [
+        "Magic Damage (Path): 150/190/230/270",
+        "Slow Effect: 20%",
+        "Slow Duration: 2s",
+        "Mana Cost: 75/80/85/90",
+        "Cooldown: 9/8.5/8/7.5s"
+      ],
+      "img": "04.png",
+      "keyword": "Damage, Slow",
+      "study": ["Causes damage and Slow."],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["AoE Damage, Slow"]
+    }
+  ],
+  "story": [
+    "     Sylvana, the Daughter of the Forest, was the only offspring left by Moon God in the world. She inherited powerful mana and a pure heart from her mother Moon God. Sylvana had been following the tree tender Wood and learning the laws of nature and attentive meditation since her childhood. After infinite days, the naughty Sylvana grew into a wise dryad leader and became the new forest guardian in replacement of the late Wood.<br>     When the Demon Legion invaded the continent and trampled on the life of people, Sylvana used the power of nature to resist invaders flexibly by virtue of the forest that she loved. Tough vines made it impossible for her opponents to move and all curses were useless in her eyes. Due to her activeness, intruders suffered heavy losses and chose to retreat. However, the evil fire and death that they left still swallowed the entire forest quickly. Sylvana sacrificed her life resolutely for the homeland that she loved, remedying the entire forest. She finally disappeared in the nectar under the moon, only leaving a jade cane for the people in the forest to shed tears and yearn for."
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "10109", "10069", "10097", "10228", "10263"],
+      "reason": ["Disabler, Support"]
+    },
+    {
+      "arr": ["12544", "10071", "10097", "10257", "10228", "10072"],
+      "reason": ["Support, Survival"]
+    },
+    {
+      "arr": ["12544", "12313", "10071", "10228", "10124", "21001"],
+      "reason": ["Nuker, Assassin"]
+    },
+    {}
+  ],
+  "strategy": "168762",
+  "video": [
+    "168761",
+    "https://yhkd.99.com/inc/20230228011956.inc",
+    "https://yhkd.99.com/news/03012023/014506974.shtml?index=-1"
+  ]
+}

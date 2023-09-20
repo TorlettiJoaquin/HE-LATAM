@@ -1,0 +1,122 @@
+{
+  "id": "163001",
+  "name": "Fay",
+  "type": "2",
+  "features": ["Ranged", "Nuker", "Harasser"],
+  "data": [5, 7, 5, 7],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Take advantage of the control effect of Silent Tornado to give enemies no chance to escape Eye of Hurricane."
+  ],
+  "skin": [
+    {
+      "id": "163001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Herbal Enchanter"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Silent Tornado",
+      "desc": [
+        "Fay unleashes a tornado with her Heaven Fan, propelling it forward to deal magic damage and apply control effects to enemies:<br>Upon creation of the tornado, it offers the strongest knock-back power and slows enemies 30% for 1s; As the tornado drifts forward, the knock-back effect gradually weakens, while the Slow effect can enhance up to 50%, lasting for 1s."
+      ],
+      "data": [
+        "Magic Damage: 120(+0)/180/240/300",
+        "Cooldown: 10s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Crowd Control",
+      "study": ["Deals damage and applies crowd controls against enemies."],
+      "update": ["Damage â†‘"],
+      "tag": ["Crowd Control", "Magic"]
+    },
+    {
+      "name": "Eye of Hurricane",
+      "desc": [
+        "Fay places an eye of hurricane, that grants vision, at a target place. If not triggered within 1s, it will become invisible. When an enemy moves close, it slows the enemy by 55% and explodes to form a hurricane after 0.8s. The hurricane will deal magic damage to enemy units within range and knock them up. Up to 2 such eye(s) can exist simultaneously."
+      ],
+      "data": [
+        "Damage Triggered: 120(+0)/190/260/330",
+        "Knock-up Duration: 0.8s",
+        "Cooldown: 5s",
+        "Mana Cost: 70"
+      ],
+      "img": "04.png",
+      "keyword": "Crowd Control",
+      "study": [
+        "Places the eyes of hurricane to apply crowd controls against enemies."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Crowd Control", "Magic"]
+    },
+    {
+      "name": "Heaven Fan",
+      "desc": [
+        "Passive: Fay acquires a fixed Attack Speed and her basic attacks deal additional magic damage. Every 1 point(s) of bonus Attack Speed acquired is/are converted into 0.6 Magic Power.<br>Active: Fay unleashes the fan power to enhance the damage of her basic attacks (additional 50% effect on enemy heroes), getting the Puncture effect and ignoring enemies' dodge. Heaven Fan receives 1 Energy point(s) every 5s, up to 2 points (not affected by cooldown reduction). Each successful hit with an enhanced basic attack on an enemy hero reduces the charge time of this ability by 1s."
+      ],
+      "data": [
+        "Damage (Passive): 40(+0)/50/60/70",
+        "Enhanced Damage (Active): 0(+0)/50/80/110",
+        "Recharge Time: 5/5/4/3s",
+        "Mana Cost (Enhanced Basic Attack): 20"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": [
+        "Enhances basic attacks, granting the Puncture effect and ignoring enemies' dodge."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Buff", "Magic"]
+    },
+    {
+      "name": "Wind Stride",
+      "desc": [
+        "Fay increases her Movement Speed for 3.5s and instantly gains 1 Fan Energy. Allied heroes nearby gain halved bonus Movement Speed. Participating in a kill refreshes the effects of Wind Stride on herself."
+      ],
+      "data": [
+        "Bonus Movement Speed: 20%/25%/30%/35%",
+        "Cooldown: 12/11/10/9s",
+        "Mana Cost: 60"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": [
+        "Speeds up both Fay and nearby allied heroes, charging up the Heaven Fan."
+      ],
+      "update": ["Effect â†‘ Cooldown â†“"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "     She had no name back then; people simply knew her as the fan vendor on the streets of a small town. Her small figure huddled behind the stall, embroidering fan surfaces. Let's call her \"Little Fan\". During the day, Little Fan embroidered flowers and birds, selling a few fans. At night, she used the money to buy incense and offer prayers to the Buddha with unwavering devotion. The Buddha was moved by her sincerity and watched over her from the heavens, cherishing her like a small flower in the palm of his hand.<br>     The small town was peaceful and prosperous, its residents living in harmony and love. But calamity is blind; a predestined mountain fire swept through the entire town. The Buddha couldn't bear to see his devotee, Little Fan, suffer from this disaster. He revealed his divine form, intending to persuade her to leave and ensure her survival.<br>     However, Little Fan knelt down and refused to leave. She had been abandoned as an infant by her biological parents, but the kind-hearted townspeople took her in. Each family nurtured and educated her as their own. Though they had no blood relation, they were already like family, and the small town was her home. She couldn't abandon her loved ones to their fate and fled alone. Little Fan implored the Buddha to withdraw the mountain fire, willingly enduring torment in this life without hesitation.<br>     Moved by Little Fan's plea, the Buddha sighed lightly and granted her request. But he also reminded her that tampering with destiny was a grave taboo in the celestial realm. The alteration of fate for the small town came at the cost of Little Fan's merits and life in this lifetime, and it was a one-time occurrence. Grateful tears streamed down Little Fan's face, and she readily agreed. She burned herself in the Samadhi True Fire, using her own flesh to shield the townspeople from the catastrophe.<br>     Reborn from the flames, Little Fan attained enlightenment and became an immortal due to her sacrifice for the lives of many. The townspeople were grateful for her salvation and built hundreds of temples in her honor. She watched over the townspeople, rejoicing in their newfound life. Even as an immortal, she continued to protect them in the heaven.<br>     Yet, at that time, the little celestial being had no awareness that destined calamity cannot be avoided. Who could have anticipated that a hundred years later, a mischievous monkey would intrude upon the celestial realm, causing havoc and toppling the alchemy furnace of the Lord Lao Zi? The Samadhi True Fire raged unceasingly, scorching the desert, mountains, and even engulfing Little Fan's hometown in flames. She watched from above as her family members fled in panic, consumed by flames. Her heart raced, but she was helpless. She remembered the warning the Buddha had given her when she became an immortal - she must not violate the heavenly laws or interfere in the mortal realm; otherwise, it would result in perpetual punishment.<br>     Seeing the flames closing in on her own robes, the infant in swaddling clothes choking on the thick smoke, Little Fan could no longer remain idle. She pulled out fan after fan, using them to fan the flames from the sky to the ground. She replaced a broken fan with another in an endless cycle, until calluses formed on her hands and rivers of sweat flowed ceaselessly. Finally, she even broke into the treasure room of the Lord Lao Zi, toppling the servant boys, and stole the Heaven Fan capable of extinguishing all things. She risked her life to fan the flames downward...<br>     The fire in the small town finally extinguished, and the entire town was saved once again by her. However, despite her merits in saving lives, she had forcibly taken a divine treasure, harmed her celestial friends, and violated heavenly laws. As punishment, she was condemned to endure perpetual torment at the Flame Mountain, nurturing the scorched and tattered Heaven Fan with her immortal power, forever unable to step outside even one foot.<br>     With the crippled Heaven Fan in her possession, Little Fan descended into the depths of the Flame Mountain. The yellow sand filled the air, and there were scarce traces of smoke, even the small demons on the desert enduring hunger and thirst. Being inherently kind-hearted, Little Fan used her magic to summon water sources and vegetation, erecting shaded earthen houses. Finally, she took up the Heaven Fan and tried to fan the flames of the Flame Mountain smaller - remarkably, she succeeded. Countless demons and humans flocked to her, settling in the shelter she provided, living in harmony as if in a utopia. The residents of the Flame Mountain revered her as Princess Fay, a title she accepted with a smile.<br>     During the day, Fay engaged in banter with them, but when the moonlight filled the desert, she sat alone on the dunes, gazing southward. South of the desert was her longed-for hometown and family."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10049", "10237", "10127", "10053", "12516"],
+      "reason": ["Sustained Physical Damage"]
+    },
+    {
+      "arr": ["12503", "12533", "12310", "10228", "12305", "12317"],
+      "reason": ["Burst Magic Damage"]
+    },
+    {
+      "arr": ["10302", "12317", "12533", "12310", "12305", "10228"],
+      "reason": ["Survival, Sustained Damage"]
+    },
+    {}
+  ],
+  "strategy": "167222",
+  "video": [
+    "167221",
+    "https://yhkd.99.com/inc/20210609002641.inc",
+    "https://yhkd.99.com/news/06092021/234103582.shtml",
+    "https://yhkd.99.com/news/08122021/011235179.shtml",
+    "https://yhkd.99.com/news/05052022/015552345.shtml",
+    "https://yhkd.99.com/news/06022023/011833106.shtml"
+  ]
+}
