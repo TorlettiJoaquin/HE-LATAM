@@ -722,7 +722,7 @@ const ItemData2 = [
     {
         id: 12505,
         name: "GARRAS ESPECTRALES",
-        type: "3",
+        type: "1",
         img: "12505.jpg",
         prop: ["Damage +30"],
         effect: [
@@ -1173,7 +1173,6 @@ const ItemData2 = [
         ],
         prize: 4000,
         lvl: 4,
-
     },
     {
         id: 125101,
@@ -1198,18 +1197,18 @@ const ItemData2 = [
         lvl: 2,
 
     },
-    {
-        id: "k13",
-        name: "ALABARDA DE PLATA",
-        type: "1",
-        img: "k13.jpg",
-        prop: ["Damage +25"],
-        effect: [
-            "Attribute: Pure Damage Transfers 12% of damage of your attacks and physical abilities into Pure Damage.",
-        ],
-        prize: 1800,
-        lvl: 2,
-    },
+    // {
+    //     id: "k13",
+    //     name: "ALABARDA DE PLATA",
+    //     type: "1",
+    //     img: "k13.jpg",
+    //     prop: ["Damage +25"],
+    //     effect: [
+    //         "Attribute: Pure Damage Transfers 12% of damage of your attacks and physical abilities into Pure Damage.",
+    //     ],
+    //     prize: 1800,
+    //     lvl: 2,
+    // },
     // {
     //     id: "k14",
     //     name: "HOJA SOMBRIA",
@@ -1327,6 +1326,18 @@ const ItemData2 = [
         prize: 2000,
         lvl: 2,
     },
+    // {
+    //     id: 12321,
+    //     name: "GEMA DE DETECCION ",
+    //     type: "5",
+    //     img: "12519.png",
+    //     prop: ["All Attributes +10"],
+    //     effect: [
+    //         "Reduce el tiempo de reutilizacion de tus guardianes observadoras en 15s. cuando una unidad enemiga muere, no asesinada por ti, dentro de un radio de 1000 a tu alrededor, obtienes 10 de oro adicional y restauras 10 de salud y 5 de mana",
+    //     ],
+    //     prize: 2000,
+    //     lvl: 2,
+    // },
 ];
 
 export default ItemData2;

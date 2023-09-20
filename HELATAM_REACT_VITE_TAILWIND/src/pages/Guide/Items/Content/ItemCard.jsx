@@ -1,57 +1,30 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-export const ItemCard = ({ name, img, prop, effect, prize, lvl }) => {
-    const [showItem, setShowItem] = useState(false);
+export const ItemCard = ({ style, img, name, isActive, onClick }) => {
+    // prop, effect, prize, lvl / Va arriba
 
     const iPrefix = "https://img6.99.com/yhkd/image/data/equip/";
 
     return (
 
         <li
-            onMouseEnter={() => {
-                setShowItem(true);
-            }}
-            onMouseLeave={() => {
-                setShowItem(false);
-            }}
-            className="relative p-1 m-[8px] border-4 border-purple-900 rounded-2xl aspect-square"
+            onClick={onClick}
+            className={`relative w-1/2 md:w-1/6 p-3 pb-4 transition-all duration-500 cursor-pointer ${isActive ? "bg-[#0c0c0c] rounded-t-md" : "bg-transparent hover:scale-125"}`}
+            style={{ order: style.order }}
         >
-            <img
-                src={`${iPrefix}${img}`}
-                alt={`${name}`}
-                className="aspect-square w-full h-full rounded-lg"
-            />
-            <div
-                className={`${showItem ? "block" : "hidden"
-                    } absolute left-0 top-[110px] w-[calc(100vw-135px)] p-3 backdrop-blur-3xl border-4 border-[#0f3db8] z-50 rounded-xl`}
-            >
-                <div className="flex gap-3 justify-around">
-                    <img
-                        src={`${iPrefix}${img}`}
-                        alt={`${name}`}
-                        className="w-[64px] h-[64px] rounded border-2 border-[#0f3db8]"
-                    />
-                    <div className="flex flex-col text-center">
-                        <h2 className="font-medium">
-                            {name}
-                        </h2>
-                        <span className="text-[#adceff]">Precio: {prize}</span>
-                        <span className="text-[#adceff]">Star Level: {lvl}</span>
-                    </div>
-                </div>
-                <div className="flex flex-col">
-                    <p>
-                        Atributo: {"  "}
-                        <span className="text-[#adceff]">{prop}</span>
-                    </p>
-                    <p>
-                        <span className="text-[#adceff]">
-                            {effect}
-                        </span>
+            <div className="">
+                <img
+                    src={`${iPrefix}${img}`}
+                    alt={`${name}`}
+                    className="aspect-square w-full h-full transition-all duration-500 border border-yellow-700 hover:border-white"
+                />
+                <div className="text-center text-sm font-light leading-4 py-1">
+                    <p className="">
+                        {name}
                     </p>
                 </div>
-
             </div>
+
         </li>
 
     );

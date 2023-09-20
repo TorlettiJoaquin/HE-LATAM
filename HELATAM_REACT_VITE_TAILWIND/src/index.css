@@ -77,3 +77,9 @@ ol {
     transform: translateX(-50%);
   }
 }
+
+/* Seccion CSS de ITEMS en content item page */
+.item-info-container {
+  grid-column: span 2;
+  grid-row: var(--info-row);
+}
