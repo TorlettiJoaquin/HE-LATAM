@@ -1,0 +1,422 @@
+{
+  "id": "82001",
+  "name": "Freya",
+  "type": "2",
+  "features": ["RANGED", "CARRY", "GANKER"],
+  "data": [8, 3, 7, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["çž„å‡†ï¼å‘å°„ï¼è¿œè¿œçš„æ¥ä¸€å‘ï¼Œä¸€æžªå…¥é­‚çš„ä¼¤å®³å•Šï¼"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Neon Wave",
+      "vid": "uVBI_bs61nA"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Bonfire Bird"
+    },
+    {
+      "id": "82001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Golden Lance"
+    },
+    {
+      "id": "82001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Opera Blossom",
+      "vid": "-xNAHNC1tRs"
+    },
+    {
+      "id": "",
+      "imgSrc": "5.jpg",
+      "skinName": "HER Valkyrie"
+    },
+    {
+      "id": "82001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Frost Star",
+      "vid": "7Az2209Kado"
+    },
+    {
+      "id": "82001307",
+      "imgSrc": "7.jpg",
+      "skinName": "HER Sheng Vibe",
+      "vid": "Ejm47-7zphE"
+    }
+  ],
+  "ski": [
+    {
+      "name": "THROWN SPEAR",
+      "desc": [
+        "Throws a spear in a target direction that gains damage based on its distance travelled, dealing physical damage to the first enemy unit it hits and marking it for 4s if was an enemy hero unit. Marked enemy units within a 2500 radius grant Freya 25% bonus movement speed."
+      ],
+      "data": [
+        "Min Physical Damage: 100/130/160/1900 ",
+        "Max Physical Damage: 200/280/360/440 ",
+        "Mana Cost: 50/60/70/80",
+        "Cast Range: 2000",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Single",
+      "study": ["Deals massive physical damage to a target unit"],
+      "update": ["Physical damage Increased"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "SPEAR OF DESTRUCTION",
+      "desc": [
+        "Grants Freya bonus movement speed and enables Thrown Spear to pierce and deal damage to all enemy units along its path. Each enemy unit Thrown Spear pierces will reduce its damage by 15%, to a minimum of 40%."
+      ],
+      "data": [
+        "Bonus Movement Speed: 80/100/120/140",
+        "Mana Cost: 90",
+        "Cooldown: 5s"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": [
+        "Grants bonus movement speed and causes Thrown Spear to puncture enemy target"
+      ],
+      "update": ["Movement speed increased"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "SUDDEN ATTACK",
+      "desc": [
+        "Dashes at a target enemy unit, causing knockback to Freya and the target enemy unit, with both moving away from each other, while dealing physical damage and causing Movement Slow by 60% for 3s. Regardless of the distance travelled, Thrown Spear always deals maximum damage to enemy units under the Movement Slow effect of Sudden Attack."
+      ],
+      "data": [
+        "Physical Damage: 250/350/450",
+        "Cast Range: 1000",
+        "Mana Cost: 100",
+        "Cooldown: 24/18/12s"
+      ],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": ["Charges at a target enemy unit"],
+      "update": ["Ability damage increased, and cooldown reduced"],
+      "tag": ["ULT", "Physical", "Rush"]
+    },
+    {
+      "name": "CORNERED ANIMAL (PASSIVE)",
+      "desc": [
+        "PASSIVE: Freya surveys the battlefield. Her attacks deal on-hit magical damage to enemy units based on a percentage of their current Health. This passive deals 3x damage to enemy units debuffed by Thrown Spear."
+      ],
+      "data": ["Magical Damage On-Hit: 2.1%/2.4%/2.7%/3%"],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Deals bonus damage to targets"],
+      "update": ["Increases bonus damage"],
+      "tag": ["Passive", "Buff"]
+    }
+  ],
+  "story": [
+    "Freya was the Queen of the Valkyries in mythology! Wearing the shining armor, she had the grace and beauty of a rising sun. By the command of Odin, she led those valiant fallen of the battlefield to the hall of the gods in Valhalla to get ready for the final fight."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10115", "10272", "10127", "10237", "12516"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10100", "10065", "10272", "10237", "10127", "12508"],
+      "reason": ["æ”¶å‰²ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10100", "10115", "10047", "10127", "10237", "12508"],
+      "reason": ["æŒç»­è¾“å‡ºã€ç”Ÿå­˜"]
+    },
+    {}
+  ],
+  "strategy": "154342",
+  "video": [
+    "154343",
+    "https://yhkd.99.com/inc/20161228181730.inc",
+    "https://yhkd.99.com/news/07252017/035734186.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+4.23"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+2.79"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+6.03"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+4.05"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+7.83"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+5.22"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+9.63"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+6.39"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+12.06"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+8.01"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

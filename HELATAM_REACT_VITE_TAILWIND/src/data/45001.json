@@ -1,0 +1,427 @@
+{
+  "id": "45001",
+  "name": "Lapina",
+  "type": "2",
+  "features": ["RANGED", "CARRY", "PUSHER"],
+  "data": [8, 0, 5, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Plant Bunny Stunners in blind spots while laning!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Bunny New Year",
+      "vid": "mHyJO3SbKl0"
+    },
+    {
+      "id": "45001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Bunny Fizzness",
+      "vid": "4NRlloInMCY"
+    },
+    {
+      "id": "45001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Super Sweet"
+    },
+    {
+      "id": "45001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Silvermoon Rabbit",
+      "vid": "7M7kT-PeGBE"
+    },
+    {
+      "id": "45001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Christie"
+    },
+    {
+      "id": "45001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Sweetie"
+    },
+    {
+      "id": "45001307",
+      "imgSrc": "7.jpg",
+      "skinName": "Bunny Astronaut",
+      "vid": "zFW4NWTM-9c"
+    }
+  ],
+  "ski": [
+    {
+      "name": "RABBIT SPEED",
+      "desc": [
+        "Lapina leaps to the target area and gains bonus attack speed and bonus movement speed. If there is a friendly unit, enemy unit or a Bunny Stunner near the landing point, Lapina will leap again in the direction of the left joystick."
+      ],
+      "data": [
+        "Bonus Attack Speed: 35/45/55/65",
+        "Bonus Movement Speed: 20%/24%/28%/32%",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": [
+        "Leaps to the target area and leaps again if there`s a unit nearby."
+      ],
+      "update": ["Increased bonus attack speed, reduced cooldown."],
+      "tag": ["DASH", "BUFF"]
+    },
+    {
+      "name": "BUNNY BOMB",
+      "desc": [
+        "Lapina tosses a Bunny Bomb at a target area that deals physical damage to enemy units and causes Movement Slow for 2s. Causes Stun for 1s to enemy units hit by the center of the explosion."
+      ],
+      "data": [
+        "Physical Damage: 120/160/200/240",
+        "Slow: 20%/30%/40%/50%",
+        "Cooldown: 10/9/8/7s",
+        "Cast Range: 1100",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": [
+        "Deals physical damage to the area and causes Stun to the units in the center."
+      ],
+      "update": ["Increased damage and slow, reduced cooldown."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "BUNNY STUNNER",
+      "desc": [
+        "=Lapina can hold up to 3 Bunny Stunners. Plants a Bunny Stunner, granting true sight on enemy units that enter its radius and causing slow by 35%. The Bunny Stunner then detonates for physical damage and causes slow by 35% for 1.5s. If left untriggered, Bunny Stunners become invisible after 2s."
+      ],
+      "data": [
+        "Physical Damage: 225/275/325",
+        "Charge Replenish Time: 12/10/8s",
+        "Cooldown: 2s",
+        "Mana Cost: 70",
+        "Cast Range: 800"
+      ],
+      "img": "03.png",
+      "keyword": "PHYSICAL",
+      "study": ["harges at a target enemy unit."],
+      "update": ["Ability damage increased, and cooldown reduced."],
+      "tag": ["DISABLER", "ULT", "PHYSICAL"]
+    },
+    {
+      "name": "LUCKY BUNNY",
+      "desc": [
+        "=Each basic attack on an enemy unit grants 1 stack of Lucky Bunny. When Lapina has 4 or 5 stacks, the next basic attack will deal increased damage. Basic attacks against enemy units under Movement Slow from Bunny Bomb or Bunny Stunner will grant 2 stacks."
+      ],
+      "data": ["Damage Multiplier: 1.3-1.7x/1.45-1.85x/1.6-2x/1.75-2.15x"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["At max stacks, the next basic attack deals increased damage."],
+      "update": ["Increased damage multiplier."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "The god of the east forged the soul of a bunny with a carnation, transferring romance elements from flower to rabbit. The carnation heart of this rabbit, Lapina, gave her a soul particularly sensitive to others."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10127", "10237", "10047"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["10100", "10068", "10272", "10237", "10127", "12516"],
+      "reason": ["SUSTAINED DPS\nPUSHER"]
+    },
+    {
+      "arr": ["10100", "10115", "10065", "10047", "10237", "12516"],
+      "reason": ["ESCAPE\nPUSHER"]
+    },
+    {}
+  ],
+  "strategy": "160262",
+  "video": [
+    "160261",
+    "https://yhkd.99.com/inc/20170928211548.inc",
+    "https://yhkd.99.com/news/09272017/204118287.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+2.79"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+4.05"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+5.22"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+6.39"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.01"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

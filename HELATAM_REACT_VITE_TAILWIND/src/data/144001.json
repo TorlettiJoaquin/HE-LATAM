@@ -1,0 +1,131 @@
+{
+  "id": "144001",
+  "name": "Sunmonk",
+  "type": "3",
+  "features": ["Ganker", "Nuker"],
+  "data": [2, 7, 5, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Switch between the Good Nature and Evil Nature to cope with different situations."
+  ],
+  "skin": [
+    {
+      "id": "144001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Mathemagician"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Good Will / Evil Will",
+      "desc": [
+        "Good Will: Heals Sunmonk and a nearby allied hero who has the lowest Health. The healing effect is improved based on Sunmonk's stacks of Good nature. Casting this ability also adds 1 Good stack. Evil Will: Deals magic damage to an enemy target and enemy units around the target. Bonus magic damage is granted based on Sunmonkâ€™s Evil stacks. Casting this ability also adds 1 Evil stack."
+      ],
+      "data": [
+        "Good Will<br>Healing Effect: 20/40/60/80",
+        "Bonus Healing per Stack: 20/30/40/50",
+        "Mana Cost: 40/45/50/55",
+        "Cooldown: 3s",
+        "<br>Evil Will<br>Magic Damage: 90/120/150/180",
+        "Bonus Magic Damage per Stack: 30/40/50/60",
+        "Extended Radius: 250",
+        "Mana Cost: 40/45/50/55",
+        "Cooldown: 3s"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": [
+        "Good Will heals the allied hero. Evil Will deals damage to enemies."
+      ],
+      "update": ["Effectâ†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Elysium",
+      "desc": [
+        "Creates a trap of Elysium in the target area to deal damage to enemy units within range 2 seconds later and stun them for 1 second. Grants bonus Movement Slow based on the Good stacks or magic damage based on the Evil stacks, depending on Sunmonk's current nature."
+      ],
+      "data": [
+        "Magic Damage: 160/240/320/400",
+        "Cast Range: 1100",
+        "Radius: 450",
+        "Bonus Movement Slow per Good Stack: 15%",
+        "Bonus Damage per Evil Stack: 10%",
+        "Mana Cost: 80",
+        "Cooldown: 9s"
+      ],
+      "img": "02.png",
+      "keyword": "Magic",
+      "study": [
+        "Deals damage or controls enemies based on the current nature."
+      ],
+      "update": ["Damageâ†‘ Cooldownâ†“"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Expiation of Sins",
+      "desc": [
+        "Exposes an enemy hero's sins, consecutively dealing magic damage to the enemy for 3 seconds and granting Sunmonk a Shield. Casting this ability again within 3 seconds teleports Sunmonk instantly. If Sunmonk is teleported to the target hero within a radius of 500, roots the target for 1.5 seconds."
+      ],
+      "data": [
+        "Magic Damage per Second: 160/220/280",
+        "Shield: 200/300/400",
+        "Mana Cost: 150",
+        "Cooldown: 30s"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": [
+        "Deals damage to a target hero and causes Root against the hero."
+      ],
+      "update": ["Damageâ†‘ Cooldownâ†“"],
+      "tag": ["Ultimate", "Magic"]
+    },
+    {
+      "name": "Duality of Nature",
+      "desc": [
+        "Switches Sunmonk's nature between Good and Evil, adding 1 stack(s) of corresponding nature per time. Passive: Sunmonk gets buffs based on the current stacks. Good Nature: Grants Sunmonk bonus Magic Resist based on his Good stacks. Evil Nature: Enhances Sunmonkâ€™s Evil Will with greater Magic Resist Reduction based on his Evil stacks."
+      ],
+      "data": [
+        "Bonus Magic Resist per Good Stack: 0/2/3/4/5",
+        "Magic Resist Reduction of Evil Will Enhanced per Evil Stack: 0/2/3/4/5",
+        "Duration: 4s",
+        "Cooldown: 1s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "Switches between Good and Evil. The Good nature increases Magic Resist. The Evil nature enhances the Evil Will."
+      ],
+      "update": ["Effectâ†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "     Do human beings have free will to choose between right and wrong? To find the truth, monks in the Sky Temple are dedicated to both mental and physical training. This ancient temple holds a lot of mysteries, including the peach tree that was over one hundred years old, but bearing neither leaves nor flowers. Everybody was talking about this weird tree, while the Elder of each generation persisted in taking care of it. In the warm spring, miracles happened. The tree prospered and bloomed insanely. Meanwhile, a baby was found crying on the peaches. The Elder came and took the baby without a word, leaving disciples astonished. Some people assured the baby was reincarnation of the Great Exorcist who sealed the Evil Lord a hundred years ago.<br>     The rumor was only half true. The Great Exorcist has been reincarnated, but only his body. His spirit has vanished. The Elder knew it clearly that the birth of this baby also marked the return of the Evil Lord 20 years later. Before that, he must pass on all his knowledge to this baby.<br>     At the age of eighteen, the peach boy was officially granted the Dharma name - Sunmonk - for his excellence in martial arts and Buddhism. At the same time, Sunmonk was told his past life as Great Exorcist and was destined to seal the Evil Lord by sacrificing himself again. He didn't say anything, but asked the Elder for a leave to travel for two years. After that, he would decide whether or not to fulfill his destiny. Great Exorcist has passed away, and he will live by his own decision as Sunmonk."
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "12532", "10109", "12313", "12305", "10228"],
+      "reason": ["Nuker\nDPS"]
+    },
+    {
+      "arr": ["125151", "10109", "12532", "12317", "12305", "10072"],
+      "reason": ["Escape\nDPS"]
+    },
+    {
+      "arr": ["12514", "12509", "12313", "10109", "10228", "12305"],
+      "reason": ["Ganker\nDisabler"]
+    },
+    {}
+  ],
+  "strategy": "166902",
+  "video": [
+    "166901",
+    "https://yhkd.99.com/inc/20210217215418.inc",
+    "https://yhkd.99.com/news/02182021/003250717.shtml"
+  ]
+}

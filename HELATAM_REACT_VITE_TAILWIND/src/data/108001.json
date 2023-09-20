@@ -1,0 +1,137 @@
+{
+  "id": "108001",
+  "name": "Lulu",
+  "type": "1",
+  "features": ["MELEE", "GANKER"],
+  "data": [7, 4, 9, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Manage your Health percentage to get the desired effect from Head Bop."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "108001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Lulu-chan",
+      "vid": "y36ZmQ0jUkA"
+    },
+    {
+      "id": "108001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Junior Jubilee"
+    },
+    {
+      "status": "en",
+      "imgSrc": "4.jpg",
+      "skinName": "Astro-messenger"
+    },
+    {
+      "id": "108001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Cutie Time",
+      "vid": "DRf755TuQKA"
+    }
+  ],
+  "ski": [
+    {
+      "name": "NOM NOM",
+      "desc": [
+        "Lulu chomps on her food, healing herself based on missing Health and gains bonus Movement Speed. Whenever Lulu moves near an allied hero unit during this time, that hero unit heals Health and gains bonus Movement Speed, this effect will not work again on the same allied hero unit for a short while."
+      ],
+      "data": [
+        "Heal Health: 50/70/90/110 (+8%/12%/16%/20% of Missing Health)",
+        "Bonus Movement Speed: 16%/20%/24%/28% for 3.5s",
+        "Cooldown: 12/11/10/9s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Buff",
+      "study": ["Heals Health, Bonus Movement Speed"],
+      "update": ["Buff Effect â†‘ Cooldown â†“"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "HEAD BOP",
+      "desc": [
+        "ACTIVE: Lulu musters her courage and charges towards a target enemy unit, dealing physical damage to enemy units along her path. Upon hitting her intended target: If Lulu's Health percentage is higher than her target, she causes knockup for 0.75s. If Lulu's Health percentage is lower than her target, she causes Stun for 0.5s instead and causes knockback to herself."
+      ],
+      "data": [
+        "Physical Damage: 140/180/220/260 (+5% Max Health)",
+        "Cooldown: 8s",
+        "Cast Range: 800",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "Rush",
+      "study": ["Dash deals physical damage, disables"],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Rush", "Physical"]
+    },
+    {
+      "name": "WAMPAGE!",
+      "desc": [
+        "Lulu goes on a wampage with 60% chance to prevent all sources of damage greater than 50. At the end of the wampage, Lulu deals magic damage to nearby enemy units based on the number of instances damage was prevented. If no damage was prevented, deals 1 stack(s) of Base Magic Damage instead."
+      ],
+      "data": [
+        "Base Magic Damage: 60/90/120",
+        "Duration: 4/5/6s",
+        "Magic Damage: 100/150/200 per stack",
+        "Max Stacks: 6",
+        "Effect Radius: 650",
+        "Cooldown: 70/60/50s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Lulu is strong!"],
+      "update": ["Magic Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Buff", "Magic"]
+    },
+    {
+      "name": "TANTWUM",
+      "desc": [
+        "Lulu cries uncontrollably, leaving puddles of tears on the ground that deal magic damage to enemy units that step on them. The more enemy units in the nearby area, the louder Lulu cries and the higher the magic damage. While crying, Lulu loses Health every second based on max Health."
+      ],
+      "data": [
+        "Magic Damage per 0.5s: 30/40/50/60",
+        "Bonus Magic Damage: 6/8/10/12 of per enemy hero within 500 radius",
+        "Tear Puddle Radius: 150",
+        "Max Health Lost: 1% per sec",
+        "Cooldown: 0.5s"
+      ],
+      "img": "04.png",
+      "keyword": "Magic",
+      "study": ["Lose Health, deal magic damage"],
+      "update": ["Magic Damage â†‘"],
+      "tag": ["Magic"]
+    }
+  ],
+  "story": [
+    "Today's just another day for Lulu. She could wear her giraffe suit to kindergarten. Somehow, Mommy disappeared. Even worse were the monsters rushing at her. They gnarled and snapped at everyone. Young Lulu vowed to defeat these damned zombies and to one day restore everything to normal."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "12507", "10263", "12316", "10257", "10265"],
+      "reason": ["Pusher\nGanker"]
+    },
+    {
+      "arr": ["12514", "10048", "12316", "10263", "10265", "10069"],
+      "reason": ["Ganker\nSupport"]
+    },
+    {
+      "arr": ["12502", "10263", "12316", "10257", "12516", "10069"],
+      "reason": ["Front Row\nSurvival"]
+    },
+    {}
+  ],
+  "strategy": "162086",
+  "video": [
+    "162085",
+    "https://yhkd.99.com/inc/20180528204807.inc",
+    "https://yhkd.99.com/news/05282018/231930445.shtml"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "50001",
+  "name": "Psion",
+  "type": "2",
+  "features": ["MELEE", "AGILITY", "ASSASSIN"],
+  "data": [8, 0, 6, 3],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["Psion excels in dealing with stragglers."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "50001303",
+      "imgSrc": "1.jpg",
+      "skinName": "Pure Passion"
+    },
+    {
+      "id": "50001201",
+      "imgSrc": "2.jpg",
+      "skinName": "Bloody Assassin"
+    },
+    {
+      "id": "50001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Abyss Apostle"
+    },
+    {
+      "id": "50001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Void Shadow",
+      "vid": "37t2Ns8LAiY"
+    },
+    {
+      "imgSrc": "5.jpg",
+      "skinName": "Dark Reaper",
+      "status": "en"
+    }
+  ],
+  "ski": [
+    {
+      "name": "PSIONIC STORM",
+      "desc": [
+        "Summons a black hole which increases the Attack Damage of the next 5 attacks. Also deals Physical Damage to enemy units in a line up to a range of 600. Effect lasts for up to 10s."
+      ],
+      "data": [
+        "Physical Damage: 80/90/100/110",
+        "Cooldown: 10s",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": ["Increase AoE damage of following basic attacks."],
+      "update": ["Magical Damage increased."],
+      "tag": ["BUFF", "PHYSICAL"]
+    },
+    {
+      "name": "DECAY",
+      "desc": [
+        "Shoot a decaying orb in the target direction which decreases Armor and deals Physical Damage to enemy units along its path. The orb will convert a portion of the enemy units' energy to increase your own Movement Speed. All effects last for 7s."
+      ],
+      "data": [
+        "Physical Damage: 120/160/200/240",
+        "Reduce Target`s Armor: 8/13/18/23",
+        "Bonus Movement Speed: 30%",
+        "Cast Range: 850",
+        "Mana Cost: 80",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "02.png",
+      "keyword": "PHYSICAL",
+      "study": [
+        "Shoot a decaying orb, increase own Movement Speed, and decrease target`s Armor."
+      ],
+      "update": ["Armor Reduction increased and Cooldown reduced."],
+      "tag": ["PHYSICAL", "BUFF"]
+    },
+    {
+      "name": "HIDDEN ARMOR",
+      "desc": [
+        "Armor is imbued with powers which grant Invisibility while not attacking. Using any items (except healing abilities) will disrupt Invisibility. Basic attacks targeting enemy heroes will instead Blink you behind the target to deliver attacks. This ability has an initial range of 750 and may only be used once every 6s against the same target. Manually cast this ability to immediately become Invisible."
+      ],
+      "data": [
+        "Bonus Physical Damage after Blink: 20/50/80",
+        "Time until Invisible: 5/4.5/3s",
+        "Manual Use Cooldown: 40/35/30s",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": [
+        "Remain Invisible while not attacking. Attacks have additional effects when not Invisible.."
+      ],
+      "update": ["Time until Invisible reduced."],
+      "tag": ["BUFF", "ULT"]
+    },
+    {
+      "name": "PSIONIC BULLY",
+      "desc": [
+        "If no other enemy heroes are within a range of 750 of the target enemy hero, activate Psionic Bully to deal additional Pure Damage. Pure Damage may not be limited by an effects. All attacks delivered from behind enemy heroes will deal additional Physical Damage."
+      ],
+      "data": [
+        "Basic Attack Pure Damage to Heroes: 70/110/150/190",
+        "Damage from Behind Enemy: 0.5x"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deal bonus Pure Damage to isolated enemy heroes."],
+      "update": ["Magical Damage increased"],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Psion, the youngest general in the alliance, was trained by the great Master. He inherited the integrity, resilience and selflessness of this brave tradition. However, these same qualities would bring him nothing but trouble. "
+  ],
+
+  "equip": [
+    {
+      "arr": ["10302", "10065", "10272", "10237", "12508", "12516"],
+      "reason": ["NUKER\nREAPER"]
+    },
+    {
+      "arr": ["10100", "10048", "10068", "10272", "10237", "10127"],
+      "reason": ["ROAMER\nJUNGLE"]
+    },
+    {
+      "arr": ["12502", "10068", "10272", "10069", "10237", "10127"],
+      "reason": ["SUSTAIN\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "162992",
+  "video": [
+    "162921",
+    "https://yhkd.99.com/inc/20190227184557.inc",
+    "https://yhkd.99.com/news/02272019/191601082.shtml"
+  ]
+}

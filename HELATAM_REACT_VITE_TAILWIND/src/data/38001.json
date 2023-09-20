@@ -1,0 +1,123 @@
+{
+  "id": "38001",
+  "name": "Absalon",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "DISABLER"],
+  "data": [2, 9, 5, 7],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": [
+    "Cast from enemy`s blind spots or rely on teamwork to improve your odds of landing Fiery Meteor."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "38001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Chaotic Charlatan",
+      "vid": "Zt_bFs39Hgo"
+    },
+    {
+      "id": "38001201",
+      "imgSrc": "2.jpg",
+      "skinName": "Malefic Omnipotent"
+    },
+    {
+      "id": "38001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Music of Dreams"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FLAME WAVE",
+      "desc": [
+        "Absalon attacks with a flame wave, dealing magical damage to all enemy units along its path and causing Stun for 1s."
+      ],
+      "data": [
+        "Magical Damage: 100/150/200/250",
+        "Mana Cost: 100/110/120/130",
+        "Cooldown: 10s",
+        "Cast Range: 1200"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Magical Damage, Stun."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "FIERY RAIN",
+      "desc": [
+        "Summons a fiery rain at the target area, dealing magical damage to enemy units and causing Burn for 3s."
+      ],
+      "data": [
+        "Magical Damage: 80/120/160/200",
+        "Continuous Burn: 15/20/25/30",
+        "Mana Cost: 120",
+        "Cooldown: 8s",
+        "Cast Range: 1100"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": ["Continuous Magical Damage."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL", "AOE"]
+    },
+    {
+      "name": "FIERY METEOR",
+      "desc": [
+        "ACTIVE: Summons 1 fiery meteor to bombard the target area, dealing massive magical damage to enemy units and causing Stun for 2s. Absalon needs to channel for 1s to cast this ability."
+      ],
+      "data": [
+        "Magical Damage: 400/500/600",
+        "Mana Cost: 170",
+        "Cast Range: 1300",
+        "Cooldown: 70/65/60s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Massive Magical Damage, Stun."],
+      "update": ["Magical Damage increased and Cooldown reduced."],
+      "tag": ["AOE", "MAGICAL", "ULT"]
+    },
+    {
+      "name": "LIQUID FIRE",
+      "desc": [
+        "PASSIVE: Absalon`s basic attacks and abilities inject enemy units with liquid fire, causing Burn for 4s, stacking up to 3 times."
+      ],
+      "data": ["Magical Damage: 5/10/15/20"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["On-hit magical damage to basic attacks and abilities."],
+      "update": ["Magical Damage increased."],
+      "tag": ["BUFF"]
+    }
+  ],
+  "story": [
+    "Absalon was a skilled strategist. Born in troubled times, they used to call him Sinister. Skilled in both culture and war, no matter whether he's talking battle strategy or leading troops, he was superior to all. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12312", "10109", "10228", "12305"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["12514", "10123", "10109", "12509", "10251", "10072"],
+      "reason": ["PUSHER\nHARASSER"]
+    },
+    {
+      "arr": ["12514", "10123", "12312", "10109", "10228", "12513"],
+      "reason": ["SURVIVAL\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "162421",
+  "video": [
+    "162422",
+    "https://yhkd.99.com/inc/20180905195234.inc",
+    "https://yhkd.99.com/news/09042018/230057870.shtml"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "154001",
+  "name": "Di Renjie",
+  "type": "2",
+  "features": ["Ranged", "Carry", "Harasser"],
+  "data": [9, 0, 4, 4],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "2500",
+  "tips": [
+    "Justice Blade can trigger equipment effect. Use it wisely to make you stronger."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "154001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Vortex Detective"
+    },
+    {
+      "id": "154001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Moon Brilliance"
+    },
+    {
+      "id": "154001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Begonia"
+    }
+  ],
+  "ski": [
+    {
+      "name": "HERO'S PATH",
+      "desc": [
+        "When sneaking towards a target direction, Di Renjie enters an invisible state and moves faster. Both his attack speed and movement speed will be increases when the invisible status ends."
+      ],
+      "data": [
+        "Bonus Attack Speed: 15/20/25/30",
+        "Bonus Movement Speed: 15%/20%/25%/30%",
+        "Invisible Duration: 1s",
+        "Attack Speed Duration: 3s",
+        "Cast Range: 700",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": [
+        "Be invisible when move; Attack Speed and Movement Speed are increased when not invisible."
+      ],
+      "update": ["Buff Effect â†‘ Cooldown â†“"],
+      "tag": ["Rush", "Buff"]
+    },
+    {
+      "name": "INSIGHT",
+      "desc": [
+        "Di Renjie marks an enemy immediately. During the following 6 sec, the marked enemy cannot dodge normal attacks and Di Renjie has the enemy's view without consuming the mark. Meanwhile, repeatedly triggers additional passive damage and slows the enemy's speed. Passive: Di Renjie knows the enemy and increases critical chance permanently._Di Renjie marks an enemy unit periodically. After hitting the enemy 3 times by attack or skill, the mark will disappear, causing extra damage and slowdown effect."
+      ],
+      "data": [
+        "Bonus Physical Damage: 60/90/120/150",
+        "Bonus Critical Chance: 4%/5%/6%/7%",
+        "Movement Slow: 25%",
+        "Slow Duration: 3s",
+        "Passive Mark Cycle: 6s",
+        "Cast Range: 1000",
+        "Cooldown: 8s",
+        "Mana Cost: 55"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": ["Increases Critical Chance and mark enemy target"],
+      "update": ["Damage â†‘ Effect â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "JUDGEMENT WHEEL",
+      "desc": [
+        "Di Renjie throws out a wheel. When colliding with enemy hero or reaching the maximum range, the wheel spreads out blades to cause a large amount of physical damage and slowdown effect. The wheel returns to Di Renjie when reactivated or reaching the range limit."
+      ],
+      "data": [
+        "Physical Damage: 200/250/300",
+        "Physical Damage Dealt by Whirling Blade Every 0.5s: 80/100/120",
+        "Radius: 300",
+        "Whirl Radius: 500",
+        "Cast Range: 1200",
+        "Knockback Distance: 150",
+        "Max Whirl Range: 300",
+        "Movement Slow: 30% for 2s",
+        "Cooldown: 45/40/35s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Deals damage and causes knockback"],
+      "update": ["Magic Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Physical"]
+    },
+    {
+      "name": "JUSTICE BLADE",
+      "desc": [
+        "Casts a whirling blade to deal extra damage after Di Renjie attacks the target. During the period, automatically charges up to 3 blades. Each of Di Renjie's normal attack shortens the charge time for Justice Blade. (Justice Blade can trigger Attack FX)"
+      ],
+      "data": [
+        "Physical Damage: 60/80/100/120",
+        "Justice Blade State: 6s",
+        "Justice Blade Charge: 2s/Blade",
+        "Charge Time Reduction: 0.5s/Attack",
+        "Cooldown: 13/12/11/10s",
+        "Mana Cost: 55"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Summon Justice Blade for additional damage"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Buff", "Physical"]
+    }
+  ],
+  "story": [
+    "     Where there is light, there must be shadow. Where there is shadow there must be light. After Li house's Tang Dynasty was changed to Wu's Zhou Dynasty, the former prosperity can no longer shine a light into the dark corners. The bloody storm stirred up by the Empress Wu's ascendancy were still lingering around Chang'an, the capital city. Crime was rampant. Officials were corrupted. People inside and outside Chang'an were living under the dark cloud.<br>     To stop her reign falling, Empress Wu assigned the Dali Temple to solve all the long-pending cases within a year without delay and misjudgment. Under tremendous political pressure, Dali Temple widely recruited talents around the country without asking their background.<br>     A young man named Di Renjie drew the attention of Dali Temple by his distinctive martial skills, constantly sharp insight, and the special mechanical wheel he was carrying. Di Renjie came to Chang'an alone to find his parents. More clues revealed that the missing of his parents was related to the case about Li house that Dali Temple was investigating.<br>     Di Renjie then devoted himself to the work in Dali Temple and helped solved all the cases, giving criminals no chance to escape. Though some cases were still unsettled, Empress Wu directly promoted Di Renjie to director of Dali Temple. However, at the night when Dali Temple welcomed their youngest director, two mysterious killers sneaked into the imperial palace and almost killed Empress Wu. Their weapons were a pair of mechanical wheel with blades hidden inside. A black net was falling upon Chang'an."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10068", "10047", "10237", "12516"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10302", "10272", "10115", "10127", "10237", "12516"],
+      "reason": ["æ¶ˆè€—ã€ç”Ÿå­˜"]
+    },
+    {
+      "arr": ["10100", "10068", "10272", "10069", "10237", "10127"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "165082",
+  "video": [
+    "165081",
+    "https://yhkd.99.com/inc/20200304235837.inc",
+    "https://yhkd.99.com/news/03052020/004111217.shtml"
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "id": "2001",
+  "name": "Grom",
+  "type": "1",
+  "features": ["MELEE", "DISABLER", "DURABLE"],
+  "data": [6, 8, 4, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "688",
+  "tips": [
+    "Scout to take control of the battleground with your mighty hook in hand."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Deepsea Angler",
+      "vid": "03TDBAeXgEk"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Massacre Maid"
+    },
+    {
+      "id": "2001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Shark Wave"
+    },
+    {
+      "id": "2001201",
+      "imgSrc": "4.jpg",
+      "skinName": "Rockstar Hoodlum",
+      "vid": "jZYf88eaS4w"
+    },
+    {
+      "id": "2001202",
+      "imgSrc": "5.jpg",
+      "skinName": "Croco Die",
+      "vid": "vGKktlzzDlc"
+    },
+    {
+      "id": "2001301",
+      "imgSrc": "6.jpg",
+      "skinName": "Mecha Chainsaw",
+      "vid": "nJ7aY0fXSh0"
+    },
+    {
+      "id": "2001306",
+      "imgSrc": "8.jpg",
+      "skinName": "Envoy of Sloth",
+      "vid": "LmMPOujnDa8"
+    }
+  ],
+  "ski": [
+    {
+      "name": "MEAT HOOK",
+      "desc": [
+        "ACTIVE: Launches a bloody hook at a target direction, dealing magical damage to the first enemy unit it hits, and drags it back to Grom. PASSIVE: Hooked enemy units within 3s take bonus magical damage from Grom`s basic attacks and Poison Fog."
+      ],
+      "data": [
+        "Damage: 200/275/350/425, Bonus Damage: 20/30/40/50",
+        "Cast Range: 1500",
+        "Radius: 300",
+        "Cooldown: 13/12/11/10s",
+        "Mana Cost: 110/120/130/140"
+      ],
+      "img": "1.png",
+      "keyword": "DISABLE",
+      "study": ["Launches a hook, dragging the enemy target back to Grom."],
+      "update": ["Ability damage increased."],
+      "tag": ["DISABLE", "SINGLE"]
+    },
+    {
+      "name": "POISON FOG",
+      "desc": [
+        "ACTIVE: Releases a poison fog, dealing continuous magical damage to nearby enemy units as well as Grom himself, while causing continuous Movement Slow by 25% to enemy units. PASSIVE: Enemy units take 50% bonus magical damage when affected by the fog for more than 2s."
+      ],
+      "data": ["Damage: 20/30/40/50 per 0.5s", "Radius: 450", "Cooldown: 1s"],
+      "img": "2.png",
+      "keyword": "MAGICAL",
+      "study": ["Releases a poison fog, dealing damage to nearby enemies."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "AOE"]
+    },
+    {
+      "name": "GOBBLER (PASSIVE)",
+      "desc": [
+        "PASSIVE: Grants bonus Spell Resist. Whenever an enemy hero is killed by Grom within a 1800 radius or dies within a 750 radius, Grom is granted bonus Strength permanently. Grom heals Health when enemy units and jungle creatures die within a 750 radius"
+      ],
+      "data": [
+        "Bonus Spell Resist: 9/12/15/18",
+        "Bonus Strength:+1/+1/+2/+2",
+        "Bonus Health: 2% from Troops and Jungle Creatures or 10% from enemy Heroes"
+      ],
+      "img": "3.png",
+      "keyword": "BUFF",
+      "study": [
+        "Passively increases Spell Resist. Kills will grant bonus Strength"
+      ],
+      "update": ["Bonus Spell Resist and Strength increased"],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "HARSH SENTENCE",
+      "desc": [
+        "Passes sentence on Groms enemies, dealing continuous magical damage to enemy units in the target area while causing Suppression, and ignoring Disable Immunities. During Harsh Sentence, Grom heals 5% of his missing Health every 0.5s."
+      ],
+      "data": [
+        "Damage: [0.5x Strength + 25/50/75] every 0.5s",
+        "Cooldown: 40/35/30s",
+        "Radius: 500",
+        "Duration: 2.5s",
+        "Mana Cost: 100/140/180"
+      ],
+      "img": "4.png",
+      "keyword": "DISABLE",
+      "study": ["Suppresses and deals damage to enemy heroes within range."],
+      "update": ["Ability cooldown reduced and damage increased."],
+      "tag": ["DISABLE", "ULT"]
+    }
+  ],
+  "story": [
+    "Grom will drink anyone under the table, then flip it over to start a fight. Disrespect him and you'll pay with your life - while he laughs."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "10263", "12316", "10228", "10265"],
+      "reason": ["TANK\nDISABLER"]
+    },
+    {
+      "arr": ["12502", "10048", "12308", "10263", "12316", "12516"],
+      "reason": ["GANKER\nINITIATOR"]
+    },
+    {
+      "arr": ["12514", "10048", "10097", "10228", "12513", "10263"],
+      "reason": ["SUPPORT\nINITIATOR BUFF"]
+    },
+    {}
+  ],
+  "strategy": "159922",
+  "video": [
+    "159921",
+    "https://yhkd.99.com/inc/20170815201020.inc",
+    "https://yhkd.99.com/news/08152017/032529371.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

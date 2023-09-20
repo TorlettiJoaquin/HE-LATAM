@@ -1,0 +1,445 @@
+{
+  "id": "62001",
+  "name": "Magnolia",
+  "type": "2",
+  "features": ["MELEE", "PUSHER", "CARRY"],
+  "data": [9, 2, 6, 5],
+  "way": "0",
+  "gold": "-",
+  "diamond": 888,
+  "tips": ["Gank foes with Qinggong when they are unaware!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Special Snowflake"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Tomb Maiden"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Heartless Beauty",
+      "vid": "xcAc_EMibfA"
+    },
+    {
+      "id": "62001305",
+      "imgSrc": "4.jpg",
+      "skinName": "Grove Damsel",
+      "vid": "Z0zBaGNO1xE"
+    },
+    {
+      "id": "62001307",
+      "imgSrc": "5.jpg",
+      "skinName": "Dancing Pirouette",
+      "vid": "Q8w2D-r4HM8"
+    },
+    {
+      "id": "62001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Secluded Charm"
+    },
+    {
+      "id": "62001308",
+      "imgSrc": "7.jpg",
+      "skinName": "Orchid Huntress"
+    },
+    {
+      "id": "62001302",
+      "imgSrc": "8.jpg",
+      "skinName": "Gallant Lady",
+      "vid": "NgRQ5HSqBzM"
+    },
+    {
+      "status": "en",
+      "imgSrc": "9.jpg",
+      "skinName": "SHEROSE Magnolia"
+    },
+    {
+      "id": "62001309",
+      "imgSrc": "10.jpg",
+      "skinName": "Emerald Spirit",
+      "vid": "EvS48bhuf5o"
+    }
+  ],
+  "ski": [
+    {
+      "name": "QINGGONG",
+      "desc": [
+        "ACTIVE: Grants a massive amount of bonus movement speed and 40% Damage Reduction, as well as Hyper Armor which renders Magnolia immune to disables. While Magnolia is moving, she deals continuous magical damage to nearby enemy units and causes Movement Slow by 30% for 1s. This effect ends when Magnolia performs a basic attack or casts Jade Sword."
+      ],
+      "data": [
+        "Duration: 3s",
+        "Cooldown: 8/7/6/5s",
+        "Damage per second: 100/125/150/175",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "DASH",
+      "study": [
+        "Greatly increases movement speed and deals magical damage to nearby enemies over time."
+      ],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "BUFF"]
+    },
+    {
+      "name": "JADE SWORD",
+      "desc": [
+        "With an elegant flourish, deals physical damage to the target enemy unit and causes Movement Slow by 50% for 2s. The extra attack from Ambidextrous will cause Stun for 1s."
+      ],
+      "data": [
+        "Physical Damage: 200/260/320/380",
+        "Cooldown: 8s ",
+        "Mana Cost: 50",
+        "Cast Range: 800"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Deals physical damage to a target and causes Stun."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "SECRETS OF WUGONG",
+      "desc": [
+        "Magnolia creates a cursed zone, granting bonus attack speed, bonus critical chance, and 25% Damage Reduction while inside the zone. The zone deals physical damage to enemy units inside the area, and deals physical damage to enemy units upon collision with the zone`s boundary, causing Movement Slow for 2.5s. Magnolia cannot be targeted during the cast animation."
+      ],
+      "data": [
+        "Base Damage: 225/300/375, Threshold Damage: 150/200/250",
+        "Slow Effect: 50%",
+        "Bonus Attack Speed: 30/45/60",
+        "Bonus Crit Chance: 10%/15%/20%",
+        "Radius: 600, Duration: 5s",
+        "Mana Cost: 100/125/150",
+        "Cooldown: 30/25/20s"
+      ],
+      "img": "03.png",
+      "keyword": "CRIT",
+      "study": [
+        "Damages units in a target area while boosting Magnolia's stats."
+      ],
+      "update": ["Bonus damage and critical chance increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    },
+    {
+      "name": "AMBIDEXTROUS",
+      "desc": [
+        "Grants basic attacks and Jade Sword a chance to score an extra attack."
+      ],
+      "data": ["Chance to deal bonus attack: 20%/25%/30%/35%"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Passively increases chance of bonus attack."],
+      "update": ["Chance increased."],
+      "tag": ["PASSIVE", "PHYSICAL"]
+    }
+  ],
+  "story": [
+    "Magnolia is good at controlling bees, music and sewing. She combines music with the martial art and can communicate with people by music. She is as pure as jade with stunning grace in every move."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10125", "10069", "10237", "12508"],
+      "reason": ["ESCAPE\nLANE PUSHER"]
+    },
+    {
+      "arr": ["10302", "10068", "10272", "10127", "10069", "10265"],
+      "reason": ["GANKER\nREAPER"]
+    },
+    {
+      "arr": ["12307", "12308", "10272", "10069", "12512", "10265"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "151300",
+  "video": [
+    "151301",
+    "https://yhkd.99.com/inc/20160909034147.inc",
+    "https://yhkd.99.com/news/10182016/233814929.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+2.79"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+4.05"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+5.22"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+6.39"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.01"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

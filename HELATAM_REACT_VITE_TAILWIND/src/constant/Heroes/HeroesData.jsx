@@ -10,7 +10,6 @@ var tag = {
 var HeroesData = [
     { id: 3001, name: "Yang Jian", type: "2", hid: 119, newType: "Warrior", features: ['Ganker', 'Melee'] },
     { id: 240001, name: "Hades", type: "2", hid: 118, newType: "Asesino", features: ['Ganker', 'Nuker'] },
-    { id: 128001, name: "Rocoso", type: "2", hid: 155, newType: "Tanque", },
     { id: 24001, name: "Silvana", type: "3", hid: 154, newType: "Apoyo", features: ['Ranged', 'Intelligence'] },
     { id: 75001, name: "Khaos", type: "1", hid: 153, newType: "Warrior", features: ['Melee', 'Strength'] },
     { id: 48001, name: "Lupus", type: "2", hid: 151, newType: "assassin" },

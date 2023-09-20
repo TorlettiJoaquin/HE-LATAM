@@ -1,0 +1,132 @@
+{
+  "id": "141001",
+  "name": "Condor",
+  "type": "1",
+  "features": ["Melee", "Ganker", "Nuker"],
+  "data": [9, 0, 4, 5],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["ç¥žé›•çŠ¶æ€å¯ä»¥çž¬å‘å¸¦æœ‰å‡»é£žæ•ˆæžœçš„é‡å‰‘å†²å‡»ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "141001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Quantum Futura"
+    },
+    {
+      "id": "141001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Charmed Seclusion"
+    },
+    {
+      "id": "141001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Amber Spirit",
+      "vid": "_0odfHXF_aw"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLADE BASH",
+      "desc": [
+        "Condor wields a giant blade, smashing in a target direction after briefly charging. Deals large amount of physical damage to enemies in target range and slows movement by 30%. The longer Condor charges, the more damage is dealt. If charged for 1 second, causes Knockback for 1 second. Immune to CC while charging. Casts instantly and causes Knockback in Condor mode."
+      ],
+      "data": [
+        "Minimum Damage: 140/180/220/260",
+        "Maximum Damage: 180/230/280/330",
+        "Cast Range: 1000",
+        "Radius: 250",
+        "Charge Time: 2s",
+        "Mana Cost: 100",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Charge up to deal damage and crowd control enemies"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "FIST OF GRIEF",
+      "desc": [
+        "Condor activates his avian impulses, earning one stack of Grief every 5 seconds to a maximum of 3. Triggering Fist of Grief deals physical damage and causes slowdown to a target enemy and surrounding area of enemies. Each Fist of Grief cast reduces cooldowns for Blade Bash by 2 seconds and Condor Soar by 4 seconds. Kills and assists grant one stack of Grief."
+      ],
+      "data": [
+        "Physical Damage: 80/120/160/200",
+        "Cast Range: 800",
+        "Movement Slow: 25% for 2s",
+        "Cooldown: 1s",
+        "Mana Cost: 40"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Area of effect damage and slows movement."],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Disabler", "Physical"]
+    },
+    {
+      "name": "CONDOR SOAR",
+      "desc": [
+        "Unfolds arms to enter Condor Mode, increasing movement speed for 6 seconds and granting bonus vision. Abilities may be cast, but cannot make basic attacks. Re-casting charges toward enemies, dealing physical damage to targets hit and slowing movement for 2 seconds while increasing movement speed for 2 seconds. "
+      ],
+      "data": [
+        "Physical Damage: 300/400/500",
+        "Movement Slowdown: 30%",
+        "Increased Movement: 20%/25%30%",
+        "Bonus Vision: 400",
+        "2nd Cast Range: 1000, Radius: 300",
+        "Cooldown: 35/30/25s",
+        "Mana Cost: 80"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Gain a buff and strengthen skill"],
+      "update": ["Increases effect of buff and damage. Reduces cooldown"],
+      "tag": ["ULT", "Physical", "Buff"]
+    },
+    {
+      "name": "SUBSUMED",
+      "desc": [
+        "ACTIVE: loses health every second once cast, but increases damage dealt by basic attacks and abilities while increasing passive restoration effect. Casting ability cannot cause hero to die. PASSIVE: damaging enemy Heroes restores health. Effect is halved when damaging enemy Troops. "
+      ],
+      "data": [
+        "Health Burned per Second: 25/35/45/55",
+        "Health Restored: 8/13/18/23",
+        "Strength Bonus to Damage: 0.5/0.8/1.1/1.4",
+        "Cooldown: 5s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Imbues basic attacks with bonus damage and health regen"],
+      "update": ["Increases damage and Health Regen effect"],
+      "tag": ["Buff", "Physical"]
+    }
+  ],
+  "story": [
+    "The legends told of Condor's combat skills, but none knew the torment of his lost wife. The bird was not only his mount, but also his best friend."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "12512", "12309", "10127", "10069"],
+      "reason": ["Nukerã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["10302", "10065", "10272", "12309", "12516", "10069"],
+      "reason": ["æ‰“é‡Žã€Ganker"]
+    },
+    {
+      "arr": ["12307", "10048", "12512", "10127", "10069", "10265"],
+      "reason": ["å‰æŽ’ã€æ”¶å‰²"]
+    },
+    {}
+  ],
+  "strategy": "163289",
+  "video": [
+    "163290",
+    "https://yhkd.99.com/inc/20190505025132.inc",
+    "https://yhkd.99.com/news/05082019/225155605.shtml"
+  ]
+}

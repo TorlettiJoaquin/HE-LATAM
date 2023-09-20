@@ -1,0 +1,134 @@
+{
+  "id": "93001",
+  "name": "Stiletto",
+  "type": "2",
+  "features": ["RANGED", "DPS", "PUSHER"],
+  "data": [9, 0, 7, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["å¤šä½¿ç”¨ä¸€åˆ€æƒŠé­‚å‡»æ€å•ä½æ¥ç´¯ç§¯æŠ€èƒ½ä¼¤å®³ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "93001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Dubb Blast",
+      "vid": "jsmbNgOnG9g"
+    },
+    {
+      "id": "93001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Divine Knight",
+      "vid": "nNLkwuVdlr4"
+    },
+    {
+      "id": "93001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Spring Elegance"
+    },
+    {
+      "id": "93001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Moon Sheen"
+    },
+    {
+      "id": "93001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Edgy Card",
+      "vid": "K5qPwrMs2vQ"
+    }
+  ],
+  "ski": [
+    {
+      "name": "LETHAL KNIFE",
+      "desc": [
+        "ACTIVE: Stiletto readies a special knife and resets his basic attack timer. The next basic attack within 3s deals bonus physical damage to non-towers but can not score a critical strike. Lethal Knife gains 5 permanent bonus physical damage whenever it delivers a killing blow on an enemy non-hero unit, and gains double the bonus on enemy hero units. Stacks up to 70 times."
+      ],
+      "data": [
+        "Physical Damage: 60/90/120/150",
+        "Mana Cost: 60",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Buff",
+      "study": ["Reset basic attack, bonus on-hit physical damage"],
+      "update": ["Bonus Physical Damage â†‘"],
+      "tag": ["Physical", "Buff"]
+    },
+    {
+      "name": "SWALLOW's FLIGHT",
+      "desc": [
+        "ACTIVE: Stiletto dashes in the opposite direction and gains bonus movement speed for 2s."
+      ],
+      "data": [
+        "Dash Distance: 600",
+        "Mana Cost: 70",
+        "Cooldown: 9/8/7/6s",
+        "Bonus Movement Speed: 10%/15%/20%/25%"
+      ],
+      "img": "02.png",
+      "keyword": "Rush",
+      "study": ["Dash in opposite direction, bonus movement speed"],
+      "update": ["Bonus Movement Speed â†‘ Cooldown â†“"],
+      "tag": ["Rush", "Buff"]
+    },
+    {
+      "name": "CERTAIN DEATH",
+      "desc": [
+        "ACTIVE: Stiletto throws a deadly knife to assassinate his victim, dealing massive pure damage to target enemy hero unit."
+      ],
+      "data": [
+        "Pure Damage: 150/200/250",
+        "Cast Range: 1000/1100/1200",
+        "Mana Cost: 120",
+        "Cooldown: 45/40/35s"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Pure Damage to Target Hero Unit"],
+      "update": ["Pure Damage â†‘ Cast Range â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Physical"]
+    },
+    {
+      "name": "FATAL SHOTS",
+      "desc": [
+        "PASSIVE: Stiletto gains bonus Attack Damage and bonus Critical Chance._ACTIVE: Stiletto gains a massive amount of bonus Attack Damage and bonus Critical Chance for 5s. This ability's passive effects are disabled during cooldown."
+      ],
+      "data": [
+        "ACTIVE:_Bonus Attack Damage: 10/20/30/40, Bonus Critical Chance: 6%/8%/10%/12%, Mana Cost: 50, Cooldown: 15s",
+        "PASSIVE: Bonus Attack Damage: 8/12/16/20, Bonus Critical Chance: 3%/4%/5%/6%"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Bonus Attack Damage, Bonus Critical Chance"],
+      "update": ["Bonus Attack Damage â†‘\nBonus Critical Chance â†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "Tired of scholarly honour and official rank, Stiletto abandoned his official position and retired. His blade is quick and accurate."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["çˆ†å‘ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["10100", "10272", "10065", "10047", "10237", "12516"],
+      "reason": ["æŒç»­ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["10100", "10065", "10047", "10115", "10237", "12516"],
+      "reason": ["æ¸¸èµ°ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "162186",
+  "video": [
+    "162185",
+    "https://yhkd.99.com/inc/20180626233728.inc",
+    "https://yhkd.99.com/news/06262018/031535812.shtml"
+  ]
+}

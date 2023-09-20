@@ -1,0 +1,148 @@
+{
+  "id": "21001",
+  "name": "Dr. Madd",
+  "type": "1",
+  "features": ["RANGED", "CARRY", "DISABLER"],
+  "data": [7, 5, 8, 4],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "The more time spent on concocting the potion, the higher its damage and controlling effects will be."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "21001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Toxic Revenger",
+      "vid": "r-VLku9SmoQ"
+    },
+    {
+      "id": "21001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Toxic Flame",
+      "vid": "fyrWKXWls34"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Mystic Professor"
+    },
+    {
+      "status": "en",
+      "imgSrc": "5-en.jpg",
+      "skinName": "Punk Carnival"
+    },
+    {
+      "status": "en",
+      "imgSrc": "6-en.jpg",
+      "skinName": "Shadow Mist"
+    },
+    {
+      "id": "21001201",
+      "imgSrc": "3.jpg",
+      "skinName": "Poison Destroyer",
+      "vid": "AackLuPpkEg"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ACIDIC BOG",
+      "desc": [
+        "Unleash an Acidic Bog on the target area for 6 seconds to deal continuous damage to enemy units within and reduce their Armor."
+      ],
+      "data": [
+        "Acidic Bog's Magic Damage: 80/95/110/125 per Second",
+        "Cast Range: 1000",
+        "Radius: 450",
+        "Armor Reduction: 12/20/28/36",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "01.png",
+      "keyword": "MAGIC",
+      "study": ["Deals continuous damage and causes debuffs"],
+      "update": ["Magic Damage and Debuff Effect increased, Cooldown reduced."],
+      "tag": ["MAGIC"]
+    },
+    {
+      "name": "EXPLOSIVE AGENT",
+      "desc": [
+        "Activate and brew Explosive Agent in 4 or fewer seconds, then you have another 2 seconds to throw and deal magic damage plus stun to target. Otherwise, it stuns you instead."
+      ],
+      "data": [
+        "Min Magic Damage: 80/120/160/200",
+        "Max Magic Damage: 180/260/340/420",
+        "Max Stun:2s",
+        "Cast Range: 1200",
+        "Mana Cost: 120",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["=Deals physical damage and stuns the enemy."],
+      "update": ["Damage increased."],
+      "tag": ["DISABLER", "MAGIC"]
+    },
+    {
+      "name": "GENETIC MANIPULATION",
+      "desc": [
+        "Inject bestial genes into self to gain the beast form and significantly increase Max Health, Movement Speed, Attack Speed, Health and Mana Recovery for 20 seconds."
+      ],
+      "data": [
+        "Bonus Health: 200/300/400",
+        "Bonus Attack Speed: 30/35/40",
+        "Bonus Movement Speed: 16%/18%/20%",
+        "Bonus HPRG: 10/15/20",
+        "Bonus Mana Recovery: 3/5/7",
+        "Cooldown: 40s",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Full Self Buffs."],
+      "update": ["Buff Effect increased."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "CORROSIVE ATTACK",
+      "desc": [
+        "Dr. Maddâ€™s attacks corrode an opponentâ€™s weapon, lowering their ATK and Attack Speed for 3 seconds. Can stack up to 3 times. If the opponent is a hero, the lowered part of ATK and Attack Speed will be stolen by Dr. Madd."
+      ],
+      "data": [
+        "ATK Debuff per Hit: 5/6/7/8",
+        "Attack Speed Debuff per Hit: 4/6/8/10"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Attacks lower target`s power."],
+      "update": ["Debuff Effect increased."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "Dr. Stein, who had been missing for years, was captured by the coalition. The doctor fled after releasing the G17 and R42 viruses, and coalition forces lost two divisions killing the doctor's wife. No-one knows the whereabouts of Dr. Stein and his biological weapon, which hangs over the heads of the coalition like a sword of Damocles."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10047", "10272", "10237", "10069", "12508"],
+      "reason": ["NUKER\nPUSHER"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10068", "10069", "10265"],
+      "reason": ["HARASSER\nPUSHER"]
+    },
+    {
+      "arr": ["10100", "10068", "10272", "10047", "10237", "12516"],
+      "reason": ["ROAMER\nGANKER"]
+    },
+    {}
+  ],
+  "strategy": "163482",
+  "video": [
+    "163481",
+    "https://yhkd.99.com/inc/20190612200627.inc",
+    "https://yhkd.99.com/news/06122019/203424892.shtml"
+  ]
+}

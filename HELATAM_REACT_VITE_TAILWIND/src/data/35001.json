@@ -1,0 +1,134 @@
+{
+  "id": "35001",
+  "name": "Rahotep",
+  "type": "1",
+  "features": ["MELEE", "TANK", "SUPPORT"],
+  "data": [4, 6, 7, 4],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Soul Leash works best when used together with Rotting Corpse."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "35001201",
+      "imgSrc": "1.jpg",
+      "skinName": "Toxic Giant",
+      "vid": "80nSeALMimc"
+    },
+    {
+      "id": "35001202",
+      "imgSrc": "2.jpg",
+      "skinName": "Bodacious Boarder"
+    },
+    {
+      "id": "35001301",
+      "imgSrc": "3.jpg",
+      "skinName": "Father Christmas"
+    },
+
+    {
+      "status": "en",
+      "id": "35001302",
+      "imgSrc": "4.jpg",
+      "skinName": "Galaxy Mecha",
+      "vid": "EY-CMyr3Xa4"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ROTTING CORPSE",
+      "desc": [
+        "ACTIVE: The vile stench from RahotepÂ·s sarcophagus causes continuous magical damage to enemy units within the area for 10s."
+      ],
+      "data": [
+        "Magical Damage Per 0.5s: 40/45/50/55",
+        "Radius: 250",
+        "Cast Range: 900",
+        "Cooldown: 15s",
+        "Mana Cost: 100"
+      ],
+      "img": "01.png",
+      "keyword": "MAGICAL",
+      "study": ["Continuous Magical Damage."],
+      "update": ["Damage increased."],
+      "tag": ["MAGICAL", "AOE"]
+    },
+    {
+      "name": "QUICKSAND",
+      "desc": [
+        "ACTIVE: Calls upon the power of the sands to gain bonus movement speed, and summons quicksand at the target area for 5s, causing movement slow to enemy units inside. The Movement Slow persists for another 2s on enemy units after they leave the area."
+      ],
+      "data": [
+        "Area Movement Slow: 20%/25%/30%/35%, Bonus Movement Speed: 30%",
+        "Cast Range: 900",
+        "Radius: 500",
+        "Mana Cost: 60/70/80/90",
+        "Cooldown: 8s"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": ["Bonus Movement Speed, Area Movement Slow."],
+      "update": ["Increased Movement Slow."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "SOUL LEASH",
+      "desc": [
+        "ACTIVE: Forcefully drags target enemy hero unit along for 3s, this effect can not be interrupted."
+      ],
+      "data": [
+        "Magical Damage Per 0.5s: 50/75/100",
+        "Cast Range: 600",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 65/60/55s"
+      ],
+      "img": "03.png",
+      "keyword": "MAGICAL",
+      "study": ["Drags enemy unit, Continuous Magical Damage."],
+      "update": ["Damage increased and cooldown reduced."],
+      "tag": ["ULT", "DISABLER", "MAGICAL"]
+    },
+    {
+      "name": "REFLECTIVE NIGHTMARE",
+      "desc": [
+        "PASSIVE: Rahotep`s cursed mirror grants bonus Spell Resist and causes Cursed to enemy units that perform basic attacks on Rahotep, which deals continuous magical damage and causes Attack Speed Slow for 4s."
+      ],
+      "data": [
+        "Magical Damage Per Sec: 10/20/30/40 (+1% Max Health)",
+        "Bonus Spell Resist: 4/6/8/10",
+        "Attack Speed Slow: 9/16/23/30"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Bonus Spell Resist, Causes Cursed."],
+      "update": ["Increased Bonus Spell Resist and Cursed Effect."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "In ancient Egypt, the Pharaoh was not only the supreme ruler but also the most powerful priest. And Rahotep was the best of them all."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "12308", "12316", "10265", "10263", "10069"],
+      "reason": ["ESCAPE\nJUNGLE"]
+    },
+    {
+      "arr": ["12307", "10048", "12316", "12516", "10069", "10263"],
+      "reason": ["ESCAPE\nINITIATOR"]
+    },
+    {
+      "arr": ["12502", "12308", "10265", "12316", "10257", "10263"],
+      "reason": ["CARRY\nESCAPE"]
+    },
+    {}
+  ],
+  "strategy": "162347",
+  "video": [
+    "162346",
+    "https://yhkd.99.com/inc/20180808010416.inc",
+    "https://yhkd.99.com/news/08082018/193700376.shtml"
+  ]
+}

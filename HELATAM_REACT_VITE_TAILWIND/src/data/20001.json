@@ -1,0 +1,442 @@
+{
+  "id": "20001",
+  "name": "Nightshade",
+  "type": "2",
+  "features": ["MELEE", "CARRY", "ROAMER"],
+  "data": [7, 4, 6, 5],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Master of magic, Nightshade can dance throughout the battlefield."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "01.jpg",
+      "skinName": "Verdant Illusion"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Chaos Pixie",
+      "vid": "NpN6IfHibEA"
+    },
+    {
+      "id": "20001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Nocturnal Moonrise",
+      "vid": "qQEhb2dJmlI"
+    },
+    {
+      "id": "20001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Solanum Xanti"
+    },
+    {
+      "id": "20001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Synaptic Spy"
+    },
+    {
+      "status": "en",
+      "imgSrc": "6.jpg",
+      "skinName": "Red Shadow",
+      "vid": "rjAtAl3u8tQ"
+    },
+    {
+      "status": "en",
+      "imgSrc": "7-en.jpg?",
+      "skinName": "Green Bliss"
+    },
+    {
+      "status": "en",
+      "imgSrc": "7.jpg?",
+      "skinName": "HER Marit"
+    },
+    {
+      "id": "20001308",
+      "imgSrc": "8.jpg?",
+      "skinName": "HER Ruan Euphony"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ECLIPSE",
+      "desc": [
+        "PASSIVE: Each basic attack causes Mana Burn, which reduces Mana from the target enemy unit while dealing the same amount in magical damage. ACTIVE: A sudden strike that deals magical damage to the enemy unit and causes Movement Slow."
+      ],
+      "data": [
+        "Mana Burn per Hit: 40/50/60/70",
+        "Damage: 180/220/260/300",
+        "Movement Slowdown: 25% for 3s",
+        "Mana Cost: 80",
+        "Cast Range: 900",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": [
+        "Deals magical damage to a target while slowing movement speed. Basic attacks burn mana."
+      ],
+      "update": ["Ability damage and Mana Burn effect increased."],
+      "tag": ["BUFF", "DISABLER"]
+    },
+    {
+      "name": "SILENT PHANTOM",
+      "desc": [
+        "Teleports to a target position, dealing magical damage to enemy units within a 300 radius and causing Silence, which renders them unable to cast any abilities."
+      ],
+      "data": [
+        "Magical Damage: 80/120/160/200",
+        "Blink Range: 750/800/850/900",
+        "Silence Duration: 1.25s",
+        "Radius: 300",
+        "Mana Cost: 50",
+        "Cooldown: 9 /8/7/6s"
+      ],
+      "img": "02.png",
+      "keyword": "BLINK",
+      "study": ["Teleports to a target area, silencing nearby enemies."],
+      "update": ["Blink range increased and cooldown reduced."],
+      "tag": ["DASH", "DISABLER"]
+    },
+    {
+      "name": "NIGHT SLAYER",
+      "desc": [
+        "Nightshade deals magical damage plus bonus magical damage based on the target enemy unit`s missing Mana, and causes Stun."
+      ],
+      "data": [
+        "Damage: 250/350/450 + Target's Lost Mana x 0.5",
+        "Stun Duration: 1s",
+        "Cast Range: 500",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 30/25/20s"
+      ],
+      "img": "03.png",
+      "keyword": "DISABLER",
+      "study": ["Stuns and deals magical damage to a target."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "DISABLER"]
+    },
+    {
+      "name": "HOURGLASS",
+      "desc": [
+        "PASSIVE: Grants bonus Attack Damage and bonus Spell Resist. Every 3 basic attacks grants a shield that absorbs damage, with a 3s cooldown."
+      ],
+      "data": [
+        "Bonus Attack:18/24/30/36",
+        "Bonus Spell Resist: 10/14/18/22",
+        "Shield Health:100/150/200/250",
+        "Shield Duration: 8s",
+        "Cooldown: 3s"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Grants a shield after 3 attacks."],
+      "update": ["Shield effect, attack damage and spell resist increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "She was known as St. Mary, treasure of the night elves. Until the day came when flames from the sky scorched her forest and the cries of her clan tore open the night sky. All this came from an innocent rescue that she never thought could jeopardize her tribe. From that night on, there was only the deadly Nightshade, bloody Mary."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10125", "10047", "10265"],
+      "reason": ["SUSTAINED\nLANE PUSHER"]
+    },
+    {
+      "arr": ["10302", "10048", "10068", "10272", "10125", "10265"],
+      "reason": ["GANKER\nESCAPE"]
+    },
+    {
+      "arr": ["12307", "10068", "10048", "10272", "10065", "10069"],
+      "reason": ["REAPER\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "154336",
+  "video": [
+    "154337",
+    "https://yhkd.99.com/inc/20161228181805.inc",
+    "https://yhkd.99.com/news/03302017/025256228.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+2.79"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+4.05"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+5.22"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+6.39"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.01"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

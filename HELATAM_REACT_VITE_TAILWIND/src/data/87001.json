@@ -1,0 +1,132 @@
+{
+  "id": "87001",
+  "name": "Galahad",
+  "type": "1",
+  "features": ["MELEE", "GANKER", "DISABLER"],
+  "data": [6, 5, 4, 6],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["å’†å“®å·¨åˆƒå‘½ä¸­åœ°å½¢å¯ä»¥å‡å°‘å†·å´ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "87001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Chthonic Knight"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Spectral Flame"
+    },
+    {
+      "id": "87001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Disco"
+    },
+    {
+      "id": "87001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Flamesaw Master"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLADE CHARGE",
+      "desc": [
+        "Hurls blade in a target direction, pulling Galahad toward any enemy or terrain hit to deal physical damage and Stun for 1 second. Hitting terrain reduces ability cooldown by 4 seconds. "
+      ],
+      "data": [
+        "Physical Damage: 160/200/240/280",
+        "Cast Range: 1200",
+        "Mana Cost: 70/80/90/100",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Pulls Galahad beside target unit hit"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["ç‰©ç†", "Disabler"]
+    },
+    {
+      "name": "DEATH MARKED",
+      "desc": [
+        "Increases Movement Speed, imbuing next basic attack within 5 seconds with bonus damage and Death. Death lasts 3 seconds."
+      ],
+      "data": [
+        "Bonus Damage: 90/130/170/210",
+        "Increases movement speed: 30%",
+        "Cooldown: 5s",
+        "Mana Cost: 40"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Increases Movement Speed and improves basic attack"],
+      "update": ["Physical Damage"],
+      "tag": ["Buff", "Physical"]
+    },
+    {
+      "name": "DEATH ZONE",
+      "desc": [
+        "Erects a Death Zone around Galahad, dealing magical damage to enemy units passing through and slowing movement by 50% while marking for Death. Lasts 3 seconds. Enemies passing through multiple Death Zones receive half Death Zone damage, while enemies marked for Death are Stunned for 1.5 seconds when passing through Death Zone. Maximum duration of Death Zone is 3 seconds. Galahad takes 30% less damage when in Death Zone. While active, basic attacks reset cooldown for Blade Charge."
+      ],
+      "data": [
+        "Magical Damage in Death Zone: 200/300/400",
+        "0.5s Blade Charge Cooldown Reduction per Basic Attack",
+        "Radius: 600",
+        "Cooldown: 50/45/40s",
+        "Mana Cost: 150"
+      ],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": [
+        "Creates a Death Zone that damages and slows controls enemy units "
+      ],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "DEATHFIRE",
+      "desc": [
+        "Galahad unleashes a deathfire, dealing magical damage to target units and restoring 50% as health. Deals bonus damage and causes 1 second of Fear to target if already marked for Death, plus deals damage to enemy units within 400 range. Fear: units flee away in opposite direction, losing all control during duration."
+      ],
+      "data": [
+        "Magical Damage: 140/180/220/260",
+        "Bonus Magical Damage: 50/80/110/140",
+        "Cast Range: 900",
+        "Cooldown: 8s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Deals damage while restoring health"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Galahad was for a time known as \"The Kingdom's Star of Hope\", but people's misunderstanding and misjudgment pushed him to the darkness. Destruction is now his pleasure. Shrouded in the shadow of death, the people pray frailly for the returning of their lost bright Knight of Light."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "10272", "12309", "12316", "10263"],
+      "reason": ["è¾“å‡ºã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["10100", "10048", "12512", "10058", "10069", "12316"],
+      "reason": ["å‰æŽ’ã€å¦å…‹"]
+    },
+    {
+      "arr": ["10302", "12512", "10272", "10069", "12316", "12516"],
+      "reason": ["å¢žç›Šã€æ¸¸èµ°"]
+    },
+    {}
+  ],
+  "strategy": "162985",
+  "video": [
+    "162984",
+    "https://yhkd.99.com/inc/20190326024815.inc",
+    "https://yhkd.99.com/news/03272019/194315003.shtml"
+  ]
+}

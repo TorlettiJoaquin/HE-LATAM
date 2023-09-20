@@ -1,0 +1,144 @@
+{
+  "id": "11001",
+  "name": "Elvira",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "PUSHER"],
+  "data": [2, 9, 4, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Blood Infusion is also effective for gear`s damage."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "11001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Bloody Butterfly"
+    },
+    {
+      "id": "11001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Mystic Minx"
+    },
+    {
+      "id": "11001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Lovers' Risk"
+    },
+    {
+      "id": "11001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Fantasy Blade",
+      "vid": "I2U0fHLf54s"
+    },
+    {
+      "id": "11001202",
+      "imgSrc": "5.jpg",
+      "skinName": "Bloody Bunny"
+    },
+    {
+      "status": "en",
+      "imgSrc": "6.jpg",
+      "skinName": "SHEROSE Elvira"
+    }
+  ],
+  "ski": [
+    {
+      "name": "WINGED CHARGE",
+      "desc": [
+        "Shapeshift into a swarm of bloodthirsty beasts to attack a line of enemy units. Become immune to all damage and deal Magical Damage for 3 seconds. Use skill again to teleport back to original location."
+      ],
+      "data": [
+        "Magical Damage: 100/150/200/250",
+        "Range: 1300",
+        "Radius: 350",
+        "Mana Cost: 110",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLE",
+      "study": ["Dash damage"],
+      "update": ["Magical Damage increases and Cooldown reduces."],
+      "tag": ["MAGICAL", "DASH"]
+    },
+    {
+      "name": "SEDUCTION",
+      "desc": [
+        "Elvira gives a hickey to an enemy unit to deal Magical Damage. If enemy unit is still within 700 range of Elvira after 1.5 seconds, unit will enter a state of Confusion and suffer additional Magical Damage."
+      ],
+      "data": [
+        "Magical Damage: 90/130/170/210",
+        "Hickey Duration: 3s",
+        "Confusion Duration: 1s",
+        "Magical Damage Upon Confusion: 120/160/200/240",
+        "Range: 900",
+        "Mana Cost: 120",
+        "Cooldown: 8s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": ["Magical Damage and Control."],
+      "update": ["Magical Damage increases."],
+      "tag": ["MAGICAL", "DISABLE"]
+    },
+    {
+      "name": "CRIMSON ABYSS",
+      "desc": [
+        "After 1 second, Elvira teleports to the target location and deals Magical Damage to enemy units within range."
+      ],
+      "data": [
+        "Magic Damage: 140/180/220 Per Sec",
+        "Range: 1200",
+        "Radius: 750",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 60/55/50s",
+        "Duration: 5s"
+      ],
+      "img": "03.png",
+      "keyword": "MAGICAL",
+      "study": ["Deal high Continuous Damage after teleporting."],
+      "update": ["Magical Damage increases and Cooldown reduces."],
+      "tag": ["DASH", "MAGICAL", "ULT"]
+    },
+    {
+      "name": "BLOOD INFUSION",
+      "desc": [
+        "Activate Elvira's lust for blood to increase Magical Damage and receive a Magical Life Steal effect."
+      ],
+      "data": [
+        "Bonus Ability Damage: 8%/12%/16%/20%",
+        "Bonus Magical Life Steal: 6%/9%/12%/15%"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Activate Magical Life Steal and boost Magical Damage."],
+      "update": ["Buff Effect increases."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "Elvira the First, queen of a faraway country, was a devout Catholic. How ironic then, that her soul should be restless - reborn by the fatal kiss of a vampire! "
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10123", "10109", "12532", "10228", "12513"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["12514", "10123", "12312", "10228", "12513", "10124"],
+      "reason": ["SURVIVAL\nHARASSER"]
+    },
+    {
+      "arr": ["12307", "12533", "10228", "12532", "10109", "10072"],
+      "reason": ["ROAMER\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "162642",
+  "video": [
+    "162641",
+    "https://yhkd.99.com/inc/20181121015953.inc",
+    "https://yhkd.99.com/news/11212018/182648821.shtml"
+  ]
+}

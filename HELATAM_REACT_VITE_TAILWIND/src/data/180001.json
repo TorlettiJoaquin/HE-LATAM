@@ -1,0 +1,124 @@
+{
+  "id": "180001",
+  "name": "Siren",
+  "type": "3",
+  "features": ["Ranged", "Nuker"],
+  "data": [2, 8, 3, 6],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Plan ahead for casting abilities in awareness of the enhancement status."
+  ],
+  "skin": [
+    {
+      "id": "180001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Vocal Shock"
+    },
+    {
+      "id": "180001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Raging Hurricane"
+    },
+    {
+      "id": "180001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Joyful Peace"
+    },
+    {
+      "id": "180001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Amethyst Spirit",
+      "vid": "D2klSNt2AM8"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Thunderstorm",
+      "desc": [
+        "Siren unleashes a Thunderstorm, dealing magic damage to enemies along its path. Siren's next Thunderstorm is enhanced with bonus damage equal to 25% of the target's Health lost, up to 375, and 50% Health restored from Storm Charm. Only one enhancement applies at a time. The ability damage drops to 75% against non-hero units."
+      ],
+      "data": ["Magic Damage: 220/280/340/400", "Cooldown: 7s"],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": ["Deals damage to enemies along the path."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Furious Wave",
+      "desc": [
+        "Summons a Furious Wave to deal magic damage to enemies. When reaching its maximum distance, it returns to deal magic damage to enemies it touches and stun them for 0.75s. Siren's next Furious Wave is enhanced with a 1.5-second stun and 50% Health restored from Storm Charm. Only one enhancement applies at a time."
+      ],
+      "data": [
+        "Magic Damage: 60/80/100/120",
+        "Damage (Return): 90/120/150/180",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "Control",
+      "study": ["Deals damage to enemies and controls them."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Control"]
+    },
+    {
+      "name": "Violent Dash",
+      "desc": [
+        "Siren turns into a hurricane and dashes forward, shooting lightning arrows that deal magic damage against up to 2 enemy heroes around the destination. When Siren reaches the destination, drag the joystick to have Siren dash again towards the joystick, and no damage is dealt this time. The next basic attack after the first dash deals additional damage, but using abilities or basic attacks cancels the second dash. The next Violent Dash is enhanced with more powerful lightning arrows against all enemy heroes around the destination, 40% bonus damage of both lightning arrows and enhanced basic attack, as well as 50% Health restored from Storm Charm. Only one enhancement applies at a time."
+      ],
+      "data": [
+        "Magic Damage: 150/200/250",
+        "Bonus Damage: 150/200/250",
+        "Cooldown: 30/25/20s"
+      ],
+      "img": "03.png",
+      "keyword": "Dash",
+      "study": ["Dashes forward and deals damage."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Ultimate", "Dash"]
+    },
+    {
+      "name": "Storm Charm",
+      "desc": [
+        "Passive: Grants an additional opportunity to use the ability every 10s. When an enemy hero dies in a radius, a 10-second storm cloud appears. It flies to Siren when she is within 500 range, restoring her Health and adding 5-second charge."
+      ],
+      "data": [
+        "Ability Radius: 1200/1350/1500/1650",
+        "Health Restored: 150/200/250/300"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "Absorbs the storm cloud to restore Health and improve the charge."
+      ],
+      "update": ["Radiusâ†‘ Health Restoredâ†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "    Siren was a nightmare for all mariners. This violent Spirit of Storm could drive waves to roar on the sea.<br>    But everything changed after she picked up one baby. The cries of the baby provoked the motherhood of Siren who poured all her feelings into the baby. However, happiness didn't last long. The child got ill. It got a fatal illness that could not be cured in the mortal world. Siren turned to Poseidon and asked him for help, but the arrogant Poseidon ignored her request.<br>    Siren turned angry. Her anger flames burned the whole sea, and even the most valiant soldiers of Poseidon shivered in storm. Poseidon finally surrendered. He turned in a secret treasure of God which could save one life at the expense of another life.<br>    Siren used that secret treasure. The Spirit of Storm that ravaged the sea disappeared and the baby was found and adopted by a fisherman by the sea. Siren's solicitude for the child turned into the heart of magical sea and sank to the depth of the sea forever."
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "10109", "12509", "12305", "12313", "12312"],
+      "reason": ["Common DPS"]
+    },
+    {
+      "arr": ["12503", "10109", "12312", "12305", "12532", "12513"],
+      "reason": ["Sustaining Fight"]
+    },
+    {
+      "arr": ["12503", "10109", "12310", "12305", "12532", "12313"],
+      "reason": ["Instant Burst"]
+    },
+    {}
+  ],
+  "strategy": "167601",
+  "video": [
+    "167602",
+    "https://yhkd.99.com/inc/20211026201129.inc",
+    "https://yhkd.99.com/news/10262021/225121476.shtml"
+  ]
+}

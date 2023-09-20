@@ -1,0 +1,362 @@
+{
+  "id": "56001",
+  "name": "Burninator",
+  "type": "1",
+  "features": ["MELEE", "TANK", "DISABLER"],
+  "data": [7, 6, 8, 3],
+  "way": "0",
+  "gold": 5888,
+  "diamond": 268,
+  "tips": ["Fel Bargain trades slow movement for huge power."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Permafrost Golem"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Bomb Voyage",
+      "vid": "hrmuc3dBj3Q"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Evolution Origin"
+    }
+  ],
+  "ski": [
+    {
+      "name": "HELLISH STOMP",
+      "desc": [
+        "Leaps into the sky and smashes at a target area, dealing magical damage to enemy units and causing Stun for 0.75s. Burninator takes 0.75s to reassemble himself."
+      ],
+      "data": [
+        "Damage: 180/220/260/300 ",
+        "Mana Cost: 100",
+        "Cooldown: 10s",
+        "Cast Range: 1000",
+        "Effect Radius: 450"
+      ],
+      "img": "01.png",
+      "keyword": "DASH",
+      "study": ["Deals magical damage to the target area and slows enemies."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "FIST OF HELL",
+      "desc": [
+        "Casts at a target direction, dealing physical damage to enemy units in a rectangular area, causing Movement Slow for 3s."
+      ],
+      "data": [
+        "Physical Damage: 150/200/250/300 ",
+        "Movement Slow: 25/30/35/40%",
+        "Cooldown: 7s",
+        "Cast Range: 1000",
+        "Cast Range: 300",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Deals physical damage and slows enemies"],
+      "update": ["Ability damage and movement slow effect increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "FEL BARGAIN",
+      "desc": [
+        "ACTIVE: Burninator uses Fel Bargain to recover 6% of his max Health per second, while increasing the radius of Hellfire and granting 25% bonus movement speed._PASSIVE: Fel Bargain grants Burninator bonus Armor and bonus Spell Resist."
+      ],
+      "data": [
+        "Duration: 4/5.5/7s",
+        "Cooldown: 30s",
+        "(Passive) Bonus Defense: 25/35/45",
+        "(Passive) Bonus Spell Resist: 9/12/15"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Significantly increases Health and Spell Resist."],
+      "update": ["Increases Health and Spell Resist."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "HELLFIRE",
+      "desc": [
+        "PASSIVE: Hellfire envelopes Burninator, dealing magical damage plus bonus magical damage based on Burninator`s max Health to nearby enemy units."
+      ],
+      "data": ["Damage per Second: 30/45/60/75", "Effect Radius: 300"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals magical damage to nearby enemies."],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "MAGICAL"]
+    }
+  ],
+  "story": [
+    "An infant Burninator was reawakened and given unearthly powers. But before this transformation was complete, they would undergo brutal tribal combat. A deadlock persisted for years before one arrow pierced Skaaga's throat, and this blood gave Burninator his first taste of bitter pain and failure. Burninator was twisted by the ultimate rage and burned with a strange, impure glow of pure evil."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12308", "10263", "12316", "12516"],
+      "reason": ["TANK\nDISABLER"]
+    },
+    {
+      "arr": ["12307", "12309", "10048", "12308", "12316", "10265"],
+      "reason": ["TANK\nPUSHER"]
+    },
+    {
+      "arr": ["12514", "10048", "10263", "12516", "10069", "12316"],
+      "reason": ["INITIATOR BUFF\nGANKER"]
+    },
+    {}
+  ],
+  "strategy": "151552",
+  "video": [
+    "151520",
+    "https://yhkd.99.com/inc/20160919023217.inc",
+    "https://yhkd.99.com/news/11032016/052034836.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+89.55"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+14.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r11.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+127.35"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+20.07"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r21.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+165.24"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+26.01"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r31.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+203.94"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+32.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r41.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+254.7"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+40.05"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r51.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

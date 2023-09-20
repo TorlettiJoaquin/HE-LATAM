@@ -1,0 +1,393 @@
+{
+  "id": "59001",
+  "name": "Vince",
+  "type": "2",
+  "features": ["RANGED", "PUSHER", "CARRY"],
+  "data": [7, 2, 7, 5],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Keep your distance from enemy heroes. Make sure you can attack them, but don`t let them attack you!"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Storm Rider"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Santa Kaboom"
+    },
+    {
+      "id": "59001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Grand Prospect",
+      "vid": "_-JiS4R1n4c"
+    },
+    {
+      "id": "59001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Cracker New Year"
+    },
+    {
+      "id": "59001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Dinomecha"
+    }
+  ],
+  "ski": [
+    {
+      "name": "MISSILE LAUNCHER",
+      "desc": [
+        "Launches a missile at a target enemy unit, dealing physical damage. If the target enemy unit is hit by a missile again within 8s, deal bonus physical damage and cause Movement Slow by 30% for 2s."
+      ],
+      "data": [
+        "Damage: 80/120/160/200",
+        "Bonus Damage: 20/30/40/50",
+        "Cooldown: 4s",
+        "Cast Range: 900",
+        "Mana Cost: 30/35/40/45"
+      ],
+      "img": "01.png",
+      "keyword": "SINGLE",
+      "study": ["Deals magical damage and causes Stun."],
+      "update": ["Ability damage increased"],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "ROCKET LAUNCHER",
+      "desc": [
+        "Launches a rocket at a target direction, dealing magical damage to the first enemy unit it hits and causing Stun for 1s. Also causes 500 knockback to Vince."
+      ],
+      "data": [
+        "Damage: 140/200/260/320",
+        "Mana Cost: 100",
+        "Cast Range: 1350",
+        "Cooldown: 8s",
+        "Stun Duration: 1s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": [
+        "Launches rockets in a target direction, dealing magic damage and causing stun. Knocks back Vince"
+      ],
+      "update": ["Increases magic damage."],
+      "tag": ["DISABLER", "DASH"]
+    },
+    {
+      "name": "SPEED GLIDER",
+      "desc": [
+        "Grants Vince bonus movement speed, 350 bonus vision radius and 350 bonus attack range, while granting 350 bonus travel distance to Missile Launcher."
+      ],
+      "data": [
+        "Bonus Movement Speed: 15%/20%/25%",
+        "Duration: 6/7/8s",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 60/50/40s"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Increases field of vision, attack range and movement speed."],
+      "update": ["Movement speed increased."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "INCREASED FIREPOWER (PASSIVE)",
+      "desc": [
+        "Vince shows off his firepower, his next basic attack deals an extra basic attack to the target enemy unit at 50% physical damage. Not affected by cooldown reduction."
+      ],
+      "data": ["Cooldown: 4/3.5/3/2.5s"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals one extra bonus attack."],
+      "update": ["Decreases cooldown."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Firmly believing that \"The one who masters the genetic code will become God\", Vince founded the Black Basement at the Academy of Dark Arts and built an aircraft that could transcend the gap between the light and dark worlds to explore the universe."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10049", "10127", "10053", "10047"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["12307", "10053", "10272", "10237", "10127", "10069"],
+      "reason": ["ESCAPE\nSUSTAINED"]
+    },
+    {
+      "arr": ["10100", "10272", "10049", "10127", "12508", "10047"],
+      "reason": ["REAPER\nPUSHER"]
+    },
+    {}
+  ],
+  "strategy": "154359",
+  "video": [
+    "154360",
+    "https://yhkd.99.com/inc/20161228181912.inc",
+    "https://yhkd.99.com/news/03202017/032745794.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+1.8"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.73"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r16.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b18.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g12.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+2.52"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+12.51"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r26.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b28.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g22.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+3.24"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+16.29"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r36.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b38.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g32.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.05"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+19.98"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r46.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b48.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g42.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+5.04"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+25.02"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r56.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b58.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g52.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

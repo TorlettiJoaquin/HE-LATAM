@@ -1,0 +1,141 @@
+{
+  "id": "139001",
+  "name": "Glee Puck",
+  "type": "3",
+  "features": ["Ganker", "Disabler", "Pusher"],
+  "data": [4, 7, 5, 3],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Ensure Glee Puck's survival while casting multiple sets of abilities by making use of Clefairy's moves."
+  ],
+  "skin": [
+    {
+      "id": "139001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Dazzlie"
+    },
+    {
+      "id": "139001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Dark Faerie"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Natural Blast / Rolling Charge",
+      "desc": [
+        "Natural Blast: Glee Puck unleashes a blast of energy in the target direction, dealing damage to enemy units, healing and increasing the Movement Speed of allied units. Rolling Charge: Commands Clefairy to roll towards the target direction, causing damage, knockup and Movement Slow against enemy units along the path. The rolling distance increases with the channel time. Clefairy has its Health restored continuously while channeling and becomes immune to controls while casting this ability. However, Clefairy's casting of this ability will be interrupted when Glee Puck is suffering from some control effects like Stun."
+      ],
+      "data": [
+        "Natural Blast",
+        "Magic Damage: 100/150/200/250",
+        "Speed Up: 25% for 2s",
+        "Health Restored: 50/75/100/125 for 2s",
+        "Mana Cost: 75/85/95/105",
+        "Cooldown: 14/12/10/8s",
+        "<br>",
+        "Rolling Charge",
+        "Magic Damage (Channel): 50/90/130/170",
+        "Magic Damage (Roll): 100/180/260/340",
+        "Knockup: 1.1s",
+        "Movement Slow: 25% for 2s",
+        "Total Health Restored While Channeling: 400/450/500/550",
+        "Mana Cost: 75/85/95/105",
+        "Cooldown: 14/12/10/8s"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": [
+        "Deals magic damage in the target direction and restores the allied units' Health."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Magic", "Buff"]
+    },
+    {
+      "name": "Escapade",
+      "desc": [
+        "Glee Puck shoots out energy marks, causing damage and Movement Slow against the first enemy unit marked. Attacking the enemies marked will smash the mark and deal additional magic damage. When Clefairy is summoned, Clefairy runs at the enemy units marked to launch attacks. Clefairy's attacks will smash the mark, causing additional damage and Root."
+      ],
+      "data": [
+        "Magic Damage: 70/85/100/115",
+        "Damage (Mark Smashed): 60/70/80/90",
+        "Movement Slow: 20% for 3s",
+        "Root: 1.5s",
+        "Mana Cost: 75/85/95/105",
+        "Cooldown: 7s"
+      ],
+      "img": "02.png",
+      "keyword": "Magic",
+      "study": [
+        "Marks enemies and deals damage. Clefairy runs at the targets marked."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Magic", "Control"]
+    },
+    {
+      "name": "Natural Flavor",
+      "desc": [
+        "Active: Clefairy dashes towards the target direction and then splashes concentrated leaf juice around. Teammates taking the juice will get healed and reduce the damage received, while enemies touching the juice will be slowed. After casting this ability, Clefairy can dash and splash the juice once again within 3 seconds. The damage reduction and slow effects will last for 2 seconds when out of range. Passive: Clefairy's third basic attack deals additional magic damage to the target, granting bonus Health Regen to Glee Puck and allied units around Clefairy."
+      ],
+      "data": [
+        "Health Restored per Second: 100/140/180",
+        "Movement Slow: 25%/30%/35%",
+        "Damage Reduction: 15%/20%/25%",
+        "Bonus Magic Damage: 80/140/200",
+        "Bonus Health Regen: 80/140/200",
+        "Mana Cost: 95/105/115",
+        "Cooldown: 40s"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Grants buffs or causes Movement Slow in an area."],
+      "update": ["Ability Effect â†‘"],
+      "tag": ["Ultimate", "Buff"]
+    },
+    {
+      "name": "Soul Bond",
+      "desc": [
+        "Soul Bond 1: Glee Puck summons Clefairy to fight side by side. Clefairy shares the Armor/Magic Resist/Health Regen & Health that Glee Puck receives from her equipment. Soul Bond 2: Calls Clefairy back to Glee Puck when it goes too far away. Passive: Clefairy and Glee Puck are bound by each other's soul. When the distance between Glee Puck and Clefairy is less than 600 and Clefairy takes no damage from enemy heroes or towers within 5 seconds, Clefairy gains bonus Health Regen. If Glee Puck is killed, Clefairy will flow into a rage with both the Attack Speed and Movement Speed increased. When the rage ends, Clefairy disappears."
+      ],
+      "data": [
+        "Soul Bond 1",
+        "Mana Cost: 200",
+        "Cooldown on Clefairy's Revival: 35/30/25/20s",
+        "<br>",
+        "Soul Bond 2",
+        "Health Regen (Passive): 3%/4%/5%/6% of Clefairy's Max Health per second",
+        "Rage Duration: 5/5.5/6/6.5s",
+        "Mana Cost: 0",
+        "Recall Cooldown: 3s"
+      ],
+      "img": "04.png",
+      "keyword": "Magic",
+      "study": ["Summons Clefairy or calls Clefairy back."],
+      "update": ["Effect  â†‘"],
+      "tag": ["Magic"]
+    }
+  ],
+  "story": [
+    "     Most living creatures had to undergo the passage of time, but Glee Puck didn't fall into this category. As the essence of all natural things, Glee Puck had a clean and pure heart, a shape that never grew up and wonderful ability to communicate with flowers and animals. Her name came from her mantra: glee.<br>     After living alone in the nature for many years, she together with her little friend Clefairy came to a city-state of mankind out of the yearning for human world and desire for new friends. Glee Puck played with children and used magic to turn tables and chairs into flowers and animals temporarily for fun. But people didn't seem to appreciate her kindness. These adults quickly ordered their children to stay away from Glee Puck because of their fear of her magic and power.<br>     Glee Puck felt sad and left that city-state, aiming to find another new world full of goodness and beauty. When passing through the Valley of War, Glee Puck and Clefairy encountered the fierce beast Gluttony which was about to devour the nearest human city-state. Despite being alienated by humans, they fought a battle against Gluttony resolutely in order to protect the lovely children from being hurt. However, Gluttony was so powerful that Glee Puck and Clefairy were in danger. At the critical moment, a man called \"Fist\" from a different world appeared suddenly. With his help, Gluttony was finally defeated and retreated.<br>     Glee Puck developed strong interest in this man with a big dipper-shaped scar on his chest. In the face of this curious and innocent kiddy who raised questions one after another, Fist told her about his entire experience and his determination to sweep away all evilness and injustice. After listening to the narrative of Fist, Glee Puck felt the tremendous courage and the power of faith from his body. She realized that instead of looking for a visionary new world, it was better to create and guard all that she had at present. So she decided to become a partner of Fist and embarked on an unknown adventure together with him!<br>    I won't be afraid! Glee!<br>     â€“Glee Puck"
+  ],
+  "equip": [
+    {
+      "arr": ["125151", "10109", "12312", "10097", "10228", "10263"],
+      "reason": ["Disabler\nDPS"]
+    },
+    {
+      "arr": ["12514", "10097", "10069", "10263", "10228", "10072"],
+      "reason": ["Escape\nDPS"]
+    },
+    {
+      "arr": ["12514", "10123", "12532", "10109", "10228", "10072"],
+      "reason": ["Ganker\nDisabler"]
+    },
+    {}
+  ],
+  "strategy": "167002",
+  "video": ["167001", "https://yhkd.99.com/inc/20210316230302.inc", ""]
+}

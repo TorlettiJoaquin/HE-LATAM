@@ -1,0 +1,140 @@
+{
+  "id": "132001",
+  "name": "Lin Lin",
+  "type": "3",
+  "features": ["Ranged", "Pusher", "Mage"],
+  "data": [3, 8, 5, 6],
+  "way": "0",
+  "gold": "16888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["åˆç†åˆ©ç”¨å¤§æ‹›æœŸé—´çš„å›žå“æ•ˆæžœã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "132001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Bewitching Dancer"
+    },
+    {
+      "id": "132001301",
+      "imgSrc": "3.jpg",
+      "skinName": "Electronic Singer"
+    },
+    {
+      "id": "132001304",
+      "imgSrc": "4.jpg?",
+      "skinName": "Diviner"
+    },
+    {
+      "imgSrc": "6-en.jpg",
+      "skinName": "Porcelain Fairy",
+      "status": "en"
+    },
+    {
+      "id": "132001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Enchanting Dream"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BOOM GOES THE DRUM!",
+      "desc": [
+        "in Lin plays his spirit drum, sending a burst of sound to a target area after a short delay to deal magical damage. Upgrade: increases damage and range while stunning for 1s."
+      ],
+      "data": [
+        "Magical Damage: 100/140/180/220",
+        "Cast Range: 1000",
+        "Radius: 350",
+        "Upgrade_Increased Radius: 50/75/100/125 Increased Flat Damage: 5%/9%/13%/%17%",
+        "Mana Cost:60",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Deals area damage"],
+      "update": ["Increases damage and radius"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "SUPERSONIC WAVE",
+      "desc": [
+        "Lin Lin creates a sound wave that deals magical damage and slows movement for enemies caught in its path. Upgrade: increases damage dealt and slowdown."
+      ],
+      "data": [
+        "Magical Damageï¼š80/130/180/230",
+        "Cast Range: 1100",
+        "Slowdown: 25% for 1s",
+        "Upgrade: Increased Slowdown: 3s, Increased Flat Damage: 7%/11%/15%/19%",
+        "Radius: 250",
+        "Mana Cost:50/60/70/80",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Deals magical damage and causes Movement Slow"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "HIGH FIDELITY",
+      "desc": [
+        "Releases a high fidelity sound wave at up to 5 target enemies, dealing 4 continuous blows of magical damage. Each hit triggers one Reverberation effect. Upgrade: causes Chaos to targets"
+      ],
+      "data": [
+        "Magical Damage per Hit: 55/60/65",
+        "Interval: 0.5s",
+        "Mana Cost:100/150/200",
+        "Cooldown: 70/65/60s",
+        "Chaos: Health Regen Decrease: 50% for 3s"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Deals damage to all enemy heroes"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "ULT"]
+    },
+    {
+      "name": "REVERBERATION",
+      "desc": [
+        "Each ability cast by Lin Lin deals magical damage to surrounding enemy units while restoring her health. Casting Reverberation upgrades next ability cast within 3 seconds, while increasing movement speed."
+      ],
+      "data": [
+        "Magical Damage: 25/30/35/40",
+        "Health Restored: 8/12/16/20",
+        "Radius: 700",
+        "Bonus Movement Speed: 20% for 1s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Deals damage and restores health"],
+      "update": ["Damage â†‘ Healing Effect â†‘"],
+      "tag": ["Magical", "Buff"]
+    }
+  ],
+  "story": [
+    "Who knew that a virus lay inside this AI virtual reality singer, and her programmers intended to conquer the world with her. For her songs, once heard, implanted a neural seed inside listeners. The plot failed because Lin Lin had created her own soul who wanted to protect the humans."
+  ],
+  "equip": [
+    {
+      "arr": ["10089", "10123", "10109", "12532", "10228", "10072"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12307", "10109", "12310", "12532", "12313", "12305"],
+      "reason": ["æ¸¸èµ°ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["12514", "10123", "12312", "10228", "12532", "10124"],
+      "reason": ["è¾…åŠ©ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "164082",
+  "video": [
+    "164081",
+    "https://yhkd.99.com/inc/20191009005922.inc",
+    "https://yhkd.99.com/news/10092019/202204279.shtml"
+  ]
+}

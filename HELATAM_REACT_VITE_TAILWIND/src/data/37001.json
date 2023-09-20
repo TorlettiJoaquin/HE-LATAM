@@ -1,0 +1,420 @@
+{
+  "id": "37001",
+  "name": "Zhao Yun",
+  "type": "2",
+  "features": ["MELEE", "GANKER", "CARRY"],
+  "data": [9, 0, 5, 5],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": ["Equip Dodge Stone and go bananas!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Tiger General"
+    },
+    {
+      "imgSrc": "02.jpg",
+      "skinName": "Valiant Commander"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Infernal Denizen"
+    },
+    {
+      "id": "37001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Lieutenant Justice"
+    },
+    {
+      "id": "37001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Fresh Fishing"
+    },
+    {
+      "id": "37001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Nutcracker"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DRAGON RAGE",
+      "desc": [
+        "Dashes at a target direction, dealing physical damage to enemy units along his path. DragonÂ·s Spirit triggers immediately after casting this ability."
+      ],
+      "data": [
+        "Physical Damage: 160/200/240/300",
+        "Cooldown: 7/6/5/4s",
+        "Mana Cost: 50",
+        "Cast Range: 700"
+      ],
+      "img": "01.png",
+      "keyword": "DASH",
+      "study": ["Deals damage to enemy units along the path."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DASH"]
+    },
+    {
+      "name": "DRAGON-COIL SPEAR",
+      "desc": [
+        "Dodges all physical attacks for 2.5s, while gaining 30% Damage Reduction against enemy Area of Effect abilities. After 2.5s has passed or if this ability is activated again, Zhao Yun will counter attack all enemy units within range and cause Stun for 1s. Each successful dodge grants 15% bonus physical damage to the counter attack, up to 4 stacks and 60% bonus physical damage."
+      ],
+      "data": [
+        "Counter Damage: 120/160/200/240",
+        "Cooldown: 12s",
+        "Mana Cost: 80",
+        "Area Damage Reduction: 45%/55%/65%/75%",
+        "Radius: 350"
+      ],
+      "img": "02.png",
+      "keyword": "PHYSICAL",
+      "study": ["Activate to dodge physical attacks and counter attack."],
+      "update": ["Increases damage reflected and reduced cooldown."],
+      "tag": ["PHYSICAL", "BUFF"]
+    },
+    {
+      "name": "DRAGON'S SPIRIT",
+      "desc": [
+        "PASSIVE: Every third attack on the same enemy unit deals bonus physical damage and causes Movement Slow by 50% for 1.5s._PASSIVE: Zhao Yun's inner Dragon's Spirit grants him bonus Attack Damage."
+      ],
+      "data": [
+        "Bonus Damage: 40/65/90/115",
+        "Cooldown Reduction: 4%/5%/6%/7%",
+        "Bonus Attack Damage: 25/30/35/40"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Slowing the target after attacking it 3 times."],
+      "update": ["Bonus damage increased."],
+      "tag": ["PASSIVE", "BUFF", "PHYSICAL"]
+    },
+    {
+      "name": "INVINCIBLE",
+      "desc": [
+        "Dashes at a target direction, dealing physical damage to enemy units along his path, dragging them to the destination and causing knockup. Zhao Yun gains Hyper Armor during the dash which renders him immune to disables, and gains Damage Reduction after the dash. If this ability hits an enemy hero unit, Zhao Yun also gains bonus Attack Speed."
+      ],
+      "data": [
+        "Physical Damage: 130/180/230",
+        "Bonus Damage Reduction: 15%/20%/25%",
+        "Cast Range: 1300",
+        "Bonus Attack Speed: 50/70/90",
+        "Duration: 5s",
+        "Cooldown: 42/36/30s",
+        "Mana Cost: 150"
+      ],
+      "img": "04.png",
+      "keyword": "DISABLER",
+      "study": ["Attack sped and movement speed increased."],
+      "update": ["Attack sped and movement speed increased."],
+      "tag": ["ULT", "PHYSICAL", "DISABLER"]
+    }
+  ],
+  "story": [
+    "During the time of three warring kingdoms, an unforgettable silver lining emerged: the white knight, Zhao Yun! After being convinced by Liu Bei, he fought all over the realm, never ceding loyalty - even in death."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10058", "10272", "12516", "10069", "10237"],
+      "reason": ["ASSASSIN\nSTEADY DPS"]
+    },
+    {
+      "arr": ["10100", "10272", "10069", "10058", "10237", "10125"],
+      "reason": ["DPS\nGANKER"]
+    },
+    {
+      "arr": ["12307", "10048", "10272", "10069", "10265", "12309"],
+      "reason": ["DURABLE\nTANK"]
+    },
+    {}
+  ],
+  "strategy": "151546",
+  "video": [
+    "151525",
+    "https://yhkd.99.com/inc/20160919024559.inc",
+    "https://yhkd.99.com/news/11032016/042123171.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+2.79"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+4.05"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+5.22"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+6.39"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.01"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

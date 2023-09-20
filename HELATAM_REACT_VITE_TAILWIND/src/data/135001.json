@@ -1,0 +1,137 @@
+{
+  "id": "135001",
+  "name": "Zoe",
+  "type": "3",
+  "features": ["Pusher", "Nuker"],
+  "data": [3, 7, 3, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Switch between Shutter and Precision modes wisely."],
+  "skin": [
+    {
+      "id": "135001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Fleeting Youth"
+    },
+    {
+      "status": "en",
+      "imgSrc": "3-en.jpg",
+      "skinName": "Space Photographer"
+    },
+    {
+      "id": "135001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Sweet Fantasy"
+    },
+    {
+      "id": "135001304",
+      "imgSrc": "3.jpg?",
+      "skinName": "Graceful Star"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Shutter Precision",
+      "desc": [
+        "Zoe shoots at a high shutter speed. She can take different modes in different situations. Shutter Mode: Reduces the range of Magic Camera to 800 and increases the angle to 120 degree. (Bonus damage will be dealt when this ability upgrades, adding 10% damage for every hero unit hit, up to 50%.) Precision Mode: Magic Camera in this mode can focus precisely with its range increased to 1700 and its angle reduced to 15 degree. (Bonus magic damage will be dealt when this ability upgrades.)"
+      ],
+      "data": [
+        "Bonus Magic Damage (Shutter): 0/90/165/240/315",
+        "Bonus Magic Damage (Precision): 0/60/120/180/240",
+        "Cooldown: 1s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": [
+        "Switch between Shutter and Precision modes for different effects."
+      ],
+      "update": ["Additional Magic Damage â†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Magic Camera",
+      "desc": [
+        "Automatically loads 1 filmroll into Zoe's camera every few seconds, up to 3 filmrolls. Zoe shoots at the target area with a filmroll and deals magic damage based on the mode enabled."
+      ],
+      "data": [
+        "Base Magic Damage: 110/150/190/230",
+        "Charge Time: 5/4.7/4.4/4.1s",
+        "Cooldown: 0.5s",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": [
+        "Deals magic damage over the target area based on the current mode."
+      ],
+      "update": ["Effect â†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Capture Moments",
+      "desc": [
+        "After 1s of preparation, Zoe locks the target area for 3s with her camera, freezing all units inside and those entering later. For the duration, enemy units suffer magic damage, while allied units get healed. Units are untouchable and cannot be selected when frozen."
+      ],
+      "data": [
+        "Magic Damage: 300/400/500",
+        "Radius: 800x1200",
+        "Cast Range: 1500",
+        "Health Regen: 80/120/160",
+        "Cooldown: 65/60/55s",
+        "Mana Cost: 100/150/200"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": [
+        "Deals damage to a target area after a delay and freezes all units there."
+      ],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magic", "Control"]
+    },
+    {
+      "name": "Memory Filmroll",
+      "desc": [
+        "Passive: Hitting a hero unit in the Shutter mode generates a shield that protects Zoe from damage. Passive: Hitting a hero unit in the Precision mode increases Zoe's Movement Speed."
+      ],
+      "data": [
+        "Shield: 110/180/250/320",
+        "Bonus Movement Speed:15%/18%/21%/24%",
+        "Duration: 3s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "Gives a shield or bonus movement speed based on the mode enabled."
+      ],
+      "update": ["Shield â†‘ Movement Speed â†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "     One person wouldn't associate the name Zoe Claison with the Pathless Phantom no matter how imaginative the person was. Judging by appearance, Zoe Claison was only a fresh intern reporter carrying a little bear backpack and tracking all kinds of boring archaeological news all day long. In fact, however, Zoe Claison was an excellent treasure hunter and inborn adventurer. She had discovered or published countless archaeological sites.<br>     Under the cover of her reporter identity, she was able to travel more conveniently throughout the remains all over the world. In addition to acquiring treasures, she also had an ultimate goal: to find the remains of the Sacred Altar leading to the otherworld.<br>     One day, Zoe received a new mission â€“ a scientific expedition team had found a secret chamber guarded by two giant statues in the Mayan Pyramids amidst the American jungle and inside the secret chamber were reliefs decorated with the pattern of altar. \"This must be related to the remains of the Sacred Altar!\" Zoe got excited and hurriedly boarded one plane to the camp. She didn't bother herself to change her clothes and equipment.<br>     By virtue of the press card and vibrant smiles, she passed interrogation and examination easily, and then entered the scientific expedition camp. She secretly sneaked into the secret chamber at night after everyone fell asleep. When the chamber door was opened, moonlight fell onto the reliefs. A projection of the Sacred Altar with flickering blue light suddenly appeared in the chamber. Having noticed this sudden change, Zoe couldn't wait to take out her camera. But the moment she pressed down the shutter, the magical energy in the chamber began to boom and swallowed her in an instant.<br>     After waking up, Zoe found herself in a completely strange world: extremely beautiful and changeable sky colors, towering trees, and all kinds of strange creatures that she had never seen before.... And at the same time, the camera in her hand also had incredible changes and gained amazing magical energy.<br>     Looking at this unknown and dangerous world, Zoe stepped forward unhesitatingly because she realized that this adventure would be more interesting than ever before."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "12532", "10109", "12313", "10072", "12305"],
+      "reason": ["Nuker\nDPS"]
+    },
+    {
+      "arr": ["12503", "10109", "12532", "12317", "12305", "10072"],
+      "reason": ["Survival\nDPS"]
+    },
+    {
+      "arr": ["10302", "12532", "12313", "10109", "10228", "12305"],
+      "reason": ["Ganker\nDisabler"]
+    },
+    {}
+  ],
+  "strategy": "166681",
+  "video": [
+    "166682",
+    "https://yhkd.99.com/inc/20201111182431.inc",
+    "https://yhkd.99.com/news/11112020/190414320.shtml"
+  ]
+}

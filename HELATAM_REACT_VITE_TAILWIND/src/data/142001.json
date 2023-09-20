@@ -1,0 +1,128 @@
+{
+  "id": "142001",
+  "name": "Ying Zheng",
+  "type": "3",
+  "features": ["Pusher", "Nuker"],
+  "data": [3, 7, 5, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Using King's Majesty together with Great Collapse wisely will inflict high damage."
+  ],
+  "skin": [
+    {
+      "id": "142001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Great Brain"
+    }
+  ],
+  "ski": [
+    {
+      "name": "King's Majesty",
+      "desc": [
+        "The little Ying Zheng blasts at a target spot with his ghost seal, dealing magic damage to targets within the area and making the Great Wall fall towards the shock wave generated. Each time Great Collapse is cast, the cooldown on King's Majesty is reduced by 2s."
+      ],
+      "data": [
+        "Magic Damage: 130/190/250/310",
+        "Cast Range: 1200",
+        "Radius: 500",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": ["Deals damage in the area and generates a shock wave."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Magic", "Control"]
+    },
+    {
+      "name": "Great Collapse",
+      "desc": [
+        "The little Ying Zheng creates an illusion of the Great Wall with theurgy to continuously slow enemies. After 3 seconds, the illusion collapses and deals damage. When used together with King's Majesty, Great Collapse deals additional magic damage in a wider area. Damages each target up to one time for the duration. Gains 1 stack every 6 seconds, up to 4 stacks."
+      ],
+      "data": [
+        "Cast Range: 850/950/1050/1150",
+        "Radius: 480",
+        "Basic Magic Damage: 105/145/185/225",
+        "Bonus Magic Damage: 235/325/415/505",
+        "Slow Effect: 60% for 1s when out of range",
+        "Cooldown: 1s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "02.png",
+      "keyword": "Magic",
+      "study": ["142001107=Slows and damages enemies in the area."],
+      "update": ["Damageâ†‘  Cast Rangeâ†‘"],
+      "tag": ["Control", "Magic"]
+    },
+    {
+      "name": "Terracotta Army",
+      "desc": [
+        "Ying Zheng throws out his ghost seal to knock back enemy units on its path and attach 3 stacks of Ghost Force. When the seal drops on the ground, a huge army appears and Ying Zheng receives a shield. The terracotta warriors attack enemy units closest to them, especially enemy heroes. Each attack attaches a stack of Ghost Force. Ghost Force: 5% movement slow for 5 seconds per stack. At full stacks of 5, Ying Zheng's next ability attack stuns enemies for 1 second and deals additional damage. This effect takes effect on a target only once every 5 seconds."
+      ],
+      "data": [
+        "Magic Damage (Terracotta Warrior): 50/70/90",
+        "Bonus Magic Damage: 140/200/260",
+        "Shield: 150/250/350 for 6s",
+        "Terracotta Warrior Duration: 4/5/6s",
+        "Cast Range: 1200",
+        "Radius: 1200",
+        "Cooldown: 65/60/55s",
+        "Mana Cost: 120/150/180"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": [
+        "Summons an army of terracotta warriors to damage enemies in the area."
+      ],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Magic", "Ultimate"]
+    },
+    {
+      "name": "Elixir of Life",
+      "desc": [
+        "The little Ying Zheng takes a mysterious pill of immorality which removes crowd control effects from him and grants different bonuses based on the pill quality. Raw Elixir: Speeds up for 2s. Unique Elixir: Speeds up for 2s and heals Heath. Super Elixir: Grants a bonus movement speed for 3s, immunity to movement debuffs, and additional healing equal to 10% of his Max Health. This ability can be activated at any time."
+      ],
+      "data": [
+        "Health Healed: 70/100/130/160",
+        "Bonus Movement Speed: 15%/20%/25%/30%",
+        "Raw Elixir Chance: 30%/25%/20%/15%",
+        "Unique Elixir Chance: 40%/45%/50%/55%",
+        "Super Elixir Chance: 30%",
+        "Cooldown: 13s",
+        "Mana Cost: 100"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Removes control effects and gives random buffs."],
+      "update": ["Healingâ†‘  Super Elixir Chanceâ†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "     Ying Zheng ate the fairy medicine brought back by Xu Fu on his east tour chariot at the age of forty-nine.<br>     The medicine had no taste, but made him drowsy immediately.<br>     Ying Zheng saw the three-year-old self in a small dim courtyard. The bustling sound of many children came from outside, but he never played with them. He needed to face his sullen father and frowning mother every day. He often wondered why the world was only as small as a courtyard and there were only so few people at home. But the young boy did not lose child's nature. He often threw things outside the courtyard. The children outside the courtyard began to notice his existence gradually. They threw back stones at him through an impenetrable wall.<br>     As time passed, the young Ying Zheng could even hit the children with stones just by voice outside the wall. Ying Zheng saw the forty-five-year-old self in extremely grand E-Pang Palace. His world was no longer the small courtyard in Handan but the entire land of China. However, this did not end the uneasiness of his inner heart. Behind his majesty was endless anxiety and uneasiness. In the end, he gave up restraint and degraded from a gentle monarch that treated worthy men with courtesy into a Tyrant Satt: building the Great Wall, abusing the financial resources of the people and burning books and burying Confucian scholars alive. Restraint, the one who could restrain the first emperor in the world was only himself. He knew fate and was about to die soon, but he tried to override time. The only thing that he cared about was to extend his life through theurgy and alchemy.<br>     At the moment that his consciousness finally dissipated in drowsiness, a voice full of vicissitudes asked him to make a choice between the two scenarios that he saw just now. There was a reason why Ying Zheng became the first emperor in the world. He answered hesitatingly:<br>     I want all!<br>     Then he finally conquered his last enemy: his dying life. He gained through theurgy the power comparable to Three Sovereigns and Five Emperors, resumed his childish appearance and came to a totally different world. Ying Zheng looked at that grotesque and gaudy new world. There was no suffocating courtyard or the fluttering flags of the great Qin Emperor.<br>     How could this be!<br>     He rode his own theurgy dragon chair and decided to take a good look at that world, and then swept the dukes in that world and incorporated the world into the territory of the great Qin Emperor. The world had a saying: Emperor Qin swept the world and watched over the world majestically; he waved his sword and cut off floating cloud, thus all the dukes/prince came westward to worship him. At this very moment, another small conqueror showed up in the world. Please show great respect when you come across him. Ying Zheng never showed mercy to those people who regard him as child. He would use ghost seal to smash them into pieces."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "12532", "10109", "12513", "12305", "10072"],
+      "reason": ["Nuker\nDPS"]
+    },
+    {
+      "arr": ["12307", "10109", "12310", "12532", "12313", "12305"],
+      "reason": ["Ganker\nHarasser"]
+    },
+    {
+      "arr": ["12502", "10123", "12312", "10228", "12532", "10124"],
+      "reason": ["Support\nHarasser"]
+    },
+    {}
+  ],
+  "strategy": "166382",
+  "video": [
+    "166381",
+    "https://yhkd.99.com/inc/20200927232720.inc",
+    "https://yhkd.99.com/news/09282020/200634061.shtml"
+  ]
+}

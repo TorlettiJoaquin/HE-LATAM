@@ -1,0 +1,421 @@
+{
+  "id": "69001",
+  "name": "Odin",
+  "type": "1",
+  "features": ["MELEE", "ROAMER", "NUKER"],
+  "data": [5, 7, 6, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Behead your enemies with Godly Sword!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Knightly Glory",
+      "vid": "h2HT_-fpKzQ"
+    },
+    {
+      "id": "69001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Mecha of Annihilation",
+      "vid": "J2551NdphSg"
+    },
+    {
+      "id": "69001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Summer Beach"
+    },
+    {
+      "id": "69001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Father's Vow"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ICE BARB",
+      "desc": [
+        "PASSIVE: Odin imbues his weapon with hoarfrost. After every 2 basic attacks, basic attack #3 deals bonus physical damage to the target enemy unit, causing Frozen for 1s and healing Odin. Odin cannot cause Frozen to the same enemy unit within 6s, and healing effects are halved against troops and jungle creatures."
+      ],
+      "data": [
+        "Bonus Physical Damage: 50/100/150/200",
+        "Heal: 40/70/100/130",
+        "Frozen: 1s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Grants on-hit effects to basic attack."],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "DISABLER"]
+    },
+    {
+      "name": "FIERY SHIELD",
+      "desc": [
+        "Deals physical damage to enemy units within a 800 radius while granting Odin bonus Armor and bonus Magic Resist for 5s. The more enemy units hit, the more bonus Armor and bonus Magic Resist."
+      ],
+      "data": [
+        "Physical Damage: 70/120/170/220",
+        "Bonus Magic Resist: 6/7/8/9 per Enemy Unit",
+        "Bonus Armor: 12/16/20/24 per Enemy Unit",
+        "Cooldown: 8s",
+        "Mana Cost: 60/65/70/75",
+        "Radius: 800"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": [
+        "Deals physical damage to the area while granting Armor and Magic Resist."
+      ],
+      "update": ["Increased physical damage, Armor and Magic Resist."],
+      "tag": ["BUFF", "AOE"]
+    },
+    {
+      "name": "HEROIC RUSH",
+      "desc": [
+        "Odin dashes in a target direction, dealing physical damage to all enemy units along his path. The dash ends on the first enemy hero unit it hits, granting Odin bonus Movement Speed and bonus Attack Speed for 4s."
+      ],
+      "data": [
+        "Physical Damage: 60/110/160/210 ",
+        "Bonus Attack Speed: 30/45/60/75",
+        "Bonus Movement Speed: 90",
+        "Cooldown: 8s",
+        "Mana Cost: 80",
+        "Cast Range: 1000",
+        "Radius: 300"
+      ],
+      "img": "03.png",
+      "keyword": "DASH",
+      "study": [
+        "Dashes in a target direction, deals physical damage along the path."
+      ],
+      "update": ["Increased physical damage and reduced cooldown."],
+      "tag": ["DASH", "PHYSICAL"]
+    },
+    {
+      "name": "GODLY SWORD",
+      "desc": [
+        "Odin summons his Godly Sword to strike the land, dealing massive physical damage to target enemy unit, and deals physical damage to nearby enemy units based on the target enemy unit`s missing Health."
+      ],
+      "data": [
+        "Base Physical Damage: 200/300/400",
+        "For every 3/2.5/2 points of the target`s missing Health, deal 1 physical damage to enemy units within a 350 radius, to a maximum of 1500 physical damage.",
+        "Cooldown: 45/40/35s",
+        "Mana Cost: 100",
+        "Cast Range: 600",
+        "Effect Radius: 350"
+      ],
+      "img": "04.png",
+      "keyword": "AOE",
+      "study": [
+        "Massive damage to target, bonus damage to nearby enemy units."
+      ],
+      "update": ["Ability damage increased and reduced cooldown."],
+      "tag": ["ULT", "AOE", "NUKER"]
+    }
+  ],
+  "story": [
+    "In Valhalla, the home of fallen heroes, Odin will lead his warriors into final combat. As night falls, Odin, wearing his Hawk Helm of supremacy, let out a mighty roar as he led out his godly forces. This is the nightfall of the gods. May countless years of enmity be settled on this night."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "10125", "12512", "10265", "12316"],
+      "reason": ["SUSTAINED DPS\nFIGHTER"]
+    },
+    {
+      "arr": ["12307", "10048", "10069", "12316", "10263", "10265"],
+      "reason": ["DISABLER\nSURVIVAL"]
+    },
+    {
+      "arr": ["12514", "10048", "12512", "10069", "10263", "10097"],
+      "reason": ["INITIATOR BUFF\nTANK"]
+    },
+    {}
+  ],
+  "strategy": "158681",
+  "video": [
+    "158682",
+    "https://yhkd.99.com/inc/20170524013153.inc",
+    "https://yhkd.99.com/news/05252017/033605788.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

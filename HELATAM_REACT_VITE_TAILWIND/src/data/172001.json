@@ -1,0 +1,138 @@
+{
+  "id": "172001",
+  "name": "Omega",
+  "type": "3",
+  "features": ["Pusher", "Nuker"],
+  "data": [3, 7, 3, 9],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Your energy decides your role as a great general or a nameless soldier."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Rosy Guardian",
+      "status": "en"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Nuclear Impulse",
+      "desc": [
+        "Omega locks down a target area and releases its power after a short delay, bursting out a strong pulse, dealing magic damage, and attaching a Puncture status to enemy units. Omega recovers some Energy and Health when hitting a target. Puncture: Slows the targets pierced by this pulse and increases the damage, up to 3 stacks, for 5s."
+      ],
+      "data": [
+        "Magic Damage: 80/90/100/110",
+        "Bonus Damage per Stack: 5%/7%/9%/11%",
+        "Health Regen: 20/30/40/50",
+        "Energy Recovered by a Hit 30",
+        "Movement Slow: 10%",
+        "Radius: 350",
+        "Cast Range: 900",
+        "Cooldown: 3s",
+        "Mana Cost: 60/65/70/75",
+        "Energy Cost: 12"
+      ],
+      "img": "01.png",
+      "keyword": "AOE Attack",
+      "study": ["Deals damage and recovers Health."],
+      "update": ["Damageâ†‘   Effectâ†‘"],
+      "tag": ["Magic", "AOE Attack"]
+    },
+    {
+      "name": "Countering Barrier",
+      "desc": [
+        "Places a barrier to disturb enemy units, dealing magic damage and blinding them. Passive: If Omega is defeated, places one barrier in the target spot. If the damage taken within 3s is more than 25% of the Max Health, places two barriers around. For every 3s, this effect may be triggered 1 time(s)."
+      ],
+      "data": [
+        "Magic Damage: 110/160/210/260",
+        "Cast Range: 950",
+        "Blindness: 1s",
+        "Barrier Duration: 2s",
+        "Energy Cost: 10",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 50/60/70/80",
+        "Energy Cost: 45"
+      ],
+      "img": "02.png",
+      "keyword": "Control",
+      "study": ["Deals damage and blinds the target."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Magic", "Control"]
+    },
+    {
+      "name": "Destroying Mode",
+      "desc": [
+        "Grants Omega dramatically enhanced abilities, bonus range of basic attacks, damage reduction, and decreased energy cost for abilities, but at the cost of slower movement speed. Passive: Born with the effect. All actions of Omega consumes core energy which will restore with time. The energy recovery speed is increased in the Destroying Mode. When out of energy, movement speed drops by 30% and damage drops by 30%."
+      ],
+      "data": [
+        "Energy Recovery per Second (Normal Status): 5",
+        "Energy Recovery per Second (Destroying Mode): 10",
+        "Energy Cost for Movement per Second: 2",
+        "Energy Cost per Basic Attack: 5",
+        "Bonus Cast Range: 100/200/300",
+        "Damage Reduction: 10%/15%/20%",
+        "Decreased Energy Cost: 80%",
+        "Duration: 15s",
+        "Cooldown: 50/45/40s",
+        "Mana Cost: 100/125/150"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Gains significant buffs."],
+      "update": ["Effect â†‘  Cooldownâ†“"],
+      "tag": ["Ultimate", "Buff"]
+    },
+    {
+      "name": "Eraser Bullet",
+      "desc": [
+        "Summons a laser from the sky to deal magic damage and stun enemies within the range. Enemies attacked by the laser are marked and give their vision to Omega. 2.5 seconds later, fires a large number of bullets against the marked enemies within a certain range to deal damage multiple times. This effect is triggered immediately when Omega enters Destroying Mode."
+      ],
+      "data": [
+        "Magic Damage: 80/130/180/230",
+        "Bonus Magic Damage: 20/25/30/35",
+        "Stun: 0.75s",
+        "Lock Mark: 3s",
+        "Lock Mark Radius: 1200",
+        "Cast Range: 850",
+        "Radius: 350",
+        "Cooldown: 4s",
+        "Mana Cost: 60",
+        "Energy Cost: 45"
+      ],
+      "img": "04.png",
+      "keyword": "Magic",
+      "study": ["Causes damage and stun."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Magic", "AOE Attack"]
+    }
+  ],
+  "story": [
+    "     Something unusual were bound to happen when the two mad scientists, Dr. Madd and Vince, met each other. They were connected by an old document which revealed a legendary story about the God of Chaos - Before fulfilling the ambition of unifying the continent, the God of Chaos disappeared from the world, leaving part of its power to form the Core of Chaos - Obviously, both of them were drooling at that powerful core.<br>     With common interests in black science, Dr. Madd and Vince entered into agreement soon. They tracked down the Core of Chaos at the ruins of the God's palace and finally managed to obtain it after exploding lots of acid bombs in front of the palace. In their laboratory, the mysterious core was integrated with genetic and mechanical technologies, taking a new shape of life named \"Omega\".<br>     However, before the two scientists celebrated the great success, Omega tore a big hole in the wall of the laboratory and escaped under their eyes. Neither Dr. Madd's mutant servants nor Vince's wind-up guardian could be a match for Omega who was equipped with multiple guns. After getting rid of its creators, the powerful experimental object started its journey on the unfamiliar land. Though feeling headless, it was guided by something in the deepest of its body to find the very edge of the continent. Omega was not aware that the destiny of whole world would be changed because of the journey which involved in the balance of light and darkness, as well as the tangles of past and future. The two scientists were still following Omega's footprints, while its real master was waiting in the throne far away. The adventure for Omega just begun."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "12532", "10109", "10228", "12305", "10072"],
+      "reason": ["DPS, Nuker"]
+    },
+    {
+      "arr": ["12307", "10109", "12310", "12532", "12313", "12305"],
+      "reason": ["Harasser, DPS"]
+    },
+    {
+      "arr": ["12514", "10109", "12310", "12532", "12305", "10124"],
+      "reason": ["Escape, Harasser"]
+    },
+    {}
+  ],
+  "strategy": "165502",
+  "video": [
+    "165501",
+    "https://yhkd.99.com/inc/20200408191141.inc",
+    "https://yhkd.99.com/news/04092020/005800207.shtml"
+  ]
+}

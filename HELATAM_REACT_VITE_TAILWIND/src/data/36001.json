@@ -1,0 +1,408 @@
+{
+  "id": "36001",
+  "name": "Diao Chan",
+  "type": "3",
+  "features": ["RANGED", "DISABLER", "MAGICAL"],
+  "data": [5, 7, 6, 8],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "A well-timed Dropdead Gorgeous will absolutely demolish the enemy team."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "36001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Rosy Debutante",
+      "vid": "oL5plpgVjZE"
+    },
+    {
+      "id": "36001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Moonflower Love",
+      "vid": "aqD7jJK1wSA"
+    },
+    {
+      "id": "36001201",
+      "imgSrc": "3.jpg",
+      "skinName": "Fire Dancer",
+      "vid": "KK9ImxeVHx4"
+    },
+    {
+      "id": "36001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Moon Blossom"
+    },
+    {
+      "id": "36001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Cute Blogger"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DROPDEAD GORGEOUS",
+      "desc": [
+        "Diao Chan sends a kiss in a target direction, dealing magical damage to enemy units along its path. The kiss latches on to the first enemy hero unit and causes Charmed for 1s, and afterward causes it to become Mesmerized which reduces its damage output for 5s. While inside Moonflower Dance, Dropdead Gorgeous also causes Enamored which turns the enemy hero unit into a neutral unit, rendering it attackable by both sides for 1s."
+      ],
+      "data": [
+        "Magical Damage: 110/160/210/260",
+        "Reduces Enemy Damage: 7%/11%/15%/19%",
+        "Cast Range: 950",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 100"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Magical damage, cause debuffs."],
+      "update": [
+        "Magical Damage and Debuff Effect increased and Cooldown reduced."
+      ],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "HEART TO HEART",
+      "desc": [
+        "ACTIVE: Diao Chan tosses a heart at an allied hero unit, granting it bonus Life Steal and bonus attack speed for 5s while the heart emits projectiles to attack nearby enemy units. Diao Chan also gains Committed for 5s which increases bonus movement speed and bonus spell power._PASSIVE: Heart projectiles deal bonus magical damage to enemy units inside Moonflower Dance."
+      ],
+      "data": [
+        "Attack Speed Bonus: 10/15/20/25",
+        "Bonus Life Steal: 15%",
+        "Projectile Magical Damage: 70/80/90/100",
+        "Bonus Magical Damage: 30/40/50/60",
+        "While Inside Moonflower Dance_Bonus Movement Speed: 15%, From Committed_Bonus Spell Power:10/20/30/40",
+        "Mana Cost: 120",
+        "Radius: 900",
+        "Cooldown: 12s"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": ["Buff Allied Units."],
+      "update": ["Buff Effect increased"],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "MOONFLOWER DANCE",
+      "desc": [
+        "Diao Chan dances under the moonlight, summoning a flowerbed for 5s that grants allied hero units bonus Health Regen, bonus Armor and bonus Spell Resist. While inside the flowerbed, Diao Chan gains bonus Damage Reduction and any damage reduced this way will become evenly split onto enemy units within a 1000 radius. The flowerbed causes Root for 0.5s to enemy units that step in it for the first time."
+      ],
+      "data": [
+        "Bonus Health Regen: 50/90/130 Per Sec",
+        "Bonus Armor: 15/25/35",
+        "Bonus Spell Resist: 6/8/10",
+        "Radius: 850",
+        "Bonus Damage Reduction: 25%/30%/35%",
+        "Cooldown: 65/55/45s",
+        "Mana Cost: 120/180/240"
+      ],
+      "img": "03.png",
+      "keyword": "MAGICAL",
+      "study": ["Heals and Buffs."],
+      "update": ["Buff Effect increased and cooldown reduced."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "BEAUTIFUL",
+      "desc": [
+        "PASSIVE: Diao Chan's abilities cause Infatuated to enemy units for 3s, which causes them to lose Health and reduces their Movement Speed by 10%. When enemy units with Infatuated go near each other, their Infatuated turn into Aggravated which doubles their Health loss, reduces their Armor and Spell Resist, and grants them increased damage output by 10%. PASSIVE: Grants bonus movement speed to allied hero units in the area. While inside Moonflower Dance, the bonus movement speed is raised to 15%."
+      ],
+      "data": [
+        "Movement Speed Bonus: 5%/6%/7%/8%",
+        "_Movement Speed Radius: 850",
+        "While Infatuated:_Health Lost: 6/8/10/12 Per Sec",
+        "While Aggravated: Reduced Armor:  7/11/15/19, Reduced Spell Resist: 2/4/6/8"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Heals and Buffs."],
+      "update": ["Movement Speed and Debuff Effect increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Diao Chan wore dazzling jewelry and her elegant saunter was like a willow in the breeze. In a world of raging testosterone and warfare, she showed how a woman's wisdom and wiles can conquer everything. "
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "12533", "12306", "10069", "10124", "10263"],
+      "reason": ["INITIATOR\nESCAPE"]
+    },
+    {
+      "arr": ["10100", "10068", "10069", "10237", "12508", "12512"],
+      "reason": ["PUSHER\nNUKER"]
+    },
+    {
+      "arr": ["10109", "10302", "10228", "10083", "12312", "10072"],
+      "reason": ["ROAMER\nGANKER"]
+    },
+    {}
+  ],
+  "strategy": "161982",
+  "video": [
+    "161981",
+    "https://yhkd.99.com/inc/20180501193953.inc",
+    "https://yhkd.99.com/news/04272018/233506289.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+1.8%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+6.12"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+2.7%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+7.92"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+3.6%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+9.81"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+4.5%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+12.24"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+5.4%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "47001",
+  "name": "Hattori",
+  "type": "2",
+  "features": ["MELEE", "AGILITY", "ASSASSIN"],
+  "data": [9, 0, 4, 5],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Shadowfang`s exquisite double damage will leave you surprised and satisfied."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "47001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Phantom Blades",
+      "vid": "g5dR0zfo1LI"
+    },
+    {
+      "id": "47001401",
+      "imgSrc": "2.jpg",
+      "skinName": "Syncopated Style"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Heart Chaser",
+      "status": "en"
+    },
+    {
+      "id": "47001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Shadow Bringer"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SHURIKEN",
+      "desc": [
+        "Throw shadow blades dripping in acid at a line of enemy units. Deals damage to enemy units while reducing Movement Speed by 50%."
+      ],
+      "data": [
+        "Physical Damage: 180/250/320/390",
+        "Cooldown: 5s",
+        "Speed Reduction Duration: 2s",
+        "Cast Range: 1200",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": ["Physical Damage, Reduce Movement Speed."],
+      "update": ["Magical Damage increased."],
+      "tag": ["DISABLER", "PHYSICAL"]
+    },
+    {
+      "name": "SHINOBI HONOR",
+      "desc": [
+        "Hattori unleashes his Shinobi Honor and teleports to the closest unit. If the unit is an ally, Hattori grants a defensive shield to them which partially reduces damage for 3 seconds. If the unit is an enemy, Hattori deals damage and Silences them."
+      ],
+      "data": [
+        "Physical Damage: 110/160/210/260",
+        "Silence Duration: 1s",
+        "Shield Capacity: 120/170/220/270",
+        "Cast Range: 900",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 50"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": [
+        "Deal damage to enemy units and either Silence targets or provide allies with a shield."
+      ],
+      "update": ["Improved effect and damage."],
+      "tag": ["PHYSICAL", "DASH"]
+    },
+    {
+      "name": "SHADOWFANG",
+      "desc": [
+        "Assassinate an enemy unit to deal massive damage. Enemy unit will take double damage if their back is to Hattori."
+      ],
+      "data": [
+        "Physical Damage: 200/250/300/350",
+        "Cast Range: 500",
+        "Mana Cost: 30",
+        "Cooldown: 4s"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Massive Physical Damage."],
+      "update": ["Magical Damage increased."],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "CHIDORI",
+      "desc": [
+        "Hattori unleashes an incredible flurry of attacks to deal massive damage to all enemy units within range and enters a state of Divine Mist and stealth. Reduce Ultimate cooldown timer by 20s if an enemy is killed."
+      ],
+      "data": [
+        "Physical Damage: 300/400/500",
+        "Cast Range: 1200",
+        "Invisible Duration: 5s",
+        "Bonus Movement Speed: 40% for 5s",
+        "Mana Cost: 80",
+        "Cooldown: 40/35/30s"
+      ],
+      "img": "04.png",
+      "keyword": "PHYSICAL",
+      "study": ["Invisible, Speed Up, deal high damage."],
+      "update": ["Magical Damage increased and cooldown reduced."],
+      "tag": ["ULT", "BUFF", "PHYSICAL"]
+    }
+  ],
+  "story": [
+    "Hattori, a vassal for Tokugawa Ieyasu, was a member of the Japanese Brotherhood of Assassins. Aside from the ninja arts, he was also trained as a samurai, and his skill with the yari was legendary."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "12507", "10065", "10237", "10069", "12508"],
+      "reason": ["ROAMER\nPUSHER"]
+    },
+    {
+      "arr": ["10100", "10048", "10065", "10272", "10127", "12508"],
+      "reason": ["ROAMER\nJUNGLE"]
+    },
+    {
+      "arr": ["10302", "10115", "10065", "10069", "12508", "10237"],
+      "reason": ["GANKER\nOFF-TANK"]
+    },
+    {}
+  ],
+  "strategy": "162582",
+  "video": [
+    "162581",
+    "https://yhkd.99.com/inc/20181107193805.inc",
+    "https://yhkd.99.com/news/11072018/214511041.shtml"
+  ]
+}

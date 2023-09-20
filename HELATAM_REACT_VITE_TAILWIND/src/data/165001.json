@@ -1,0 +1,125 @@
+{
+  "id": "165001",
+  "name": "Young Yanbing",
+  "type": "2",
+  "features": ["Melee", "Ganker", "Nuker"],
+  "data": [7, 4, 6, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["æ ¹æ®æˆ˜å±€çµæ´»è¿ç”¨ç«åŠ²ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "165001101",
+      "imgSrc": "1.jpg",
+      "skinName": "Jedi Master"
+    }
+  ],
+  "ski": [
+    {
+      "name": "GREAT FLAMING HAMMER",
+      "desc": [
+        "Young Yanbing jumps into the air and engulfs the enemy units with the ferocious flames of the Great Yama, dealing area damage. Flame Buff: Improves damage and slows the affected units. stacks improve damage and slow effect."
+      ],
+      "data": [
+        "Physical Damage: 160/200/240/300",
+        "Flame Damage per Stack: 30/40/50/60",
+        "Movement Slow: 10%-50%, Duration: 1-3s",
+        "Cast Range: 1000",
+        "Cooldown: 7s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": ["Dashes and deals area damage"],
+      "update": ["Damage â†‘ Buff Effect â†‘"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "EXPLODING FLAMES",
+      "desc": [
+        "Receives Flames periodically to improve both armor and spell Resist. Every release activates a Flame stack for 10s. While activated, adds fire damage to basic attacks, making the same target hit by 3 fire attack(s) take additional damage. While activated, using the skill again will consume all Flame stacks to boost the skill."
+      ],
+      "data": [
+        "Normal Attack Fire Physical Damage per Flame Stack: 30/40/50/60",
+        "Additional Physical Damage per Stack: 50/80/110/140",
+        "Armor Bonus: 5/8/11/14,Spell Resist Bonus: 1/2/3/4",
+        "Charge Time: 7/6/5/4s,Charge Limit: 5 stacks",
+        "Cooldown: 0.3s",
+        "Mana Cost: 20"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": [
+        "Improves both armor and spell Resist. Activate to improve normal attacks or the skill itself."
+      ],
+      "update": [
+        "Improves both passive and activated effects. Improves charge speed."
+      ],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "LORD OF THE FLAMES",
+      "desc": [
+        "Raises the Great Yama up to charge a great fireball. Immune to control effects while charging. Release the skill again to unleash the fireball to deal massive damage to the target area. Flame Buff: Gains Damage Reduction by 15% every stack. The explosion deals area DoT and inflicts an additional Slow effect by 40% for 3s."
+      ],
+      "data": [
+        "Min Magical Damage: 250/350/450",
+        "Max Magical Damage: 450/550/650",
+        "Area Magical Continuous Damage: 10/15/20 per stack",
+        "Radius: 650",
+        "Cast Range: 1500",
+        "Cooldown: 40/35/30s",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Deals damage to the target area after charging"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "ULT"]
+    },
+    {
+      "name": "YAMA CANNON",
+      "desc": [
+        "Controls Great Yama to launch a powerful fire pillar to deal damage to the enemy units on its path, exploding when hitting enemy heroes to deal area damage. Flame Buff: 4% Additional damage related to enemy units' Max HP per stack."
+      ],
+      "data": [
+        "Physical Damage: 110/145/180/215",
+        "Fire Magical Damage: 120/155/190/225",
+        "Cast Range: 1100",
+        "Radius: 350",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 40/50/60/70"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Deals damage to enemy units in a straight line"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical"]
+    }
+  ],
+  "story": ["Coming Soon!"],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "10047", "10237", "12516"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["12307", "10048", "10068", "12309", "10069", "10265"],
+      "reason": ["æ¶ˆè€—ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12307", "10127", "10263", "12316", "10265", "10069"],
+      "reason": ["ç”Ÿå­˜ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "163802",
+  "video": [
+    "163801",
+    "https://yhkd.99.com/inc/20190814004959.inc",
+    "https://yhkd.99.com/news/08142019/201347932.shtml"
+  ]
+}

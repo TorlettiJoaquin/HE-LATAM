@@ -1,0 +1,129 @@
+{
+  "id": "105001",
+  "name": "Methos",
+  "type": "2",
+  "features": ["MELEE", "GANKER", "NUKER"],
+  "data": [9, 7, 6, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "åˆç†è¿ç”¨æ¯æ¬¡ç–¾é£Žçªè¿›åŽçš„é¢å¤–ä¼¤å®³ä»¥æ‰“å‡ºæ›´å¤šè¾“å‡ºã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "105001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Angel of Death",
+      "vid": "ITp_8IXk_wA"
+    },
+    {
+      "id": "105001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Shadow Supreme"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DARK RUSH",
+      "desc": [
+        "Methos dashes a short distance in the target direction and increases the damage of his next normal attack."
+      ],
+      "data": [
+        "Increase Physical Damage: 100/120/140/160",
+        "Dash Distance: 600",
+        "Ability Charge Limit: 3, Charge Regen: 6s",
+        "Cooldown: 1s",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": ["Dash and increase damage of next normal attack"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "ENDLESS TERROR",
+      "desc": [
+        "Methos unleashes his true strength and deals continuous damage to nearby enemies for a period of time. Methos recovers Health based on the damage dealt by this ability."
+      ],
+      "data": [
+        "Magic Damage per second: 30/40/50/60",
+        "Duration: 2.5s",
+        "Health Regen: 5%/8%/11%/14% of Damage Dealt",
+        "Radius: 500",
+        "Cooldown: 7s",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Deals damage while restoring health"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "DARK BARRIER",
+      "desc": [
+        "Methos summons 3 barriers of darkness each time he kills an enemy hero or 3 non-hero enemy units. Enemies that come in contact with the barriers will sustain continuous damage. Enemy heroes will receive an additional Slow effect."
+      ],
+      "data": [
+        "Magic Damage to hit enemies: 80/100/120",
+        "Duration: 60s",
+        "Slow: 30% for 3s",
+        "Each barrier stack: 80/110/140",
+        "Barrier Duration: 5s",
+        "Radius: 400",
+        "Cooldown: 20/15/10s"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Deal damage and summon barriers"],
+      "update": ["Damage â†‘ Barrier â†‘ Cooldown â†“"],
+      "tag": ["Magical", "ULT", "Passive"]
+    },
+    {
+      "name": "HEALTH DECAY",
+      "desc": [
+        "Enemy units that take damage from Methos will continue to lose Health and reduce Health Regen effect by 50% for 5s. Active: Deal a portion of passive damage already suffered by enemy units within range. Passive effect is lost when ability is cooling down."
+      ],
+      "data": [
+        "Magic Damage per second: 20/25/30/35",
+        "Deal 10% of target's lost Health in bonus damage",
+        "Radius: 800",
+        "Cooldown: 7s",
+        "Mana Cost: 60"
+      ],
+      "img": "04.png",
+      "keyword": "Magical",
+      "study": ["Continuous Magical Damage"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical"]
+    }
+  ],
+  "story": [
+    "Methos was struck by an intriguing thought: he could seduce the most desirous, promising ever-increasing power and money - all for the simple price of a countryman's soul. He felt amused when humans took up arms to get what they believed was important."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "10068", "10272", "10265", "10069"],
+      "reason": ["çˆ†å‘ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["10302", "10068", "10272", "12309", "12516", "10069"],
+      "reason": ["æ‰“é‡Žã€æ¸¸èµ°"]
+    },
+    {
+      "arr": ["10100", "10068", "10272", "10127", "10237", "12508"],
+      "reason": ["å‰æŽ’ã€æ”¶å‰²"]
+    },
+    {}
+  ],
+  "strategy": "164021",
+  "video": [
+    "164022",
+    "https://yhkd.99.com/inc/20190924235240.inc",
+    "https://yhkd.99.com/news/09252019/234924838.shtml"
+  ]
+}

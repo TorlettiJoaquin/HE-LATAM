@@ -1,0 +1,387 @@
+{
+  "id": "96001",
+  "name": "Pengwing",
+  "type": "2",
+  "features": ["RANGED", "PUSHER", "CARRY"],
+  "data": [8, 4, 6, 4],
+  "way": "0",
+  "gold": 5888,
+  "diamond": 268,
+  "tips": ["å†°ä¸Šæ¼«æ»‘å’Œå¤§æ‹›ä¸€èµ·ä½¿ç”¨ä¼šæœ‰æ„æƒ³ä¸åˆ°çš„æ”¶èŽ·ï¼"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Electric Boogaloo",
+      "vid": "x1P2BYHQBus"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Glam Chick"
+    },
+    {
+      "id": "96001305",
+      "imgSrc": "3.jpg",
+      "skinName": "Cute Snowman"
+    },
+    {
+      "id": "96001306",
+      "imgSrc": "4.jpg",
+      "skinName": "Antarctica Explorer"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FOCUSED FIRE",
+      "desc": [
+        "Fires 4 missiles at a target direction, dealing physical damage on 4 random targets within range. These enemy units may be attacked repeatedly if there are less than 4 enemy units within range, taking only 40% damage per subsequent hit."
+      ],
+      "data": [
+        "Damage: 90/120/150/180",
+        "Cooldown: 8s",
+        "Cast Range: 900",
+        "Mana Cost: 120"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Area of effect physical damage and slows movement"],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "BELLY SLIDE",
+      "desc": [
+        "Slides in a target direction, and plants 3 landmines along the path to deal magical damage to enemy units, slow their movement by 35%, and reduce their damage dealt by 20%. Lasts for 2s. Casting this ability will also refresh the cooldown of Laser Focus."
+      ],
+      "data": [
+        "Magical Damage: 50/100/150/200",
+        "Mana Cost: 50",
+        "Cooldown: 9s",
+        "Radius: 800"
+      ],
+      "img": "02.png",
+      "keyword": "Dash",
+      "study": ["Slides and plants 3 landmines that deal magical damage"],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "Rush"]
+    },
+    {
+      "name": "LASER FOCUS",
+      "desc": [
+        "Pengwing periodically charges his laser cannon, turning his next basic attack into a laser beam, dealing physical damage to enemy units along its path and causing Movement Slow by 30% for 2s."
+      ],
+      "data": ["Bonus Damage: 70/100/130/160", "Cooldown: 7s"],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": ["Attack becomes AOE and deals bonus damage"],
+      "update": ["Bonus physical damage increased"],
+      "tag": ["Passive", "Disabler"]
+    },
+    {
+      "name": "DESTRUCTION",
+      "desc": [
+        "Fires a particle rocket at a target direction. When hitting the first enemy hero unit or reaching the farthest point, it explodes to deal magical damage and cause knockback against enemy units within range. The target hit will be slowed by 80% for 1s."
+      ],
+      "data": [
+        "Damage: 300/400/500",
+        "Mana Cost: 150/175/200",
+        "Cooldown: 48s",
+        "Cast Range: 900"
+      ],
+      "img": "04.png",
+      "keyword": "Single",
+      "study": [
+        "Hits and knocks back targets, dealing massive physical damage"
+      ],
+      "update": ["Ability damage and knockback range increased"],
+      "tag": ["ULT", "Physical"]
+    }
+  ],
+  "story": [
+    "The year 2157 was a tragic one for humanity. The shadow of nuclear obliteration hung over everyone's heads. The arch-villain behind this nightmare turned out to be a smart AI. Just as the fate of humanity was held by a thread, a hero emerged! Taking control of the future of humanity, it slipped back through spacetime to a time before the AI was created. This was the only way to prevent future calamity on a grand scale. Human gave this hero a name: Pengwing!"
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10065", "10272", "10058", "10127", "10237"],
+      "reason": ["çˆ†å‘"]
+    },
+    {
+      "arr": ["10100", "10053", "10272", "10127", "10068", "10069"],
+      "reason": ["ç”Ÿå­˜ã€æŒç»­è¾“å‡º"]
+    },
+    {
+      "arr": ["10100", "10272", "10053", "10065", "10237", "10127"],
+      "reason": ["æ”¶å‰²"]
+    },
+    {}
+  ],
+  "strategy": "151560",
+  "video": [
+    "151512",
+    "https://yhkd.99.com/inc/20160919023009.inc",
+    "https://yhkd.99.com/news/11032016/044601747.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+1.8%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.12"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+2.7%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+7.92"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+3.6%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+9.81"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+4.5%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+12.24"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+5.4%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

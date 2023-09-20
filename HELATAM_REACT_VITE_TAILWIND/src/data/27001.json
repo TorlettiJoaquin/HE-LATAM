@@ -1,0 +1,389 @@
+{
+  "id": "27001",
+  "name": "Lilith",
+  "type": "1",
+  "features": ["MELEE", "TANK", "ROAMER"],
+  "data": [6, 6, 8, 3],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": ["Pair low health troops with Fiery Rush to charge."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Shadowed Arachnid"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Dream Mancer"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Lady Peacock",
+      "vid": "BCkQ1oZPO_s"
+    },
+    {
+      "id": "27001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Bionic Seductress",
+      "vid": "UUHNOLwdyqI"
+    },
+    {
+      "id": "27001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Winged Slasher"
+    },
+    {
+      "id": "27001305",
+      "imgSrc": "6.jpg",
+      "skinName": "HER.Berial"
+    },
+    {
+      "status": "en",
+      "imgSrc": "7-en.jpg",
+      "skinName": "SHEROES Lilith"
+    },
+    {
+      "id": "27001306",
+      "imgSrc": "7.jpg?",
+      "skinName": "Dusk Regina"
+    },
+    {
+      "id": "27001308",
+      "imgSrc": "8.jpg",
+      "skinName": "HER Drum Burst"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FIERY RUSH",
+      "desc": [
+        "Dashes at a target enemy unit and performs a basic attack with bonus physical damage, the bonus physical damage is doubled against troops. If the enemy unit dies from this ability, Fiery Rush`s cooldown is reset and Lilith is refunded 70% of its mana cost. The cooldown also resets when Lilith kills an enemy hero unit. Passive: Killing an enemy unit will refresh this ability`s cooldown."
+      ],
+      "data": [
+        "Bonus Damage: 100/140/180/220",
+        "Cast Range: 900  ",
+        "Mana Cost: 100 ",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "01.png",
+      "keyword": "SINGLE",
+      "study": ["Charges the target and deals physical damage."],
+      "update": ["=Ability damage increased and cooldown reduced."],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "FIRED BLADES",
+      "desc": [
+        "Sacrificing her own Health, Lilith enchants her blades with blistering fire. Deals pure damage to a target enemy unit and causes Movement Slow. If the enemy unit`s Health percentage is higher than Lilith, cause Stun instead."
+      ],
+      "data": [
+        "Pure Damage: 200/240/280/320",
+        "Cast Range: 500 ",
+        "Health Cost:100/120/140/160",
+        "Cooldown: 8/7/6/5s",
+        "Movement Slow Duration:/Stun Duration: 1.25/1.5/1.75/2s",
+        "Movement Slowed: 60%"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": ["Deals Pure Damage and slows/stuns a target."],
+      "update": ["Ability damage and duration increased."],
+      "tag": ["DISABLER", "ABILITY"]
+    },
+    {
+      "name": "EXPLODING BLOOM",
+      "desc": [
+        "Summons a blazing lotus that shoots a flame dart every second, dealing magical damage to a random nearby enemy unit at 100% Spell Life Steal, healing Health based on flat damage dealt. Prioritizes enemy hero units."
+      ],
+      "data": [
+        "Damage: 100/150/200",
+        "Radius: 800 ",
+        "Mana Cost: 150/200/250 ",
+        "Duration: 6s",
+        "Cooldown: 50/45/40s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage around Lilith over time."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL"]
+    },
+    {
+      "name": "PROTECTIVE GLOBE",
+      "desc": [
+        "PASSIVE: Each time Lilith loses 400 Health, Protective Globe deals magical damage to nearby enemy units."
+      ],
+      "data": ["Damage: 200/250/300/350", "Cooldown: 2s", "Radius: 500"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals magical damage to nearby enemies once triggered."],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "MAGICAL"]
+    }
+  ],
+  "story": [
+    "Restrained by her demonic contract, Lilith toiled for three days and three nights before breaking free and kidnapping Solomon's soul to hell, where he hangs crucified on the entrance gates as a warning to all. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "12308", "12309", "10048", "12316", "10263"],
+      "reason": ["TANK\nPUSHER"]
+    },
+    {
+      "arr": ["12502", "10048", "12309", "10257", "12508", "10265"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {
+      "arr": ["12514", "12308", "10048", "12512", "12508", "10265"],
+      "reason": ["ROAMER\nJUNGLE"]
+    },
+    {}
+  ],
+  "strategy": "151565",
+  "video": [
+    "151507",
+    "https://yhkd.99.com/inc/20160919021616.inc",
+    "https://yhkd.99.com/news/11032016/044251487.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+89.55"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+14.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r11.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+127.35"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+20.07"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r21.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+165.24"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+26.01"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r31.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+203.94"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+32.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r41.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+254.7"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+40.05"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "DURABILITY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r51.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

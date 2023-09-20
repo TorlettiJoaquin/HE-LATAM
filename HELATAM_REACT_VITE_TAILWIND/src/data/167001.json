@@ -1,0 +1,120 @@
+{
+  "id": "167001",
+  "name": "Xia Ling",
+  "type": "3",
+  "features": ["Ranged", "Ganker", "Carry"],
+  "data": [2, 9, 4, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "æŽŒæ¡å¥½æ—¶æœºåˆ©ç”¨æ— é‡æ¸…é£Žè§„é¿ä¼¤å®³ï¼Œè¿›è€Œåå‡»æˆ–æ²»ç–—è‡ªå·±ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "167001001",
+      "imgSrc": "1.jpg",
+      "skinName": "Cool Summer"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ELEMENTAL LIGHT",
+      "desc": [
+        "Ring a bell to summon elemental light which strikes enemies in front of Xia Ling to deal Magical Damage and Blind targets for 2s."
+      ],
+      "data": [
+        "Magical Damage Per 0.25s: 40/45/50/55",
+        "Cast Range: 1100",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 100"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Area of effect damage, Blind"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "DRUNKEN MOON",
+      "desc": [
+        "Summon multiple shadows of Li Xuanyuan which strike a target enemy multiple times, dealing Magical Damage and Stunning the target for a short time."
+      ],
+      "data": [
+        "Magical Damage Per Shadow: 55/70/85/100",
+        "Shadow Stun Duration: 0.2s",
+        "Shadow Spawn Rate: Once per 0.5s",
+        "Cast Range: 900",
+        "Mana Cost: 70/80/90/100",
+        "Cooldown: 8s"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": ["Magical Damage, Stun"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "PURIFYING WIND",
+      "desc": [
+        "Xia Ling summons Li Xuanyuan to embolden her spirit and greatly increase her Health Regen and Spell Power. Cast again and Li Xuanyuan will deal a massive amount of Magical Damage to enemies in the target area and Stun them for 1s."
+      ],
+      "data": [
+        "Magical Damage: 350/500/650",
+        "Health Regen Bonus: 20/30/40",
+        "Spell Power Bonus: 60/70/80",
+        "Cast Range: 1500",
+        "Cooldown: 40/35/30s",
+        "Mana Cost: 100/120/140"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Absorb and reflect damage"],
+      "update": ["Reflect Effect â†‘"],
+      "tag": ["Magical", "Buff"]
+    },
+    {
+      "name": "UNSTOPPABLE TEMPEST",
+      "desc": [
+        "Summon Li Xuanyuan for self protection, who absorbs all Damage and grants immunity to disables for 2s. After absorbing damage, select a direction and unleash a beam of light which deals damage (up to 600) based on the amount of absorbed damage. If the counterattack is not cast, absorbed damage will be converted to Health and Mana."
+      ],
+      "data": [
+        "Base Magical Damage: 140/160/180/200",
+        "Increase Magical Damage by 30/40/50/60 for every 100 points of damage",
+        "Increase Health by /20/30/40 for every 100 points of damage",
+        "Increase Mana by 5/10/15/20 for every 100 points of damage",
+        "Cooldown: 12s",
+        "Mana Cost: 120"
+      ],
+      "img": "04.png",
+      "keyword": "Magical",
+      "study": ["Absorb and reflect damage"],
+      "update": ["Reflect Effect â†‘"],
+      "tag": ["Magical", "Buff"]
+    }
+  ],
+  "story": ["Coming Soon!"],
+  "equip": [
+    {
+      "arr": ["12307", "12532", "10109", "10228", "12513", "10072"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12307", "10123", "10228", "10513", "10109", "10124"],
+      "reason": ["è¾“å‡ºã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12514", "10123", "12310", "10109", "12513", "10124"],
+      "reason": ["æ¶ˆè€—ã€æ”¯æ´"]
+    },
+    {}
+  ],
+  "strategy": "163921",
+  "video": [
+    "163922",
+    "https://yhkd.99.com/inc/20190909200446.inc",
+    "https://yhkd.99.com/news/09102019/232943307.shtml"
+  ]
+}

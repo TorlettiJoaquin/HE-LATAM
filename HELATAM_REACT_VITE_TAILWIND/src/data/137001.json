@@ -1,0 +1,128 @@
+{
+  "id": "137001",
+  "name": "Hegemon",
+  "type": "3",
+  "features": ["Ranged", "Intelligence", "Mage"],
+  "data": [2, 9, 4, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["åˆç†ä½¿ç”¨ä¹±ä¸–æž­é›„çš„å‡æŠ—æ•ˆæžœå¯ä»¥æžå¤§æé«˜è¾“å‡º"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "137001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Chaos Marquis"
+    },
+    {
+      "id": "137001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Tennis Genius"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DIFFUSION",
+      "desc": [
+        "Hegemon uses his mighty sword to shine a beam, dealing magical damage to enemy units while restoring half as much in health to ally units. Restores half Mana when used on self. Effect is impacted by Intelligence."
+      ],
+      "data": [
+        "Magical Damageï¼š140/180/220/260",
+        "Bonus Damage: 0.6x Intelligence",
+        "Cast Range: 1000",
+        "Radius250",
+        "Mana Cost: 60/70/80/90",
+        "Cooldown: 7s"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Releases a beam of light that can damage and heal"],
+      "update": ["Increases damage and healing effects"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "ROYAL EDICT",
+      "desc": [
+        "Hegemon wields his imperial clout, dealing continuous magic damage to all enemies in a target area and slowing movement for 3s. Affected enemies may dispel the slowdown by simply casting an ability, but they will take bonus magical damage and be Silenced for 1s."
+      ],
+      "data": [
+        "Magical Damage per second: 43/58/73/88",
+        "Bonus Magical Damage: 60/80/100/120",
+        "Movement Slowdown: 15%/20%/25%/30%",
+        "Cast Range: 1000",
+        "Radius: 400",
+        "Mana Cost: 110",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": ["Damages and slows down enemies"],
+      "update": ["Magical Damage â†‘ Debuff Effect â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "DOOM SWORD",
+      "desc": [
+        "Hegemon summons a giant doom sword down to crush a target enemy. During this time, Hegemon speeds up by 30% but cannot change the direction of this ability. Sword deals magical damage to the first enemy hit, and deals 300% damage to non-hero units. "
+      ],
+      "data": [
+        "Magical Damage per Doom Sword: 40/55/70",
+        "Cast Range: 1800",
+        "Radius500",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 60/55/50s",
+        "Duration: 5s"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Summons a doom sword to damage units in front"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "ULT"]
+    },
+    {
+      "name": "CHAOS MARQUIS",
+      "desc": [
+        "Hegemon issues a terrifying threat to his rivals, removing all base armor and base spell resist to all enemies within range for 3s while dealing magical damage. Every 3 hits Hegemon deals to an affected enemy hero grants bonus magical damage and stuns enemy for 0.3s. Bonus effect may only trigger once per second. Max base armor reduction is capped at 100."
+      ],
+      "data": [
+        "Magical Damageï¼š100/140/180/220",
+        "Bonus Magical Damage: 40/60/80/100",
+        "Cast Range: 1000",
+        "Radius: 300",
+        "Mana Cost: 130",
+        "Cooldown: 12s"
+      ],
+      "img": "04.png",
+      "keyword": "Magical",
+      "study": ["Deals damage, causes debuffs"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "The flames of war raged, and the late Han Dynasty was in chaos. Hegemon's forces overpowered his enemy's despite numbering ten times fewer. He united the warring states, but still no-one understood him. As Hegemon lay dying, he uttered: â€œThe world misjudges me still... and perhaps forever will... Speak not, where my grave shall lie!"
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "10109", "10228", "12513", "12305"],
+      "reason": ["çˆ†å‘ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12514", "10123", "10109", "12313", "12312", "12513"],
+      "reason": ["æ¶ˆè€—ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12307", "10109", "10228", "12313", "12513", "12305"],
+      "reason": ["çˆ†å‘ã€æ”¶å‰²"]
+    },
+    {}
+  ],
+  "strategy": "163201",
+  "video": [
+    "163202",
+    "https://yhkd.99.com/inc/20190423232603.inc",
+    "https://yhkd.99.com/news/04242019/201722159.shtml"
+  ]
+}

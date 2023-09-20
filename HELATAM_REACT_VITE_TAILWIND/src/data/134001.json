@@ -1,0 +1,147 @@
+{
+  "id": "134001",
+  "name": "Mulan",
+  "type": "1",
+  "features": ["Melee", "Ganker", "Disabler"],
+  "data": [9, 0, 4, 5],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["åˆç†ä½¿ç”¨â€œæ‰€å‘æŠ«é¡â€å¯ä»¥å†²æ•£æ•Œæ–¹é˜µåž‹ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "134001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Lady of the Lance",
+      "vid": "nbWlMbItaW8"
+    },
+    {
+      "id": "134001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Saber Synthwave"
+    },
+    {
+      "id": "134001301",
+      "imgSrc": "3.jpg",
+      "skinName": "Ardent Warmaiden"
+    },
+    {
+      "id": "134001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Light Bringer"
+    },
+    {
+      "id": "134001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Fair Lady"
+    },
+    {
+      "status": "en",
+      "imgSrc": "6-en.jpg",
+      "skinName": "Jade Champion"
+    },
+    {
+      "status": "en",
+      "imgSrc": "7-en.jpg",
+      "skinName": "Azurite Champion"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CHARRRRGE!",
+      "desc": [
+        "ACTIVE: Mulan ignores terrain and charges at the target enemy unit, gaining vision on it for a short while. The charge speed and damage increases over time while causing Mulan to become immune to disables during the process. Mulan causes Stun and Movement Slow upon impact when the charge reaches max speed, tap this ability again to cancel the charge."
+      ],
+      "data": [
+        "Physical Damage: 50/80/110/140",
+        "Bonus Physical Damage: 4%/6%/8%/10% Of Charge Speed Upon Impact",
+        "Vision Duration: 3s",
+        "Cast Range: 1800",
+        "Max Speed: 1500",
+        "Slowdown: 50% for 2s",
+        "Stun Duration: 0.75s",
+        "Cooldown: 10s",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": ["Dash, Physical Damage"],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "WRATH OF WAR",
+      "desc": [
+        "ACTIVE: Mulan emits a powerful war cry, dealing physical damage to nearby enemy units and causing Disarm, which renders them unable to perform basic attacks."
+      ],
+      "data": [
+        "Physical Damage: 100/150/200/250",
+        "Disarm Duration: 1.25s",
+        "Radius: 700",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Area Physical Damage, Disarm"],
+      "update": ["Physical Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "FORCEFUL IMPACT",
+      "desc": [
+        "ACTIVE: Mulan hurls her spear with tremendous might, dealing physical damage to target enemy unit and causing knockback, dragging it to a point 1500 distance away from Mulan and causing Stun for 2s. The spear also causes knock aside to enemy units along its path and causes Movement Slow by 30% for 2s."
+      ],
+      "data": [
+        "Physical Damage: 300/350/400",
+        "Cast Range: 1200",
+        "Radius: 500",
+        "Cooldown: 55/50/45ç§’",
+        "Mana Cost: 110"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Physical Damage, Knockback"],
+      "update": ["Physical Damage â†‘ Cooldown â†“"],
+      "tag": ["Disabler", "ULT", "Physical"]
+    },
+    {
+      "name": "SPEAR MASTERY",
+      "desc": [
+        "PASSIVE: Mulan stabs with pinpoint precision. Whenever Mulan successfully damages the same enemy unit 3 times with basic attack or abilities, she steals their Armor and Health for 8s, does not stack and cannot affect the same enemy again within 4s"
+      ],
+      "data": ["Steal Health: 40/60/80/100", "Steal Armor: 10/15/20/25"],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["After Damaging Multiple Times, Steal Armor, Steal Health"],
+      "update": ["Steal Armor â†‘ Steal Health â†‘"],
+      "tag": ["Buff", "Passive"]
+    }
+  ],
+  "story": [
+    "Nomads from the north have invaded. Mulan could not bear to witness her father fight once more - so she dressed up as a boy, and joined in his stead. It is time! Taking up her spear and armor, she marched off into the unknown with generosity of heart and courage."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10272", "12309", "12512", "10069", "10265"],
+      "reason": ["çˆ†å‘ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["10302", "10048", "10272", "10069", "12309", "12516"],
+      "reason": ["Gankerã€æ‰“é‡Ž"]
+    },
+    {
+      "arr": ["10302", "10048", "12309", "10069", "10263", "10265"],
+      "reason": ["æ”¯æ´ã€å¦å…‹"]
+    },
+    {}
+  ],
+  "strategy": "162481",
+  "video": [
+    "162482",
+    "https://yhkd.99.com/inc/20180926230032.inc",
+    "https://yhkd.99.com/news/09262018/230404037.shtml"
+  ]
+}

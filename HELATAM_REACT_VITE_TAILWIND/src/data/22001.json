@@ -1,0 +1,400 @@
+{
+  "id": "22001",
+  "name": "Arborus",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "DISABLER"],
+  "data": [2, 8, 6, 8],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Nature`s Vortex - Thrusting Timber - Arboreal Spin: use all three, ace your enemies."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Spore Lord"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Forest Ghost",
+      "vid": "kQ772kOnHk0"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Medicine Man",
+      "vid": "WhZX4EsMnOM"
+    },
+    {
+      "id": "22001302",
+      "imgSrc": "4.jpg",
+      "skinName": "Occult Marionette"
+    },
+    {
+      "id": "22001303",
+      "imgSrc": "5.jpg",
+      "skinName": "Bathing Bruiser"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ARBOREAL SPIN",
+      "desc": [
+        "Arborus musters the mysterious power of the forest and releases entangling roots, dealing magical damage to nearby enemy units within a 550 radius, and causing Root for 1s."
+      ],
+      "data": [
+        "Damage: 140/190/240/290",
+        "Cooldown: 8s",
+        "Radius: 550",
+        "Mana Cost: 90"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Traps and deals magical damage to nearby enemies."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "THRUSTING TIMBER",
+      "desc": [
+        "Dashes at a target enemy unit, dealing magical damage and causing Stun, while reducing all incoming damage to Arborus for 3s."
+      ],
+      "data": [
+        "Damage: 150/200/250/300",
+        "Damage Reduction: 24%",
+        "Cooldown: 10s",
+        "Cast Range: 1000",
+        "Stun Duration: 1.25s",
+        "Mana Cost: 90/100/110/120"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Rushes to a target, stunning and dealing magical damage."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["MAGICAL", "DISABLER", "BUFF"]
+    },
+    {
+      "name": "NATURE'S VORTEX",
+      "desc": [
+        "Creates a vortex, dealing magical damage to all enemy units within the area when the vortex ends. Cast this ability again to end nature`s vortex early. The vortex amplifies its maximum damage for up to 3s, afterwards it has to be released within 2s."
+      ],
+      "data": [
+        "Base Damage: 240/300/360",
+        "Max Damage: 480/600/720",
+        "Damage increases per second: 80/100/120",
+        "Radius: 800",
+        "Mana Cost: 150/200/250",
+        "Cooldown: 48/42/36s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage to enemy units within range."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "AOE", "MAGICAL"]
+    },
+    {
+      "name": "SAPLING EXPLOSION",
+      "desc": [
+        "Hurls a sapling towards a target area, dealing magical damage to nearby enemy units as it lands. The sapling will then follow a nearby enemy unit and detonate, dealing magical damage. Saplings can live up to 30s."
+      ],
+      "data": [
+        "Hurl Damage: 100/125/150/175",
+        "Explosion Damage: 75/100/125/150",
+        "Cooldown: 8s",
+        "Cast Range: 1200",
+        "Radius: 350",
+        "Mana Cost: 100"
+      ],
+      "img": "04.png",
+      "keyword": "AOE",
+      "study": ["Hurl a sapling at a target area, dealing magical damage."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL"]
+    }
+  ],
+  "story": [
+    "Arborus was the most prestigious Taoist of his time and a dedicated, if hermetic, exorcist. One day, he retrieved an antique oolong teapot, with a tea spirit lived inside! In cooperation with such forces, Arborus' Taoist powers were greatly enhanced. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12313", "10124", "10228", "12513"],
+      "reason": ["PUSHER\nESCAPE"]
+    },
+    {
+      "arr": ["10302", "10123", "12312", "12313", "10109", "12305"],
+      "reason": ["NUKER\nGANKER"]
+    },
+    {
+      "arr": ["12307", "10123", "12313", "10124", "12316", "12513"],
+      "reason": ["TANK\nSUSTAINED"]
+    },
+    {}
+  ],
+  "strategy": "156620",
+  "video": [
+    "156619",
+    "https://yhkd.99.com/inc/20170309221512.inc",
+    "https://yhkd.99.com/news/03062017/232151642.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+1.8%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+6.12"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+2.7%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+7.92"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+3.6%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+9.81"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+4.5%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+12.24"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+5.4%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

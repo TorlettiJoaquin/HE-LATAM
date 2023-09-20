@@ -1,0 +1,133 @@
+{
+  "id": "40001",
+  "name": "Zeus",
+  "type": "3",
+  "features": ["NUKER", "PUSHER"],
+  "data": [7, 8, 8, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Supreme Authority allows you to switch to ranged mode at will."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "40001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Golden Wargod",
+      "vid": "yRuso-porMo"
+    },
+    {
+      "id": "40001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Sonnung"
+    },
+    {
+      "id": "40001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Mega Hammer"
+    },
+    {
+      "id": "40001305",
+      "imgSrc": "4.jpg",
+      "skinName": "Majestic Decorum",
+      "vid": "EXDEOl7KVas"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SUPREME AUTHORITY",
+      "desc": [
+        "ACTIVE: Zeus reshapes the laws of space for 5s, the range of his basic attacks becomes 800 and now deal on-hit area bonus magical damage."
+      ],
+      "data": [
+        "Bonus Magical Damage: 45/60/75/90",
+        "Mana Cost: 80/90/100/110",
+        "Cooldown: 11/10/9/8s",
+        "Duration: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "BUFF",
+      "study": ["Attack Range and Area Magical Damage increase."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL", "BUFF"]
+    },
+    {
+      "name": "ROLLING THUNDER",
+      "desc": [
+        "ACTIVE: Zeus transforms into a ball of lightning, reducing damage taken and dealing continuous magical damage to nearby enemy units for up to 3s. Cast again during this period to dash to the target point, dealing magical damage to enemy units along his path, and then bonus magical damage to the target area, causing Paralyze. If no target point was chosen, Zeus lands where he was. Each basic attack reduces the cooldown of this ability."
+      ],
+      "data": [
+        "Continuous Magical Damage: 30/40/50/60",
+        "Magical Damage: 50/70/90/110 Along A Path",
+        "Magical Damage: 140/160/180/200 On Impact",
+        "Paralyze: 1s",
+        "Mana Cost: 50/70/90/110",
+        "Cooldown: 10/9/8/7s",
+        "Cast Range: 1200"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": ["Ball Lightning, Dash, Magical Damage."],
+      "update": ["Magical Damage increased and cooldown reduced."],
+      "tag": ["MAGICAL", "DASH"]
+    },
+    {
+      "name": "ABSOLUTE DECREE",
+      "desc": [
+        "ACTIVE: Zeus envelopes himself with a zone of lightning, gaining bonus Damage Reduction and dealing continuous magical damage to enemy units within a 800 radius for 5s. During this period, each basic attack causes a thunderous explosion, dealing magical damage to all enemy units inside the zone."
+      ],
+      "data": [
+        "Magical Damage Per 0.5s: 50/75/100",
+        "Explosion Magical Damage: 40/60/80",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 55/50/45",
+        "Damage Reduction: 15%/20%/25%"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Lightning Zone, Increased Magical Damage."],
+      "update": ["Magical Damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL", "BUFF"]
+    },
+    {
+      "name": "GODLY EMPOWERMENT",
+      "desc": [
+        "PASSIVE: Zeus gains bonus attack speed and his basic attacks deal on-hit bonus magical damage."
+      ],
+      "data": [
+        "On-Hit Bonus Magical Damage: 20/25/30/35",
+        "Bonus Attack Speed: 20/30/40/50"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Bonus Attack Speed, On-hit Magical Damage."],
+      "update": ["Magical Damage and Attack Speed increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Born in Crete, Zeus was the leader of the gods, who reigned over Mt. Olympus, the master of thunder and romance. He was the aggressor who provoked Prometheus over fire: cold, ruthless and wrathful. "
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "12533", "10047", "12506", "10069"],
+      "reason": ["NUKER\nREAPER"]
+    },
+    {
+      "arr": ["10100", "12533", "10272", "12313", "12513", "12516"],
+      "reason": ["PUSHER\nHARASSER"]
+    },
+    {
+      "arr": ["10302", "10065", "10047", "10115", "10237", "12516"],
+      "reason": ["SUSTAIN\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "162141",
+  "video": [
+    "162142",
+    "https://yhkd.99.com/inc/20180613190600.inc",
+    "https://yhkd.99.com/news/06142018/000427068.shtml"
+  ]
+}

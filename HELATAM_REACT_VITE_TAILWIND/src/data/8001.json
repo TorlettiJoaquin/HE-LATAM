@@ -1,0 +1,409 @@
+{
+  "id": "8001",
+  "name": "Minerva",
+  "type": "2",
+  "features": ["RANGED", "PUSHER", "CARRY"],
+  "data": [7, 4, 5, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "tips": ["Balance attacks with retreats. Control space."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Killshot"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Crimson Ranger"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Summer Heat",
+      "vid": "C0I064jeavI"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Twilight Ranger"
+    },
+    {
+      "imgSrc": "5.jpg",
+      "skinName": "Passion Blossom",
+      "vid": "695imo6VutY"
+    },
+    {
+      "id": "8001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Shinobi Deadeye",
+      "vid": "0EoAbE6pYJg"
+    },
+    {
+      "id": "8001302",
+      "imgSrc": "7.jpg",
+      "skinName": "Feathered Spirits",
+      "vid": "c5O9uHevcIc"
+    },
+    {
+      "imgSrc": "8.jpg",
+      "skinName": "Astral Keeper"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FAN OF ARROWS",
+      "desc": [
+        "Shoots 6 arrows in a cone-like area, dealing magical damage and triggers Frostbite."
+      ],
+      "data": [
+        "Magical Damage: 180/285/270/315, triggers Frostbite ",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 70/85/100/115",
+        "Radius: 1200"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Cone-shaped range of magical damage and slowing effect."],
+      "update": ["Magical damage increased and cooldown reduced."],
+      "tag": ["MAGICAL", "DISABLE"]
+    },
+    {
+      "name": "FLUTTER FALL",
+      "desc": [
+        "By the light of the moon, Minervaâ€™s speed is increased for 4 seconds. Casting blinds enemies within 850 range for 1.5 seconds."
+      ],
+      "data": [
+        "Bonus Movement Speed: 20%/25%/30%/35%",
+        "Bonus Attack Speed: 30/40/50/60",
+        "Cooldown: 12/11/10/9s",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": ["Boosts attack speed and movement speed for a short period."],
+      "update": ["Attack speed and movement speed increased."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "MOON SHOT",
+      "desc": [
+        "Shoots a crystal arrow with its own vision radius and infinite travel distance, dealing magical damage and causing Stun to the first enemy hero unit it hits, and half damage to enemy units nearby it within a 500 radius. For every 750 range the arrow travels, the Stun duration is increased by 0.5s to a maximum of 3.5s."
+      ],
+      "data": [
+        "Magical Damage: 250/375/500",
+        "Mana Cost: 150",
+        "Cooldown: 60/54/48s",
+        "Range: Entire Map"
+      ],
+      "img": "03.png",
+      "keyword": "SINGLE",
+      "study": [
+        "Fire an arrow to deal massive magical damage and stun the target."
+      ],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL", "DISABLE"]
+    },
+    {
+      "name": "FROSTBITE",
+      "desc": [
+        "PASSIVE: Minerva`s basic attacks debuffs enemy units with Frostbite, reducing attack speed and causing Movement Slow for 1.2s."
+      ],
+      "data": [
+        "Movement Slow: 12%/16%/20%/24%",
+        "Attack Speed Slow: 15/20/25/30"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Each attack slows the enemy target."],
+      "update": ["Slowing effect increased."],
+      "tag": ["PASSIVE", "DISABLE"]
+    }
+  ],
+  "story": [
+    "Minerva was the most beautiful night elf in all the Dark Woods, but this very beauty also attracted the leering high priest. To remove all doubts, Minerva decided to join the devout and unmarried Royal Archers Brigade. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10272", "10047", "10053", "10068", "10127"],
+      "reason": ["DPS\nREAPER"]
+    },
+    {
+      "arr": ["10100", "10058", "10272", "10127", "10068", "10237"],
+      "reason": ["SUSTAINED\nNUKER"]
+    },
+    {
+      "arr": ["10100", "10272", "10049", "10237", "10127", "10047"],
+      "reason": ["NUKER\nPUSHER"]
+    },
+    {}
+  ],
+  "strategy": "151554",
+  "video": [
+    "151518",
+    "https://yhkd.99.com/inc/20160919023138.inc",
+    "https://yhkd.99.com/news/11032016/045217640.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+1.8"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.73"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r16.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b18.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g12.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+2.52"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+12.51"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r26.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b28.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g22.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+3.24"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+16.29"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r36.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b38.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g32.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.05"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+19.98"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r46.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b48.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g42.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+5.04"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+25.02"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r56.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b58.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g52.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

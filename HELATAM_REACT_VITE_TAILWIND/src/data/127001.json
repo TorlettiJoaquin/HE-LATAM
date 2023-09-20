@@ -1,0 +1,142 @@
+{
+  "id": "127001",
+  "name": "Clarice",
+  "type": "2",
+  "features": ["DPS", "Pusher"],
+  "data": [9, 0, 7, 6],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": [
+    "åˆç†åˆ©ç”¨ç½—åˆ¹éƒ¡ä¸»çš„ç©¿é€æ”»å‡»å¯ä»¥ç»™å¯¹æ–¹åŽæŽ’å¸¦æ¥å¯è§‚çš„å¨èƒã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "127001303",
+      "imgSrc": "1.jpg",
+      "skinName": "Winged Gamer",
+      "vid": "G-mGHxFIGZo"
+    },
+    {
+      "id": "127001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Shining Royal",
+      "vid": "vSt4MLPLbaY"
+    },
+    {
+      "id": "127001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Poinsettia Mistress",
+      "vid": "9c2xlB2Opqs"
+    },
+    {
+      "id": "127001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Falling Cherries"
+    },
+    {
+      "id": "127001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Lunar Bride"
+    },
+    {
+      "id": "127001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Solar Infinity"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CHAINING BLADE",
+      "desc": [
+        "Clarice hurls a blade in a target direction, dealing physical damage to the first enemy unit along its path and causes Root for 1s."
+      ],
+      "data": [
+        "Physical Damage: 140/180/220/260",
+        "Cooldown: 10s",
+        "Cast Range: 900",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Physical Damage, Root"],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "BLINDING BLADE",
+      "desc": [
+        "Leaves a blade on the ground and teleports to the target point, granting bonus physical damage to the next basic attack for 5s. The blade detonates after 0.5s, dealing physical damage to the area and causing Movement Slow for 1s."
+      ],
+      "data": [
+        "Physical Damage: 100/140/180/220",
+        "Bonus Physical Damage: 60/80/100/120",
+        "Dash Distance: 600",
+        "Slow: 25%",
+        "Cooldown: 10s",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "Rush",
+      "study": ["Teleport, enhance basic attack. Detonate and Movement Slow"],
+      "update": ["Physical Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Disabler", "Rush"]
+    },
+    {
+      "name": "RAIN OF BLADES",
+      "desc": [
+        "ACTIVE: Clarice summons a rain of blades that slowly moves in the target direction, dealing continuous physical damage to enemy units within its area. PASSIVE: Killing blows on enemy units grant bonus Coins."
+      ],
+      "data": [
+        "Physical Damage per 0.5s:  50/80/110 for 4s",
+        "Bonus Coins: 3/4/5",
+        "Cooldown: 60s",
+        "Mana Cost: 100/125/150",
+        "Max Range: 2400"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Continuous area physical damage, bonus Coins"],
+      "update": ["Physical Damage â†‘ Bonus Coins â†‘"],
+      "tag": ["ULT", "Physical"]
+    },
+    {
+      "name": "FLYING EDGE",
+      "desc": [
+        "After every 3 basic attacks, the next basic attack deals extra bonus physical damage and Pierces enemy units in a straight line."
+      ],
+      "data": ["Bonus Physical Damage: 50/70/90/110"],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["At full stacks, the next basic attack pierces enemy units"],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Physical", "Passive"]
+    }
+  ],
+  "story": [
+    "The gods made her 20% goddess, 30% demon, and 50% human flesh and bone. Clarice was her name, and perhaps it was her own humanity that stopped her from causing that intended chaos. She chose to give up immortality and live as a human."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10047", "10237", "12516"],
+      "reason": ["æŽ¨è¿›ã€çˆ†å‘"]
+    },
+    {
+      "arr": ["10100", "10272", "10053", "10127", "12508", "10237"],
+      "reason": ["æ¸¸èµ°ã€æ”¯æ´"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "162051",
+  "video": [
+    "162050",
+    "https://yhkd.99.com/inc/20180508234423.inc",
+    "https://yhkd.99.com/news/05082018/025315265.shtml"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "58001",
+  "name": "Fawna",
+  "type": "2",
+  "features": ["RANGED", "ROAMER"],
+  "data": [8, 3, 7, 2],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Using Camouflage triggers Survival Instincts directly."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "58001305",
+      "imgSrc": "1.jpg",
+      "skinName": "Da Coolest"
+    },
+    {
+      "id": "58001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Daydream"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Metal Raider"
+    },
+    {
+      "id": "58001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Parade Star"
+    },
+    {
+      "status": "en",
+      "imgSrc": "5-en.jpg",
+      "skinName": "Alien Explorer"
+    },
+    {
+      "id": "58001306",
+      "imgSrc": "5.jpg?",
+      "skinName": "Shadow Foreteller"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CAMOUFLAGE",
+      "desc": [
+        "Become invisible, reducing your own Movement Speed by 30%. Attacking or the casting of skills will end invisibility, but the first Basic Attack performed within 5 seconds afterward will reduce target's DEF and deal additional physical damage. You can activate the skill again to end invisibility actively."
+      ],
+      "data": [
+        "Physical Damage: 100/120/140/160",
+        "DEF Debuff: 15/25/35/45 for 5s",
+        "Invisibility Duration: 15/20/25/30s",
+        "Cooldown: 8s",
+        "Mana Cost: 30/35/40/45"
+      ],
+      "img": "01.png",
+      "keyword": "BUFF",
+      "study": ["Invisible, DEF Debuff, DMG Bonus."],
+      "update": ["Magical Damage and buff effect increased."],
+      "tag": ["BUFF", "PHYSICAL"]
+    },
+    {
+      "name": "HIDDEN TRAP",
+      "desc": [
+        "Call upon the power of nature to set a trap that activates and becomes invisible in 0.5 second, dealing physical damage to enemy unit(s) nearby and slowing down them. Fawna will deal 15% more damage to targets slowed down by the trap. Hidden Trap can withstand up to 3 physical attacks and up to 4 traps can exist concurrently, each lasting 120 seconds. Units triggering a trap become visible for 5 seconds."
+      ],
+      "data": [
+        "Physical Damage: 120/160/200/240",
+        "Slow Effect: 15%/20%25%/30%",
+        "Cast Range: 900",
+        "Effect Radius: 300",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 40/50/60/70"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Set traps that deal more damage to lured enemy units."],
+      "update": ["Magical Damage increased and cooldown decreased."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "POISONED ARROW",
+      "desc": [
+        "Shoot a Poisoned Arrow at a target hero to deal poison damage in 3 seconds. The longer the duration, the greater the damage and more potent the effect."
+      ],
+      "data": [
+        "Magical Damage: 200/250/300",
+        "For every 100 damage suffered, target takes additional 50/70/90 magical damage",
+        "Cast Range: 900",
+        "Cooldown: 50/40/30",
+        "Mana Cost: 150"
+      ],
+      "img": "03.png",
+      "keyword": "MAGICAL",
+      "study": ["Shoot a poisoned arrow at target."],
+      "update": ["Magical Damage increased and cooldown decreased."],
+      "tag": ["ULT", "MAGICAL"]
+    },
+    {
+      "name": "SURVIVAL INSTINCTS",
+      "desc": [
+        "Fawna has remarkable survival instincts. When out of enemy sight, her Health Regen and Movement Speed increase."
+      ],
+      "data": [
+        "Max Health Regen per Second: 1.5%/2.5%/3.5%/4.5%",
+        "Movement Speed Bonus: 15%"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Gain buffs when out of enemy vision."],
+      "update": ["Buff Effect increased."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "Like the children of the jungle, known as â€œguardians of the greenâ€, they understand intimately how delicate Nature is, integrating with rather than relying on Nature. Fawna brings blessings to the forest. She cleanses the filth and returns it to the waters as rain; this is how rainforest came about. Legend has it that if you listen carefully enough in the rainforest, you can hear her laughter."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12516", "10127"],
+      "reason": ["PUSHER\nNUKER"]
+    },
+    {
+      "arr": ["10302", "10272", "10053", "10127", "12508", "10237"],
+      "reason": ["ROAMER\nGANKER"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["SURVIVAL\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "163604",
+  "video": [
+    "163605",
+    "https://yhkd.99.com/inc/20190710030348.inc",
+    "https://yhkd.99.com/news/07102019/235806086.shtml"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "92001",
+  "name": "Leonidas",
+  "type": "1",
+  "features": ["MELEE", "GANKER", "DISABLER"],
+  "data": [9, 0, 5, 6],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "çµæ´»è¿ç”¨å½¢æ€åˆ‡æ¢æ—¶é‡Žè›®æŠ•æŽ·çš„é¢å¤–æ•ˆæžœä¼šè®©ä½ æ‰€å‘æŠ«é¡ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "92001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Carmine Roar"
+    },
+    {
+      "id": "92001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Juggernaut Knight"
+    },
+    {
+      "status": "en",
+      "imgSrc": "3.jpg",
+      "skinName": "Ivory Commander"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BARBARIC TOSS",
+      "desc": [
+        "Leonidas flings his blade at an enemy unit, dealing an unfixed amount of physical damage. "
+      ],
+      "data": [
+        "Physical Damage: 90-180/125-250/160-320/195-390",
+        "Cast Range: 950",
+        "Mana Cost: 60",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Deals physical damage"],
+      "update": ["Physical Damage â†‘"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "WAR SHIELD",
+      "desc": [
+        "Leonidas adopts different formations depending on circumstances of battle. Assault Mode - Passive: increases movement and attack speed. When switching to Assault Mode: Gains 31% bonus Movement Speed which gradually falls back to 25% within 3s; Passive buffs are doubled for 3s and Barbaric Toss deals max damage. Defense Mode - Passive: Both Movement Speed and damage taken are reduced. While switching to Defense Mode:  Reduces Movement Speed by 21% and the reduction gradually restores to 15% within 3s; Damage reduction is doubled for 3s and Barbaric Toss stuns a target for 1s."
+      ],
+      "data": [
+        "Assault Mode Passive - Bonus Attack Speed: 12/18/24/30",
+        "Bonus Movement Speed: 25%",
+        "Defense Mode Passive - Movement Speed Reduction: 15%",
+        "Damage Reduction: 11%/13.5%/16%/18.5%",
+        "Cooldown: 4s"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Can switch between Assault/Defense modes"],
+      "update": ["Bonus Attack Speed â†‘ Damage Reduction â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "IRON WILL",
+      "desc": [
+        "Increases attack and defense for Leonidas every second to a maximum of 10 stacks for 5 seconds.  Also increases Crit rate when 10+ stacks for 5 seconds."
+      ],
+      "data": [
+        "Bonus Attack Damage per Stack: 3/4/5/6",
+        "Bonus Armor per Stack: 2/3/4/5",
+        "Bonus Crit per 10 Stacks: 8%/12%/16%20%"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Gain bonus Attack Damage, Armor and Crit"],
+      "update": ["Attack Damage â†‘ Armor â†‘ Crit â†‘"],
+      "tag": ["Passive", "Buff"]
+    },
+    {
+      "name": "SAVAGE SLAY",
+      "desc": [
+        "Leonidas charges at a target unit, dealing physical damage and stunning for 2 seconds.  Meanwhile, nearby enemies within 400 radius are knocked back 600 range,   dealing half physical damage and slowing movement by 30% for 3 seconds. Casting Ult grants 3 stacks of buffs."
+      ],
+      "data": [
+        "Physical Damage: 320/360/400",
+        "Cast Range: 900",
+        "Cooldown: 50/45/40s",
+        "Mana Cost: 130"
+      ],
+      "img": "04.png",
+      "keyword": "Rush",
+      "study": [
+        "Charge deals physical damage, stuns target and knocks back nearby enemy units"
+      ],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Rush", "Disabler"]
+    }
+  ],
+  "story": [
+    "Facing the invasion of Persians, Leonidas led his country's best men fighting in the front. They fought with their lives and the Persians were exhausted at the easily-defendable Thermopylae. Their resistance bought precious time for allied forces in Athens and the evacuation of the Greek."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "10237", "12316", "10069", "10265"],
+      "reason": ["çˆ†å‘ã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["10302", "10272", "12512", "10125", "10237", "12316"],
+      "reason": ["æŽ¨è¿›ã€æ¸¸èµ°"]
+    },
+    {
+      "arr": ["10100", "10048", "12309", "10272", "12316", "10237"],
+      "reason": ["å›¢é˜Ÿã€å¦å…‹"]
+    },
+    {}
+  ],
+  "strategy": "162943",
+  "video": [
+    "162942",
+    "https://yhkd.99.com/inc/20190313191433.inc",
+    "https://yhkd.99.com/news/03142019/000055240.shtml"
+  ]
+}

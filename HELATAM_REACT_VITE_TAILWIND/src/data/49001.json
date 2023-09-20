@@ -1,0 +1,415 @@
+{
+  "id": "49001",
+  "name": "Diana",
+  "type": "2",
+  "features": ["RANGED", "PUSHER", "CARRY"],
+  "data": [8, 0, 5, 8],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": ["Use Hunter`s Dash to confound your enemies."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Gunslinger"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Waspish Stinger"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Demon Hunter"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Sharpshooter",
+      "vid": "KzJcfgluJfI"
+    },
+    {
+      "id": "49001302",
+      "imgSrc": "5.jpg",
+      "skinName": "Supreme Justice",
+      "vid": "s7N7phSjirA"
+    },
+    {
+      "id": "49001303",
+      "imgSrc": "6.jpg",
+      "skinName": "True Sweetheart"
+    },
+    {
+      "id": "49001304",
+      "imgSrc": "7.jpg",
+      "skinName": "Otaku Girl"
+    },
+    {
+      "status": "en",
+      "imgSrc": "8-en.jpg",
+      "skinName": "SHEROSE Diana"
+    },
+    {
+      "id": "49001308",
+      "imgSrc": "8.jpg?",
+      "skinName": "Rainbow Serpent"
+    },
+    {
+      "id": "49001313",
+      "imgSrc": "9.jpg",
+      "skinName": "Battle Maid"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SOUL SHOCK",
+      "desc": [
+        "Fires a bolt at a target enemy unit, dealing physical damage and causing 500 knockback. ENHANCED: Can cast 2 times. First bolt deals physical damage and causes Root for 1s, second bolt deals half damage and causes knockback."
+      ],
+      "data": [
+        "Damage: 150/190/230/270",
+        "Mana Cost: 70/80/90/100",
+        "Cooldown: 8s",
+        "Radius: 900"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Knocks back the target. Can trap target after enhanced."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "HUNTER'S DASH",
+      "desc": [
+        "Dashes in a target direction. Diana's next basic attack within 3s deals bonus physical damage. ENHANCED: Gain Invisible for 1s at the end of the dash."
+      ],
+      "data": [
+        "Bonus Damage: 75/120/165/210",
+        "Mana Cost: 45/55/65/75",
+        "Cooldown: 8/7.5/7/6.5s",
+        "Effect Radius: 550"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": [
+        "Leap and grant bonus physical damage; become invisible after enhanced."
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["PHYSICAL", "BUFF"]
+    },
+    {
+      "name": "DIVINE POWER",
+      "desc": [
+        "Enhance Soul Shock: Can cast 2 times. Bolt the first deal physical damage and causes Root for 1s while bolt the second deal within 3s half the damage and causes knockback. Enhance Hunter`s Dash: Gain Invisible for 1s at the end of the dash._Enhance Curse of Flesh: Ignores Armor and Damage Reduction effects."
+      ],
+      "data": [],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": [
+        "Effects of Soul Shock, Hunter`s Dash and Curse of Flesh upgraded."
+      ],
+      "update": [],
+      "tag": ["ULT", "PASSIVE", "BUFF"]
+    },
+    {
+      "name": "CURSE OF FLESH",
+      "desc": [
+        "Each basic attack debuffs a target enemy unit with 1 stack of Curse for 5s. The next basic attack triggers the Curse, dealing bonus damage. Curse can stack up to 3 times. ENHANCED: Ignores Armor and Damage Reduction effects."
+      ],
+      "data": ["Damage per Stack: 30/35/45/50"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Attacks deal bonus physical damage, ignores Armor after enhanced."
+      ],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Cherith was the demoness of the night and the daughter of Satan. Unlike her fun-loving sisters, Cherith was far more dangerous and ambitious. She wanted to turn all of the human jurisdiction into monster territory. However, Diana the Huntress kept blocking her plan, and she chased Diana back to the human citadel."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10053", "10047", "10237", "12508"],
+      "reason": ["SUSTAIN\nDPS"]
+    },
+    {
+      "arr": ["10100", "10058", "10272", "10127", "10237", "10047"],
+      "reason": ["NUKER\nREAPER"]
+    },
+    {
+      "arr": ["10100", "10272", "10049", "10047", "10127", "10237"],
+      "reason": ["LANE PUSHER\nPUSHER"]
+    },
+    {}
+  ],
+  "strategy": "151541",
+  "video": [
+    "151530",
+    "https://yhkd.99.com/inc/20160919031548.inc",
+    "https://yhkd.99.com/news/11032016/051026565.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+1.8"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.73"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r16.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b18.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g12.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+2.52"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+12.51"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r26.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b28.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g22.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+3.24"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+16.29"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r36.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b38.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g32.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.05"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+19.98"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r46.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b48.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g42.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+5.04"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+25.02"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r56.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b58.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g52.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "id": "13001",
+  "name": "Cao Cao",
+  "type": "2",
+  "features": ["MELEE", "PUSHER", "CARRY"],
+  "data": [8, 3, 6, 5],
+  "way": "0",
+  "gold": 5888,
+  "diamond": 268,
+  "tips": ["Use Tornado Blade at low health for more crits."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Ever Victorious"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Glorious Warlord"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Lord Midnight"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Sir Vengeance"
+    },
+    {
+      "id": "13001302",
+      "imgSrc": "5.jpg",
+      "skinName": "Emerald Phoenix"
+    }
+  ],
+  "ski": [
+    {
+      "name": "TORNADO BLADE",
+      "desc": [
+        "Cao Cao becomes a tornado of blades, dealing physical damage to nearby enemy units over 3s and becoming immune to Movement Slows."
+      ],
+      "data": [
+        "Damage per 0.3s: 45/55/65/75",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 80",
+        "Radius: 450",
+        "Range: 500"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals physical damage to nearby enemies over time."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "GLORIOUS SWORD",
+      "desc": [
+        "Unleashes a blade beam a target direction, dealing physical damage to enemy units and causing Movement Slow. Deals double damage to enemy units facing the blade beam, and doubles the Movement Slow to enemy units facing away."
+      ],
+      "data": [
+        "Damage: 180/200/220/240, Movement Slow: 15%/20%/25%/30% for 3s",
+        "Cooldown: 8s",
+        "Mana Cost: 80",
+        "Radius: 1000"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": [
+        "Deals physical damage and slows enemies in a target direction."
+      ],
+      "update": ["Ability damage and movement slow effect increased."],
+      "tag": ["PHYSICAL", "DISABLE"]
+    },
+    {
+      "name": "SWORD DANCE",
+      "desc": [
+        "=PASSIVE: Cao Cao can score a Lethal Blow with his basic attacks and Tornado Blade. Dealing 2x critical damage when his Health is between 51% to 100%, 2.5x critical damage when Health is between 26% to 50%, and 3x critical damage when Health is between 1% to 25%."
+      ],
+      "data": ["Critical Chance: 12%/16%/20%/24%"],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": [
+        "Increases critical damage according to Cao Cao`s current Health."
+      ],
+      "update": ["Critical chance increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    },
+    {
+      "name": "UNDYING HEROISM",
+      "desc": [
+        "Undying Heroism grants a state of undying, where Cao Cao cannot die. Each basic attack grants three stacks of Heroic Strength, and each ability that deals damage to enemy hero units grants one stack. Movement speed is also increased. When this state ends, Cao Cao is healed based on his stacks of Heroic Strength. If this ability is not under cooldown, it automatically activates when Cao Cao`s Health drops too low."
+      ],
+      "data": [
+        "Duration: 4s",
+        "Heal per Stack:30/40/50",
+        "Max Stacks: 15",
+        "Bonus Movement Speed: 15%/20%/25%",
+        "Cooldown: 60/54/48s",
+        "Mana Cost: None",
+        "Health Threshold: 300/400/500"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Activate to become immune from harm, and damage dealt recovers health."
+      ],
+      "update": ["Increases bonus healing and stacks of Heroic Strength."],
+      "tag": ["ULT", "BUFF"]
+    }
+  ],
+  "story": [
+    "Born with divine power, legend tells of Cao Cao being mightier than a thousand troops. With a mere pointing of his sword, state armies cowered in fear."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10065", "10058", "10237", "12516", "10272"],
+      "reason": ["NUKER"]
+    },
+    {
+      "arr": ["12502", "10272", "10048", "12516", "10257", "12316"],
+      "reason": ["ESCAPE\nSUSTAINED DPS"]
+    },
+    {
+      "arr": ["12514", "10048", "12508", "10300", "10087", "10265"],
+      "reason": ["INITIATOR\nDURABLE"]
+    },
+    {}
+  ],
+  "strategy": "151557",
+  "video": [
+    "151515",
+    "https://yhkd.99.com/inc/20160919023043.inc",
+    "https://yhkd.99.com/news/10182016/234113523.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      }
+    ]
+  ]
+}

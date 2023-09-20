@@ -1,0 +1,148 @@
+{
+  "id": "54001",
+  "name": "Fleur",
+  "type": "3",
+  "features": ["RANGED", "INTELLIGENCE", "MAGE"],
+  "data": [3, 8, 6, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "The combination of Gardener and Flower lets you romp over the battlefield."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "54001303",
+      "imgSrc": "1.jpg",
+      "skinName": "Elven Princess",
+      "vid": "NsQCqJ92CVo"
+    },
+    {
+      "id": "54001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Matrix Minx"
+    },
+    {
+      "id": "54001301",
+      "imgSrc": "3.jpg",
+      "skinName": "Emerald",
+      "vid": "TwRjqUXPjQI"
+    },
+    {
+      "id": "54001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Camellia"
+    },
+    {
+      "id": "54001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Violet Radiance"
+    }
+  ],
+  "ski": [
+    {
+      "name": "THORNY BLOOM",
+      "desc": [
+        "Fleur summons an immobile thorny bloom to a target location, dealing fatal damage to nearby enemies for 20 seconds before disappearing. Cooldown is not affected by cooldown reduction gear. Plants take 250% damage from towers and deal one-off damage when spawning.  "
+      ],
+      "data": [
+        "Bloom Magical Damage: 40/50/60/70",
+        "Bloom Spawn Magical Damage: 70/80/90/100",
+        "Bloom Health: 300/400/500/600",
+        "Cast Range: 1000",
+        "Mana Cost: 60/70/80/90",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "MAGICAL",
+      "study": ["Places a thorny bloom to assist in attacks."],
+      "update": ["Magical Damage increased"],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "LOVELY BLOOM",
+      "desc": [
+        "Fleur summons an immobile lovely bloom to a target location, dealing slight damage to nearby enemies but reducing target movement speed by 30% for 2 seconds. Plant lingers for 20 seconds. Cooldown is not affected by cooldown reduction items. Plants take 250% damage from towers and deal slight one-off damage when spawning as well as causing Root. Enemy targets may only be rooted a maximum of once every 5 seconds. "
+      ],
+      "data": [
+        "Bloom Magical Damage: 30/40/50/60",
+        "Bloom Spawn Magical Damage: 50/60/70/80",
+        "Bloom Health: 200/300/400/500",
+        "Cast Range: 1000",
+        "Mana Cost: 75/85/95/105",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Places a lovely bloom that deals damage and roots."],
+      "update": ["Magical Damage increased"],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "FLOWER GARDEN",
+      "desc": [
+        "Place a Flower Garden on a target point that deals magical damage to nearby enemy units and entangles them for 1 second. When placed, the garden sprouts 3 flowers to attack enemy units immediately. Each flower present grants a bonus to the Spell Power of Fleur."
+      ],
+      "data": [
+        "Magical Damage: 130/180/230",
+        "Cast Range: 900",
+        "Effect Radius: 550",
+        "Bonus Passive Spell Power per Flower: 6/8/10",
+        "Mana Cost: 120/160/200",
+        "Cooldown: 45/40/35s"
+      ],
+      "img": "03.png",
+      "keyword": "DISABLER",
+      "study": ["Casting spawns attack flowers to support in combat."],
+      "update": ["Magical Damage and Bonus Spell Power increased."],
+      "tag": ["MAGICAL", "ULT", "DISABLER"]
+    },
+    {
+      "name": "GARDENER",
+      "desc": [
+        "PASSIVE: Thorny Blooms and Lovely Blooms restore Mana for Fleur. ACTIVE: blinks a short distance to another location. If a flower is present at blink destination, cooldown is reduced while triggering one-off damage and slowing movement for nearby enemies. Each flower may trigger effect once every 5 seconds. "
+      ],
+      "data": [
+        "Mana Regen per Flower Attack: 4/5/6/7",
+        "Magical Damage per Blink: 60/70/80/90",
+        "Blink Range: 900",
+        "Trigger Range: 500",
+        "Slow Effect: 10%/15%/20%/25% for 3s",
+        "Cooldown Reduction: 1s/flower",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 12s"
+      ],
+      "img": "04.png",
+      "keyword": "DASH",
+      "study": ["Blinking to a flower location reduces ability cooldown."],
+      "update": ["Magical Damage and slowdown increased."],
+      "tag": ["MAGICAL", "DASH", "BUFF"]
+    }
+  ],
+  "story": [
+    "Beauty was the most prized gift that the goddess of flowers gave her daughter. Using the most tender petals to fabricate her skin, she wondered if there was a better and more perfect way to create her daughter."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "10228", "10265", "10072"],
+      "reason": ["DPS, PUSHER"]
+    },
+    {
+      "arr": ["12514", "10048", "12313", "10228", "12316", "10265"],
+      "reason": ["SUPPORT, TANK"]
+    },
+    {
+      "arr": ["12307", "10123", "12533", "10228", "12305", "10265"],
+      "reason": ["NUKER\nREAPER"]
+    },
+    {}
+  ],
+  "strategy": "163422",
+  "video": [
+    "163423",
+    "https://yhkd.99.com/inc/20190529011659.inc",
+    "https://yhkd.99.com/news/05292019/193732205.shtml"
+  ]
+}

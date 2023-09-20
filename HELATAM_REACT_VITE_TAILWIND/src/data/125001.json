@@ -1,0 +1,139 @@
+{
+  "id": "125001",
+  "name": "Brady",
+  "type": "1",
+  "features": ["MELEE", "GANKER", "NUKER"],
+  "data": [9, 0, 5, 6],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["ç¢Žåœ°å†²å‘½ä¸­å•ä½æ—¶ä¼šç¼©å‡å†·å´æ—¶é—´ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "125001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Mecha Fist"
+    },
+    {
+      "id": "125001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Golden Fist"
+    },
+    {
+      "status": "en",
+      "imgSrc": "3-en.jpg",
+      "skinName": "Envoy of Truth"
+    },
+    {
+      "id": "125001303",
+      "imgSrc": "3.jpg?",
+      "skinName": "Wonder"
+    }
+  ],
+  "ski": [
+    {
+      "name": "MEGA QUAKE",
+      "desc": [
+        "Brady drives a punch into the ground, inflicting area damage to a target location and causing Root for 1s."
+      ],
+      "data": [
+        "Physical Damage: 110/150/190/230",
+        "Burst Damage: 60/90/120/150",
+        "Cast Range: 650",
+        "Burst Radius: 350",
+        "Mana Cost: 50",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Area of effect damage, Root"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "AOE"]
+    },
+    {
+      "name": "ONE HUNDRED STRIKES",
+      "desc": [
+        "Brady releases a flurry of punches forward with each enemy unit sustaining up to 5 punches of physical damage."
+      ],
+      "data": [
+        "Physical Damage per Punch: 80/120/160/200",
+        "Cast Range: 950",
+        "Radius: 300",
+        "Cooldown: 10s",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Deals damage with multiple blows"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "AOE"]
+    },
+    {
+      "name": "DIVINE FIST",
+      "desc": [
+        "Damage dealt through attacks and skills grants 1 stack of Dark Vigor for 8s. Recast to deal burst pure damage based on stacks of Dark Vigor which generates a shockwave upon impact, dealing damage, causing Stun for 1.5s and 1 extra stack of Dark Vigor._Passive: Kills and assists reduce cooldown by 20 seconds."
+      ],
+      "data": [
+        "Shockwave Damage: 120/150/180",
+        "Max Dark Vigor: 15",
+        "Shockwave Radius: 500",
+        "Extra Dark Vigor Stacks: 3/4/5",
+        "Damage per Stack: 15/20/25",
+        "Cooldown: 40s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": [
+        "Pounds out a shockwave that releases burst damage based on stacks of Dark Vigor."
+      ],
+      "update": ["Dark Vigor stacks â†‘ Damage â†‘"],
+      "tag": ["ULT", "Buff"]
+    },
+    {
+      "name": "PULVERIZER",
+      "desc": [
+        "With a spring in his step, Brady leaps to a target location, dealing area physical damage at destination. May re-cast within 3 seconds. Hitting targets partially reduces cooldown."
+      ],
+      "data": [
+        "Physical Damage: 90/130/170/210",
+        "Cooldown Reduction: 0.5/1/1.5/2s",
+        "Cast Range: 850",
+        "Cast Range: 350",
+        "Mana Cost: 50/60/70/80",
+        "Cooldown: 12s"
+      ],
+      "img": "04.png",
+      "keyword": "Rush",
+      "study": ["Charges and deals damage. May re-cast."],
+      "update": ["Damage â†‘"],
+      "tag": ["Rush", "Physical"]
+    }
+  ],
+  "story": [
+    "In this dirty, corrupt world, a man with a pair of almighty fists upholds the spirit of 'the invulnerable' inherited from his teachers. He wanders the world, punishing evil, in perpetual chase of his brother and lover. He's fought countless battles and saved scores of people from evil. They call him \"The Fist of God\", but he just calls himself Brady."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "12512", "10265", "10069"],
+      "reason": ["NUKER, DPS"]
+    },
+    {
+      "arr": ["12514", "10048", "10069", "12316", "10263", "10265"],
+      "reason": ["HARASSER, BACK ROW"]
+    },
+    {
+      "arr": ["10302", "10048", "12512", "10069", "12316", "10263"],
+      "reason": ["TANK, GANKER"]
+    },
+    {}
+  ],
+  "strategy": "164621",
+  "video": [
+    "164622",
+    "https://yhkd.99.com/inc/20191217230537.inc",
+    "https://yhkd.99.com/news/12192019/001405932.shtml"
+  ]
+}
