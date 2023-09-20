@@ -1,0 +1,111 @@
+{
+  "id": "155001",
+  "name": "Sprite Auric",
+  "type": "2",
+  "features": ["Melee", "DPS"],
+  "data": [6, 6, 6, 6],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Make the best choice of combat forms based on the battle situation."
+  ],
+  "skin": [
+    {
+      "id": "155001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Pool Geek"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Impale",
+      "desc": [
+        "Human Form: Sprite Auric grows a sharp drill onto his arm that impales enemy units in a straight line, dealing physical damage and applying the Lacerate effect for 3s.<br>Lacerate Effect: Increases all damage inflicted by Sprite Auric on the target by 25% and slows the target's movement by 35%.<br>Liquid Form: Places spikes to deal magic damage to enemy units in the area and apply the Bleed effect for 3s.<br>Bleed Effect: Reduces the target's Movement Speed by 35% and Health Regen by 50%."
+      ],
+      "data": [
+        "Physical Damage: 200/260/320/380",
+        "Magic Damage: 150/200/250/300",
+        "Mana Cost: 40",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "AoE, Disable",
+      "study": ["Inflicts damage and Slow."],
+      "update": ["Damage â†‘"],
+      "tag": ["Disable"]
+    },
+    {
+      "name": "Fatal Thrust",
+      "desc": [
+        "Human Form: After channeling the energy for a short time, Sprite Auric thrusts in a target direction at the cost of 10% of his current Health, penetrating enemy units along the path and dealing additional damage based on the target's missing Health (adding 1 physical damage for every 4 missing Health of the target, up to 600). Sprite Auric also restores 25% of his own missing Health for every 1 enemy hero(es) hit.<br>Liquid Form: At the cost of 10% of his current Health, Sprite Auric deals multiple spike damage to enemy units in the area continuously for 3s. For every 1 enemy unit(s) hit, Sprite Auric restores his Health. Hitting enemy heroes doubles the healing effect. Sprite Auric can move but cannot use other abilities for the duration."
+      ],
+      "data": [
+        "Physical Damage: 200/250/300/350",
+        "Magic Damage: 120/150/180/210",
+        "Health Restored (Liquid Form): 15/20/25/30",
+        "Cooldown: 9s"
+      ],
+      "img": "02.png",
+      "keyword": "Rush",
+      "study": ["Deals damage at the cost of Health and gets healed."],
+      "update": ["Damage â†‘"],
+      "tag": ["Rush", "Buff"]
+    },
+    {
+      "name": "Liquefaction",
+      "desc": [
+        "Sprite Auric enters into the Liquid form, transforming into mercury for 10s. Though being unable to launch basic attacks for the duration, he becomes immune to Slow and Root and reduces the Movement Speed of enemies in the area by 25%. He also gains bonus Damage Reduction, faster movement, and corresponding changes to his abilities. Each time Sprite Auric uses another ability in the Liquid form, the duration of Liquefaction is extended by 2s. Cast again to return to the Human form immediately and deal physical damage to surrounding units."
+      ],
+      "data": [
+        "Physical Damage: 250/350/450",
+        "Damage Reduction: 15%/20%/25%",
+        "Bonus Movement: 20%/25%/30%",
+        "Cooldown: 15s"
+      ],
+      "img": "03.png",
+      "keyword": "Ultimate",
+      "study": ["Switches to the Liquid form."],
+      "update": ["Damage â†‘ Effects â†‘"],
+      "tag": ["Ultimate", "Buff"]
+    },
+    {
+      "name": "Solid Strike",
+      "desc": [
+        "Human Form: Sprite Auric draws elementary energy to cover himself, reducing 50% of incoming damage for 2s, speeding up his movement by 30% for 4s, and empowering his next basic attack with additional physical damage and Root effect for 1.5s.<br>Liquid Form: 0.75s later, deals magic damage to enemy heroes in the area, causing Root for 1.5s. Also reduces Sprite Auric's damage taken by 50% for the duration."
+      ],
+      "data": [
+        "Physical Damage: 130/190/250/310",
+        "Magic Damage: 100/150/200/250",
+        "Mana Cost: 50",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Grants self buff and crowd control."],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Buff", "Disable"]
+    }
+  ],
+  "story": [
+    "     It laid quietly in dirt at the deepest part of the Hidden Glen. For thousands of years, it witnessed wreak havoc of flames and the roaring of raging waves as well as the either noble or contemptible humanity that survived in the gap between these two forces. Gradually, its incomplete consciousness seemed to be complete, and it seemed to have gained a new life.<br>     Finally, it recovered enough power and its broken body was melted into a block.<br>     A body with enormous strength stood up slowly out of liquefied metal.<br>      \"From today on, I will be the new master on the battlefield!\"<br>      It swept all on the battlefield like a sharp blade falling from the sky. Its body was the most powerful weapon. A new elemental sprite had arrived and battlefield would change because of its arrival. It represented the strongest force among elemental planes and its name â€“ Sprite Auric â€“ would be engraved in everyone's mind!"
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "12309", "10047", "10272", "10125"],
+      "reason": ["Physical Damage"]
+    },
+    {
+      "arr": ["10302", "10048", "12313", "12513", "12312", "12509"],
+      "reason": ["Magic Damage"]
+    }
+  ],
+  "strategy": "168221",
+  "video": [
+    "168222",
+    "https://yhkd.99.com/inc/20220421001753.inc",
+    "https://wjdown.99.com/games/yhkd/video/hero/220428/jys.mp4",
+    "https://yhkd.99.com/news/09092022/010301296.shtml?index=-1"
+  ]
+}

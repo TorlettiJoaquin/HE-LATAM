@@ -1,0 +1,402 @@
+{
+  "id": "95001",
+  "name": "Yuki",
+  "type": "3",
+  "features": ["RANGED", "GANKER", "CARRY"],
+  "data": [2, 9, 7, 6],
+  "way": "0",
+  "gold": 8888,
+  "diamond": 388,
+  "tips": ["åŠªåŠ›å¢žåŠ ä½ çš„é­”æ³•å€¼ï¼Œä½ ä¼šå˜å¾—å‰æ‰€æœªæœ‰çš„å¼ºå¤§ï¼"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Lantern Bearer"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Mint Mojito",
+      "vid": "5vAxd2QAZYk"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Redhead Ranger"
+    },
+    {
+      "id": "95001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Ghost Collector",
+      "vid": "yavttHrAZ0k"
+    },
+    {
+      "id": "95001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Heart of the Ocean",
+      "vid": "TUTRwCyrgoU"
+    },
+    {
+      "id": "95001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Poet Yuki"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BEGUILE SOUL",
+      "desc": [
+        "Deals magical damage to a target enemy unit. Each cast of this ability within 5s deals increased magical damage and increases its mana cost, stacking up to 3 times."
+      ],
+      "data": [
+        "Damage: 100/150/200/250",
+        "Cast Range: 1000",
+        "Cooldown: 3s",
+        "Mana Cost: 50",
+        "Max Mana Cost: 150"
+      ],
+      "img": "01.png",
+      "keyword": "Single",
+      "study": ["Deals magical damage to targets hit."],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "TERROR SOUL",
+      "desc": [
+        "Unleashes terror souls at a target direction, dealing magical damage to enemy units and causing Confusion for 1s."
+      ],
+      "data": [
+        "Damage: 180/240/300/360",
+        "Cast Range: 1500",
+        "Cooldown: 12s",
+        "Mana Cost:  120/130/140/150"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Deals magical damage and confuses enemies at a target direction"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "MASTERMIND",
+      "desc": [
+        "ACTIVE: Beguile Soul and Terror Soul deals bonus magical damage to enemy units and causes Mana Drain, which reduces their Mana. Cooldown: 15s. PASSIVE: Yuki regains mana with her basic attacks."
+      ],
+      "data": [
+        "Bonus Spell Damage: 40/60/80/100",
+        "Target Mana Reduction: 40/60/80/100",
+        "Mana Regained: 10/20/30/40, Active Duration: 8s"
+      ],
+      "img": "03.png",
+      "keyword": "Regain",
+      "study": ["Causes damage and and regain certain Mana"],
+      "update": ["Absorbance increased"],
+      "tag": ["Passive"]
+    },
+    {
+      "name": "GHOST STORY",
+      "desc": [
+        "PASSIVE: Grants bonus Mana. ACTIVE: Creates a mana shield that grants bonus Spell Power based on Yuki's max Mana, and converts each point of incoming damage into 2 Mana Drain, which reduces Yuki's mana instead. This ability cancels when Yuki's mana drops below 20%."
+      ],
+      "data": [
+        "Spell Power Conversion: 8%",
+        "Damage Conversion: 35%/45/55%",
+        "Mana per Damage: 300"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Increases mana and spell power. Mana can block damage taken"],
+      "update": ["Bonus Mana and Spell Power increased"],
+      "tag": ["ULT", "Buff"]
+    }
+  ],
+  "story": [
+    "Yuli is a beautiful female ghost, who only lived to the age of 18. After her death, she was buried near a desolate old temple, but she was threatened by a monster to harm people. When she was trying to hurt Ning Caichen, the man's integrity made her give up."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "12533", "10228", "12513"],
+      "reason": ["çˆ†å‘ã€ç”Ÿå­˜"]
+    },
+    {
+      "arr": ["10089", "12310", "10109", "12509", "12513", "10072"],
+      "reason": ["è¾“å‡ºã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["12307", "10123", "10228", "12513", "12310", "10124"],
+      "reason": ["æŽ§åˆ¶ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "151549",
+  "video": [
+    "151522",
+    "https://yhkd.99.com/inc/20160919024226.inc",
+    "https://yhkd.99.com/news/09222016/003452634.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+1.8%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.12"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+2.7%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+7.92"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+3.6%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+9.81"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+4.5%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+12.24"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+5.4%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

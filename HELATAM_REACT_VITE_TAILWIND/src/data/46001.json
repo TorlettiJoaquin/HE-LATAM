@@ -1,0 +1,433 @@
+{
+  "id": "46001",
+  "name": "Bombom",
+  "type": "1",
+  "features": ["MELEE", "TANK", "NUKER"],
+  "data": [8, 0, 7, 5],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": ["Immortal Dance deals double damage to troops."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Feral Hermit"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Bomfather",
+      "vid": "nHxjqhFE6P0"
+    },
+    {
+      "id": "46001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Storm Surge",
+      "vid": "OAubOJDT6Gc"
+    },
+    {
+      "id": "46001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Hidden Master"
+    },
+
+    {
+      "id": "46001301",
+      "imgSrc": "6.jpg",
+      "skinName": "Ionic Powersuit",
+      "vid": "NdjSN07y8K4"
+    },
+    {
+      "id": "46001306",
+      "imgSrc": "7.jpg",
+      "skinName": "Spice Master"
+    },
+    {
+      "id": "46001307",
+      "imgSrc": "8.jpg",
+      "skinName": "Sentinel Panda",
+      "vid": "d7O88HgKIK0"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SEVEN-FISTED PUNCH",
+      "desc": [
+        "Dashes in a target direction, dealing physical damage to the first enemy unit he hits, and causing a mini-Stun. Then deals 50% physical damage to enemy units within a 400 radius around the first enemy unit. Bombom takes recoil damage from Seven-Fisted Punch."
+      ],
+      "data": [
+        "Physical Damage: 220/280/340/400, Bonus Physical Damage: 8% of Self`s Max Health",
+        "Recoil Damage: 110/140/170/200",
+        "Effect Radius: 300",
+        "Cast Range: 800",
+        "Cooldown: 6s"
+      ],
+      "img": "01.png",
+      "keyword": "SINGLE",
+      "study": ["Deals physical damage to target and nearby enemies."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "IRON TUNIC",
+      "desc": [
+        "Incredible pain tolerance allows Bombom to endure more damage. Activate to grant Bombom bonus Armor and an aura that causes continuous Movement Slow to nearby enemy units for 5s, while reducing the cooldown of other active abilities by 1s whenever Bombom performs a basic attack, and by 1s whenever damaged by a basic attack."
+      ],
+      "data": [
+        "Bonus Armor: 48/60/72/84",
+        "Mana Cost: 100",
+        "Effect Radius: 500",
+        "Movement Slow: 25%/30%/35%/40%",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": [
+        "Grants bonus Armor, slows nearby enemies and reduces cooldown."
+      ],
+      "update": ["Armor and slowing effect increased."],
+      "tag": ["BUFF", "DISABLER"]
+    },
+    {
+      "name": "IMMORTAL DANCE",
+      "desc": [
+        "Bombom dashes at the target enemy unit, unleashing a flurry of lethal punches to enemy units within the area. Each punch deals physical damage plus bonus physical damage equal to Bombom`s Strength. Deals double damage against enemy non-hero units."
+      ],
+      "data": [
+        "Punches: 4/6/8",
+        "Damage per Punch: 150 to 200",
+        "Mana Cost: 150/250/350 ",
+        "Cast Range: 800",
+        "Cooldown: 50s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deal physical damage to targets in affected area."],
+      "update": ["Cooldown reduced."],
+      "tag": ["ULT", "PHYSICAL"]
+    },
+    {
+      "name": "SECRET MEDICINE (PASSIVE)",
+      "desc": [
+        "PASSIVE: Secret Medicine awakens the healing energies within Bombom. When his Health drops below 30%, Secret Medicine automatically heals 30% Health within 6s."
+      ],
+      "data": [
+        "=Permanent Bonus Strength: 6/12/18/24",
+        "Cooldown: 35/30/25/20",
+        "Duration: 6s"
+      ],
+      "img": "04.png",
+      "keyword": "REPLY",
+      "study": ["Restores health upon casting."],
+      "update": ["unch times increased."],
+      "tag": ["REPLY"]
+    }
+  ],
+  "story": [
+    "During religious wars, a great panda monk came to be known. After escaping from prison, Bombom completely forgave his jailers and instilled the concept of compassion in his enemies. He transcended evil through tolerance and forgiveness. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10048", "12309", "12512", "10257", "10263"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {
+      "arr": ["10302", "12512", "10125", "10065", "10069", "10265"],
+      "reason": ["GANKER\nREAPER"]
+    },
+    {
+      "arr": ["12307", "10048", "12512", "10069", "10265", "10263"],
+      "reason": ["ESCAPE\nTANK"]
+    },
+    {}
+  ],
+  "strategy": "151563",
+  "video": [
+    "151509",
+    "https://yhkd.99.com/inc/20160919021759.inc",
+    "https://yhkd.99.com/news/09222016/003217169.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

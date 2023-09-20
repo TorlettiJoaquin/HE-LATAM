@@ -1,0 +1,425 @@
+{
+  "id": "101001",
+  "name": "Mikio",
+  "type": "2",
+  "features": ["MELEE", "GANKER", "NUKER"],
+  "data": [9, 0, 4, 4],
+  "way": "2",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": [
+    "åˆ‡å…¥æ•Œæ–¹è¢«é›†ç«åŽï¼Œè®°å¾—â€œå¥¥ä¹‰.è£‚æ–©â€æ˜¯æœ‰æ— æ•ŒçŠ¶æ€çš„ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Samurai Frenzy"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Silver Swordsman"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Purple Haze",
+      "vid": "YbFEQeTJwWE"
+    },
+    {
+      "id": "101001306",
+      "imgSrc": "5.jpg",
+      "skinName": "Gone Fishing",
+      "vid": "LaleLUrn-Hc"
+    },
+    {
+      "id": "101001307",
+      "imgSrc": "6.jpg",
+      "skinName": "Luoyang Guard"
+    },
+    {
+      "id": "101001307",
+      "imgSrc": "7.jpg",
+      "skinName": "Front Ronin",
+      "vid": "AS1FUJrR9Qg"
+    }
+  ],
+  "ski": [
+    {
+      "name": "EARTHSHATTER",
+      "desc": [
+        "Mikio slashes the ground and sends a stone shard flying in a target direction, dealing physical damage to all enemy units along its path and causing Blind for 0.75s."
+      ],
+      "data": [
+        "Physical Damage: 180/230/280/330",
+        "Cast Range: 1200 ",
+        "Mana Cost: 50 ",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": [
+        "Deals physical damage and blinds enemies in the affected area"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical", "Deabler"]
+    },
+    {
+      "name": "SKYBREAKER",
+      "desc": [
+        "Leaps towards a target area, dealing physical damage to nearby enemy units and causing Movement Slow for 3s. This ability's cooldown is reset when Mikio scores a killing blow or assist."
+      ],
+      "data": [
+        "Physical Damage: 180/240/300/360",
+        "Cast Range: 850 ",
+        "Raidus: 400 ",
+        "Mana Cost: 40/50/60/70",
+        "Cooldown: 12s",
+        "Movement Slow: 20%/25%/30%/35%"
+      ],
+      "img": "02.png",
+      "keyword": "Disable",
+      "study": [
+        "Leaps towards a target area, slowing and dealing physical damage "
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical", "Rush", "Deabler"]
+    },
+    {
+      "name": "WHIRLWIND",
+      "desc": [
+        "Mikio unleashes his secret technique at a target area, dealing 9 pure damage to enemy hero units within the area. Can not hit the same enemy hero unit more than 5 times."
+      ],
+      "data": [
+        "Damage per Hit: 80/120/160 ",
+        "Cast Range: 800 ",
+        "Mana Cost: 120/180/240",
+        "Cooldown: 50s",
+        "Radius: 500"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals massive pure damage to enemies in the affected area"],
+      "update": ["Ability damage increased"],
+      "tag": ["ULT", "Pure"]
+    },
+    {
+      "name": "KENDO",
+      "desc": [
+        "ACTIVE: Enters the Kendo stance for 4s, Mikio's next basic attack or ability cast will deal bonus physical damage and end the stance. Each second spent in the Kendo stance reduces the cooldown of other abilities by 1s."
+      ],
+      "data": [
+        "Bonus Damage: 120/160/200/240",
+        "Cooldown: 8s",
+        "Mana Cost: 30"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Next attack deals bonus damage"],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical"]
+    }
+  ],
+  "story": [
+    "A homeless urchin in his youth, Mikio understood the fragility of life as much as anyone, and hoped just as much to protect those around him. While studying the blade, he secretly swore to use his sword to protect the vulnerable and the suffering."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10069", "12512", "10115", "10272", "12516"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["10302", "10068", "10272", "10127", "10069", "10265"],
+      "reason": ["æ¸¸èµ°ã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["12502", "10115", "10048", "12512", "10069", "12516"],
+      "reason": ["æ‰“é‡Žã€å›¢é˜Ÿ"]
+    },
+    {}
+  ],
+  "strategy": "151537",
+  "video": [
+    "151534",
+    "https://yhkd.99.com/inc/20160919031706.inc",
+    "https://yhkd.99.com/news/10182016/234621358.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "Attack Damage",
+            "val": "+4.23"
+          },
+          {
+            "name": "Attack Speed",
+            "val": "+2.79"
+          },
+          {
+            "name": "Critical Damage",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Life Steal",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Puncture",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "Thievery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "Savagery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "Penetration",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "Attack Damage",
+            "val": "+6.03"
+          },
+          {
+            "name": "Attack Speed",
+            "val": "+4.05"
+          },
+          {
+            "name": "Critical Damage",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Life Steal",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Puncture",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "Thievery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "Savagery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "Penetration",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "Attack Damage",
+            "val": "+7.83"
+          },
+          {
+            "name": "Attack Speed",
+            "val": "+5.22"
+          },
+          {
+            "name": "Critical Damage",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Life Steal",
+            "val": "+0.9%"
+          },
+          {
+            "name": "Physical Puncture",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "Thievery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "Savagery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "Penetration",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "Attack Damage",
+            "val": "+9.63"
+          },
+          {
+            "name": "Attack Speed",
+            "val": "+6.39"
+          },
+          {
+            "name": "Critical Damage",
+            "val": "+1.8%"
+          },
+          {
+            "name": "Physical Life Steal",
+            "val": "+1.8%"
+          },
+          {
+            "name": "Physical Puncture",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "Thievery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "Savagery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "Penetration",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "Attack Damage",
+            "val": "+12.06"
+          },
+          {
+            "name": "Attack Speed",
+            "val": "+8.01"
+          },
+          {
+            "name": "Critical Damage",
+            "val": "+1.8%"
+          },
+          {
+            "name": "Physical Life Steal",
+            "val": "+1.8%"
+          },
+          {
+            "name": "Physical Puncture",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "Thievery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "Savagery",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "Penetration",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

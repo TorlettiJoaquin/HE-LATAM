@@ -1,0 +1,120 @@
+{
+  "id": "15001",
+  "name": "Borgon",
+  "type": "1",
+  "features": ["MELEE", "GANKER", "DISABLE"],
+  "data": [7, 6, 9, 3],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["Shockwave costs no Mana when scoring a last hit."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "15001201",
+      "imgSrc": "1.jpg",
+      "skinName": "Ancestral Honor",
+      "vid": "J4toxwp_cIs"
+    },
+    {
+      "id": "15001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Doom Rider"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SHOCKWAVE",
+      "desc": [
+        "Borgon unleashes a shockwave at a target to deal magical damage and receives Demonic Strength for 5 seconds. Demonic Strength stacks up to 3 times. Each tier increases skill`s MDMG by 30, Movement Slow by 12% and a part of Health Regen. Movement Slow lasts for 3 seconds. Recover all Mana used to cast skill if target is killed by this skill."
+      ],
+      "data": [
+        "Magical Damage: 60/90/120/150 (+1% Borgonâ€™s Max Health)",
+        "Radius: 500",
+        "Bonus Health Regen: 3/4/5/6",
+        "Mana Cost: 30/40/50/60",
+        "Cooldown: 3s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLE",
+      "study": ["Shakes the ground, dealing damage while buffing self."],
+      "update": ["Increased Damage Dealt and Buff Effect."],
+      "tag": ["DISABLE", "BUFF"]
+    },
+    {
+      "name": "DEMONIC SHIELD",
+      "desc": [
+        "Borgon activates a Demonic Shield which resists all damage and increases own Movement Speed for 3s."
+      ],
+      "data": [
+        "Shield Capacity: 120/160/200/240 (+ 4% Borgon`s Max Health)",
+        "Bonus Movement Speed: 40%",
+        "Radius: 700",
+        "Mana Cost: 75",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": [
+        "Activates a shield to block damage and increase movement speed."
+      ],
+      "update": ["Strengthens shield while reducing cooldown."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "RUSH TO KILL",
+      "desc": [
+        "Rush towards the target, deal magical damage, and stun all enemy units within range for 1.5 seconds."
+      ],
+      "data": [
+        "Magical Damage: 200/250/300 (+2% Borgon`s Max Health)",
+        "Range: 1200",
+        "Radius: 500",
+        "Mana Cost: 120",
+        "Cooldown: 55/50/45"
+      ],
+      "img": "03.png",
+      "keyword": "DISABLE",
+      "study": ["Charges beside a target to deal damage and stun."],
+      "update": ["Increased Magical Damage and reduced Cooldown."],
+      "tag": ["DISABLE", "ULT", "DASH"]
+    },
+    {
+      "name": "ANIMAL SPIRITS",
+      "desc": [
+        "Awaken animal instincts to increase own Health and Health Regen."
+      ],
+      "data": ["Bonus Health: 100/200/300/400", "Bonus Health Regen: 2/3/4/5"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Increases Max Health and Health Regen."],
+      "update": ["Increases Health and Health Regen."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "In primordial times, Borgon and his Julee tribe were the most feared. The Stompatrix had given Borgon earthquake abilities, while the Swampicorn let him rush his foes quickly. The Manticore made him tough as nails, and Chimera gave him a roar that could shake the heavens."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "12309", "12316", "10263", "12516"],
+      "reason": ["ROAMER\nTANK"]
+    },
+    {
+      "arr": ["12307", "12309", "10263", "12316", "10069", "10265"],
+      "reason": ["TANK\nINITIATOR"]
+    },
+    {
+      "arr": ["12502", "10048", "10257", "10263", "12316", "10069"],
+      "reason": ["INITIATOR\nDURABLE"]
+    },
+    {}
+  ],
+  "strategy": "162523",
+  "video": [
+    "162522",
+    "https://yhkd.99.com/inc/20181023225814.inc",
+    "https://yhkd.99.com/news/10232018/225543253.shtml"
+  ]
+}

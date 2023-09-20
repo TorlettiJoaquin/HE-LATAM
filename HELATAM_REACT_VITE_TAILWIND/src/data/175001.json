@@ -1,0 +1,115 @@
+{
+  "id": "175001",
+  "name": "Master Crane",
+  "type": "2",
+  "features": ["Melee", "Agility"],
+  "data": [7, 0, 4, 7],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Choose an appropriate place and break into the enemy's rear area, killing the target with the full set of abilities."
+  ],
+  "skin": [
+    {
+      "id": "175001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Universal Mystery"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Cloud Path",
+      "desc": [
+        "Ground Mode: Master Crane dashes and kicks upward, stunning the enemy units kicked for 0.1s and dealing physical damage to the target as well as enemy units around the target. Then, jumps backward and gains 30% bonus Movement Speed for 2s. If no hero is kicked, flies into the air when arriving at the destination. Fly Mode: Master Crane dives to the target, stunning the target for 0.1s and dealing physical damage to the target as well as enemy units around the target. Then, jumps backward. Passive: Master Crane gains 15% bonus Movement Speed for every 3s of flying, up to 3 stacks. The bonus Movement Speed lasts for 2s after landing and also increases the damage dealt during the dive at a certain percentage."
+      ],
+      "data": [
+        "Physical Damage: 100/160/230/300",
+        "Mana Cost: 20, Cooldown: 10s (Ground)",
+        "Mana Cost: 20, Cooldown: 1s (Fly)"
+      ],
+      "img": "01.png",
+      "keyword": "Dash",
+      "study": ["Dashes forward and deals damage or flies."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Dash"]
+    },
+    {
+      "name": "Power Strike",
+      "desc": [
+        "Ground Mode: Master Crane unleashes his chi power to deal physical damage to enemy units and slow them by 50% for 1.5s. In his next basic attack, Master Crane dashes to the target, dealing additional damage to the target and enemy units within a radius of 400, as well as healing himself. Fly Mode: Master Crane changes the air flow to remove the fog in front, getting vision of that area and revealing hidden units for 5s."
+      ],
+      "data": [
+        "Physical Damage:  120/200/270/360",
+        "Bonus Damage: 120/200/270/360",
+        "Health Regen: 100/120/140/160",
+        "Mana Cost: 30, Cooldown: 8/7/6/5s (Ground)",
+        "Mana Cost: 50, Cooldown: 20s (Fly)"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": [
+        "Causes damage and Movement Slow. Enhances basic attacks and removes the fog."
+      ],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "Infinite Wind",
+      "desc": [
+        "Master Crane dashes forward with a hurricane to deal physical damage to enemy units along his path and stops at the destination. After a delay, the hurricane returns to the starting point, dealing damage to enemy units along the path again and knocking them up for 1s. Untouchable during the dash."
+      ],
+      "data": [
+        "Physical Damage: 200/300/400",
+        "Mana Cost: 100",
+        "Cooldown: 60/50/40s"
+      ],
+      "img": "03.png",
+      "keyword": "Dash",
+      "study": ["Dashes to cause damage and knockup."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Ultimate", "Dash"]
+    },
+    {
+      "name": "Feather Darts",
+      "desc": [
+        "Master Crane's next basic attack within 5s releases 5 feather darts, dealing physical damage to enemy units multiple times. Then, Master Crane takes the feather darts back to kill enemy units. When going back, each feather dart deals physical damage equal to 6% of the target's Health lost (Max Damage: 120). Casting this ability resets Master Crane's basic attack immediately."
+      ],
+      "data": [
+        "Physical Damage: 40/55/70/85",
+        "Mana Cost: 30",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Deals deadly damage and resets basic attacks."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Physical"]
+    }
+  ],
+  "story": [
+    "    When Crane was young, he and White Bear were the only two who passed severe trials of Master Turtle, the greatest Kungfu Master along River Jingxiu, and became his students.<br>    They competed with each other, but they were also close friends. Compared with impetuous Crane, Bear was given higher expectations by Master Turtle for his cautious and hardworking characteristics.<br>    Several years later when Crane entered the hall for his graduate exam, he found Master Turtle dying on the ground with blood all over him, and saw a white back in horror before he was stunned.<br>    Crane has grown to be a gentle master after experiencing the rebellion of his school. When noticing the invasion plan of the bear tribes in the north, Master Crane hit the road of adventure alone, looking into the death of his master."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "12309", "10065", "10115", "10127"],
+      "reason": ["Nuker\nDPS"]
+    },
+    {
+      "arr": ["10100", "12309", "12512", "10065", "12320", "10069"],
+      "reason": ["All-Rounder"]
+    },
+    {
+      "arr": ["10100", "10115", "12309", "12320", "12516", "10127"],
+      "reason": ["Escape\nSustained DPS"]
+    },
+    {}
+  ],
+  "strategy": "167501",
+  "video": [
+    "167502",
+    "https://yhkd.99.com/inc/20210926024347.inc",
+    "https://yhkd.99.com/news/09282021/005814063.shtml"
+  ]
+}

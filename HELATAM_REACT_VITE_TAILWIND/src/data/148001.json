@@ -1,0 +1,136 @@
+{
+  "id": "148001",
+  "name": "Li Bai",
+  "type": "2",
+  "features": ["Melee", "Pusher", "Nuker"],
+  "data": [9, 0, 4, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "ä½¿ç”¨è¿˜éž˜è¯€æ—¶è°ƒæ•´å¥½è§’åº¦å¯ä»¥ä½¿æ›´å¤šæ‰‡éª¨å‘½ä¸­æ•Œäººã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "148001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Poet Laureate",
+      "vid": "Y_76Frz6zOE"
+    },
+    {
+      "id": "148001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Royal Poet"
+    },
+    {
+      "id": "148001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Wisdom"
+    },
+    {
+      "id": "148001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Azure Custodian",
+      "vid": "Mw8X_Uq0h6w"
+    }
+  ],
+  "ski": [
+    {
+      "name": "LOTUS DAGGER",
+      "desc": [
+        "Li Bai throws a fan that turns into a dagger and pierces enemy units in its flight, dealing physical damage. It turns back into a fan for up to 10 seconds at end of the attack and disappears. This skill builds 1 charge every 4 seconds, up to 5 charges in total."
+      ],
+      "data": [
+        "Physical Damage: 120/140/160/180",
+        "Cast Range: 950",
+        "Cooldown: 0.5s",
+        "Mana Cost: 30"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Deals damage and leaves a fan."],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "IMMORTAL STEPS",
+      "desc": [
+        "Li Bai dashes in a chosen direction and, when he comes into contact with a fan, deals physical damage to all nearby enemy units, plus reducing the cooldown for Immortal Steps and Wild Fans by 3 seconds . This effect activates only once per skill use."
+      ],
+      "data": [
+        "Physical Damage: 80/120/160/200",
+        "Dash Range: 800",
+        "Radius: 300",
+        "Cooldown: 4s",
+        "Mana Cost: 40"
+      ],
+      "img": "02.png",
+      "keyword": "Rush",
+      "study": ["Dash and deal damage upon contact with a fan"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "WILD FANS",
+      "desc": [
+        "Drink on the clouds, dance in the mortal realm. Li Bai leaps high and throws 12 fans, dealing PDMG to hit targets and slowing them down. He is also invincible for the duration of the spell."
+      ],
+      "data": [
+        "Physical Damage: 300/400/500",
+        "Movement Slow: 40% for 3s",
+        "Radius: 1000",
+        "Cooldown: 40/35/30s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Throw fans to deal areal damage"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "ULT"]
+    },
+    {
+      "name": "WHIPLASH",
+      "desc": [
+        "Li Bai recalls all fans and they deal physical damage to enemy units on their way back; half damage against each target after the first hit. Targets hit multiple times will be slowed. Killing an enemy hero can help skip the cooldown."
+      ],
+      "data": [
+        "Physical Damage: 140/170/200/230",
+        "Radius: 2500",
+        "Cooldown: 7s",
+        "Movement Slow: 30% for 3s",
+        "Mana Cost: 50"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Recall fans and deal damage and a Slow effect"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Mighty Chang'an was the center of all China. It was thriving but had its share of scoundrels, too. For when the country is in turmoil, the arts are magnificent; and vice versa. Great wars yield great poets, such as Li Bai, but he was quite a different poet. There was no one like him who met the Emperor stone-cold drunk."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10065", "12309", "10237", "10127", "12516"],
+      "reason": ["Nukerã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["10302", "10272", "10068", "10237", "10069", "12516"],
+      "reason": ["æ‰“é‡Žã€æ”¯æ´"]
+    },
+    {
+      "arr": ["12502", "10065", "10272", "10237", "12516", "10127"],
+      "reason": ["æ¸¸èµ°ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "163561",
+  "video": [
+    "163562",
+    "https://yhkd.99.com/inc/20190626013258.inc",
+    "https://yhkd.99.com/news/06262019/224459807.shtml"
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "id": "1001",
+  "name": "Venom",
+  "type": "1",
+  "features": ["Melee", "Ganker", "Carry"],
+  "data": [10, 2, 6, 3],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "ponit": "-",
+  "tips": [
+    "The cooldown for SHADOW BLADE refreshes when Venom kills an enemy hero. Start harvesting!"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Foul Poisoner"
+    },
+
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Tesla Warrior",
+      "vid": "eJmjn4WuH3Q"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Devil Slayer"
+    },
+    {
+      "status": "en",
+      "imgSrc": "5-en.jpg",
+      "skinName": "Glacial Avenger"
+    },
+    {
+      "id": "1001307",
+      "imgSrc": "5.jpg?",
+      "skinName": "Divine Swordsman"
+    }
+  ],
+  "ski": [
+    {
+      "name": "TOOTH FOR A TOOTH",
+      "desc": [
+        "Grants a shield that absorbs basic attacks for 2.5s, reflecting with physical damage and causes Movement Slow by 30% for 2s."
+      ],
+      "data": ["Damage: 75/100/125/150", "Mana Cost: 50", "Cooldown: 7s"],
+      "img": "01.png",
+      "keyword": "Defense",
+      "study": ["Deals counter attack physical damage and slows enemies."],
+      "update": ["Increased physical damage and reduced cooldown."],
+      "tag": ["Defense", "Physical"]
+    },
+    {
+      "name": "SHADOW BLADE",
+      "desc": [
+        "Venom transforms into a specter and dashes in a target direction, causing Stun for 0.5s to the first enemy hero unit he hits, ending the dash and then causes Movement Slow to it by 30% for 3s. Each killing blow on an enemy hero unit resets the cooldown of this ability, while each assist reduces the cooldown by 4s."
+      ],
+      "data": [
+        "Damage: 220/260/300/340 ",
+        "Mana Cost:  90",
+        "Cast Range:1000  ",
+        "Cooldown: 8s "
+      ],
+      "img": "02.png",
+      "keyword": "Dash",
+      "study": ["Charges to a target direction, stuns and slows enemy hero."],
+      "update": ["Ability damage increased"],
+      "tag": ["Dash", "Disable"]
+    },
+    {
+      "name": "SNAKE VENOM (PASSIVE)",
+      "desc": [
+        "Venom intermittently coats his weapon with poison, passively granting bonus attack speed, while increasing bonus physical damage of his next attack and dealing damage to nearby enemies. Each enemy hero hit by this ability recovers a certain amount of Health. This ability is not affected by cooldown reduction gear. Cooldown: 4s"
+      ],
+      "data": [
+        "Bonus Damage: 50/80/110/130",
+        "Heal: 50/80/110/130",
+        "Bonus Attack Speed: 15/20/25/30",
+        "Radius: 600",
+        "Cooldown: 4S"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": [
+        "Passively increases attack speed. Next attack deals AOE damage."
+      ],
+      "update": ["Ability damage and bonus attack speed increased."],
+      "tag": ["Passive", "Buff"]
+    },
+    {
+      "name": "SERPENT'S STRENGTH",
+      "desc": [
+        "Venom awakens his ancient bloodline, restoring a few Health and gaining a massive amount of bonus attack. During this period, every enemy hero defeated refreshes the duration of this ability and restores the Health again."
+      ],
+      "data": [
+        "Bonus Damage: 100/140/180",
+        "Max Health Restoration: 15%/20%/25% Health",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 50/45/40s",
+        "Duration: 10s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "Greatly increases Venom's Damage, resets cooldown by enemy hero kill."
+      ],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "Buff"]
+    }
+  ],
+  "story": [
+    "Venom was spawned into this world resolutely and absolutely of his own will. He believes in the purity of entropy, and in the restoration of nature to its original state of nothingness. "
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10237", "10272", "10069", "10125", "12508"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {
+      "arr": ["12307", "10058", "12508", "10125", "10237", "10127"],
+      "reason": ["GANKER\nREAPER"]
+    },
+    {
+      "arr": ["10100", "10272", "10069", "10237", "12516", "10127"],
+      "reason": ["TANK\nCARRY"]
+    },
+    {}
+  ],
+  "strategy": "154320",
+  "video": [
+    "154321",
+    "https://yhkd.99.com/inc/20161228182044.inc",
+    "https://yhkd.99.com/news/01022017/012716050.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/g19.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/b16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/g29.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/b26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/g39.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/b36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/g49.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/b46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/g59.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/b56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

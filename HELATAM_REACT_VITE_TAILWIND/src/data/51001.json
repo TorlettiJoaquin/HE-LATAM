@@ -1,0 +1,400 @@
+{
+  "id": "51001",
+  "name": "Poseidon",
+  "type": "3",
+  "features": ["MELEE", "NUKER", "DISABLER"],
+  "data": [3, 7, 5, 6],
+  "way": "0",
+  "gold": 2888,
+  "diamond": 138,
+  "tips": ["Soul of the Sea outflanks & sneaks up on foes!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Red Sea Warrior"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Black Sea Angel"
+    },
+    {
+      "id": "51001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Dragon Lad",
+      "vid": "uvL7F1oAr4s"
+    },
+    {
+      "id": "51001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Golden Eddy"
+    },
+    {
+      "id": "51001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Abyss Witch"
+    }
+  ],
+  "ski": [
+    {
+      "name": "TIDAL BARRAGE",
+      "desc": [
+        "Unleashes a tidal wave at a target direction, dealing magical damage to enemy units and causing Movement Slow for 2s."
+      ],
+      "data": [
+        "Damage: 160/220/280/340",
+        "Movement Slow: 35%",
+        "Travel Distance: 1500",
+        "Travel Distance: 2200",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 90/100/110/120"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Deals magical damage and slows enemies."],
+      "update": ["Increased magical damage."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "SOUL OF THE SEA",
+      "desc": [
+        "=Poseidon transforms into the soul of the sea, becoming Untouchable. Deals magical damage to nearby enemy units for 2s."
+      ],
+      "data": [
+        "Damage per 0.5s: 50/60/70/80",
+        "Cooldown: 14/13/12/11s ",
+        "Mana Cost: 90/100/110/120"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": [
+        "Deals magical damage to nearby enemies and becomes invincible."
+      ],
+      "update": ["Ability damage increased, cooldown reduced."],
+      "tag": ["MAGICAL", "BUFF"]
+    },
+    {
+      "name": "POSEIDON'S TRIDENT",
+      "desc": [
+        "Poseidon throws his trident in a target direction, dealing magical damage to enemy units along its path and drags them to its destination, where a rising torrent causes knockup and deals magical damage to nearby units, then causing Stun for 2s."
+      ],
+      "data": [
+        "Trident Damage: 100/150/200",
+        "Torrent Damage: 250/300/350",
+        "Mana Cost: 200/250/300",
+        "Trident Range:1100",
+        "Trident Speed: 2500",
+        "Cooldown: 50/45/40s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE CC",
+      "study": [
+        "Knocks back enemies, then deals magical damage and stunning enemies in the affected area."
+      ],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "OCEANIC POWER",
+      "desc": [
+        "PASSIVE: Every 4s, Poseidon`s next basic attack deals on-hit magical damage and generates a zone with Oceanic Power around the target enemy unit for 2s, granting Poseidon bonus Spell Power and 35% bonus movement speed while inside the zone, as well as bonus Spell Power against enemy units that are inside the zone."
+      ],
+      "data": [
+        "Magical Damage On-Hit: 120/150/180/210",
+        "Bonus Spell Power: 60/70/80/90",
+        "Bonus Damage: 8%/12%/16%/20%",
+        "Cooldown: 4s"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Basic attacks inflict bonus magic damage, and grants bonus spell power."
+      ],
+      "update": ["Ability damage and Spell Power increased."],
+      "tag": ["PASSIVE", "MAGICAL", "BUFF"]
+    }
+  ],
+  "story": [
+    "Since being crowned god of the seas, Poseidon ruled over the ocean with his trident. For the first time ever, humans were separated from the domain of the gods. No one dared to challenge Poseidon's jurisdiction."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "10124", "12513", "10228", "12310"],
+      "reason": ["DISABLER\nSUPPORT"]
+    },
+    {
+      "arr": ["12503", "12310", "10251", "10228", "10109", "12305"],
+      "reason": ["NUKER\nDISABLER"]
+    },
+    {
+      "arr": ["10089", "10228", "12513", "10124", "10109", "12310"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "151540",
+  "video": [
+    "151531",
+    "https://yhkd.99.com/inc/20160919031613.inc",
+    "https://yhkd.99.com/news/11032016/052230700.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+1.8%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+6.12"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+2.7%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+7.92"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+3.6%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+9.81"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+4.5%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+12.24"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+5.4%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

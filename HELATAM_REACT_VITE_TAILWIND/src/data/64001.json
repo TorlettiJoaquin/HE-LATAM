@@ -1,0 +1,136 @@
+{
+  "id": "64001",
+  "name": "Paige",
+  "type": "2",
+  "features": ["MELEE", "NUKER", "PUSHER"],
+  "data": [9, 0, 6, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Stack Agility to increase Paige`s overall damage output."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "64001201",
+      "imgSrc": "1.jpg",
+      "skinName": "Gilded Pledge"
+    },
+    {
+      "id": "64001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Tulip Queen"
+    },
+    {
+      "id": "64001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Dusken Damsel"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Homerun Striker"
+    },
+    {
+      "id": "64001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Envoy of Honor"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLADE OF FAITH",
+      "desc": [
+        "ACTIVE: Unleashes a sword wave at a target direction, dealing physical damage plus bonus physical damage based on Agility to enemy units hit by it, and causes Root for 1.5s. Knight`s Pledge widens the sword wave and grants bonus Effect Range to Blade of Faith."
+      ],
+      "data": [
+        "Physical Damage: 80/120/160/200",
+        "Bonus Physical Damage: 1x Agility",
+        "Cast Range: 800",
+        "Mana Cost: 100",
+        "Cooldown: 10/9/8/7"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Physical Damage, Root."],
+      "update": ["Magical Damage increased and cooldown reduced."],
+      "tag": ["AOE", "DISABLER"]
+    },
+    {
+      "name": "DEFENDER'S WINGS",
+      "desc": [
+        "ACTIVE: Paige becomes Untouchable and unable to move or perform any actions for 1s. After the effect ends, all debuffs are cleansed, Paige heals Health, gains bonus movement speed and becomes immune to Disables for 3s."
+      ],
+      "data": [
+        "Heal Health: 80/130/180/230",
+        "Bonus Movement Speed: 35%",
+        "Mana Cost: 120",
+        "Cooldown: 10/9/8/7"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": ["Untouchable, Heals, Bonus Movement Speed."],
+      "update": ["Heal increased and cooldown reduced."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "SWORD OF GLORY",
+      "desc": [
+        "ACTIVE: Sword of Glory unleashes an enormous beam of divine light at a target direction, dealing massive physical damage plus bonus physical damage based on Agility to enemy units along its path. The divine beam consecrates the earth for 5s, dealing continuous physical damage to enemy units that step inside the zone."
+      ],
+      "data": [
+        "Physical Damage: 300/400/500",
+        "Bonus Physical Damage: 5x Agility",
+        "Physical Damage Per Sec: 50/100/150 (+ 1% Target`s Max Health)",
+        "Cast Range: 2500",
+        "Mana Cost: 100",
+        "Cooldown: 60/50/40"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Massive physical damage in a straight line."],
+      "update": ["Magical Damage increased and cooldown reduced."],
+      "tag": ["ULT", "AOE"]
+    },
+    {
+      "name": "KNIGHT's PLEDGE",
+      "desc": [
+        "PASSIVE: Paige`s unwavering faith grants her bonus agility, bonus movement speed, and bonus Effect Range to Blade of Faith."
+      ],
+      "data": [
+        "Bonus Agility: 6/14/22/30, Bonus Movement Speed: 30/40/50/60",
+        "Bonus Effect Range: 200/300/400/500"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Bonus Agility, Movement Speed, and Effect Range to Blade of Faith."
+      ],
+      "update": ["Agility, Movement Speed and Effect Range increased."],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "Paige, the queen of Rothschild empire, sacrificed her faith to lift the curse of the sword in the stone, and with the sword, she lifted the realm's crown atop her head. However, Paige knew what she was missing. She put together crack knights to pursue what she had lost. They searched hard and far, throughout the farthest reaches of the realm."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "10272", "12309", "10058", "10069"],
+      "reason": ["PUSHER\nSURVIVAL"]
+    },
+    {
+      "arr": ["10100", "10272", "10115", "10047", "10069", "12508"],
+      "reason": ["NUKER\nPUSHER"]
+    },
+    {
+      "arr": ["10302", "10058", "10068", "10115", "10047", "12516"],
+      "reason": ["GANKER\nNUKER"]
+    },
+    {}
+  ],
+  "strategy": "162302",
+  "video": [
+    "162301",
+    "https://yhkd.99.com/inc/20180725205507.inc",
+    "https://yhkd.99.com/news/07252018/201722692.shtml"
+  ]
+}

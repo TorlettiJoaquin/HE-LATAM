@@ -1,0 +1,401 @@
+{
+  "id": "77001",
+  "name": "Crystal",
+  "type": "3",
+  "features": ["Ranged", "GANKER", "Nuker"],
+  "data": [2, 9, 5, 5],
+  "way": "0",
+  "gold": 2888,
+  "diamond": 138,
+  "tips": [
+    "ä¸è¦å°çœ‹\"å†°é›ªæŠ¤ç›¾\"ï¼Œä»–èƒ½è®©ä½ çš„æ•Œäººæ— åŠŸè€Œè¿”ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Chemical Romance"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Mistress of Frost"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Traffic Control",
+      "vid": "qiwtkPN-K5Q"
+    },
+    {
+      "id": "77001306",
+      "imgSrc": "5.jpg",
+      "skinName": "Frostbite Princess"
+    },
+    {
+      "id": "77001307",
+      "imgSrc": "6.jpg",
+      "skinName": "Snow Dancer"
+    },
+    {
+      "id": "77001308",
+      "imgSrc": "7.jpg",
+      "skinName": "Stargazer"
+    },
+    {
+      "id": "77001309",
+      "imgSrc": "8.jpg",
+      "skinName": "Sentinel Chill",
+      "vid": "Urnk5QQAYow"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FROST CIRCLE",
+      "desc": [
+        "Crystal manipulates frost and ice, dealing magical damage to enemy units in the target area, debuffing them with an Icy effect which reduces 20 points of attack speed and causes Movement Slow by 30% for 4s."
+      ],
+      "data": [
+        "Magical Damage: 120/170/220/270",
+        "Cooldown:  8/7/6/5s",
+        "Mana Cost: 100",
+        "Cast Range: 1000",
+        "Radius: 400"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Deals AOE magical damage and slows enemies"],
+      "update": ["Magical damage and area of effect damage increased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "ICE LANCE",
+      "desc": [
+        "Hurls a lethal Ice Lance towards the target direction that pierces non-hero enemy units along its path and disappears upon hitting an enemy hero unit. After hitting non-hero units, it deals higher damage and flies forward (triggered only once). Hitting the enemy units debuffed with Icy will cause bonus magical damage and reduce the cooldown of this ability by 2s."
+      ],
+      "data": [
+        "Magical Damage: 80/110/140/170",
+        "Bonus Magical Damage: 30/45/60/75",
+        "Cooldown: 3s",
+        "Cast Range: 2000",
+        "Mana Cost: 60"
+      ],
+      "img": "02.png",
+      "keyword": "Single",
+      "study": ["Single Magical Damage"],
+      "update": ["Magical damage and bonus damage increased"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "RAGING BLIZZARD",
+      "desc": [
+        "Summons a blizzard at a target area for 4.5s, dealing magical damage to enemy units and debuffing them with Icy, which causes Movement Slow by 30% for 2s."
+      ],
+      "data": [
+        "Damage per 0.75s: 120/140/160",
+        "Cooldown: 48s",
+        "Radius: 500",
+        "Cast Range: 1100",
+        "Mana Cost: 175/225/275"
+      ],
+      "img": "04.png",
+      "keyword": "AOE",
+      "study": ["Deals AOE magical damage and slows enemies"],
+      "update": ["Ability damage increased"],
+      "tag": ["ULT", "Magical", "Disabler"]
+    },
+    {
+      "name": "BITTER FROST",
+      "desc": [
+        "PASSIVE: Damage from Crystal's abilities debuff enemy units with a stack of Frost. At 4 stacks, deals magical damage and causes Frozen to that enemy unit for 1s. This effect can only cause Frozen and deal magical damage to the same enemy unit once every 6s."
+      ],
+      "data": ["Magical Damage: 70/120/170/220"],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": ["Frost and damage enemies"],
+      "update": ["Magical damage increased"],
+      "tag": ["Passive", "Disabler"]
+    }
+  ],
+  "story": [
+    "During the coronation ceremony, Crystal's ever-so-careful footsteps still betrayed some icicles. The panic-stricken royals viewed her as a monster. As she left, the entire kingdom was plunged into a frosty winter, freezing solid behind her. It's not the end. She will one day return to restore her kingdom; to claim her rightful throne!"
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12509", "12310", "10251", "10228"],
+      "reason": ["è¾“å‡ºã€çˆ†å‘"]
+    },
+    {
+      "arr": ["12514", "10123", "12509", "12513", "12312", "10124"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["12503", "12513", "10228", "10251", "12509", "10072"],
+      "reason": ["ç”Ÿå­˜ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "151547",
+  "video": [
+    "151524",
+    "https://yhkd.99.com/inc/20160919024537.inc ",
+    "https://yhkd.99.com/news/09192016/225051464.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+1.8%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.12"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+2.7%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+7.92"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+3.6%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+9.81"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+4.5%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+12.24"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+5.4%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

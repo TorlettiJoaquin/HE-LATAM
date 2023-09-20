@@ -1,0 +1,403 @@
+{
+  "id": "97001",
+  "name": "Nosferatu",
+  "type": "3",
+  "features": ["RANGED", "GANKER", "NUKER"],
+  "data": [2, 8, 7, 6],
+  "way": "2",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": [
+    "è¡€æ²³æ˜¯å¾·å¤æ‹‰çš„é¢†åœ°ï¼Œåœ¨è¡€æ²³é‡Œæˆ˜æ–—ï¼Œå¾·å¤æ‹‰æ˜¯æ— æ‰€ç•æƒ§çš„ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Vampiric Schoolboy"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Crimson Emissary"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Blood Drinker"
+    },
+    {
+      "id": "97001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Demetrius"
+    },
+    {
+      "id": "97001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Vampyric Kiss"
+    },
+    {
+      "id": "97001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Envoy of Greed"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLOOD SUCKER",
+      "desc": [
+        "Deals magical damage to a target enemy unit at 50% Spell Life Steal, healing Health based on the damage dealt. Healing is capped at 500 Health."
+      ],
+      "data": [
+        "Damage: 180/220/260/300",
+        "Cast Range: 800 ",
+        "Mana Cost: 75 ",
+        "Cooldown: 7/6/5/4s"
+      ],
+      "img": "01.png",
+      "keyword": "Damage",
+      "study": ["Deals magical damage and recovers Health  "],
+      "update": ["Ability damage increased and cooldown reduced"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "RIVER OF BLOOD",
+      "desc": [
+        "Spews forth a river of blood in a target direction that lasts 6s, dealing continuous magical damage to enemy units inside the river while granting Nosferatu bonus Health Regen and bonus movement speed. The bonus effects last for 1s after Nosferatu leaves the river of blood."
+      ],
+      "data": [
+        "Damage per second: 70/90/110/130",
+        "Health Regen per second: 5/10/15/20",
+        "Movement Slow: 25%",
+        "Bonus Movement: 25%",
+        "Cast Range: 1200",
+        "Mana Cost: 150 ",
+        "Cooldown: 13/12/11/10s"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Deals magical damage to targets in the effective area, slowing them while conferring a buff to Nosferatu "
+      ],
+      "update": ["Ability damage increased and cooldown reduced"],
+      "tag": ["Magical", "Buff", "Disabler"]
+    },
+    {
+      "name": "BLOODY SACRIFICE",
+      "desc": [
+        "Nosferatu needs blood! Deals magical damage to nearby enemy units at 50% Spell Life Steal, which heals Health based on the damage dealt. Enemy units then take continuous magical damage for 5s. The Spell Life Steal is halved against enemy non-hero units."
+      ],
+      "data": [
+        "Primary Damage: 250/350/450",
+        "Damage per Second: 40/50/60",
+        "Radius: 800 ",
+        "Mana Cost: 150/200/250",
+        "Cooldown: 45"
+      ],
+      "img": "03.png",
+      "keyword": "Damage",
+      "study": [
+        "Deals massive magic damage to nearby enemies and reduces cooldown"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "ULT"]
+    },
+    {
+      "name": "BLOOD STORM",
+      "desc": [
+        "PASSIVE: Each enemy unit killed by Nosferatu grants him 10 max Health. Blood Sucker's overheal generates a shield that absorbs damage for 10s, to a maximum of 500 Shield Capacity."
+      ],
+      "data": ["Bonus Max Health: 100/200/300/400"],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Increases maximum health and grants a shield"],
+      "update": ["Maximum Health increased"],
+      "tag": ["Passive", "Buff"]
+    }
+  ],
+  "story": [
+    "Nosferatu is based on Vlad III, Archduke of Wallachia, who ruled what is now Romania between 1456 and 1462. The Ottoman Turks, who had seen 20,000 men rotting with spears stuck in front of Nosferatu's castle, were terrified by the sight and ran away. Romanians see Nosferatu as a national hero, although most see him as a fictional bloodthirsty monster."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12533", "12313", "12513", "10228"],
+      "reason": ["è¾“å‡ºã€æŽ§åˆ¶"]
+    },
+    {
+      "arr": ["12307", "10123", "12509", "10124", "12513", "10228"],
+      "reason": ["ç”Ÿå­˜ã€æŒç»­"]
+    },
+    {
+      "arr": ["12307", "12310", "12313", "12513", "10228", "12305"],
+      "reason": ["æ¶ˆè€—ã€æŒç»­"]
+    },
+    {}
+  ],
+  "strategy": "151538",
+  "video": [
+    "151533",
+    "https://yhkd.99.com/inc/20160919031648.inc",
+    "https://yhkd.99.com/news/09222016/004359431.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+1.8%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.12"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+2.7%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+7.92"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+3.6%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+9.81"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+4.5%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+12.24"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+5.4%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

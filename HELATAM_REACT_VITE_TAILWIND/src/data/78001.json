@@ -1,0 +1,130 @@
+{
+  "id": "78001",
+  "name": "Lorelei",
+  "type": "3",
+  "features": ["Ranged", "Durabler", "Ganker"],
+  "data": [2, 7, 4, 3],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["åˆç†åˆ©ç”¨å¤§æ‹›çš„å¼ºåŒ–æ•ˆæžœé€‚åº”ä¸åŒæˆ˜å±€ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Plume Queen"
+    },
+    {
+      "id": "78001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Fairy of Grace"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Exotic Fairy"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Star Chef"
+    }
+  ],
+  "ski": [
+    {
+      "name": "TRAILING PETALS",
+      "desc": [
+        "Lorelei scatters out her explosive petals, dealing magical damage and slowing their movement speed by 15% for 2s."
+      ],
+      "data": [
+        "Magical Damage: 120/170/220/270",
+        "Cast Range: 850",
+        "Shoot Range: 600",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 80"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Shoot petals"],
+      "update": ["Damage increased and cooldown decreased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "FLORAL BURST",
+      "desc": [
+        "Lorelei conjures abundance at a target area, sprouting flowers after a short interval to deal damage to and slowdown movement for affected enemy units. Flowers provide field of vision for 3s."
+      ],
+      "data": [
+        "Magical Damage: 100/140/180/220",
+        "Slow: 15%/20%/25%/30% for 3s",
+        "Cast Range: 1200",
+        "Cooldown: 5s",
+        "Mana Cost:70/80/90/100"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Deals damage, slows movement speed and gain the vision"],
+      "update": ["Damage â†‘ Slowdown â†‘"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "GLORIOUS BEAUTY",
+      "desc": [
+        "Lorelei enters her harvest bounty state for 15s, strengthening her next ability cast to produce extra effects._Trailing Petals: deals bonus attack damage._Floral Burst: causes Stun to affected targets, while denying healing for a short period._Disc of Protection: shield increases movement speed of ally heroes, while hoop damages enemies."
+      ],
+      "data": [
+        "Beauty Flower: Damage targets` Health by 5%/8%/11% in addition every time",
+        "Pure Flower: Stun 1/1.5/2s and force enemies not to restore Health within 5s.",
+        "Enchanting Flower: Increase Movement Speed by 50/70/90 for 3s and cause Magical Damage of 150/200/250",
+        "Mana Cost: 120",
+        "Cooldown: 15s"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Upgrade the next skill"],
+      "update": ["Buff Effect â†‘"],
+      "tag": ["Buff", "ULT"]
+    },
+    {
+      "name": "DISC OF PROTECTION",
+      "desc": [
+        "Lorelei hurls out her wrist hoop and then recovers it, granting a shield that absorbs damage to ally heroes that it touches."
+      ],
+      "data": [
+        "Shiled Point: 90/140/190/240",
+        "Shield Duration: 3s",
+        "Cast Range: 1500",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 80"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Cast a ring and add a shiled"],
+      "update": ["Effect â†‘ Cooldown â†“"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "As light as the eclipsed moon, Lorelei, the goddess of  water, was as radiant as the sunrise. "
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "12532", "10109", "12313", "10072", "12305"],
+      "reason": ["æ¶ˆè€—ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10302", "10228", "12532", "12513", "10265", "12305"],
+      "reason": ["æ¶ˆè€—ã€ç”Ÿå­˜"]
+    },
+    {
+      "arr": ["12514", "10109", "12310", "12532", "12305", "10124"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "164942",
+  "video": [
+    "164941",
+    "https://yhkd.99.com/inc/20200212182045.inc",
+    "https://yhkd.99.com/news/02122020/222852296.shtml"
+  ]
+}

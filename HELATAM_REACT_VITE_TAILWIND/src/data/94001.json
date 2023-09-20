@@ -1,0 +1,405 @@
+{
+  "id": "94001",
+  "name": "Cleopatra",
+  "type": "3",
+  "features": ["RANGED", "GANKER", "NUKER"],
+  "data": [3, 9, 5, 7],
+  "way": "2",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": [
+    "å›¢æˆ˜æ—¶å…ˆä½¿ç”¨â€œç‹‚æ²™ä¹‹çˆªâ€åœ¨ä½¿ç”¨â€œæµæ²™ä¹‹çˆªâ€æ‰“å‡ºæ›´å¤šä¼¤å®³ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Golden Queen"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Jewel Of The Nile"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Divine Empress",
+      "vid": "T70MtI56UKQ"
+    },
+    {
+      "id": "94001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Jade Empress",
+      "vid": "xBLVVpHiExw"
+    },
+    {
+      "id": "94001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Petal Princess"
+    },
+    {
+      "id": "94001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Rose Magician"
+    },
+    {
+      "id": "94001307",
+      "imgSrc": "7.jpg",
+      "skinName": "Lady Grace"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SAND CLAW",
+      "desc": [
+        "Unleashes a Sand Claw in a target direction, dealing magical damage to enemy units along its path."
+      ],
+      "data": [
+        "Damage: 140/190/240/290",
+        "Range: 1200 ",
+        "Mana Cost: 60 ",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage in a target direction"],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "DESERT EXPLOSION",
+      "desc": ["Deals magical damage to nearby enemy units and causes Root."],
+      "data": [
+        "Damage: 150/200/250/300 ",
+        "Mana Cost: 90/100/110/120 ",
+        "Radius: 600  ",
+        "Duration: 1.25s/1.5s/1.75s/2s ",
+        "Cooldown: 8s"
+      ],
+      "img": "02.png",
+      "keyword": "AOE CC",
+      "study": ["Traps and deals magical damage to nearby enemies "],
+      "update": ["Ability damage and trap duration increased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "GREAT SAND CLAW",
+      "desc": [
+        "Unleashes a Great Sand Claw in a target direction with a longer travel distance, dealing magical damage to enemy units along its path. Cast this ability again to teleport to the Great Sand Claw's current position. Each casting of Sand Claw reduces the cooldown of Great Sand Claw by 4s."
+      ],
+      "data": [
+        "Damage: 350/450/550 ",
+        "Cast Range: 2000  ",
+        "Mana Cost: 150/200/250",
+        "Cooldown: 30/25/20s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": [
+        "Deals magical damage in a target direction. Cast again to teleport"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["ULT", "Magical"]
+    },
+    {
+      "name": "SILVER SANDS",
+      "desc": [
+        "PASSIVE: Cleopatra's abilities debuff enemy units with Silver Sands for 8s. Within 8s, her abilities against these enemy units will deal bonus magical damage with Spell Life Steal, which heals Health based on the damage dealt."
+      ],
+      "data": ["Damage: 50/75/100/125ç‚¹", "Spell Heals: 20%/25%/30%/35%"],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "Abilities cast deal bonus magical damage and restore a certain ratio of Health"
+      ],
+      "update": ["Ability damage and Spell healing effect increased"],
+      "tag": ["Passive", "Buff", "Magical"]
+    }
+  ],
+  "story": [
+    "Cleopatra was the last female pharaoh of the Ptolemaic dynasty in ancient Egypt. She was brilliant, intelligent, skillful, and had a dramatic life. Especially her close relations with Julius Caesar and Antony, accompanied by various anecdotes, made her a famous figure in literature and art."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "12532", "12513", "10228"],
+      "reason": ["ç”Ÿå­˜ã€æŽ§åˆ¶"]
+    },
+    {
+      "arr": ["12503", "10228", "10083", "12513", "12509", "12305"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12307", "12310", "12509", "10124", "12513", "12305"],
+      "reason": ["æŒç»­ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "151564",
+  "video": [
+    "151508",
+    "https://yhkd.99.com/inc/20160919021728.inc",
+    "https://yhkd.99.com/news/11032016/044837638.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+1.8%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.12"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+2.7%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+7.92"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+3.6%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+9.81"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+4.5%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "æ³•å¼º",
+            "val": "+12.24"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç¼©çŸ­å†·å´",
+            "val": "+5.4%"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æœºæ™º",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

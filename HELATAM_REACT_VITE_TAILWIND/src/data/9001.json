@@ -1,0 +1,411 @@
+{
+  "id": "9001",
+  "name": "Jeanne",
+  "type": "3",
+  "features": ["RANGED", "PUSHER", "DISABLE"],
+  "data": [5, 7, 6, 4],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "tips": [
+    "SACRED GROUND doubles the effect of RETRIBUTION and enhaces SERAPHIM`s power!"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "9001201",
+      "imgSrc": "01.jpg",
+      "skinName": "Warrior Princess"
+    },
+    {
+      "imgSrc": "02.jpg",
+      "skinName": "Beach Babe",
+      "vid": "Nq49853iG5k"
+    },
+    {
+      "id": "9001301",
+      "imgSrc": "3.jpg",
+      "skinName": "Perfect Prefect"
+    },
+    {
+      "id": "9001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Autumn Fairy"
+    },
+    {
+      "imgSrc": "5.jpg",
+      "skinName": "SHEROES-Jeanne",
+      "status": "en"
+    },
+    {
+      "id": "9001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Fragrant Wind",
+      "vid": "jckeRYt-DDo"
+    },
+    {
+      "status": "en",
+      "imgSrc": "7-en.jpg",
+      "skinName": "Radiant Oracle"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SACRED GROUND",
+      "desc": [
+        "Summons a Sacred Ground to a target area for 5s, causing Movement Slow to enemy units and granting bonus magical damage to Retribution, while granting bonus Health Regen to allied hero units in the area."
+      ],
+      "data": [
+        "Movement Slow: 25%/30%/35%/40%",
+        "Bonus Damage: 40/50/60/70",
+        "Bonus Health Regen: 12/20/28/36",
+        "Range: 1100",
+        "Radius: 500",
+        "Mana Cost: 85/100/115/130",
+        "Cooldown: 10s "
+      ],
+      "img": "01.png",
+      "keyword": "AOE HEAL",
+      "study": ["Buffs allies and debuffs enemies in the target area."],
+      "update": ["Health Regen and Movement Slow effect increased."],
+      "tag": ["DISABLE", "BUFF"]
+    },
+    {
+      "name": "RETRIBUTION",
+      "desc": [
+        "Strikes the target area 4 times with divine light, dealing magical damage to enemy units."
+      ],
+      "data": [
+        "Wave Damage: 70/90/110/130",
+        "Range: 850 ",
+        "Radius: 600",
+        "Mana Cost: 120/140/160/180",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage to enemies in a target area."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "AOE"]
+    },
+    {
+      "name": "BLESSED AURA (PASSIVE)",
+      "desc": [
+        "PASSIVE: Grants allied units within a 1500 radius bonus Armor and Health Regen. These bonuses are doubled for Jeanne."
+      ],
+      "data": [
+        "Bonus Health Regen: 5/6/7/8",
+        "Bonus Armor: 8/10/12/14  ",
+        "Radius: 1500"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Grants nearby allies bonus Armor and Health Regen."],
+      "update": ["Health Regen and Armor increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    },
+    {
+      "name": "BLAZING SERAPHIM",
+      "desc": [
+        "Summons a Seraphim from the heavens to a target area, dealing magical damage to enemy units within a 600 radius and causing Stun for 1s. The Seraphim follows Jeanne and attacks her target enemy units. The Seraphim is immune to magical damage and its attacks have a chance to deal bonus physical damage and cause a mini-Stun. Cast ability again to call the Blazing Seraphim back to Jeanne`s side."
+      ],
+      "data": [
+        "Blast Damage: 200/275/350",
+        "Critical Chance: 30%, Critical Damage: 100/150/200, Mini-stun Duration: 0.1. (Stun duration increases to 0.5s if affected by Sacred Ground.)",
+        "Seraphim Health: 1500/2000/2500",
+        "Seraphim Damage: 80/110/140, Seraphim Armor: 50/70/90",
+        "Range: 1000",
+        "Seraphim Duration: 15s",
+        "Cooldown: 60s"
+      ],
+      "img": "04.png",
+      "keyword": "AOE CC",
+      "study": ["Deals magic damage to enemy units in a target area."],
+      "update": ["Ability damage and Seraphim damage increased."],
+      "tag": ["ULT", "DISABLE"]
+    }
+  ],
+  "story": [
+    "Jeanne was the last hope during the endless night. With the blessed light of Angelus conferred upon her, she cut through the darkness to lead her banners and followers to siege warfare victory."
+  ],
+  "equip": [
+    {
+      "arr": ["12514", "10123", "10124", "10228", "12310", "12513"],
+      "reason": ["INITIATOR\nSUPPORT"]
+    },
+    {
+      "arr": ["12307", "10123", "12310", "10109", "12513", "10228"],
+      "reason": ["ESCAPE\nDISABLER"]
+    },
+    {
+      "arr": ["12307", "10123", "10251", "10228", "12513", "10124"],
+      "reason": ["SUPPORT\nESCAPE"]
+    },
+    {}
+  ],
+  "strategy": "154323",
+  "video": [
+    "154324",
+    "https://yhkd.99.com/inc/20161228182027.inc",
+    "https://yhkd.99.com/news/01052017/012709810.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+1.8%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+6.12"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+2.7%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+7.92"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+3.6%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+9.81"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+4.5%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+12.24"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+5.4%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

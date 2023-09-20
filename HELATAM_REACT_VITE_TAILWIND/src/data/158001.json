@@ -1,0 +1,124 @@
+{
+  "id": "158001",
+  "name": "Naya",
+  "type": "3",
+  "features": ["Ranged", "DPS", "Carry"],
+  "data": [7, 5, 3, 5],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Cast the ultimate after hitting an enemy with Ability 1 to deal a burst of damage."
+  ],
+  "skin": [
+    {
+      "id": "158001301",
+      "imgSrc": "02.jpg",
+      "skinName": "Astro Pilot"
+    },
+    {
+      "id": "158001302",
+      "imgSrc": "03.jpg",
+      "skinName": "Sentinel Whisp",
+      "vid": "D4mUt_I79W8"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Solid Slingshot",
+      "desc": [
+        "Charges up for a short time and then fires a stone in a target direction, dealing magic damage to enemies along the path. If it hits an enemy hero, stuns the enemy hero for 0.7s, stacks the Indomitable status 4 times, reduces the current cooldown on this ability by 50%. The cooldown is reduced by 1s more for each additional enemy hero hit. (Only the first enemy hero hit is stunned and will not be stunned by this ability again within 2s.)"
+      ],
+      "data": [
+        "Magic Damage: 180/270/360/450",
+        "Mana Cost: 40",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "Magic, Crowd Control",
+      "study": ["Causes damage and Stun."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Crowd Control"]
+    },
+    {
+      "name": "Swift Wings",
+      "desc": [
+        "Naya stretches out her wings, dashing in a target direction. Recasts within 3s to dash again. Naya gains bonus Movement Speed during the dashes."
+      ],
+      "data": [
+        "Bonus Movement: 15%/20%/25%/30%",
+        "Mana Cost: 30",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "02.png",
+      "keyword": "Dash",
+      "study": ["Dashes, may be for 2 times"],
+      "update": ["Bonus Movementâ†‘  Cooldownâ†“"],
+      "tag": ["Dash"]
+    },
+    {
+      "name": "Raging Waves",
+      "desc": [
+        "Tidal waves are formed in the target area that last for 5s and cause Slow. The Slow effect is enhanced based on Naya's Magic Power. After a short delay, a flock of birds throw twigs and pebbles into the waves, dealing magic damage to enemy units in the area. Naya gains 30% Cooldown Reduction from the waves."
+      ],
+      "data": [
+        "Magic Damage: 20/40/60",
+        "Slow Effect: 100/130/160",
+        "Mana Cost: 100",
+        "Cooldown: 60/55/50s"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": [
+        "Slows and deals damage to enemies in an area, while Naya gains Cooldown Reduction."
+      ],
+      "update": ["Damageâ†‘  Slow Effectâ†‘"],
+      "tag": ["Ultimate", "Magic"]
+    },
+    {
+      "name": "Indomitability",
+      "desc": [
+        "When enabled, it speeds up Naya's attacks for a short time and grants an additional bonus (50%) accordingly. Each of her basic attacks in that time deals magic damage plus the bonus from her Magic Power (the bonus will not damage towers). Whenever she gets a kill or assist, the cooldown or duration on this ability refreshes._Passive: Dealing damage with an ability places a stack of Indomitable against the target for 6s during which all damage dealt by Naya on the target is increased by 5%. (Max Stacks: 10, each basic attack adds a stack when Indomitability is enabled)"
+      ],
+      "data": [
+        "Bonus Attack Speed: 30/45/60/75",
+        "Bonus Magic Power: 40%/50%/60%/70%",
+        "Duration: 5s",
+        "Mana Cost: 60",
+        "Cooldown: 12s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff, Magic",
+      "study": [
+        "Increases the Attack Speed sharply. Basic attacks deal magic damage."
+      ],
+      "update": ["Bonus Attack Speedâ†‘  Durationâ†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "Parents' arms were the safest harbor to their children, but Naya hadn't seen her father for a long time. Every time she asked where her father was, she was comforted and told that her father was on a trip around the world. However, her father failed to return home year after year. Naya couldn't wait any more.<br>    One day, she went to the sea and set sail for her father, but a terrific sea storm came and capsized her small boat. While struggling, Naya saw her father stretching out his hands to her from the sky. Then, she saw a colorful feather floating on the waves. Fortunately, the feather saved her by granting her a pair of red wings.<br>    Since then, whenever the waves roared, the winged girl carried twigs and pebbles from mountains to suppress the raging waves."
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "12533", "10109", "12305", "12509", "10072"],
+      "reason": ["Magic\nHarasser"]
+    },
+    {
+      "arr": ["10100", "10047", "10272", "10237", "10127", "12516"],
+      "reason": ["Physical\nDPS"]
+    },
+    {
+      "arr": ["12503", "12533", "12310", "10272", "10047", "12320"],
+      "reason": ["Mixed Damage\nHarasser"]
+    },
+    {}
+  ],
+  "strategy": "167761",
+  "video": [
+    "167762",
+    "https://yhkd.99.com/inc/20220124185114.inc",
+    "https://yhkd.99.com/news/01262022/182819002.shtml"
+  ]
+}

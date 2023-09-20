@@ -1,0 +1,142 @@
+{
+  "id": "124001",
+  "name": "Nina",
+  "type": "2",
+  "features": ["Ganker", "Disabler"],
+  "data": [8, 2, 6, 7],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Clever form switch gets more things done with less effort."],
+  "skin": [
+    {
+      "id": "124001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Purple Danger"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Shadow Queen"
+    },
+    {
+      "id": "124001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Super Beetle"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Metamorphosis",
+      "desc": [
+        "While in the Human form, Nina morphs into a giant spider and dashes in the target direction, gaining bonus Max Health and bonus Attack. While in the Spider form, Nina morphs into a human and dashes in the target direction, becoming immune to crowd control."
+      ],
+      "data": [
+        "Bonus Health: 300/480/660/840",
+        "Bonus Attack: 20/35/50/65",
+        "Dash Range: 600",
+        "Mana Cost: 30",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "Dash",
+      "study": ["Switch the form and dash."],
+      "update": ["Bonus â†‘"],
+      "tag": ["Dash", "Buff"]
+    },
+    {
+      "name": "Night Poison",
+      "desc": [
+        "Human Form: Summons a pool of tarantulas to deal continuous damage to enemies within the range and reduce their Health Regen and healing effects for 4 seconds. Spider Form: Nina/â€™s basic attacks deal extra damage and restore Health based on the damage dealt for 4 seconds."
+      ],
+      "data": [
+        "Human Form",
+        "Magic Damage: 40/55/70/85",
+        "Anti-Healing Proportion: 80%",
+        "Cast Range: 1000",
+        "Radius: 400",
+        "Mana Cost: 30/40/50/60",
+        "Cooldown: 10s",
+        "<br>",
+        "Spider Form",
+        "Bonus Physical Damage: 40/70/100/130",
+        "Health Regen: 100%",
+        "Mana Cost: 30/40/50/60",
+        "Cooldown: 8s"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": ["Deals damage and enhances basic attacks."],
+      "update": ["Damage â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "Spider Wrap",
+      "desc": [
+        "Produces silk to wrap up an enemy hero and slows enemies in an area around the target. The target wrapped and his/her allies can attack the spider cocoon to break it early. Cast it again to deactivate this ability early and remove the area of slow movement."
+      ],
+      "data": [
+        "Wrap Duration: 4/5/6s",
+        "Slowdown: 25%",
+        "Cast Range:900",
+        "Mana Cost: 100/120/140",
+        "Cooldown: 75s"
+      ],
+      "img": "03.png",
+      "keyword": "Control",
+      "study": ["Controls an area and deal damage to a single target."],
+      "update": ["Damage â†‘  Cooldown â†“"],
+      "tag": ["Ultimate", "Control"]
+    },
+    {
+      "name": "Prey Capture",
+      "desc": [
+        "Human Form: After hitting an enemy hero, casts a spider web to trap all enemy heroes nearby and deal damage. The target trapped cannot escape from the web. Spider Form: Runs at the target hero to cause damage and slowdown, adding a mark to the target. The target will suffer true damage 3 seconds later based on the damage taken from Nina for the duration."
+      ],
+      "data": [
+        "Human Form",
+        "Physical Damage: 90/130/170/210",
+        "Cast Range:1300",
+        "Duration: 3s",
+        "Mana Cost: 35",
+        "Cooldown: 12/11/10/9s",
+        "<br>",
+        "Spider Form",
+        "Physical Damage: 120/180/240/300",
+        "Final Damage Propotion: 25%",
+        "Slowdown: 70% for 1s",
+        "Cast Range: 650",
+        "Mana Cost: 35",
+        "Cooldown: 13s"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Controls an area and deal damage to a single target."],
+      "update": ["Damage â†‘  Cooldown â†“"],
+      "tag": ["Physical", "Control"]
+    }
+  ],
+  "story": [
+    "     The coup against Empress Nina broke out on one night. The aristocrats who were once been forgiven rushed into the palace with soldiers. \"Catch Nina!\" Raging flame plagued the palace and illuminated cold corpses over the ground. \"Kill her. She is not worthy of empress!\"<br>     Targeted rebel army stroke all the way into her resting palace and Nina had to flee to the north side of the royal city with her guards. Beyond the north side was the dreadful Forbidden Forest. Rebel army would not be there. However, the gap between the strength of the two sides was too wide. When they arrived at the Forbidden Forest, all her guards had died in battle, leaving the desperate Nina alone encircled by her enemies.<br>The aristocrats sneered at her contemptuously, \"Do you want to surrender or escape into the land of death?\"<br>     The face of the empress got pale because of fear, but she still looked up and walked into the forest with dignity, \"I swear with my soul that I will come back! Kill all of you!\"<br>     The rebel army looked toward the dark forest riotously and wanted to confirm whether the empress was dead. Nina went into the depths of the thick forest and her feet got tied by cold sticky strings. The feeling of numbness spread from her limbs and violent chelicerae spread all over her body, harvesting her life little by little. The soul that was once arrogant fell into hell and death was coming. Nina shed tears desperately.<br>     \"I can't die...\" The anger of revenge rushed into her heart. The hatred of being betrayed and the pain of being gnawed made her yell hoarsely from the depths of her soul, \"I must not die!\"<br>     \"Do you want to revenge those people who had betrayed you?\" A sweet and tempting voice echoed near her ears suddenly. Nina replied resolutely, \"I want them to die in fear and pain!\"<br>     Darkness came from darker places. A huge human-faced tarantula emerged from the depths of a cave, watching the blurred vision of the severely injured empress and revealing a twisted and greedy smile.<br>     \"I like your hatred. I will give you the power that you desire if you knee under my feet!\" A few days later, the message that the empress re-ascended the throne shocked the whole kingdom. Civilians who loved Nina cheered and celebrated. Nobody knew that corpses wrapped by spidersâ€™ threads one by one were hung upside down from the dome of a large hall in the distant palace. The empress looked up coldly and the tarantula's minions were squatting behind her."
+  ],
+  "equip": [
+    {
+      "arr": ["10110", "10065", "10115", "12512", "12516"],
+      "reason": ["Nuker\nOneshot"]
+    },
+    {
+      "arr": ["10100", "10065", "12512", "12320", "10069", "12516"],
+      "reason": ["Ganker\nNuker"]
+    },
+    {
+      "arr": ["10302", "10058", "10272", "12508", "12516", "10127"],
+      "reason": ["Ganker\nHarasser"]
+    }
+  ],
+  "strategy": "166721",
+  "video": [
+    "166722",
+    "https://yhkd.99.com/inc/20201208020629.inc",
+    "https://yhkd.99.com/news/12082020/020834246.shtml"
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "id": "67001",
+  "name": "Gideon",
+  "type": "1",
+  "features": ["MELEE", "CARRY"],
+  "data": [10, 0, 5, 4],
+  "way": "0",
+  "gold": 5888,
+  "diamond": 268,
+  "tips": ["Less health means more power for this character."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Blazing Fists"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Runic Hammer"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Vowed Revenger",
+      "vid": "584gC0r5tD4"
+    },
+    {
+      "id": "67001302",
+      "imgSrc": "4.jpg",
+      "skinName": "Uprightness"
+    },
+    {
+      "id": "67001303",
+      "imgSrc": "5.jpg",
+      "skinName": "Warrior Monk",
+      "vid": "pcuzYczShIQ"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SHIELD BREAKER",
+      "desc": [
+        "Gideon concentrates power into his hammers, causing his next basic attack to reduce target enemy unit's Armor for 5s."
+      ],
+      "data": [
+        "Armor Reduction: 30/45/60/75",
+        "Duration: 5s",
+        "Cooldown: 5s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Next attack reduces the target`s armor."],
+      "update": ["Armor reduction effect increased."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "DOUBLE CUDGEL",
+      "desc": [
+        "PASSIVE: Gideon's hammers grant bonus attack damage._ACTIVE: Throws a hammer at a target enemy unit, dealing physical damage and causing Movement Slow. Gideon can throw his other hammer after 2s."
+      ],
+      "data": [
+        "Attack for per Hammer: 12/18/24/30",
+        "Damage: 120/150/180/210",
+        "Cooldown: 2s",
+        "Hammer Charge: 5s",
+        "Cast Range: 800",
+        "Movement Slow: 30%",
+        "Mana Cost: 40"
+      ],
+      "img": "02.png",
+      "keyword": "BUFF",
+      "study": ["Passively grants Damage and slows enemy unit."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DISABLER", "BUFF"]
+    },
+    {
+      "name": "DOMINATION",
+      "desc": [
+        "ACTIVE: Gideon becomes immune to magical damage and disables for 5s, while gaining 20% bonus movement speed._PASSIVE: Every 3s, Gideon's next basic attack deals bonus physical damage."
+      ],
+      "data": [
+        "Bonus damage charge: 3s, Bonus Damage: 100/150/200",
+        "Cooldown: 56/44/32s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Become immune to spells, attacks can deal bonus damage."],
+      "update": ["Bonus damage increased and cooldown reduced."],
+      "tag": ["ULT", "PHYSICAL", "BUFF"]
+    },
+    {
+      "name": "INDOMITABLE WILL",
+      "desc": [
+        "PASSIVE: Gideon's injuries bolsters his fighting spirit, granting him bonus attack damage, bonus Armor, and bonus Spell Resist based on missing Health."
+      ],
+      "data": [
+        "Stack Health: 4%",
+        "Bonus Damage per Stack: 6/7/8/9",
+        "Bonus Armor per Stack: 2/3/4/5",
+        "Bonus Spell Resist per Stack: 2"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Taking damage increases attack power, armor and spell resist."
+      ],
+      "update": ["Bonus armor, spell resist, and damage increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Gideon had great strength and superb fighting skills. Wielding two hammers, he used to defeat an army alone and gained the name of 'The First Fighter in World'."
+  ],
+  "equip": [
+    {
+      "arr": ["12514", "10272", "10069", "10237", "10125", "10127"],
+      "reason": ["INITIATOR BUFF\nDPS"]
+    },
+    {
+      "arr": ["12502", "10115", "12309", "10069", "10127", "10265"],
+      "reason": ["LANE PUSHER\nESCAPE"]
+    },
+    {
+      "arr": ["10100", "10272", "10237", "10127", "12508", "10069"],
+      "reason": ["TANK\nESCAPE"]
+    },
+    {}
+  ],
+  "strategy": "151543",
+  "video": [
+    "151528",
+    "https://yhkd.99.com/inc/20160919031305.inc",
+    "https://yhkd.99.com/news/11032016/051843367.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

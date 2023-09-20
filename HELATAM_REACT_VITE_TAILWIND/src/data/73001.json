@@ -1,0 +1,395 @@
+{
+  "id": "73001",
+  "name": "Dragos",
+  "type": "1",
+  "features": ["MELEE", "RANGED", "CARRY"],
+  "data": [7, 5, 7, 3],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "tips": [
+    "Dragos is able to switch states, quickly adapting to conditions of battle."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Avenging Warrior",
+      "vid": "Y4cEGY4q6qI"
+    },
+    {
+      "id": "73001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Draconic Cyborg",
+      "vid": "vUmAGRlS5hM"
+    },
+    {
+      "id": "73001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Hockey Knight"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DRACONIC ROAR",
+      "desc": [
+        "A terrorizing roar that deals physical damage to a nearby enemy unit and causes Stun. While in Dragonform, the cast range is increased to 800."
+      ],
+      "data": [
+        "Damage: 180/240/300/360",
+        "Mana Cost: 100",
+        "Cast Range: 300",
+        "Cooldown: 13/12/11/10s ",
+        "Stun Duration: 1s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Stuns the target and deals physical damage."],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "DRAGON BREATH",
+      "desc": [
+        "Unleashes a breath of fire in a rectangular area in front of Dragos, dealing magical damage to enemy units."
+      ],
+      "data": [
+        "Damage: 200/260/320/380",
+        "Mana Cost: 100",
+        "Cast Range: 900",
+        "Effect Radius: 600",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage at a target direction."],
+      "update": ["Agility damage increased."],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "BLOOD OF THE DRAGON",
+      "desc": [
+        "PASSIVE: Awakens the blood of dragons inside Dragos._Fire Dragon Blood: Grants bonus attack damage and bonus Mana Regen. Ice Dragon Blood: Grants bonus Armor and bonus Health Regen."
+      ],
+      "data": [
+        "Bonus Mana Regen: 2/4/6/8, Bonus Damage: 15/25/35/45",
+        "Bonus Health Regen: 5/6/7/8, Bonus Armor: 24/36/48/60",
+        "Cooldown: 4s"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Change forms for different effects."],
+      "update": ["Bonus effects increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    },
+    {
+      "name": "DRAGONFORM",
+      "desc": [
+        "Dragos enters his Dragonform for 25s, gaining bonus movement speed while increasing his basic attack range to 850. Dragos`s basic attacks hit an area around the target enemy unit, and apply on-hit effects from Dragonform. Fire Dragonform: Basic attacks have a bonus critical chance._Ice Dragonform: Basic attacks cause Movement Slow for 3s."
+      ],
+      "data": [
+        "Attack Radius: 300",
+        "Bonus Critical Chance: 10%/15%/20%",
+        "Movement Slow: 30%/35%/40%",
+        "Bonus Movement Speed: 20%",
+        "Cooldown: 40s",
+        "Mana Cost: 100/125/150",
+        "Duration: 25"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Turns into a dragon form with ranged attacks that have special effects."
+      ],
+      "update": ["Critical chance and slow effect increased."],
+      "tag": ["ULT", "BUFF"]
+    }
+  ],
+  "story": [
+    "Out of the fear of the power in his blood, Dragos roamed the wastelands, surviving on blood to fuel his arcane energies. Luckily, he gradually learned to control over his monstrous appetites. Now fully grown, this wandering knight yearns to return to his birthplace. On that day, the kingdom earned another legend: the legend of Dragos!"
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10237", "10272", "10069", "10127", "12508"],
+      "reason": ["ESCAPE\nREAPER"]
+    },
+    {
+      "arr": ["12307", "10048", "12508", "10069", "10263", "10265"],
+      "reason": ["TANK\nSUSTAINED"]
+    },
+    {
+      "arr": ["12514", "10272", "12512", "12316", "10069", "10265"],
+      "reason": ["INITIATOR\nTANK"]
+    },
+    {}
+  ],
+  "strategy": "153652",
+  "video": [
+    "153653",
+    "https://yhkd.99.com/inc/20161109223542.inc",
+    "https://yhkd.99.com/news/11162016/184414504.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+1.8"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.73"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r16.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b18.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g12.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+2.52"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+12.51"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r26.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b28.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g22.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+3.24"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+16.29"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r36.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b38.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g32.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.05"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+19.98"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r46.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b48.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g42.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+5.04"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+25.02"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r56.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b58.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g52.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "84001",
+  "name": "Albus",
+  "type": "3",
+  "features": ["RANGED", "DPS", "PUSHER"],
+  "data": [2, 10, 5, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "åˆç†ä½¿ç”¨â€œæš´ç›²â€å’Œâ€œæ—¶å…‰ç¼“è¡Œâ€çš„æŽ§åˆ¶æ•ˆæžœå¯æå‡â€œé­”èƒ½ä¹‹çƒâ€çš„å‘½ä¸­çŽ‡ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "84001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Magenta Mage"
+    },
+    {
+      "id": "84001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Mage Wood"
+    }
+  ],
+  "ski": [
+    {
+      "name": "MYSTIC ORB",
+      "desc": [
+        "ACTIVE: Albus compresses powerful magical energy from the air into a mystic orb, dealing magical damage to enemy units along its path. The orb can be channeled for up to 5s, as well as released early."
+      ],
+      "data": [
+        "Magical Damage: Per Sec Channeled 80/120/160/200",
+        "Cast Range: 2000",
+        "Mana Cost: 100",
+        "Cooldown: 10s"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Channels and deals magical damage"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical", "AOE"]
+    },
+    {
+      "name": "SLOWING BARRIER",
+      "desc": [
+        "ACTIVE: Albus creates a slowing barrier for 5s, causing Movement Slow and Mana Drain to enemy units that pass through the barrier."
+      ],
+      "data": [
+        "Magical Damage: 80/100/120/140",
+        "Movement Slow: 30%/40%/50%/60%",
+        "Duration: 3s",
+        "Mana Cost: 80/90/100/110",
+        "Cooldown: 10/9/8/7",
+        "Cast Range: 1200",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": ["Slowing Barrier, Movement Slow, Mana Drain"],
+      "update": ["Movement Slow â†‘ Mana Drain â†‘"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "BLINDING SMITE",
+      "desc": [
+        "ACTIVE: Albus unleashes his ultimate magic! Deals magical damage to enemy units in the target area and causes Blind."
+      ],
+      "data": [
+        "Magical Damage: 400/450/500",
+        "Cast Range: 1100",
+        "Radius: 500",
+        "Mana Cost: 150",
+        "Cooldown: 50/45/40",
+        "Blind: 1.5s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Magical Damage, Blind"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Magical"]
+    },
+    {
+      "name": "FINGER OF DEATH",
+      "desc": [
+        "ACTIVE: You've made Albus angry! Instantly deals massive magical damage to target enemy unit and causes Stun for 0.1s."
+      ],
+      "data": [
+        "Magical Damage: 150/200/250/300",
+        "Cast Range: 900",
+        "Mana Cost: 110",
+        "Cooldown: 8/7/6/5s"
+      ],
+      "img": "04.png",
+      "keyword": "Magical",
+      "study": ["Magical Damage, Stun"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Albus is a legendary wizard in the age of magic, swords, good and evil. He helped the dwarves fight off a greedy dragon, regaining the dwarf homeland. Recognized for his mighty magic and contributions, he was conferred a white wizard's robe. So long as danger strikes, he'll be ready to return once more to carry out justice!"
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "10109", "10228", "12305"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12514", "10123", "10109", "10228", "12313", "10124"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {
+      "arr": ["12307", "10109", "12312", "10228", "12305", "10072"],
+      "reason": ["æ¸¸èµ°ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "154345",
+  "video": [
+    "154346",
+    "https://yhkd.99.com/inc/20181011002616.inc",
+    "https://yhkd.99.com/news/10102018/232554388.shtml"
+  ]
+}

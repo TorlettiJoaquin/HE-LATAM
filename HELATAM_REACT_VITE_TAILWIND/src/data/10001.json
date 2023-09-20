@@ -1,0 +1,120 @@
+{
+  "id": "10001",
+  "name": "Daimon",
+  "type": "2",
+  "features": ["Melee", "Roamer", "Nuker"],
+  "data": [8, 0, 4, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Silence the enemy before using ULT to avoid being interrupted."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "10001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Chromium Cavalier"
+    }
+  ],
+  "ski": [
+    {
+      "name": "PHANTOM ATTACKER",
+      "desc": [
+        "Daimon hurls a phantom spear into a target, dealing damage and slowing movement speed. The spear becomes a phantom and continues attacking the target. Phantom Stats: Daimon`s Attack x 60% of Daimon Attack. Sustained Damage: 300% damage for 4s."
+      ],
+      "data": [
+        "Physical Damage: 160/210/260/310",
+        "Range: 900",
+        "Slowdown: 20%/25%/30%/35% for 2s",
+        "Cooldown: 8s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": [
+        "Deals damage, slowing enemy movement and summoning a phantom."
+      ],
+      "update": ["Damage Dealt and Slowdown Effect increase."],
+      "tag": ["PHYSICAL", "DISABLE"]
+    },
+    {
+      "name": "SILENCING BLADE",
+      "desc": [
+        "Wields blades in a frenzy to slice surrounding enemies, dealing damage and causing Silence for 1s. Phantom also mimics attacks, dealing small amount of damage."
+      ],
+      "data": [
+        "Physical Damage: 170/220/270/320",
+        "Phantom Physical Damage: 100/160/220/280",
+        "Radius: 500",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 60"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": ["Deals damage and silences enemies."],
+      "update": ["Damage increases and Cooldown reduces."],
+      "tag": ["AOE", "DISABLE"]
+    },
+    {
+      "name": "NINJUTSU",
+      "desc": [
+        "Blink to a location, reducing damage sustained for 3 seconds. If phantom is present at target location, also increases movement speed, attack damage, and Silence duration for Silencing Blade by 1 second."
+      ],
+      "data": [
+        "Damage Reduced: 20%/25%/30%/35%",
+        "Attack Bonus: 20/35/50/65 for 3s",
+        "Range: 850",
+        "Cooldown: 8s",
+        "Mana Cost: 60"
+      ],
+      "img": "03.png",
+      "keyword": "DASH",
+      "study": ["Dashes, granting buffs."],
+      "update": ["Buff Effect increases."],
+      "tag": ["BUFF", "DASH"]
+    },
+    {
+      "name": "BLADE FLURRY",
+      "desc": [
+        "Demonstrating his ultimate skill, Daimon performs a death dance, attacking up to 3 heroes within range with 8 blade waves, dealing physical damage and slowing movement 30% for 4s."
+      ],
+      "data": [
+        "Physical Damage per Attack: 150/230/310",
+        "Radius: 800",
+        "æ¢å¤ç”Ÿå‘½ï¼š50/100/150/200",
+        "Cooldown: 40/35/30s",
+        "Mana Cost: 80"
+      ],
+      "img": "04.png",
+      "keyword": "PHYSICAL",
+      "study": ["Deals damage and slows movement."],
+      "update": ["Damage increases and Cooldown reduces."],
+      "tag": ["ULT", "AOE", "PHYSICAL"]
+    }
+  ],
+  "story": [
+    "Daimon had loved martial arts ever since he was a curious and precocious youngster. As an adult, he grew blunt and straightforward, treating enemies mercilessly and refusing to toe the line."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "10065", "10237", "12516", "10127"],
+      "reason": ["PUSHER\nNUKER"]
+    },
+    {
+      "arr": ["12307", "10048", "10053", "10127", "12508", "10237"],
+      "reason": ["ROAMER\nGANKER"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["SURVIVAL\nHARASSER"]
+    },
+    {}
+  ],
+  "strategy": "164782",
+  "video": [
+    "164781",
+    "https://yhkd.99.com/inc/20200107192327.inc",
+    "https://yhkd.99.com/news/01072020/192343991.shtml"
+  ]
+}

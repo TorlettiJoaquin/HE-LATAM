@@ -1,0 +1,125 @@
+{
+  "id": "25001",
+  "name": "Tartorus",
+  "type": "1",
+  "features": ["MELEE", "ROAMER", "DISABLER"],
+  "data": [4, 8, 5, 3],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["Use Spirit Beast in a safe zone to avoid it being interrupted."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "25001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Tannenbaum Tortoise",
+      "vid": "ZBcqWlKoyOA"
+    },
+    {
+      "id": "25001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Pearl Protector"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CHARGE",
+      "desc": [
+        "Tartorus tunnels forward skewering enemy units in his path to deal Magical Damage and causing knockup for 1s."
+      ],
+      "data": [
+        "Magical Damage: 150/200/250/300",
+        "Cast Range: 800/900/1000/1100",
+        "Mana Cost: 100",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "01.png",
+      "keyword": "DASH",
+      "study": ["Dash, deal damage, and knockup enemies in pathã€‚"],
+      "update": ["Damage increased and range reduced."],
+      "tag": ["DISABLER", "DASH"]
+    },
+    {
+      "name": "SILENT STORM",
+      "desc": [
+        "Tartorus summons a sandstorm at the casting location which prevents enemy units from tracking him. Sandstorm deals Magical Damage every second to enemy units while also granting damage reduction._Cast again to cancel ability."
+      ],
+      "data": [
+        "Magical Damage: 60/100/140/180 (+1% Max Health)",
+        "Radius: 650",
+        "Invisibility Duration: 0.3s/0.6s/0.9s/1.5s",
+        "Damage Reduction: 10%/15%/20%/25%",
+        "Mana Cost: 40/50/60/70",
+        "Max Duration: 25s",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "MAGICAL",
+      "study": ["Become Invisible and deal continuous damage."],
+      "update": ["Increase damage and increase Invisible duration."],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "POISONED SPIT",
+      "desc": [
+        "Poison a target enemy unit to deal continuous Magical Damage over 5s. If target dies from this ability, the poison will infect another enemy unit within a range of 600."
+      ],
+      "data": [
+        "Total Magical Damage: 160/220/280/340",
+        "Cast Range: 850",
+        "Mana Cost: 80",
+        "Cooldown: 8s"
+      ],
+      "img": "03.png",
+      "keyword": "PHYSICAL",
+      "study": ["Infect target with contagious poison."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "SPIRIT BEAST",
+      "desc": [
+        "Tartorus chants for 1s and then summons seismic waves to deal Magical Damage to enemy units within range for 4s. Waves also cause 35% Movement Slow for 3s. Grants a Damage Reduction effect while ability is active."
+      ],
+      "data": [
+        "Magical Damage per Hit: 60/80/100 (+2% of Max Health)",
+        "Seismic Waves: 8x/10x/12x",
+        "Damage Reduction: 10%/14%/18%",
+        "Radius: 750",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 55/50/45s"
+      ],
+      "img": "04.png",
+      "keyword": "MAGICAL",
+      "study": ["Summon seismic activity for massive damage."],
+      "update": ["Increase damage and number of attacks, decrease cooldown."],
+      "tag": ["ULT", "MAGICAL"]
+    }
+  ],
+  "story": [
+    "The benevolent beast Tartorus was revered in the north as a patron saint. When the southern armies invaded with Byakkus, Tartorus stepped up to protect the fatherland."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10048", "10263", "12513", "12316", "12509"],
+      "reason": ["ESCAPE\nPUSHER"]
+    },
+    {
+      "arr": ["12514", "10123", "12509", "12316", "12513", "10124"],
+      "reason": ["ESCAPE\nPUSHER"]
+    },
+    {
+      "arr": ["12502", "10048", "12316", "10265", "12313", "12516"],
+      "reason": ["TANK\nPUSHER"]
+    },
+    {}
+  ],
+  "strategy": "162684",
+  "video": [
+    "162683",
+    "https://yhkd.99.com/inc/20181205183217.inc",
+    "https://yhkd.99.com/news/12052018/191405863.shtml"
+  ]
+}

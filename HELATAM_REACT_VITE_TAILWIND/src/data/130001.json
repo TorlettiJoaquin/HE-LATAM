@@ -1,0 +1,403 @@
+{
+  "id": "130001",
+  "name": "Bonnie",
+  "type": "1",
+  "features": ["Ranged", "DPS"],
+  "data": [9, 0, 5, 8],
+  "way": "1",
+  "gold": "",
+  "diamond": "-",
+  "point": "",
+  "tips": [
+    "åˆç†é€šè¿‡è¢«åŠ¨å’Œå¤§æ‹›å åŠ ä¼¤å®³å’Œæ”»é€Ÿï¼Œä»¥æ‰“å‡ºé«˜é¢ä¼¤å®³ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "130001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Vulcan Ranger",
+      "vid": "PJa_7DaSU9g"
+    },
+    {
+      "id": "130001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Azure Bloom"
+    },
+    {
+      "id": "130001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Bubble Tea"
+    }
+  ],
+  "ski": [
+    {
+      "name": "GATLING GUN",
+      "desc": [
+        "Bonnie attacks relentlessly with her Gatling Gun. Each hit of basic attack and Bullet Storm grants a stack of bonus attack speed for 3s, up to 4 stacks."
+      ],
+      "data": ["Bonus Attack Speed: 15/20/25/30 Per Hit"],
+      "img": "01.png",
+      "keyword": "Buff",
+      "study": ["Attacks grant bonus attack speed"],
+      "update": ["Bonus Attack Speed â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "BULLET STORM",
+      "desc": [
+        "Bonnie unleashes a barrage of bullets for 4s, dealing physical damage to the target enemy unit and half damage to its nearby area, cast this ability again to switch targets. Bonnie can still move while channeling and the cooldown starts when the channel ends."
+      ],
+      "data": [
+        "Physical Damage Per 0.5s: 70/90/110/130",
+        "Cooldown: 7s",
+        "Mana Cost: 60",
+        "Bullet Range: 950",
+        "Splash Radius: 350"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Deals continuous physical damage"],
+      "update": ["DPS"],
+      "tag": ["Physical", "DPS"]
+    },
+    {
+      "name": "TIMED EXPLOSIVE",
+      "desc": [
+        "Dashes in a target direction. Upon collision with enemy hero units, attaches explosives that detonate after 1s, dealing physical damage and causing Stun for 1s. Does not affect the casting of Bullet Storm."
+      ],
+      "data": [
+        "Physical Damage: 120/160/200/240",
+        "Dash Distance: 650",
+        "Mana Cost: 50",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "03.png",
+      "keyword": "Rush",
+      "study": ["Dashes and causes Stun to enemy hero units"],
+      "update": ["Physical Damage â†‘ Cooldown â†“"],
+      "tag": ["Disabler", "Rush"]
+    },
+    {
+      "name": "VOLLEY",
+      "desc": [
+        "ACTIVE: Continuously causes Mana Drain to Bonnie. Grants max stacks to Gatling Gun's bonus attack speed. Each hit of basic attacks and Bullet Storm grants a physical damage bonus to subsequent ability casts and basic attacks. This ability is not affected by cooldown reduction gear."
+      ],
+      "data": [
+        "Physical Damage Bonus: 10%/15%/20% Per Hit",
+        "Max Damage: 40%/60%/80%",
+        "Mana Cost: 6% Per Sec",
+        "Damage Bonus Duration: 4s",
+        "Cooldown: 30s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Grants physical damage bonus when active"],
+      "update": ["Physical Damage Bonus â†‘ "],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "As a combat specialist, they call her Bonnie and the attention she gets makes her the envy of many fighters. Since war broke out, everyday campus life became a luxury. Now, she uses her bullets to vent her anger and hatred. She'll keep fighting as long as she lives - for the happiness of others; for the annihilation of pain!"
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10047", "10237", "12508"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10100", "10272", "10058", "10127", "10237", "12516"],
+      "reason": ["æŒç»­è¾“å‡ºã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12307", "10272", "10065", "10047", "10237", "12516"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "161242",
+  "video": [
+    "161241",
+    "https://yhkd.99.com/inc/20180206221134.inc",
+    "https://yhkd.99.com/news/02082018/234514988.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+4.23"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+2.79"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+6.03"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+4.05"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "çœ‹é€ç”Ÿæ­»",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+7.83"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+5.22"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+0.9%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "çœ‹é€ç”Ÿæ­»",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+9.63"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+6.39"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "çœ‹é€ç”Ÿæ­»",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "æ”»å‡»",
+            "val": "+12.06"
+          },
+          {
+            "name": "æ”»é€Ÿ",
+            "val": "+8.01"
+          },
+          {
+            "name": "æš´å‡»",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "ç‹‚æš´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "çœ‹é€ç”Ÿæ­»",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "152001",
+  "name": "Xiahou Dun",
+  "type": "1",
+  "features": ["Melee", "Ganker", "Disabler"],
+  "data": [7, 3, 5, 4],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["åˆ©ç”¨å¥½â€œä»‡è§†â€çŠ¶æ€å¯ä»¥å¯¹ç›®æ ‡é€ æˆæ›´é«˜ä¼¤å®³ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "152001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Tanner"
+    },
+    {
+      "id": "152001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Astro Engineer"
+    }
+  ],
+  "ski": [
+    {
+      "name": "VICIOUS SPIN",
+      "desc": [
+        "Xiahou Dun leaps to a target area wielding his double-edged spear dealing area damage and slowing enemy movement based on target's stacks of Evil Eye."
+      ],
+      "data": [
+        "Physical Damage: 110/160/210/260",
+        "Cast Range: 900",
+        "Mana Cost: 60",
+        "Cooldown: 9/8/7/6s",
+        "Slowdown: 30% for 1s. 1 second of slowdown is increased with a stack of Evil Eye."
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": ["Area of effect damage and slows movement"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "HATEFUL EYE",
+      "desc": [
+        "Plants a magic eye at a target location, adding 1 stack of Evil Eye to nearby enemy heroes every 2 seconds. Each ability cast within range of the eye reflects damage on the caster and adds 1 stack of Evil Eye. Passive: Evil Eye: Enemies gain 1 stack of Evil Eye each time damage is dealt to Xiahou Dun. Xiahou Dun deals more damage to heroes with an Evil Eye, up to 5 stacks. Lasts 5 seconds."
+      ],
+      "data": [
+        "Reflected Magical Damage: 65/90/115/140",
+        "Physical Damage per Stack: 20/25/30/35",
+        "Cast Range: 900",
+        "Cooldown: 8s",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Places an evil eye that can reflect damage"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Buff", "Magical"]
+    },
+    {
+      "name": "AMBUSH ASSAULT",
+      "desc": [
+        "Xiahou Dun lights up the targetâ€™s field of vision for 5 seconds. Re-cast skill to begin charge up; charging time increases with distance. Xiahou Dun leaps up after charging to ambush a target area, dealing area damage and stun enemies for 1.5s. Casting is automatically canceled with 50% cooldown refunded if charge up exceeds 5 seconds."
+      ],
+      "data": [
+        "Physical Damage: 300/400/500",
+        "Stun Duration: 1s",
+        "Cast Range: 8000",
+        "Radius: 600",
+        "Cooldown: 55/50/45s",
+        "Mana Cost: 150"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Ambushes enemies, dealing damage and causing Fear"],
+      "update": ["Damage â†‘ Fear â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "ZEN FURY",
+      "desc": [
+        "Xiahou Dun begins to charge up, reducing movement speed by 20% but gaining armor, spell resistance and immunity to CC over 5 seconds before releasing a powerful roar, dealing damage and Taunting enemies within range. Damage dealt, Taunt duration and and radius all depend on charge up time. Abilities may be cast during charge up."
+      ],
+      "data": [
+        "Minimum Physical Damage: 80/100/120/140, Maximum Physical Damage: 160/200/240/280",
+        "Maximum Charge Time: 2s",
+        "Cast Range: 900",
+        "Bonus Armor: 20/35/50/65, Bonus Spell Resist: 8/13/18/23",
+        "Taunt Duration: 0.5-2.5s",
+        "Radius: 300, Maximum Radius: 600",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Deals damage and restores health"],
+      "update": ["Damage â†‘"],
+      "tag": ["Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Heroes thronged to the Three Kingdoms, some disappearing into obscurity while others etched their names in the annals of history with their bravery. That's our man: the one-eyed General Xiahou Dun. Tough as nails and fiercely brave, this hero is destined for glory on the battlefield; and this vengeance is also destined to finish on the battlefield..."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "10265", "12316", "10263"],
+      "reason": ["è¾“å‡ºã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12307", "10048", "10125", "12316", "10069", "12516"],
+      "reason": ["æ‰“é‡Žã€æ¸¸èµ°"]
+    },
+    {
+      "arr": ["12514", "10048", "12512", "10069", "10263", "10097"],
+      "reason": ["è¾…åŠ©ã€æŽ¨è¿›"]
+    },
+    {}
+  ],
+  "strategy": "164402",
+  "video": [
+    "164401",
+    "https://yhkd.99.com/inc/20191127184625.inc",
+    "https://yhkd.99.com/news/11272019/230705227.shtml"
+  ]
+}

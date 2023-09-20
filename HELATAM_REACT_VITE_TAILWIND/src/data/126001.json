@@ -1,0 +1,125 @@
+{
+  "id": "126001",
+  "name": "Chronia",
+  "type": "3",
+  "features": ["Ranged", "Pusher", "Ganker"],
+  "data": [2, 7, 5, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["æŽŒæ¡å¥½ä¸ç­æ—¶åŸŸçš„ç”Ÿæ•ˆæ—¶é—´å¯ä»¥å…é™¤ä¸€æ¬¡æ­»äº¡ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "126001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Magnetic Time Machine",
+      "vid": "sRv9F6unZ1Y"
+    },
+    {
+      "id": "126001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Icy Lemon"
+    }
+  ],
+  "ski": [
+    {
+      "name": "VOID SHAKER",
+      "desc": [
+        "Chronia uses her powers to shake spacetime in the target area to deal Magical Damage and cause Movement Slow after 0.3s. Enemy units hit again by this ability within 3s will take additional Magical Damage and be affected by Stun for 1s."
+      ],
+      "data": [
+        "Magical Damage: 120/170/220/270",
+        "Bonus Magical Damage: 40/60/80/100",
+        "Slow: 30% for 2s",
+        "Cast Range: 1100",
+        "Cooldown: 5s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Deal AOE magical damage and slow enemy units"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical", "AOE"]
+    },
+    {
+      "name": "GLITTERING EDGE",
+      "desc": [
+        "Chronia activates Moment in Time to leave a mark at an enemy hero's current location to deal Magical Damage. Target hero will be teleported to marked location after 4s. Ability may also be cast again to immediately teleport hero. Teleport will fail if the target enemy hero leaves a range of 2300."
+      ],
+      "data": [
+        "Magical Damage: 100/150/200/250",
+        "Cast Range: 1000",
+        "Radius: 2300",
+        "Cooldown: 15/14/13/12s",
+        "Mana Cost: 100"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": ["May control enemy hero's location"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "RAPID BAPTISM",
+      "desc": [
+        "Chronia speeds up the flow of surrounding spacetime to decrease the cooldown of all other abilities by 5s. Also increases own Movement Speed and Spell Power for 3s."
+      ],
+      "data": [
+        "Bonus Movement Speed: 15%/20%/25%/30%",
+        "Bonus Spell Power: 40/50/60/70",
+        "Mana Cost: 40/50/60/70",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Decrease own ability's cooldown and increase Spell Power."],
+      "update": ["Spell Power â†‘ Cooldown â†“"],
+      "tag": ["Buff", "Magical"]
+    },
+    {
+      "name": "UNDYING DOMAIN",
+      "desc": [
+        "Cast a protective barrier of time which increases Movement Speed for an allied hero in range for 5s. If this hero dies while covered, deal Magical Damage to nearby enemy units, revive the hero after 3s, and restore a portion of their Health. If the target allied hero does not die while effect is active, the barrier will explode to deal Magical Damage to nearby enemy units and heal the Health of the hero."
+      ],
+      "data": [
+        "Heal: Max Health 35%+200/300/400",
+        "Explosion Magical Damage: 300/350/400",
+        "Bonus Movement Speed: 20%/25%/30% for 5s",
+        "Cast Range: 900",
+        "Mana Cost: 130",
+        "Cooldown: 70/65/60s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["May revive allied heroes and deal AoE damage"],
+      "update": ["Health on Revival â†‘ DMG â†“"],
+      "tag": ["ULT", "Magical", "Buff"]
+    }
+  ],
+  "story": [
+    "Chronia was one of the agents responsible for defending time law. She made a mistake, so now she had to do something to make the world better. She set the needle to her first day on the job to redeem herself by saving the future for others."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "10228", "12513", "10124"],
+      "reason": ["æ¶ˆè€—ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12514", "10123", "10228", "12532", "10109", "12313"],
+      "reason": ["è¾…åŠ©ã€æŒç»­"]
+    },
+    {
+      "arr": ["12502", "10109", "10228", "10124", "10265", "12313"],
+      "reason": ["è¾…åŠ©ã€æŽ§åˆ¶"]
+    },
+    {}
+  ],
+  "strategy": "162783",
+  "video": [
+    "162781",
+    "https://yhkd.99.com/inc/20180711194423.inc",
+    "https://yhkd.99.com/news/07112018/195152355.shtml"
+  ]
+}

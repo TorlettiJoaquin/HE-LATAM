@@ -1,0 +1,432 @@
+{
+  "id": "39001",
+  "name": "Lu Bu",
+  "type": "1",
+  "features": ["MELEE", "CARRY", "TANK"],
+  "data": [10, 0, 8, 3],
+  "way": "0",
+  "gold": 8888,
+  "diamond": 388,
+  "tips": ["Each attack causes unbearable pain to the enemy."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg?v1",
+      "skinName": "Demonic Tyrant"
+    },
+    {
+      "imgSrc": "2.jpg?v1",
+      "skinName": "Fiendish Slayer"
+    },
+    {
+      "imgSrc": "3.jpg?v1",
+      "skinName": "Voodoo Mecha"
+    },
+    {
+      "id": "39001202",
+      "imgSrc": "4.jpg?v1",
+      "skinName": "Iron Heart",
+      "vid": "wFYoUYdGyCw"
+    },
+    {
+      "id": "39001301",
+      "imgSrc": "5.jpg?v1",
+      "skinName": "Ultra Malevolent",
+      "vid": "GhNwuBFgn74"
+    },
+    {
+      "id": "39001304",
+      "imgSrc": "6.jpg",
+      "skinName": "Moon Splendor"
+    },
+    {
+      "id": "39001305",
+      "imgSrc": "7.jpg",
+      "skinName": "Steadfastness"
+    },
+    {
+      "id": "39001306",
+      "imgSrc": "8.jpg",
+      "skinName": "Envoy of Valiance"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLOODY WHIRL",
+      "desc": [
+        "Deals physical damage to nearby enemy units within a 500 radius, causing Movement Slow for 3s."
+      ],
+      "data": [
+        "Damage: 170/220/270/320",
+        "Mana Cost: 80",
+        "Cooldown: 8s",
+        "Movement Slow: 15%/20%/25%/30%"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals physical damage to nearby enemies."],
+      "update": ["Ability damage increased"],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "WHIRLING CHARGE",
+      "desc": [
+        "Dashes at a target direction, dealing physical damage to enemy units along Lu Bu's path, causing Stun for 1.75s at the end of the dash. Can cast up to 3 times within 3s."
+      ],
+      "data": [
+        "Range:  500",
+        "Damage: 75/100/125/150",
+        "Mana Cost: 25",
+        "Cooldown: 12s"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": [
+        "Dashes on the third cast, dealing physical damage and causing Stun."
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["PHYSICAL", "DASH", "DISABLER"]
+    },
+    {
+      "name": "PEERLESS",
+      "desc": [
+        "Deals massive physical damage to a target enemy unit, plus bonus physical damage based on the Strength difference between the target enemy unit and Lu Bu. Passive: Boosts Lu Bu's Strength."
+      ],
+      "data": [
+        "Base Damage: 250/350/450",
+        "STR DIFF DMG Multiplier: 4/5/6",
+        "Cast Range: 500",
+        "Mana Cost: 50",
+        "Cooldown: 15s",
+        "Bonus Strength: 15/20/25"
+      ],
+      "img": "03.png",
+      "keyword": "SINGLE",
+      "study": ["Deals massive damage plus bonus damage"],
+      "update": ["Base and Bonus damage increased."],
+      "tag": ["ULT", "PHYSICAL"]
+    },
+    {
+      "name": "PERVERSITY",
+      "desc": [
+        "Passively grants Tearing effect to all abilities and attacks, dealing bonus magic damage based on the target`s maximum Health."
+      ],
+      "data": [
+        "Bonus Damage: 3%/4%/5%/6%",
+        "Damage Cap to Non-Hero Units: 100"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Each ability or attack inflicts bonus magic damage."],
+      "update": ["Bonus magic damage increased."],
+      "tag": ["PASSIVE"]
+    }
+  ],
+  "story": [
+    "Praised as the top general during the Three Kingdoms period, but damned for his heritage, Lu Bu was a fearless and battle lusting warrior who took an enormous amount of pleasure in fighting."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10058", "12512", "10115", "10125", "10263"],
+      "reason": ["SURVIVAL\nDPS"]
+    },
+    {
+      "arr": ["12307", "10125", "10065", "10263", "10069", "10097"],
+      "reason": ["INITIATOR\nDURABLE"]
+    },
+    {
+      "arr": ["12514", "10263", "10048", "12309", "12316", "10265"],
+      "reason": ["TANK\nINITIATOR"]
+    },
+    {}
+  ],
+  "strategy": "151555",
+  "video": [
+    "151517",
+    "https://yhkd.99.com/inc/20160919023119.inc",
+    "https://yhkd.99.com/news/11032016/045829178.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "MAGIC RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

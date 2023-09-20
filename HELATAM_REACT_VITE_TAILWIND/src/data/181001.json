@@ -1,0 +1,115 @@
+{
+  "id": "181001",
+  "name": "Prosper",
+  "type": "1",
+  "features": ["Melee", "Nuker", "Disabler"],
+  "data": [6, 0, 6, 8],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Switch between different modes for different ability effects to deal with various battle situations."
+  ],
+  "skin": [
+    {
+      "id": "181001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Blessing Tiger"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Rampant Blast / Windfall",
+      "desc": [
+        "Prosper dashes forward a distance of 800, dealing physical damage to all targets along his path. If he collides with an enemy hero, he will stop dashing to deal physical damage to all targets in a radius of 400 around him and knock them up for 0.5s. Float mode is enabled after casting this ability. For Float mode: Prosper dashes forward a distance of 800, dealing physical damage to all targets along his path. The enemy hero collided by him will suffer physical damage and be knocked back a distance of 400. The damage and knock-back effects can only occur once against the same enemy hero."
+      ],
+      "data": [
+        "Damage (Dash): 60/70/80/90",
+        "Damage (Collision): 120/150/180/210",
+        "Float - Physical Damage: 150/180/210/240",
+        "Mana Cost: 60",
+        "Cooldown: 8s"
+      ],
+      "img": "01.png",
+      "keyword": "Control",
+      "study": ["Dash, damage, and control"],
+      "update": ["Damageâ†‘"],
+      "tag": ["Dash"]
+    },
+    {
+      "name": "Ground Shock / Wise Money",
+      "desc": [
+        "Jumps off the ground to deal physical damage to all targets in a radius of 600 around Prosper and slow them by 25% for 3s. The Slow effect increases by 5% every distance of 100 from Prosper, stacking up to 5 times. Float mode is enabled after casting this ability. For Float mode: Prosper spins the Bliss Jade to spit out coins in a radius of 600 around him, dealing physical damage to all targets in the area and rooting them for 0.5s. For 3s after hitting a target, Prosper gains bonus Attack Speed and converts 30% of the damage of his basic attack into true damage."
+      ],
+      "data": [
+        "Damage (Smash): 120/140/160/180",
+        "Float - Damage (Coin): 120/140/160/180 & Bonus Attack Speed: 30/40/50/60",
+        "Mana Cost: 60",
+        "Cooldown: 6s"
+      ],
+      "img": "02.png",
+      "keyword": "AOE ATK",
+      "study": ["Area damage, control, and buff"],
+      "update": ["Damageâ†‘ Buff Effectâ†‘"],
+      "tag": ["AOE ATK"]
+    },
+    {
+      "name": "Treasure Boom / Endless Wealth",
+      "desc": [
+        "Prosper jumps high in the air with the Money Toad, and then lands at the spot chosen to generate a special circle with a radius of 800 around him. Within the circle always centered on Prosper, all targets are slowed by 35%. After 1.5s, Prosper spins the Bliss Jade to draw all targets in the field near to him, and spins it again 3s later to draw enemies. Then, deals physical damage once to all targets in the field and slows them for 3s. Grants Prosper 40% Damage Reduction and reduces his Movement Speed to 200 for the duration. Float mode is enabled after casting this ability. For Float mode: Prosper jumps high in the air with the Money Toad, and then chooses a spot to land after a while, dealing physical damage to enemy targets in a radius of 800 around him and knocking them up for 0.5s. The shorter the distance, the faster the landing speed. Prosper gains 40% Damage Reduction for 3s after landing."
+      ],
+      "data": [
+        "Distance (Draw): 150/200/250, Physical Damage: 100/200/300, Slow Effect: 15%/20%/25%",
+        "Float - Damage (Landing): 180/240/300",
+        "Mana Cost: 100",
+        "Cooldown: 60/50/40s"
+      ],
+      "img": "03.png",
+      "keyword": "Ultimate",
+      "study": ["Dash, damage, and control"],
+      "update": ["Ability Effectâ†‘"],
+      "tag": ["Ultimate", "AOE CC"]
+    },
+    {
+      "name": "Tides of Fortune",
+      "desc": [
+        "Floating Fortune: Prosper enters into Float mode after casting an ability in Normal mode. Prosper gets back to Normal mode after casting an ability in Float mode. Float mode lasts for 2s. (Acquired without learning) Fading Gold: Prosper's Attack Speed is increased; While in Normal mode, every 3 basic attacks switches Prosper's mode to Float; While in Float mode, his basic attack deals additional damage in an area once and grants bonus Physical Life Steal (halved against non-hero unit), then switches his mode back to Normal. Money Bag: While using Fading Gold against enemies, Prosper receives 2 Gold per non-hero unit hit and 8 Gold per enemy hero unit hit."
+      ],
+      "data": [
+        "Bonus Damage: 60/80/100/120",
+        "Bonus Attack Speed: 10/20/30/40",
+        "Physical Life Steal: 90%/100%/110%/120%"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Strengthened, bonus Gold"],
+      "update": ["Damageâ†‘ Buff Effectâ†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "    In a remote village, a little boy named Prosper was believed to have the ability to bring good fortune and wealth, but he himself doubted that.<br>    Feeling bored of being enshrined and worshiped by people every day, Prosper attempted to escape from the shrine for outside world many times. Eventually, he gave up because of people's strong belief on him and himself being the last hope that kept them alive.<br>    When Prosper was about to comprise with his life in the shrine, a three-legged toad broke in suddenly and tried to take him away, revealing his previous life as a deity of wealth. The toad was aware of his hesitation and firmly believed that he was still the deity who treated others with kindness and generosity. After being enlightened by the toad, Prosper blew into the Bliss Jade and spitted out countless gold coins, fulfilling his promise to help the poor before leaving."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10058", "12512", "12316", "12516", "12309"],
+      "reason": ["Ganker, Pusher"]
+    },
+    {
+      "arr": ["10100", "10058", "12512", "12309", "10127", "12516"],
+      "reason": ["Nuker, DPS"]
+    },
+    {
+      "arr": ["12502", "12516", "10272", "12309", "12512", "10263"],
+      "reason": ["Escape, Harasser"]
+    },
+    {}
+  ],
+  "strategy": "167701",
+  "video": [
+    "167702",
+    "https://yhkd.99.com/inc/20211201183313.inc",
+    "https://yhkd.99.com/news/12012021/224820718.shtml"
+  ]
+}

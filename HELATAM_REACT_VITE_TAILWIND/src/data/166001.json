@@ -1,0 +1,125 @@
+{
+  "id": "166001",
+  "name": "Yanbing Cao",
+  "type": "3",
+  "features": ["Ranged", "Nuker", "Pusher"],
+  "data": [4, 9, 4, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["é€šè¿‡æŠ€èƒ½è°ƒæ•´æ­¦çµçš„ä½ç½®å¯ä»¥ä½¿çŽ©æ³•æ›´å¤šå˜"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "166001001",
+      "imgSrc": "1.jpg",
+      "skinName": "Flame General"
+    }
+  ],
+  "ski": [
+    {
+      "name": "WARRIOR SPIRIT SLASH",
+      "desc": [
+        "In Fusion State: Commands the Warrior Spirit to slash in a specified direction, dealing magical damage and a Slow effect to the enemy units on its path. In Separation State: Calls back the Warrior Spirit to deal magical damage and a Slow effect to the enemy units on its path. Once called back, Warrior Spirit Slash's cooldown will be reset."
+      ],
+      "data": [
+        "Magical Damage: 140/180/220/260",
+        "Magical Damage when Called Back: 150/180/210/240",
+        "Movement Slow: 20%/25%/30%/35%",
+        "Cast Range: 850",
+        "Mana Cost: 50/60/70/80",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": [
+        "Deals damage to and slows enemy units. Warrior Spirit can be called back."
+      ],
+      "update": ["Damage â†‘ Slow Effect â†‘"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "WARRIOR SPIRIT LEAP",
+      "desc": [
+        "Commands the Warrior Spirit to leap to the target point to deal area magical damage (when in Fusion state, doing so will make the Warrior Spisit leave the host). Release the skill again to teleport Yanbing Cao to Warrior Spirit's point. If too far away from its host, Warrior Spirit will disappear and fuse with the host. Passive: Warrior Spirit continuously deals area magical damage to enemy units nearby. Its movement speed increases when away from the host. Host's mana increases when fused with Warrior Spirit."
+      ],
+      "data": [
+        "Magical Damage: 160/200/240/280",
+        "Bonus Movement Speed: 8%/12%/16%/20%",
+        "Cast Range: 850",
+        "Cooldown: 10/9/8/7s",
+        "DoT per sec: 30/40/50/60",
+        "Mana Cost: 60",
+        "Mana Bonus from Fusion: 10/20/30/40"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Commands the Warrior Spirit to deal damage, and can teleport to the Warrior Spirit's point."
+      ],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Rush"]
+    },
+    {
+      "name": "LOYALTY OF THE CAOS",
+      "desc": [
+        "In Fusion State: Commands the Warrior Spirit to strike forward, dealing magical damage in a fan area and knocking off enemy units. In Separation State: Commands the Warrior Spirit to dash, dealing magical damage and stunning enemy units on its path. Passive: Warrior Spirit deals magical damage to enemy units nearby when fusing with or leaving its host."
+      ],
+      "data": [
+        "Magical Damage: 400/500/600",
+        "Magical Damage on the Path: 200/250/300",
+        "Passive Magical Damage: 80/160/240",
+        "Fan Range in Fusion State: 800",
+        "Cooldown: 55/50/45ç§’",
+        "Mana Cost: 150"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Deals area damage and causes a control effect"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "ULT"]
+    },
+    {
+      "name": "WARRIOR SPIRIT WRATH",
+      "desc": [
+        "Warrior Spirit roars, dealing magical damage to and stunning the enemy units nearby. Passive: Host's HP Regen and Mana Regen increase when fused with Warrior Spirit."
+      ],
+      "data": [
+        "Magical Damage: 90/150/210/270",
+        "HP Regen: 5/6/7/8",
+        "Mana Regen: 3/4/5/6",
+        "Radius: 450",
+        "Mana Cost: 80",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Deals area damage and causes a control effect"],
+      "update": ["Effect â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Disabler"]
+    }
+  ],
+  "story": ["Coming Soon!"],
+  "equip": [
+    {
+      "arr": ["12502", "12532", "10228", "10109", "12305", "10072"],
+      "reason": ["çˆ†å‘ã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["12307", "12532", "10228", "12313", "12513", "10124"],
+      "reason": ["æ¶ˆè€—ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12502", "10109", "12312", "10228", "12305", "10072"],
+      "reason": ["æŒç»­ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "163882",
+  "video": [
+    "163881",
+    "https://yhkd.99.com/inc/20190828025928.inc",
+    "https://yhkd.99.com/news/08282019/232650449.shtml"
+  ]
+}
