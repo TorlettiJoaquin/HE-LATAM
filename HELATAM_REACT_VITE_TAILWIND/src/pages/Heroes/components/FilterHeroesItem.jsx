@@ -13,12 +13,13 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
   }
 
   return (
-    <section>
+    <>
       <div className="text-sm font-medium text-center text-gray-500 dark:text-gray-400 dark:border-gray-700">
         <ul className="flex flex-wrap gap-1 justify-center">
           <li>
             <button
-              className={`${filter.type === 0 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] rounded-l-xl py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
+              // className={`${filter.type === 0 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] rounded-l-xl py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
+              className={`${filter.type === 0 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
               onClick={() => setFilter({ ...filter, type: 0 }) }
             >
@@ -27,7 +28,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
           </li>
           <li>
             <button
-              className={`${filter.type === 1 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
+              className={`${filter.type === 1 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
               onClick={() => setFilter({ ...filter, type: 1 }) }
             >
@@ -36,7 +37,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
           </li>
           <li>
             <button
-              className={`${filter.type === 2 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
+              className={`${filter.type === 2 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
               onClick={() => setFilter({ ...filter, type: 2 }) }
             >
@@ -45,7 +46,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
           </li>
           <li>
             <button
-              className={`${filter.type === 4 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] rounded-r-xl py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
+              className={`${filter.type === 3 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
               onClick={() => setFilter({ ...filter, type: 3 }) }
             >
@@ -55,7 +56,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
         </ul>
       </div>
 
-      <section className="flex gap-4 justify-center mt-2">
+      <section className="flex flex-wrap gap-4 justify-center my-5">
         <div className="flex gap-2">
           <input value='melee' onChange={handleChangeCheck} type="checkbox" />
           <label htmlFor="">Melee</label>
@@ -89,6 +90,6 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
           <label htmlFor="">Pusher</label>
         </div>
       </section>
-    </section>
+    </>
   );
 };

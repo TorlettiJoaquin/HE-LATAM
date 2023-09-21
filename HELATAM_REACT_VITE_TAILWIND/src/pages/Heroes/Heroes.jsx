@@ -39,7 +39,7 @@ export const Heroes = () => {
 
           <FilterHeroesItem filter={filter} setFilter={setFilter} />
 
-          <div className='pt-6 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-10 gap-y-5 gap-x-5 pb-20'>
+          <div className='pt-6 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-10 gap-y-5 gap-x-5 pb-20 mx-2 md:mx-0'>
             {
               heroes.map(heroe => (
                 <HeroesItem key={heroe.id} id={heroe.id} name={heroe.name}/>

@@ -3,7 +3,7 @@ import './HeroesItem.css'
 
 export const HeroesItem = ({ name, id }) => {
   return (
-    <Link to={`/heroes/${id}`} className="cursor-pointer heroes">
+    <Link to={`/heroes/${id}`} className="cursor-pointer heroes mx-auto">
       <img
         src={`https://img6.99.com/yhkd/image/data/hero/head/${id}.jpg`}
         alt={name}
