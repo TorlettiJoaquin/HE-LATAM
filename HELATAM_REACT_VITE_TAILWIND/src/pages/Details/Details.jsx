@@ -3,6 +3,7 @@ import { Footer } from "../../constant/Footer";
 import { Navbar } from "../../constant/Navbar";
 import { useEffect, useState } from "react";
 import { ComplexityRombos } from "../Heroes/components/ComplexityRombos";
+import { VideoComponent } from "./components/VideoComponent";
 
 export const Details = () => {
   const { heroId } = useParams();
@@ -75,7 +76,7 @@ export const Details = () => {
             </div>
           </section>
           <section>
-          <video src="https://www.youtube.com/embed/fONb5TQBjZI?si=kwX_JETeqQmJ7nqG"></video>
+            <VideoComponent videoId={heroeDetail?.vid}/>
           </section>
         </div>
       </section>
