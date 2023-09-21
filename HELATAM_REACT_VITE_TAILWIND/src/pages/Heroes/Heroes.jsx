@@ -34,7 +34,7 @@ export const Heroes = () => {
     <>
       <Navbar />
       <section className='bg-primary'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto pt-28'>
           <h2 className='py-6 text-center text-4xl'>Elegi tu heroe</h2>
 
           <FilterHeroesItem filter={filter} setFilter={setFilter} />

@@ -44,7 +44,7 @@ export const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <div className={`sticky top-0 z-20 bg-gradient-to-b from-[#e7e6e4bd] to-[#e7e6e400] h-[90px] lg:h-auto lg:bg-transparent`}>
+        <div className={`fixed right-0 left-0 top-0 z-20 bg-gradient-to-b from-[#e7e6e4bd] to-[#e7e6e400] h-[90px] lg:h-auto lg:bg-transparent`}>
             <nav className={"hidden lg:flex w-[80%] mx-auto items-center z-20"}
 
                 onMouseLeave={() => {

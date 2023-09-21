@@ -3,12 +3,12 @@ import { Footer } from "../../constant/Footer";
 import { Navbar } from "../../constant/Navbar";
 import { useEffect, useState } from "react";
 import { ComplexityRombos } from "../Heroes/components/ComplexityRombos";
-import { VideoComponent } from "./components/VideoComponent";
 
 export const Details = () => {
   const { heroId } = useParams();
   const [heroeDetail, setHeroeDetail] = useState(null);
   const [moreHistory, setMoreHistory] = useState(false);
+  const [stepTab, setStepTab] = useState(0);
 
   useEffect(() => {
     const getData = async () => {
@@ -39,47 +39,157 @@ export const Details = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-primary relative h-screen flex items-center -mt-28">
-        <img className="absolute bottom-0 left-0 top-0 right-0 z-0 h-full w-full object-cover" src={`https://heroes.99.com/en/resource/images/big-skin/${heroId}/0.jpg?v3`} alt={heroeDetail?.name} />
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 py-20">
-          <section className="z-30">
-            <div className="flex flex-col gap-7 w-2/3">
-              <h2 className="text-6xl">{heroeDetail?.name}</h2>
-              <p className={`${moreHistory ? "" : "line-clamp-5"}`}>
-                {heroeDetail?.story}
-              </p>
-              <div>
-                <button
-                  onClick={handleReedHistory}
-                  className="text-gray-200 underline"
+      <div className="bg-primary">
+        <section className="relative w-full h-screen flex items-center">
+          <img
+            className="absolute bottom-0 left-0 top-0 right-0 z-0 h-full w-full object-cover"
+            src={`https://heroes.99.com/en/resource/images/big-skin/${heroId}/0.jpg?v3`}
+            alt={heroeDetail?.name}
+          />
+          <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-2 py-20">
+            <section
+              className="z-10 p-10 md:px-6 md:py-4 rounded-3xl lg:w-5/5 xl:w-4/5 mx-2 md:mt-28"
+              style={{ backgroundColor: "#00000050" }}
+            >
+              <div className="flex flex-col gap-7 md:w-2/3">
+                <h2 className="text-6xl">{heroeDetail?.name}</h2>
+                <p
+                  className={`${
+                    moreHistory ? "overflow-y-auto h-40" : "line-clamp-5"
+                  } text-gray-100`}
                 >
-                  Leer la historia completa
-                </button>
-              </div>
+                  {heroeDetail?.story}
+                </p>
+                <div>
+                  <button
+                    onClick={handleReedHistory}
+                    className="text-gray-400 font-bold text-sm underline"
+                  >
+                    {moreHistory
+                      ? "Ocultar historia"
+                      : "Leer la historia completa"}
+                  </button>
+                </div>
 
-              <div>
-                <h2 className="text-gray-200 text-2xl font-bold">
-                  Tipo de ataque
+                <div>
+                  <h2 className="text-gray-200 text-2xl font-bold">
+                    Tipo de ataque
+                  </h2>
+                  <div className="flex gap-2 mt-4">
+                    {heroeDetail?.features?.map((feat) => (
+                      <span
+                        className="bg-blue-900 px-4 py-2 rounded-2xl"
+                        key={feat}
+                      >
+                        {feat}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h2 className="text-gray-200 text-2xl font-bold">
+                    Dificultad
+                  </h2>
+                  <ComplexityRombos complexityArray={heroeDetail?.data} />
+                </div>
+                <div>
+                  {
+                    heroeDetail?.skin.length !== 0 && <h2 className="text-gray-200 text-2xl font-bold mb-4">Skins</h2>
+                  }
+                  <div className="flex gap-2 items-center">
+                    {heroeDetail?.skin.map((ski) => (
+                      <img
+                        width={40}
+                        height={40}
+                        className="object-contain"
+                        key={ski.id}
+                        src={`https://img5.99.com/yhkd/image/data/hero/${heroId}/head/${ski.imgSrc}?`}
+                        alt=""
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section className="container mx-auto pt-20 ">
+          <div className="bg-thrid p-4 rounded-md mx-2 lg:mx-0">
+            <h2 className="text-4xl font-bold mb-6">Habilidades</h2>
+            <div className="p-4 rounded-md">
+              <div className="flex gap-3">
+                {heroeDetail?.ski.map((sk, i) => (
+                  <button
+                    className={`${
+                      stepTab === i
+                        ? "bg-primary border-t-2 border-l-2 border-r-2 border-spacing-3 border-gray-600"
+                        : ""
+                    } p-4`}
+                    onClick={() => setStepTab(i)}
+                    key={sk.keyword}
+                  >
+                    <img
+                      src={`https://img6.99.com/yhkd/image/data/hero//${heroId}/${sk.img}`}
+                      alt={sk.keyword}
+                    />
+                  </button>
+                ))}
+              </div>
+              <div className="flex gap-4 flex-col p-5 bg-primary border-2 -mt-1 border-gray-600">
+                <h2 className="text-2xl font-bold">
+                  {heroeDetail?.ski[stepTab].name}
                 </h2>
-                <div className="flex gap-2 mt-4">
-                  {heroeDetail?.features?.map((feat) => (
-                    <span className="bg-blue-900 px-4 py-2 rounded-2xl" key={feat}>
-                      {feat}
+                <p>{heroeDetail?.ski[stepTab].desc[0]}</p>
+                <div className="flex flex-col gap-2">
+                  {heroeDetail?.ski[stepTab].data.map((element) => (
+                    <span className="text-sm text-gray-400" key={element}>
+                      {element}
                     </span>
                   ))}
                 </div>
               </div>
-              <div>
-                <h2 className="text-gray-200 text-2xl font-bold">Dificultad</h2>
-                <ComplexityRombos complexityArray={heroeDetail?.data}/>
-              </div>
             </div>
-          </section>
-          <section>
-            <VideoComponent videoId={heroeDetail?.vid}/>
-          </section>
-        </div>
-      </section>
+          </div>
+        </section>
+        <section className="container mx-auto py-20">
+          <div className="bg-thrid p-4 rounded-md mx-2 lg:mx-0">
+            <h2 className="text-4xl font-bold mb-6">Equipamiento</h2>
+            <div className="flex flex-col items-center gap-5 p-4 rounded-md">
+              {heroeDetail?.equip?.map((item, i) => (
+                <div key={i} className="mt-10">
+                  <div className="mb-6">
+                    {item?.reason?.map((obj) => (
+                      <h2 key={obj} className="text-2xl">
+                        {obj}
+                      </h2>
+                    ))}
+                  </div>
+                  <div className="grid grid-cols-3 lg:grid-cols-6 gap-10">
+                    {item?.arr?.map((obj) => {
+                      const imgSrc = `https://img6.99.com/yhkd/image/data/equip/${obj}.png`;
+
+                      return (
+                        <div
+                          className="flex gap-2 border border-spacing-3 border-orange-700"
+                          key={obj}
+                        >
+                          <img
+                            src={imgSrc}
+                            onError={(e) => {
+                              e.target.src = `https://img6.99.com/yhkd/image/data/equip/${obj}.jpg`;
+                            }}
+                            alt={obj}
+                          />
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </div>
       <Footer />
     </>
   );

@@ -5,7 +5,8 @@ export default {
         extend: {
             backgroundColor: {
                 "primary": '#080F20',
-                "secondary": '#0934B2'
+                "secondary": '#0934B2',
+                "thrid": '#0C215A'
             },
             backgroundImage: {
                 "header-bg": "url('/src/assets/images/bg01.webp')",

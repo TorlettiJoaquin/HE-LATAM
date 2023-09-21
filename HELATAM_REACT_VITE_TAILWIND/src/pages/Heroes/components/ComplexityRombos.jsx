@@ -2,7 +2,7 @@ export const ComplexityRombos = ({ complexityArray }) => {
   return (
     <div className="flex flex-col gap-6 mt-4">
       {complexityArray?.map((value, index) => (
-        <div key={index} className="grid items-center grid-cols-4 gap-3">
+        <div key={index} className="grid items-center grid-cols-4 gap-10 md:gap-3">
           <h2 className="font-bold">
             {index === 0 && "ATTACKS"}
             {index === 1 && "SPELLS"}
