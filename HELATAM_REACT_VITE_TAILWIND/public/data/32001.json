@@ -1,0 +1,136 @@
+{
+  "id": "32001",
+  "name": "Damacus",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "DPS"],
+  "data": [5, 9, 6, 8],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Knockup with Eastern Wind, then drop Eight Trigrams to land a perfect combo."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "32001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Wave Watch"
+    },
+    {
+      "id": "32001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Hidden Immortal",
+      "vid": "vh70_H5PKWo"
+    },
+    {
+      "id": "32001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Starr Dawn"
+    },
+    {
+      "id": "32001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Nightfall Enigma"
+    }
+  ],
+  "ski": [
+    {
+      "name": "LIGHTNING STORM",
+      "desc": [
+        "Damacus summons a lightning storm, dealing magical damage to multiple enemy units. Each ability level hits an additional 1 enemy unit."
+      ],
+      "data": [
+        "Magical Damage: 100/140/180/220",
+        "Enemy Units Hit: 4/5/6/7",
+        "Mana Cost: 120",
+        "Cooldown: 6 s",
+        "Cast Range: 900"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Magical Damage To Multiple Targets."],
+      "update": ["Increased Magical Damage and Enemy Units Hit."],
+      "tag": ["MAGICAL", "AOE"]
+    },
+    {
+      "name": "EIGHT TRIGRAMS",
+      "desc": [
+        "Damacus places an Eight Trigrams at the target area which activates after 1s, dealing magical damage to enemy units and causes Frozen."
+      ],
+      "data": [
+        "Magical Damage: 150/200/250/300",
+        "Cast Range: 900",
+        "Radius: 350",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 100",
+        "Frozen: 1s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["Magical Damage, Area Frozen."],
+      "update": ["Damage increased and cooldown reduced."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "EASTERN WIND",
+      "desc": [
+        "Damacus releases winds from the east in a target direction, dealing magical damage to enemy units along its path and causing Knockup for 1s."
+      ],
+      "data": [
+        "Magical Damage: 80/120/160/200",
+        "Cast Range: 1500",
+        "Mana Cost: 90/100/110/120",
+        "Cooldown: 12s",
+        "Frozen: 1 s"
+      ],
+      "img": "03.png",
+      "keyword": "DISABLER",
+      "study": ["Deals massive magical damage at a target direction."],
+      "update": ["Ability damage increased"],
+      "tag": ["DISABLER", "MAGICAL"]
+    },
+    {
+      "name": "WAVE OF INK",
+      "desc": [
+        "Damacus paints with his brush and unleashes up to 5 waves of ink dragons in an area in front, dealing massive magical damage to enemy units within the area."
+      ],
+      "data": [
+        "Magical Damage: 150/200/250",
+        "Cast Range: 1500",
+        "Mana Cost: 100/120/140",
+        "Cooldown: 50/45/40s"
+      ],
+      "img": "04.png",
+      "keyword": "AOE",
+      "study": ["Massive Magical Damage."],
+      "update": ["Damage increased"],
+      "tag": ["ULT", "MAGICAL", "AOE"]
+    }
+  ],
+  "story": [
+    "Damacus, a famous statesman, ideologist and strategist, was wooed and recruited by the virtuous general Liu Bei. And he demonstrated his wisdom and talent with his achievements."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "10228", "10109", "12513", "12305"],
+      "reason": ["NUKER\nPUSHER"]
+    },
+    {
+      "arr": ["10089", "10123", "10109", "12532", "10228", "10124"],
+      "reason": ["GANKER\nSUPPORT"]
+    },
+    {
+      "arr": ["12502", "10123", "10109", "10228", "12313", "10124"],
+      "reason": ["ESCAPE\nSUPPORT"]
+    },
+    {}
+  ],
+  "strategy": "162261",
+  "video": [
+    "162262",
+    "https://yhkd.99.com/inc/20180711194423.inc",
+    "https://yhkd.99.com/news/07112018/195152355.shtml"
+  ]
+}

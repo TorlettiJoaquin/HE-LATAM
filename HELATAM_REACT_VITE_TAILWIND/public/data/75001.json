@@ -1,0 +1,125 @@
+{
+  "id": "75001",
+  "name": "Khaos",
+  "type": "1",
+  "features": ["Melee", "Strength"],
+  "data": [2, 8, 5, 4],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Deals massive magic damage through the combination of abilities and passive effects."
+  ],
+  "skin": [],
+  "ski": [
+    {
+      "name": "Flames of Chaos",
+      "desc": [
+        "Khaos conjures a lava fountain out of flames in the target area, dealing massive magic damage and applying Mindburn. Enemies in the center are knocked up into the air and suffer more damage."
+      ],
+      "data": [
+        "Outer Radius: 500",
+        "Inner Radius: 250",
+        "Cast Range: 800",
+        "Cooldown: 9/8/7/6s",
+        "Knock-up Duration: 1s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "01.png",
+      "keyword": "AoE ATK, Physical, Crowd Control",
+      "study": ["Deals high AoE damage."],
+      "update": ["Damage â†‘"],
+      "tag": ["AoE"]
+    },
+    {
+      "name": "Prison Panic",
+      "desc": [
+        "Emits a shockwave in a random direction. If it hits an enemy hero, builds a prison with the enemy hero as center and causes Slow. After 1.5s, the enemy failing to escape prison will be dragged to the center for the second stage of damage and suffers Mindburn."
+      ],
+      "data": [
+        "Shockwave Distance: 1150",
+        "Physical Damage (Shockwave): 100/130/160/190",
+        "Physical Damage (Stage 2): 200/250/300/350",
+        "Slow Effect: 25%/30%/35%/40%",
+        "Mana Cost: 80",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "02.png",
+      "keyword": "Physical, Crowd Control",
+      "study": ["Provides crowd control."],
+      "update": ["Damage â†‘"],
+      "tag": ["Crowd Control"]
+    },
+    {
+      "name": "Infinite Scorch",
+      "desc": [
+        "Creates a wide scorch zone in which enemies are burned and slowed continuously. When first entering the scorch zone, Khaos is surrounded by flame and receives a shield that blocks damage and will disappear if Khaos leaves the scorch zone more than 5s. Khaos also gains a constant stream of flame energy from the scorch zone and slow regeneration of Shield while in the scorch zone._Enemies who stay in the scorch zone more than 3s will suffer Mindburn."
+      ],
+      "data": [
+        "Scorch Zone Radius: 1300",
+        "Scorch Zone Duration: 7s",
+        "Magic Damage per Second (Burn): 50/70/90",
+        "Slow Effect: 25%,lasting for 2s",
+        "Shield: 300/400/500",
+        "Shield Regen: 50/65/80",
+        "Mana Cost: 100/110/120",
+        "Cooldown: 45/40/35s"
+      ],
+      "img": "03.png",
+      "keyword": "Ultimate, Buff",
+      "study": ["Area Buff"],
+      "update": ["Damage â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "Mindburn Impact",
+      "desc": [
+        "Passive (Inherent): Some of Khaos' abilities may throw enemies into the Mindburn state that drains part of their Armor and Magic Resist. Khaos' basic attacks against enemies in Mindburn deals bonus damage and heals himself.<br>Active: Charges at enemies in a target direction to burn their mind, dealing damage to the enemies hit. (Mindburn Impact can trigger the bonus effect of Mindburn directly.)"
+      ],
+      "data": [
+        "* Passive (Inherent)",
+        "Armor Drained (Mindburn): 15/15/30/45/60",
+        "Magic Resist Drained (Mindburn): 2/2/5/8/11",
+        "Mindburn Duration: 4s",
+        "Bonus Physical Damage (Mindburn): 125/125/175/225/275",
+        "Healing %: 50% of gross damage",
+        "<br>",
+        "* Active",
+        "Physical Damage: 120/170/220/270",
+        "Charge Distance: 700",
+        "Mana Cost: 80",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Dash & Damage"],
+      "update": ["Buff â†‘"],
+      "tag": ["Dash"]
+    }
+  ],
+  "story": [
+    "     The eternal conflict between Heaven and Hell can be traced back to ancient times before human ancestors appeared. Through endless battles, the prophecy about the birth of the forbidden was spread around the world.<br>     He would become King of Evernight and also Son of Holiness, declaring his mission to end the eternal conflict. It was also firmly believed that his birth would bring doom upon Heaven and Hell.<br>     Unexpectedly, his birth was not a result of forbidden love across races but an extremely bloody battle. When a thousand angels fell and a thousand demons were destroyed, a human with angelic face and demonic body spread his enormous wings. The moment he appeared, a new world was formed out of chaos. Khaos, the pure primal god that contains the power of darkness and light, called himself the source of chaos and created humans.<br>     Humans flourished on the continent, but went to Heaven or Hell after death. Khaos got nothing in return and realized his power was stolen. Then, he rallied a massive human troop and initiated a battle against Heaven and Hell. Khaos was unstoppable and so close to the victory, but a human's betrayal at the critical moment made him sealed by Heaven and Hell together.<br>     Thousands of years after Khaos' failure, he broke the seal and returned to the world of mortals. With a wicked smile on his face, Khaos swore to reclaim his world and take back the control on the destiny of mortals."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10065", "10069", "10272", "12320", "10127"],
+      "reason": ["Ganker, DPS"]
+    },
+    {
+      "arr": ["12502", "12512", "10069", "10125", "12316", "10272"],
+      "reason": ["DPS, Survival"]
+    },
+    {
+      "arr": ["10100", "10068", "10272", "10047", "10125", "12320"],
+      "reason": ["Nuker, Assassin"]
+    },
+    {}
+  ],
+  "strategy": "168682",
+  "video": [
+    "168681",
+    "https://yhkd.99.com/inc/20230116001133.inc",
+    "https://yhkd.99.com/news/01122023/224726036.shtml?index=-1"
+  ]
+}

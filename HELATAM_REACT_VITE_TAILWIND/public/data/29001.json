@@ -1,0 +1,144 @@
+{
+  "id": "29001",
+  "name": "Tiamat",
+  "type": "1",
+  "features": ["MELEE", "TANK", "DISABLER"],
+  "data": [4, 6, 9, 4],
+  "way": "1",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Cast Stone Barrier to rush into the battlefield and save your allies."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "29001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Racoon Cutie"
+    },
+    {
+      "id": "29001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Mecha Darling"
+    },
+    {
+      "id": "29001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Platinum Mecha"
+    },
+    {
+      "status": "en",
+      "imgSrc": "4-en.jpg",
+      "skinName": "Envoy of Mettle"
+    },
+    {
+      "id": "29001304",
+      "imgSrc": "4.jpg?",
+      "skinName": "Floral Faerie"
+    },
+    {
+      "id": "29001306",
+      "imgSrc": "5.jpg",
+      "skinName": "Tridacna Spirit",
+      "vid": "7zwxeDi3bqs"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CRAZED CHARGE",
+      "desc": [
+        "Roll like a wild boulder towards an enemy target to stun them for 0.5 seconds, deal Magical Damage, and reduce their Movement Speed by 30% for 3 seconds."
+      ],
+      "data": [
+        "Magical Damage: 120/160/200/240",
+        "Cast Range: 950",
+        "Mana Cost: 50",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "01.png",
+      "keyword": "DISABLER",
+      "study": ["Charge towards a target to deal Damage and cause Stun."],
+      "update": ["Damage increased and cooldown reduced."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "EARTHSHOCK",
+      "desc": [
+        "Taunt nearby enemies causing them to attack you. Also deals damage to targets."
+      ],
+      "data": [
+        "Magical Damage: 80/130/150/200",
+        "Taunt Duration: 1/1.25/1.5/1.75s",
+        "Radius: 400",
+        "Cooldown: 10s",
+        "Mana Cost: 60/70/80/90"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": ["=Taunt enemies nearby to force them to attack you."],
+      "update": ["Increase Damage and Taunt duration."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "FIGHT TOGETHER",
+      "desc": [
+        "Select an ally and activate earthen resonance around them for protection. After 2.5 seconds, teleport to the selected ally hero. Teleport may be canceled within these 2.5 seconds, partially refunding cooldown. Earthen resonance protection may last for up to 5 seconds."
+      ],
+      "data": [
+        "Shield Durability: 500/650/800",
+        "Cooldown: 65/60/55s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": [
+        "Increase own Armor and Spell Resist. Chance to counter when attacked."
+      ],
+      "update": ["Increase own Armor, Spell Resist, and Physical Damage."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "PROTECTIVE ARMOR",
+      "desc": [
+        "Tiamat receives bonus Armor and Spell Resist. When being hit by an attack which deals Physical Damage, 30% chance to counter and deal Physical Damage to a nearby enemy unit."
+      ],
+      "data": [
+        "Armor Bonus: 12/18/24/30",
+        "Spell Resist Bonus: 5/7/9/11",
+        "Physical Damage: 80/130/180/230",
+        "Radius: 400"
+      ],
+      "img": "04.png",
+      "keyword": "DISABLER",
+      "study": ["Deals damage while restoring health."],
+      "update": ["Damage increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    }
+  ],
+  "story": [
+    "In ancient times, Quetzalcoatl came to the people's temple and built a guardian out of stone - Tiamat - to act as his emissary. Tiamat dutifully performed the will of the deity and never disobeyed."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "10265", "12309", "12316", "10263"],
+      "reason": ["FRONT ROW\nPUSHER"]
+    },
+    {
+      "arr": ["12514", "12520", "12309", "12316", "10069", "10265"],
+      "reason": ["SUPPORT\nTANK"]
+    },
+    {
+      "arr": ["12307", "10048", "12316", "10265", "10257", "10263"],
+      "reason": ["NUKER\nREAPER"]
+    },
+    {}
+  ],
+  "strategy": "164261",
+  "video": [
+    "164262",
+    "https://yhkd.99.com/inc/20191022230657.inc",
+    "https://yhkd.99.com/news/10232019/202833116.shtml"
+  ]
+}

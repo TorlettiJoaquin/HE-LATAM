@@ -1,0 +1,136 @@
+{
+  "id": "240001",
+  "name": "Hades",
+  "type": "2",
+  "features": ["Ganker", "Nuker"],
+  "data": [9, 6, 8, 8],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Use the control effect of Fated Curse wisely."],
+  "skin": [
+    {
+      "id": "240001302",
+      "imgSrc": "1.jpg",
+      "skinName": "Century King"
+    },
+    {
+      "id": "240001301",
+      "imgSrc": "2.jpg",
+      "skinName": "King of Purgatory"
+    },
+    {
+      "id": "240001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Nightfire Lord"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Incineration",
+      "desc": [
+        "Consumes Health to increase Attack and Movement Speed continuously. During the period, getting ability damage will interrupt it and bring out a shield to block the damage. The buffs will continue to work for a while after the interruption."
+      ],
+      "data": [
+        "Shield: 100/150/200/250",
+        "Bonus Attack per Stack: 25/35/45/55",
+        "Bonus Movement Speed per Stack: 40/45/50/55",
+        "Stack: 1/s, Max Stacks: 3, up to 5s",
+        "Buff Duration (Ability Ends): 5s",
+        "Health Cost: 3% of Max Health per second",
+        "Cooldown: 6s",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "Buff",
+      "study": [
+        "Consumes Health to gain buffs and resist attacks from enemy's abilities."
+      ],
+      "update": ["Buffâ†‘ Shieldâ†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "Fated Curse",
+      "desc": [
+        "Builds a magic array in the target area and starts sacrificing after it is fully charged, dealing damage to the enemies in the area and causing Fear. If one unit is killed before the sacrifice, all enemies within the area will enter Fear status once. Passive: Drains enemy's Health to support Hades, recovering his Health for kills. The healing effect is halved for assists."
+      ],
+      "data": [
+        "Magic Damage: 180/240/300/360",
+        "Array Charging Duration: 2s",
+        "Fear: 1.5s",
+        "Radius: 450",
+        "Cast Range: 1000",
+        "Cooldown: 12s",
+        "Mana Cost: 80",
+        "Max Health of the Hero Killed: 20%/25%/30%/35%, healing effect halved for assists",
+        "Max Health of the Non-Hero Killed: 15%/20%/25%/30%"
+      ],
+      "img": "02.png",
+      "keyword": "Magic",
+      "study": ["Deals area damage and gives passive buffs for kills."],
+      "update": ["Damageâ†‘ Buffâ†‘"],
+      "tag": ["Physical", "Buff"]
+    },
+    {
+      "name": "Whisper of Sin",
+      "desc": [
+        "Tortures enemies with the nether force. The enemies may lose Health while moving due to force explosion. Hades' basic attacks against these enemies deals additional magic damage."
+      ],
+      "data": [
+        "Initial Magic Damage: 150/250/350",
+        "Nether Magic Damage: 17%/25%/33% of the distance moved",
+        "Bonus Magic Damage for Basic Attack: 50/75/100",
+        "Cast Range: 850",
+        "Cooldown: 60/55/50s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": ["Deals magic damage and provides enemy debuffs."],
+      "update": ["Damageâ†‘ Effectâ†‘ Cooldownâ†“"],
+      "tag": ["Magic", "Ultimate"]
+    },
+    {
+      "name": "Omnipotence",
+      "desc": [
+        "Grants Hades an almighty insight which arouses his interest in chasing down tottering enemy heroes. The weaker the enemy, the more exciting Hades becomes."
+      ],
+      "data": [
+        "Radius: 2000/2500/3000/3500",
+        "Target's Health < 80%: Movement Speed +10%/15%/20%/25%",
+        "Target's Health < 60%: Attack Speed +50/60/70/80",
+        "Target's Health < 40%: Target's vision acquired & Movement Speed +10%/15%/20%/25%"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Gives buffs according to the Health of heroes nearby."],
+      "update": ["Radiusâ†‘ Buffâ†‘"],
+      "tag": ["Buff", "Passive"]
+    }
+  ],
+  "story": [
+    "     The great High God was bothered by the appointment of his three sons on Mount Titans. Hades, Poseidon, and Zeus were all outstanding among gods and good options for governing the world. The High God found it difficult to make decisions.<br>     Hades was not worried at all. Thinking about his credits, he was confident that his father would choose him to be the human ruler. However, the partiality of the High God shattered the wish of Hades â€“ Zeus became the supreme ruler of the human world while Hades could only govern Netherworld and never have a chance to be with sunlight and moonlight.<br>     Hades felt disappointed and became colder and colder. He often rode nightmare bony horse on the edge of the Hades, holding a funeral sickle in his hand and staring at the touch of glimmer falling into Netherworld from the human world. \"That belongs to me!\" Hades yelled. He spent one thousand years in plotting and trying to defeat Zeus.<br>     Unfortunately, his conspiracy was seen through by Athena â€“the goddess of wisdom. Hades, who was trapped by Zeus, harvested the lives of besiegers with his funeral sickle. The blood of low-level gods and middle-level god was sprayed over the whole body of Hades and all the children of Zeus were also wounded. At this moment, Zeus finally ended the long ceremony and summoned \"Silencer of Thunder\" which chopped the sickle of Hades and crushed him completely..."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "10272", "10058", "12516", "10065"],
+      "reason": ["Ganker\nNuker"]
+    },
+    {
+      "arr": ["10100", "10058", "10237", "12508", "12516", "10127"],
+      "reason": ["Escape\nDPS"]
+    },
+    {
+      "arr": ["10302", "10115", "10065", "10069", "12508", "10237"],
+      "reason": ["Ganker\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "166142",
+  "video": [
+    "166141",
+    "https://yhkd.99.com/inc/20200722010530.inc",
+    "https://yhkd.99.com/news/07222020/224046282.shtml"
+  ]
+}

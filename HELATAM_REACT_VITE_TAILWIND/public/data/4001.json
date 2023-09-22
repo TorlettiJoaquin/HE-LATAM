@@ -1,0 +1,585 @@
+{
+  "id": "4001",
+  "name": "Arlequin",
+  "type": "2",
+  "features": ["RANGED", "CARRY", "PUSHER"],
+  "data": [9, 0, 5, 8],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Move quickly around the battleground with Sprint and use Head Shot to deal damage."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Pin-up Girl",
+      "vid": "agm_ptZFDCU"
+    },
+    {
+      "id": "4001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Cyborg Maiden",
+      "vid": "bMsKfmTFcV0"
+    },
+    {
+      "id": "4001202",
+      "imgSrc": "3.jpg",
+      "skinName": "Tuxedo Fancy",
+      "vid": "RUtDszTxWoE"
+    },
+    {
+      "id": "4001302",
+      "imgSrc": "4.jpg",
+      "skinName": "Azure Corsair",
+      "vid": "KZJDzofI1LM"
+    },
+    {
+      "id": "4001304",
+      "imgSrc": "5.jpg",
+      "skinName": "Meteor Cracker"
+    },
+    {
+      "imgSrc": "6.jpg",
+      "skinName": "Lightning Zealot",
+      "status": "en"
+    },
+    {
+      "imgSrc": "7.jpg",
+      "skinName": "Rosy Envoy",
+      "status": "en"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BARRAGE",
+      "desc": [
+        "Arlequin unleashes a barrage at a target area for 3s, dealing physical damage to enemy units and causing continuous Movement Slow by 25%. Against enemy units inside the Barrage, Arlequin's basic attacks deal bonus physical damage equal to 3% of their max Health."
+      ],
+      "data": [
+        "Damage per 0.75s: 20/35/50/65",
+        "Mana Cost: 80",
+        "Cooldown: 9/8/7/6s",
+        "Range: 1100",
+        "Radius: 500"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": [
+        "Unleashes a barrage of attacks in a target area, slowing enemy movement."
+      ],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["PHYSICAL", "DISABLE"]
+    },
+    {
+      "name": "SPRINT",
+      "desc": [
+        "Arlequin dashes in a target direction, granting bonus attack range on her next basic attack."
+      ],
+      "data": [
+        "Cooldown: 7/6/5/4s",
+        "Mana Cost: 50",
+        "Range: 500",
+        "Radius: 1100"
+      ],
+      "img": "01.png",
+      "keyword": "DASH",
+      "study": ["Dashes to increase range of basic attack to 1100 for 3s."],
+      "update": ["Cooldown reduced."],
+      "tag": ["DASH"]
+    },
+    {
+      "name": "PROXIMITY MINE",
+      "desc": [
+        "Arlequin consumes a charge to fire a devastating shrapnel in a target direction. The shrapnel explodes upon the first enemy hero unit it touches, dealing physical damage to that enemy hero unit and half damage to nearby enemy units. Shrapnel charges restore every 18 seconds, to a max of 3 charges. The charging is affected by Cooldown Reduction."
+      ],
+      "data": [
+        "Damage: 175/250/325, Bonus 3% damage per 2% target Health lost",
+        "Range: 5000",
+        "Mana Cost: 100",
+        "Cooldown: 2.5/1.5/0.5s"
+      ],
+      "img": "03.png",
+      "keyword": "PHYSICAL",
+      "study": ["Charges at a target enemy unit."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "PHYSICAL"]
+    },
+    {
+      "name": "HEAD SHOT",
+      "desc": [
+        "PASSIVE: Rate of critical chance increases. Basic attacks reduce the cooldown on Sprint by 0.5s. Sprint grants bonus physical damage to the next basic attack by 5s._Passive: increases ."
+      ],
+      "data": ["Bonus Damage: 50/70/90/110", "Increased Crit: 3%/4%/5%/6%"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": [
+        "Grants bonus damage to Sprint while basic attacks reduce cooldown for Sprint."
+      ],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Arlequin is Dr. Madd's greatest creation. Her silky skin, exquisite mechanics, thunderous firepower and nano-heart... perfection! And she has generated her own personality, too!"
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10127", "10272", "10237", "12516"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["10100", "10272", "10065", "10237", "10127", "10069"],
+      "reason": ["REAPER\nDPS"]
+    },
+    {
+      "arr": ["10100", "10115", "10237", "10127", "10047", "12516"],
+      "reason": ["PUSHER\nNUKER"]
+    },
+    {}
+  ],
+  "strategy": "160162",
+  "video": [
+    "160161",
+    "https://yhkd.99.com/inc/20170914192619.inc",
+    "https://yhkd.99.com/news/09122017/035340163.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "",
+            "val": ""
+          },
+          {
+            "name": "",
+            "val": ""
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "img": ""
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          },
+          {
+            "name": "",
+            "level": "",
+            "img": ""
+          }
+        ]
+      }
+    ]
+  ]
+}

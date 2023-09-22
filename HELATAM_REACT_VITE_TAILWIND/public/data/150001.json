@@ -1,0 +1,410 @@
+{
+  "id": "150001",
+  "name": "E-stein",
+  "type": "3",
+  "features": ["Ranged", "Pusher"],
+  "data": [1, 8, 5, 7],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "åœ¨æ•Œäººå¯†é›†çš„æ—¶å€™å¤šæ¬¡è§¦å‘è£‚å˜æ•ˆæžœå¯ä»¥åˆ¶é€ æˆå¨çš„ä¼¤å®³"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Xmas Formula"
+    },
+    {
+      "id": "150001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Scholar Diabolica",
+      "vid": "0psJLd72rZY"
+    },
+    {
+      "id": "150001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Astrophysicist"
+    }
+  ],
+  "ski": [
+    {
+      "name": "NEUTRON BEAM",
+      "desc": [
+        "E-stein consumes a charge and assembles a Photon Cannon at the target point to attack nearby enemy. E-stein replenishes a charge every 15s and can hold up to 3 charges. FUTURE FORM: E-stein shoots a neutron beam that deals magical damage along its path, and causes a neutron fission each time it hits an enemy unit marked with Heavy Nuclei, dealing bonus magical damage to the area."
+      ],
+      "data": [
+        "Photon Cannon: 90/120/150/200 Magical Damage",
+        "Photon Cannon Health: 400/500/600/700+0.1 Health Multiplier",
+        "Neutron Beam: 175/225/275/325 Magical Damage",
+        "Neutron Fission: 60/90/120/150 Magical Damage",
+        "Mana Cost: 50+3% Max Mana",
+        "Cooldown: 2s"
+      ],
+      "img": "01.png",
+      "keyword": "Magical",
+      "study": ["Assembles a cannon / shoots beam dealing damage"],
+      "update": ["Increased damage"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "PARTICLE COLLISION",
+      "desc": [
+        "PRESENT FORM: E-stein discharges a photoelectric pulse that grants him bonus movement speed. E-stein gains a shield for 4s if there are Photon Cannons nearby, and repairs their Health and duration while causing their next attack to inflict Heavy Nuclei and cause movement slow by 20% for 1s._FUTURE FORM: E-stein emits a blast wave of heavy particles, causing knockback and Heavy Nuclei.  PASSIVE - HEAVY NUCLEI: Enemy units marked with Heavy Nuclei require 15% more Mana to cast their abilities, lasting 5s. Every 4 basic attacks, E-stein deals on-hit bonus magical damage and causes Heavy Nuclei."
+      ],
+      "data": [
+        "Magical Damage: 140/180/220/260",
+        "Shield Capacity: 120/160/200/250",
+        "On-Hit Magical Damage: 75/100/125/150",
+        "Bonus Movement Speed: 15%/20%/25%/30%",
+        "Mana Cost: 80+3% Max Mana",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Repairs cannon duration / causes knockback and damage"],
+      "update": ["Increased damage and reduced cooldown"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "BEND SPACE",
+      "desc": [
+        "E-stein transcends space-time and equips himself with a battle suit from the future armed with incredible offensive abilities for 10s. E-stein is invincible for 1s during this Future Form transformation, and afterwards this ability can be activated again to create a black hole at the target area, bending the fabric of space-time for 5s while continuously dealing magical damage and causing slow. The black hole collapses after 1.5s, pulling all enemy units in the area toward its center and dealing massive magical damage. Bonus Movement Speed: 20% for 2s. Movement Slow: 30%."
+      ],
+      "data": [
+        "Continuous Magical Damage: 30/60/90 every 0.5s",
+        "Collapse Magical Damage: 225/350/475",
+        "Mana Cost: 100/150/200+5% Max Mana",
+        "Cooldown: 35/30/25s",
+        "Cast Range: 800",
+        "Radius: 650"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": ["Transforms and equips a battle suit from the future"],
+      "update": ["Increased damage, reduced cooldown"],
+      "tag": ["ULT", "Magical"]
+    },
+    {
+      "name": "CONSERVATION OF ENERGY",
+      "desc": [
+        "Based on a conversion ratio, E-stein recovers Mana whenever he loses Health, and recovers Health whenever he spends Mana. E-stein also recovers Health whenever a Photon Cannon deals damage within a 1200 radius."
+      ],
+      "data": [
+        " Photon Cannon Recovery: 0.1 Mana per hit",
+        "Health-Mana Conversion Ratio: 25%/35%/45%/55%",
+        "Photon Cannon Recovery: 10/15/20/25 Health per hit"
+      ],
+      "img": "04.png",
+      "keyword": "Passive",
+      "study": ["Recovers Health and Mana based on consumption"],
+      "update": ["Increased Health-Mana conversion ratio"],
+      "tag": ["Passive", "Escape"]
+    }
+  ],
+  "story": [
+    "E-stein was made by Dr. Stein as a clone of Einstein. Though with Einstein's supreme intellect and way of thinking recovered, E-stein was deceived by the evil scientist, which resulted in the death of Dr. Stein's wife. In order to remedy the fault, E-stein tried to change the past through a timewarp invention."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "12533", "10109", "12310", "10228", "12305"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12514", "10123", "12310", "10109", "12513", "10124"],
+      "reason": ["æŒç»­è¾“å‡ºã€PUSHER"]
+    },
+    {
+      "arr": ["12307", "10109", "12310", "12513", "12305", "10072"],
+      "reason": ["æ¶ˆè€—ã€æ”¯æ´"]
+    },
+    {}
+  ],
+  "strategy": "160986",
+  "video": [
+    "160985",
+    "https://yhkd.99.com/inc/20171220231443.inc",
+    "https://yhkd.99.com/news/12202017/014848588.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+18"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+3.06"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+14.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+25.2"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+20.07"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+32.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+5.58"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+26.01"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+40.5"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.93"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+32.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+50.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+8.64"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+40.05"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

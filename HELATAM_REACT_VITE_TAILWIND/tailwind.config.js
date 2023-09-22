@@ -3,6 +3,11 @@ export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
         extend: {
+            backgroundColor: {
+                "primary": '#080F20',
+                "secondary": '#0934B2',
+                "thrid": '#0C215A'
+            },
             backgroundImage: {
                 "header-bg": "url('/src/assets/images/bg01.webp')",
                 "view-bg": "url('/src/assets/images/viewmore.webp')",

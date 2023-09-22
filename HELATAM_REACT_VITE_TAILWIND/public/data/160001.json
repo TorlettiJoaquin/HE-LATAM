@@ -1,0 +1,134 @@
+{
+  "id": "160001",
+  "name": "Heradias",
+  "type": "1",
+  "features": ["Ganker", "Nuker"],
+  "data": [8, 0, 5, 9],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Hit more enemies with the Fate Net for greater damage."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "160001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Deep Sea Pearl"
+    },
+    {
+      "id": "160001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Withy"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SACRED BLADE",
+      "desc": [
+        "Heradias swings the blade to sweep over a wide area twice. She can move during the swing, and she gains damage reduction and crowd control immunity. The cooldown of this ability is reduced by 1s per enemy hero hit."
+      ],
+      "data": [
+        "Physical Damage per Hit: 80/120/160/200",
+        "Additional damage equal to 5% of the target's current Health",
+        "Damage Reduction: 10%15%/20%/25%",
+        "Duration: 1.5s",
+        "Radius: 600",
+        "Cooldown: 7s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": [
+        "Gains crowd control immunity and damage reduction while dealing damage."
+      ],
+      "update": ["Damageâ†‘  Effectâ†‘"],
+      "tag": ["Physical", "Buff"]
+    },
+    {
+      "name": "SPIRIT BLITZ",
+      "desc": [
+        "Heradias summons a spear to pierce enemy units in the target area, dealing physical damage and reducing their Armor. Recasts this ability within 4s to dash towards the spear, dealing damage and stunning enemy units along the path."
+      ],
+      "data": [
+        "Physical Damage (Spear): 90/135/180/225",
+        "Physical Damage (Path): 110/180/250/320",
+        "Armor Reduction: 11/15/19/23",
+        "Armor Reduction Duration: 4s",
+        "Radius: 350",
+        "Cast Range (1st Cast): 1000",
+        "Cast Range (2nd Cast): 1500",
+        "Stun Duration: 1s",
+        "Mana Cost: 60",
+        "Cooldown: 11/10/9/8s"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Deals area damage and dashes at the second cast."],
+      "update": ["Damage & Effectâ†‘  Cooldownâ†“"],
+      "tag": ["Physical", "Dash"]
+    },
+    {
+      "name": "FATE NET",
+      "desc": [
+        "Heradias dashes towards a target location and spread the net after arrival, dealing physical area damage and connecting the fate of all enemy units within range. When each of the enemy units dies, all the targets take extra physical damage. A hero's death doubles the effect. Passive: Defeats a hero to permanently increase Max HP by 100, up to 1,000."
+      ],
+      "data": [
+        "Physical Damage: 200/300/400",
+        "Bonus Physical Damage: 80/100/120",
+        "Fate Connection Duration: 10s",
+        "Fate Connection Radius: 2000",
+        "Cast Range: 1100",
+        "Radius: 650",
+        "Mana Cost: 110",
+        "Cooldown: 50/45/40s"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Dash to deal damage and cause debuffs."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Ultimate", "Physical"]
+    },
+    {
+      "name": "SOUL BREAKER",
+      "desc": [
+        "Heradias' direct damage against a target creates a Soul Shiver effect which deals extra physical damage to the target and triggers Soul Breaker to add Soul Shiver to enemy units around. Soul Shiver: Reduces movement speed. With 3 stacks, Root will be triggered once every 6s on each unit."
+      ],
+      "data": [
+        "Bonus Physical Damage: 70/80/90/100",
+        "Soul Breaker Radius: 500",
+        "Soul Shiver: Slows down by 10% per stack for 3s.",
+        "Root: 1.5s"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Causes debuffs and extra damage."],
+      "update": ["Bonus Damageâ†‘"],
+      "tag": ["Physical", "Passive"]
+    }
+  ],
+  "story": [
+    "     Through the Spring of Wisdom, the Greater God foresaw tragic scenes of Ragnarok in which gods perished and the World Tree burned into ashes. Thus, the Greater God used aurora to create Heradias, titled as the Goddess of Battle. Different from Freya, Heradias was asked to incite wars among mortals and spread flames of war across Midgard. When Heradias scrubbed blood from her armor, it was time for Freya to guide the souls of the dead in wars to Valhalla. Everlasting wars were needed to stop the twilight of gods - that was what the Greater God said.<br>     As the arrival of Fimbulwinter, conflicts were frozen and those wars halted temporarily in Midgard. Nevertheless, the number of mortal beings died of cold and starvation were far greater than those killed in wars. The underworld was filled with ghosts of the innocent who were wandering in front of the Gate of Hell and suffering bitter cold. For such misery, Heradias' loyalty to the divine realm grew tangled. Heradias persuaded herself that the current misery of mortals would increase the gods' chance of winning against Ragnarok. If gods could survive, it must be easy for them to recover the mortal world. However, the illusion was completely shattered as she received the Greater God's order: Fimbulwinter was a warning of the coming of Regnarok, so more wars and more souls of warriors were needed to stop Regnarok at any cost, even sacrificing the entire Midgard.<br>     Countless mortals had been scorched by the flames of war, and more blood must be drained in the prolonged winter. Heradias came to realize she was an accomplice of the gods of Asgard who only cared about themselves in the massacre. It was be too late to regret, but there was still one thing she could do. She cut off the chain which shackled Fenrir. In face of the wolf who can devour everything, she closed the eyes with a smile while hearing crows of Gullinkambi and breaths of Jormungand.<br>     Heradias started the twilight of gods, but mortal beings got a chance to escape the net trap of fate placed by the gods."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10048", "12309", "12512", "12316", "10265"],
+      "reason": ["Pusher, Nuker"]
+    },
+    {
+      "arr": ["10100", "10272", "10053", "10127", "12508", "10237"],
+      "reason": ["Ganker, Roamer"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["Escape, Harasser"]
+    },
+    {}
+  ],
+  "strategy": "165861",
+  "video": [
+    "165862",
+    "https://yhkd.99.com/inc/20200511204120.inc",
+    "https://yhkd.99.com/news/05122020/024012605.shtml"
+  ]
+}

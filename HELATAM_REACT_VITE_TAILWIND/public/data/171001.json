@@ -1,0 +1,133 @@
+{
+  "id": "171001",
+  "name": "Mousia",
+  "type": "2",
+  "features": ["Nuker", "Pusher"],
+  "data": [7, 4, 3, 4],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Increase speed by using your abilities or gear to deal more ability damage."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "171001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Cute Detective"
+    }
+  ],
+  "ski": [
+    {
+      "name": "WANNA BE RICH?",
+      "desc": [
+        "Mousia hurls treasure at a target, dealing physical damage and causing Greed. Abilities that hit during this time also have their cooldowns reset. Greed: Enemy is dazzled by money, reducing Armor and Magic Resist."
+      ],
+      "data": [
+        "Physical Damage: 65/95/125/155",
+        "Cast Range: 1000",
+        "Armor Reduction: 8/11/14/17",
+        "Magic Resist Reduction: 4/6/8/10",
+        "Duration: 1.5s",
+        "Cooldown: 8/7/6/5s",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Physical Damage and Armor Reduction"],
+      "update": ["Damage â†‘ Armor Reduction â†‘"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "INHERATANCE",
+      "desc": [
+        "Floods a target direction with treasure, dealing magic damage to enemies affected and greatly reducing Movement Speed to enemies struck 3 times."
+      ],
+      "data": [
+        "Magic Damage: 35/45/55/65",
+        "Attacks: 10",
+        "Slowdown: 50% for 3s",
+        "Duration: 2s",
+        "Radius: 250",
+        "Cast Range: 1200",
+        "Cooldown: 8s",
+        "Mana Cost: 100"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": ["Throw treasures in the specified direction to deal damage"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "CASHBOX",
+      "desc": [
+        "Mousia leaps up, pouring treasure out of her pouch, dealing magic damage to an area and granting invulnerability while leaping. Passive - Pearl Shield: Treasure regularly falls out of the pouch to create a shield that blocks damage. When broken, the shield explodes and the dispersed treasure Stuns nearby enemies for 1 second, dealing low damage. Passive - Nimble: Bonus Attack Speed increases Mousia's ability damage."
+      ],
+      "data": [
+        "Magic Damage: 250/300/350",
+        "Damage Blocked: 150/200/250",
+        "Shield Cooldown: 55/50/45s",
+        "Explosive Damage: 80/160/240",
+        "Explosion Radius: 600",
+        "Every 20 Attack Speed: +3% Ability Damage",
+        "Cast Range: 1500",
+        "Cooldown: 45/40/35s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Magic",
+      "study": ["Pours treasurs to deals damage in a zone"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Magic"]
+    },
+    {
+      "name": "BESPANGLED",
+      "desc": [
+        "Takes out a dazzling jewel to deal physical damage and continuously blind enemies within range, making Mousia invisible in the area. A target can be blinded for up to 1 sec. Passive: Both Attack Speed and Movement Speed increase when any of her abilities deals damage."
+      ],
+      "data": [
+        "Physical Damage: 110/150/190/230",
+        "Jewel Duration: 3s",
+        "Radius: 600",
+        "Bonus Attack Speed per Stack: 9/12/15/18",
+        "Bonus Movement Speed per Stack: 3%",
+        "Max Stacks: 5",
+        "Speedup Duration: 3s",
+        "Cooldown: 12/11/10/9s",
+        "Mana Cost: 100"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Summons pearls to deals Damage and Blind"],
+      "update": ["Damage â†‘ Buff Effect â†‘"],
+      "tag": ["Buff", "Physical"]
+    }
+  ],
+  "story": [
+    "As a patron saint of the poor, Mousia tried taking issue with the gods about the thievery, but the gods weren't worried about such a trivial little demi-god like Mousia. Refusing to give up, Mousia took matters into her own hands. This little critter is always taking risks standing up for the little guy out there."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10047", "10237", "12516"],
+      "reason": ["Reaper\nNuker"]
+    },
+    {
+      "arr": ["10100", "10115", "10237", "10127", "10047", "12516"],
+      "reason": ["Sustained DPS\nPusher"]
+    },
+    {
+      "arr": ["10100", "10272", "10058", "10127", "10237", "12516"],
+      "reason": ["Roamer\nPusher"]
+    },
+    {}
+  ],
+  "strategy": "164802",
+  "video": [
+    "164620",
+    "https://yhkd.99.com/inc/20200108002924.inc",
+    "https://yhkd.99.com/news/01142020/223545232.shtml"
+  ]
+}

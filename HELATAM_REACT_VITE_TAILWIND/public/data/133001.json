@@ -1,0 +1,139 @@
+{
+  "id": "133001",
+  "name": "Fumiko",
+  "type": "2",
+  "features": ["Melee", "Ganker", "Nuker"],
+  "data": [9, 0, 4, 7],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Use Delusion carefully to deal greater damage. "],
+  "vid": "",
+  "skin": [
+    {
+      "id": "133001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Jolly Roger"
+    },
+    {
+      "id": "133001303",
+      "imgSrc": "2.jpg",
+      "skinName": "Carbon Riposte"
+    },
+    {
+      "id": "133001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Reindeer Girl"
+    },
+    {
+      "imgSrc": "6-en.jpg",
+      "skinName": "Mind Reader",
+      "status": "en"
+    },
+    {
+      "id": "133001307",
+      "imgSrc": "6.jpg?",
+      "skinName": "Shadow Enlightener"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ZANSATSU",
+      "desc": [
+        "Fumiko unleashes an apparition to chop furiously at all enemies in a target direction, dealing physical damage and triggering Attack FX (cannot trigger Life Steal). Also triggers this ability while double is present, dealing 50% damage."
+      ],
+      "data": [
+        "Physical Damage: 180/250/320/390",
+        "Cast Range: 1250",
+        "Cooldown: 8/7/6/5s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Deals damage and triggers Attack FX"],
+      "update": ["Deals damage and triggers Attack FX"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "RANBA EIBU",
+      "desc": [
+        "Fumiko reshapes her concentration into a shadow blade, dealing physical damage to enemies in a fan-shaped area. Double mimics this attack if present, dealing 50% damage. Enemies hit twice by shadow blade within 3 seconds have Movement Speed stolen for 1.5 seconds. Slowdown effect does not stack."
+      ],
+      "data": [
+        "Physical Damage: 150/210/270/330",
+        "Movement Speed Stolen: 20%/25%/30%/35%",
+        "Cast Range: 850",
+        "Cooldown: 5s",
+        "Mana Cost: 40"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Deals damage. Multiple hits steal movement speed"],
+      "update": ["Damage â†‘ slowdown â†‘"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "MAGATAMA TAMASHI-GATANA",
+      "desc": [
+        "Fumiko sets her soul ablaze, increasing attack damage for 10 seconds and reducing all cooldowns by 1 second if target is hit by Fumiko or double's Zansatsu/Ranba Eibu. Re-cast again within ability duration slash toward target enemy, dealing physical damage and rooting for 1 second."
+      ],
+      "data": [
+        "Physical Damage: 250/350/450",
+        "Bonus Attack Damage: 80/90/100",
+        "Cast Range: 850",
+        "Cooldown: 40s",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "Rush",
+      "study": ["Increases Attack Damage, deals Damage and Roots"],
+      "update": ["Buff Effect â†‘ Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "ULT", "Rush"]
+    },
+    {
+      "name": "DELUSION",
+      "desc": [
+        "Fumiko creates a double of himself for 7 seconds at a target location which cannot attack or be attacked but instead follows Fumiko, casting Zansatsu/Ranba Eibu. Re-casting ability teleports Fumiko 2000 range to merge with double, restoring partial health and increasing base attack damage for 5 seconds. Cooldown begins when double disappears."
+      ],
+      "data": [
+        "Bonus Base Attack: 25%/35%/45%/55%",
+        "Cast Range: 1100",
+        "Health Restored: 90/170/250/330",
+        "Cooldown: 5s",
+        "Mana Cost: 35/45/55/65"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": [
+        "asts a double whose location may be teleported to, restoring health and increasing attack damage"
+      ],
+      "update": ["Buff Effect â†‘"],
+      "tag": ["Rush", "Buff"]
+    }
+  ],
+  "story": [
+    "Legend has it that the swordswoman acquired a precious Godstone in the demon king's palace, but the demon king suddenly appeared, slow-clapping, \"How wonderful of you to clear those traps, Fumiko, but you're not getting that.\"\"What a pity.\" Fumiko echoed. With a twinkle of light from the katanas, the demon king's head fell to the ground."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "10065", "10237", "10127", "10069"],
+      "reason": ["Nuker\nReaper"]
+    },
+    {
+      "arr": ["12502", "10065", "10272", "10127", "12516", "10237"],
+      "reason": ["Pusher\nHarasser"]
+    },
+    {
+      "arr": ["10302", "10065", "10237", "10127", "12508", "10069"],
+      "reason": ["Ganker\nHarasser"]
+    },
+    {}
+  ],
+  "strategy": "163024",
+  "video": [
+    "163025",
+    "https://yhkd.99.com/inc/20190410190919.inc",
+    "https://yhkd.99.com/news/04102019/195137715.shtml"
+  ]
+}

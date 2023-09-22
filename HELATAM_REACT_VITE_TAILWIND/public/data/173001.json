@@ -1,0 +1,112 @@
+{
+  "id": "173001",
+  "name": "Pandora Jackert",
+  "type": "3",
+  "features": ["PUSHER", "NUKER"],
+  "data": [2, 8, 4, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "It's important to choose the shape to shift into according to your own gears."
+  ],
+  "vid": "",
+  "skin": [],
+  "ski": [
+    {
+      "name": "GLORY OF NASARICK",
+      "desc": [
+        "Salutes the target and deals magic damage. The target will also get rooted for 1 second and move much slower after that due to embarrassment. The caster is in Untouchable status during the salute."
+      ],
+      "data": [
+        "Magic Damage Dealt: 140/190/240/290",
+        "Slow Effect: 25% for 3 sec",
+        "Cast Range: 950",
+        "Cooldown: 9/8/7/6 sec",
+        "Mana Cost: 70"
+      ],
+      "img": "01.png",
+      "keyword": "CONTROL",
+      "study": ["Cause damage, root and slowdown"],
+      "update": ["Damageâ†‘ Cooldownâ†“"],
+      "tag": ["MAGIC", "CONTROL"]
+    },
+    {
+      "name": "NOISE WAVE",
+      "desc": [
+        "Sings with astonishing volume to cause damage and slowdown against the enemies around for 4 sec. The enemies trying to leave will receive bonus damage."
+      ],
+      "data": [
+        "Magic Damage Every 0.5 Sec: 40/50/60/70",
+        "Bonus Damage: 100/140/180/220",
+        "Slow Effect: 15%/20%/25%/30%, lasts for 2 sec after leaving range",
+        "Radius: 800",
+        "Cooldown: 13/12/11/10 sec",
+        "Mana Cost: 100"
+      ],
+      "img": "02.png",
+      "keyword": "CONTROL",
+      "study": ["Cause damage and slowdown"],
+      "update": ["Damageâ†‘ Cooldownâ†“ Slow Effectâ†‘"],
+      "tag": ["MAGIC", "AOE"]
+    },
+    {
+      "name": "PHANTOM TWIN",
+      "desc": [
+        "Jackert can take the shape of any enemy to become capable of using all the skills of this enemy with slightly weakened effects. After the shapeshift, his movement speed will be increased by 30% for 3 sec. Untouchable at the moment of shapeshift. Passive: smaller loss when selling gears"
+      ],
+      "data": [
+        "Duration: 15/20/25 sec",
+        "Damage Ability: 85%/90%/95% of the target",
+        "Gear Sold: 85%/90%/95% of the original price",
+        "Cooldown: 60/50/40 sec",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Transform and fight in the shape of enemy"],
+      "update": ["Durationâ†‘ Cooldownâ†“"],
+      "tag": ["ULTIMATE", "BUFF"]
+    },
+    {
+      "name": "TERRIFIC CHARM",
+      "desc": [
+        "When attacking or casting skills, has a chance to trigger charm bonus which enhances damage ability and damage reduction no matter whether the caster is transformed or not."
+      ],
+      "data": [
+        "Normal Attack Trigger Rate: 10%/15%/20%/25%",
+        "Skill Trigger Rate: 20%/30%/40%/50%",
+        "Bonus Spell Power: 30/40/50/60",
+        "Bonus Attack Damage: 30/35/40/45",
+        "Damage Reduction: 15%/20%/25%/30%",
+        "Duration: 6 sec"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Enhance attack and skill effects"],
+      "update": ["Buff Effectâ†‘"],
+      "tag": ["BUFF", "PASSIVE"]
+    }
+  ],
+  "story": [
+    "Welcome to the treasury of Nazarick! I'm Pandora Jackert, the treasury's guardian and also the chief of the Forty-One Supreme Beings. For you're here now, you must have fought against other guardians created by Lord Aniz. If you judge me by experience and treat me as a funny clown, you're completely wrong. Pandora Jackert is not good at boasting, but is undoubtedly the most important force of the great tomb as well as the ultimate weapon of Nazarick. My shapeshift ability allows me to substitute any of the guardians when necessary. Pandora Jackert is turned out to be an all-rounder. Yeah, ALL-ROUNDER. Uh-oh, since you've stretched out the weapon, I'm afraid I can't continue the self-introduction. If you're determined to enter the treasury, I can only do one thing. Take your life at the gate."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "12533", "12513", "10265", "10109", "10124"],
+      "reason": ["SUPPORT\nDPS"]
+    },
+    {
+      "arr": ["10302", "10109", "12533", "10272", "10237", "12516"],
+      "reason": ["SUSTAINED\nNUKER"]
+    },
+    {
+      "arr": ["12307", "10109", "12533", "12532", "10265", "10124"],
+      "reason": ["ESCAPE\nSUPPORT"]
+    },
+    {}
+  ],
+  "strategy": "165801",
+  "video": ["165802", "https://yhkd.99.com/inc/20200428225752.inc", ""]
+}

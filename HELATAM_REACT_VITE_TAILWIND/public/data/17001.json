@@ -1,0 +1,413 @@
+{
+  "id": "17001",
+  "name": "Saya",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "DISABLER"],
+  "data": [3, 9, 4, 7],
+  "way": "0",
+  "gold": 5888,
+  "diamond": 268,
+  "tips": ["Equip God Hand and you will truly become divine!"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Shrine Priestess"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Be-Witching"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Violet Fairy"
+    },
+    {
+      "id": "17001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Bell Dream",
+      "vid": "eELFq-Rk4do"
+    },
+    {
+      "id": "17001304",
+      "imgSrc": "6.jpg",
+      "skinName": "Moon Prophecy"
+    },
+    {
+      "id": "17001305",
+      "imgSrc": "7.jpg",
+      "skinName": "Sweet Gardenia",
+      "vid": "4XkGxhHi7Fg"
+    }
+  ],
+  "ski": [
+    {
+      "name": "STYX AND STONES",
+      "desc": [
+        "Summons a dark meteorite to smite a target area after 0.5s, dealing magical damage."
+      ],
+      "data": [
+        "Damage: 150/190/230/270, Cast Delay: 0.5s ",
+        "Cooldown: 4s",
+        "Mana Cost: 80",
+        "Radius: 325",
+        "Cast Range: 1100"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["After a short delay, deals magical damage to a target area."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "THRILLING ENCHANTMENT",
+      "desc": [
+        "Saya throws her demonic visage in a target direction. When it hits the first enemy unit or has travelled its longest distance, it expands into a Thrilling Enchantment field, causing Stun to the first enemy unit and dealing continuous magical damage to nearby enemy units, causing Movement Slow."
+      ],
+      "data": [
+        "Stun Duration: 1.25s",
+        "Cooldown: 10/9/8/7/s",
+        "Mana Cost: 100",
+        "Magic Damage each attack: 40/58/76/95",
+        "Cast Range: 1100"
+      ],
+      "img": "02.png",
+      "keyword": "AOE CC",
+      "study": ["Deals damage and stuns targets hit."],
+      "update": ["Cooldown reduced."],
+      "tag": ["DISABLER"]
+    },
+    {
+      "name": "STAR OF FATE",
+      "desc": [
+        "Saya locks on to an enemy hero unit and channels for a short while, calling forth a Star of Fate which deals magical damage plus bonus magical damage equal to 30% of its missing Health. This projectile can be blocked by other enemy hero units. _If Star of Fate kills an enemy hero unit, 85% of its cooldown is refunded. Star of Fate also deals magical damage to enemy non-hero units along its path and causes Stun for 0.1s."
+      ],
+      "data": [
+        "Base Damage: 250/350/450",
+        "Cooldown: 35/30/25s",
+        "Mana Cost: 200/275/350 ",
+        "Cast Range: 1200"
+      ],
+      "img": "03.png",
+      "keyword": "SINGLE",
+      "study": ["Deals massive magical damage plus bonus damage."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL"]
+    },
+    {
+      "name": "GHOSTLY SACRIFICE",
+      "desc": [
+        "PASSIVE: Saya`s abilities debuff enemy units with Burning, which deals continuous bonus magical damage for 3s."
+      ],
+      "data": ["Damage per second: 1%/2%/3%/4% of target`s current Health"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals bonus magic damage to targeted enemy."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "BUFF"]
+    }
+  ],
+  "story": [
+    "Legend has it that those who harbor enough hate and who cherish nothing will be destined for hell. There, by blackest night, Saya is said to harvest souls."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10109", "10123", "10228", "10124", "12305"],
+      "reason": ["ESCAPE\nSUSTAINED DPS"]
+    },
+    {
+      "arr": ["12503", "10123", "10083", "10251", "10228", "10072"],
+      "reason": ["NUKER\nDISABLER"]
+    },
+    {
+      "arr": ["10089", "12310", "12513", "10083", "12305", "10228"],
+      "reason": ["SUPPORT\nDISABLER"]
+    },
+    {}
+  ],
+  "strategy": "151553",
+  "video": [
+    "151519",
+    "https://yhkd.99.com/inc/20160919023155.inc",
+    "https://yhkd.99.com/news/10182016/234258328.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+18"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+3.06"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+14.04"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+25.2"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+20.07"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+32.4"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+5.58"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+26.01"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+40.5"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+6.93"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+32.04"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+50.4"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+8.64"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+40.05"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

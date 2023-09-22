@@ -1,0 +1,343 @@
+{
+  "id": "149001",
+  "name": "Dragon Warrior",
+  "type": "2",
+  "features": ["Melee", "Dash", "Disabler"],
+  "data": [9, 0, 5, 8],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["åŠŸå¤«æ—‹é£Žå¸­å·è‹±é­‚ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Awakened Soul"
+    }
+  ],
+  "ski": [
+    {
+      "name": "STRAIGHT LEAD",
+      "desc": [
+        "The straight lead punch is the backbone of all punching in Jeet Kune Do. Deals physical damage at a target direction. If this ability hits an enemy unit, Dragon Warrior gains a shield and can cast this ability again within 5s, dealing physical damage to a target direction and causing knockup."
+      ],
+      "data": [
+        "Physical Damage: 120/160/200/240",
+        "Shield Capacity: 160/200/240/280",
+        "Cooldown: 5s",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": [
+        "Deals physical damage at a target direction, second cast causes knockup"
+      ],
+      "update": ["Increased damage and shield capacity"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "BULLET DODGE",
+      "desc": [
+        "Dragon Warrior dashes in the opposite target direction, his next basic attack deals bonus physical damage and attacks the area in front of him."
+      ],
+      "data": [
+        "Bonus Damage: 100/135/170/205",
+        "Dash Distance:  600",
+        "Cooldown: 7s",
+        "Mana Cost: 50"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Dashes away and deals bonus damage on next basic attack"],
+      "update": ["Increased bonus damage"],
+      "tag": ["Physical", "Dash"]
+    },
+    {
+      "name": "DRAGON KICK",
+      "desc": [
+        "Dragon Warrior unleashes his inner dragon and launches a flying kick at a target direction, dealing physical damage to enemy units and causing knockback. During this knockback, collision with other enemy units causes knockup and deals bonus physical damage based on their current Health."
+      ],
+      "data": [
+        "Physical Damage: 225/350/475",
+        "Cooldown: 30ç§’",
+        "Mana Cost: 100/125/150"
+      ],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": ["Deals physical damage and causes knockback"],
+      "update": ["Increased physical damage"],
+      "tag": ["Physical", "DISABLER", "ULT"]
+    },
+    {
+      "name": "FOOTWORK",
+      "desc": [
+        "PASSIVE: Dragon Warrior's impeccable footwork allows him to dash after each ability cast, and every basic attack grants one stack of bonus attack speed, up to 5 stacks."
+      ],
+      "data": [
+        "Bonus Attack Speed per Basic Attack: 6/8/10/12",
+        "Dash Distance: 600"
+      ],
+      "img": "04.png",
+      "keyword": "Passive",
+      "study": ["Grants attack speed and each ability usage grants a dash"],
+      "update": ["Increased bonus attack speed"],
+      "tag": ["Passive", "Buff"]
+    }
+  ],
+  "story": ["Coming Soon!"],
+  "equip": [
+    {
+      "arr": ["10100", "10048", "12512", "12316", "10263", "12516"],
+      "reason": ["æœ€ä½³æŽ¨è"]
+    },
+    {},
+    {},
+    {}
+  ],
+  "strategy": "160541",
+  "video": [
+    "160542",
+    "https://yhkd.99.com/inc/20171018225930.inc",
+    "https://v.qq.com/x/page/v0562e88hff.html"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+89.55"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+2.43"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+14.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è€ä¹…",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r11.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+127.35"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+3.51"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+20.07"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è€ä¹…",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r21.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+165.24"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+4.59"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+26.01"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è€ä¹…",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r31.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+203.94"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+5.58"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+32.04"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è€ä¹…",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r41.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+254.7"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+7.02"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+40.05"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è€ä¹…",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r51.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

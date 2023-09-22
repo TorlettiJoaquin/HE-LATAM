@@ -1,0 +1,133 @@
+{
+  "id": "76001",
+  "name": "Raker",
+  "type": "1",
+  "features": ["MELEE", "PUSHER", "DURABLE"],
+  "data": [7, 3, 8, 4],
+  "way": "1",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["èƒ½è€™å‡»å¯ä»¥é™åˆ¶æ•Œæ–¹æ¢å¤å’Œå¸è¡€æ•ˆæžœã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "76001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Admiral Darkstar"
+    },
+    {
+      "id": "76001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Betrothed Marshal"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Divine Dawn"
+    }
+  ],
+  "ski": [
+    {
+      "name": "GRAND CANYON",
+      "desc": [
+        "Raker ratchets things up, dealing physical damage to enemies in a straight line and knocking up for 1 seconds.Slows movement for enemies stuck in ravine for 5 seconds."
+      ],
+      "data": [
+        "Magical Damage: 80/160/240/320",
+        "Cast Range: 1300",
+        "Slowdown: 40%",
+        "Cooldown: 14/13/12/11s",
+        "Mana Cost: 110"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Physical damage, knockup and slowdown "],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Disabler", "Magical"]
+    },
+    {
+      "name": "ENERGY RAKE",
+      "desc": [
+        "Raker wields his mighty rake, dealing damage in a fan-shape area while reducing target Armor and Movement Speed.Enemy units hit also suffer 50% health recovery."
+      ],
+      "data": [
+        "Magical Damage: 80/100/120/140",
+        "Reduces targetâ€™s movement speed: 7%/10%/13%/16%",
+        "Weakenâ€™s target Armor: 8/10/12/14 for 3s",
+        "Fan-shaped radius: 800",
+        "Mana Cost: 60",
+        "Cooldown: 2.5s"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": [
+        "Deals damage, slows movement and reduces Armor and Health recovery"
+      ],
+      "update": ["Damage â†‘ debuff effect â†‘"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "PIGGY POWER",
+      "desc": [
+        "Raker becomes a wild boar for 40 seconds, increasing max Health and movement speed. While in this form, each ability cast restores some Health. "
+      ],
+      "data": [
+        "Bonus Health: 250/300/350",
+        "Bonus Movement Speed: 10%/15%/20%",
+        "Health restored per Ability Cast: 45/55/65 (+ max HP 1%)",
+        "Duration: 35s",
+        "Mana Cost: 100/120/140",
+        "Cooldown: 60s"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": [
+        "Changes form, increasing Health and Movement Speed. Abilities cast restore Health"
+      ],
+      "update": ["Buff Effect â†‘"],
+      "tag": ["ULT", "Buff"]
+    },
+    {
+      "name": "COUNTERATTACK",
+      "desc": [
+        "Raker flips over his rake, knocking back front and back enemy units in a straight line and dealing physical damage while reducing 30% movement speed for 3 seconds. _Enemies knocked into a wall or ravine are Stunned. "
+      ],
+      "data": [
+        "Physical Damage: 100/150/200/250",
+        "Knockback Radius: 500",
+        "Cast Range: 650",
+        "Mana Cost: 60",
+        "Cooldown: 8S"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Physical Damage, Knockback"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Raker used to be a marshal in the Heaven, but he was banished from the Heaven for negligence. Mistakenly born as a pig, Raker vented his resentment by wreaking havoc. Later, he was subdued by Sun Wukong and after 81 calamities, he finally returned to the Heaven."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "10265", "12316", "12309", "10263"],
+      "reason": ["ç”Ÿå­˜ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12514", "10048", "12316", "10069", "10257", "12516"],
+      "reason": ["å›¢é˜Ÿã€æ¸¸èµ°"]
+    },
+    {
+      "arr": ["12307", "10263", "12316", "10069", "10300", "10265"],
+      "reason": ["è‚‰ç›¾ã€å›¢é˜Ÿ"]
+    },
+    {}
+  ],
+  "strategy": "162862",
+  "video": [
+    "162861",
+    "https://yhkd.99.com/inc/20190129194111.inc",
+    "https://yhkd.99.com/news/01312019/013134425.shtml"
+  ]
+}

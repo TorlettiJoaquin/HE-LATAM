@@ -1,0 +1,127 @@
+{
+  "id": "72001",
+  "name": "Celestius",
+  "type": "3",
+  "features": ["RANGED", "INTELLIGENCE", "MAGE"],
+  "data": [2, 9, 6, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Use Astral Defense for a surprising effect."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "72001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Dragon Emperor"
+    },
+    {
+      "id": "72001305",
+      "imgSrc": "2.jpg",
+      "skinName": "Apotheosis"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ASTRAL FIRE",
+      "desc": [
+        "Heavenly King summons forth an astral fire from beneath the ground, dealing Magical Damage to enemy units in target area and Rooting for 0.3 seconds. "
+      ],
+      "data": [
+        "Magical Damage: 170/240/310/380",
+        "Cast Range: 1100",
+        "Effect Radius: 350",
+        "Cooldown: 5 s",
+        "Mana Cost: 90"
+      ],
+      "img": "01.png",
+      "keyword": "MAGICAL",
+      "study": ["Magical Damage, Stun."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "ASTRAL STEP",
+      "desc": [
+        "Heavenly King steps through the astral plain, instantly blinking to a target location. Blink deals damage to surrounding area at both points of travel. "
+      ],
+      "data": [
+        "Magical Damage: 80/110/140/170",
+        "Cast Range: 850",
+        "Effect Radius: 350",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 120"
+      ],
+      "img": "02.png",
+      "keyword": "DASH",
+      "study": ["Dashes and deals Damage."],
+      "update": ["Magical Damage increased."],
+      "tag": ["MAGICAL", "DASH"]
+    },
+    {
+      "name": "DRAGON FAMILIAR",
+      "desc": [
+        "Passive: coils an almighty dragon around Heavenly King when fully charged, dealing continuous damage to surrounding enemy units._Active: surges dragon at a target location, dealing damage to enemy units along the way and continually draining Mana. Deals continuous damage to tangled enemy units, acquiring field of vision. Re-cast ability to send dragon soaring, dealing damage. Unaffected by cooldown reduction items. "
+      ],
+      "data": [
+        "Dragon Path Magical Damage: 100/150/200",
+        "Explosive Damage at Target: 320/440/560",
+        "Coiling Damage: 55/70/85 per second",
+        "Cast Range: 1000",
+        "Mana Cost: 150",
+        "Cooldown: 20s",
+        "Continuous Mana Cost: 80/120/160 per second"
+      ],
+      "img": "03.png",
+      "keyword": "MAGICAL",
+      "study": ["Passive: deals continuous damage. Active: deals high damage."],
+      "update": ["Magical Damage increased"],
+      "tag": ["ULT", "MAGICAL"]
+    },
+    {
+      "name": "ASTRAL DEFENSE",
+      "desc": [
+        "Passive: each ability cast generates 1 shield layer that increases Heavenly Kingâ€™ Spell Power and Spell Resist, up to 3 stacks. Active: Heavenly King expends his energy shields in a single burst, dealing explosive damage to surrounding enemy units. The more shield layers active, the higher the damage dealt. "
+      ],
+      "data": [
+        "Magical Damage: 60/90/120/150",
+        "Bonus Damage per Shield: 25/35/45/55",
+        "Bonus Spell Power per Shield: 8/12/16/20",
+        "Bonus Spell Resist per Shield: 2/3/4/5",
+        "Effect Radius: 650",
+        "Mana Cost: 120",
+        "Cooldown: 8s"
+      ],
+      "img": "04.png",
+      "keyword": "MAGICAL",
+      "study": ["Gains shields which deal damage when detonated."],
+      "update": ["Magical Damage and buff effect increased."],
+      "tag": ["MAGICAL", "BUFF"]
+    }
+  ],
+  "story": [
+    "It's said, at the very top of the Heaven lies a splendid palace, where Celestius, Emperor of the Gods, rules over the realms of the universe. He used to be a prince. After ten thousand calamities, he ascended. But still, the calamities came by the thousands, then the millions, until Celestius ultimately attained enlightenment."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10123", "12532", "10228", "12305", "10072"],
+      "reason": ["NUKER, PUSHER"]
+    },
+    {
+      "arr": ["12307", "12532", "10228", "12313", "12513", "10124"],
+      "reason": ["SURVIVAL, HARASSER"]
+    },
+    {
+      "arr": ["12307", "10123", "12532", "10228", "10109", "10072"],
+      "reason": ["SUSTAIN, HARASSER"]
+    },
+    {}
+  ],
+  "strategy": "162865",
+  "video": [
+    "162864",
+    "https://yhkd.99.com/inc/20190129194156.inc",
+    "https://yhkd.99.com/news/01312019/220151168.shtml"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "161001",
+  "name": "Prometheus",
+  "type": "1",
+  "features": ["Ranged", "Carry", "Pusher"],
+  "data": [8, 0, 3, 7],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Focuses on hitting a crowd of enemy units as much as possible, while keeping a safe distance."
+  ],
+  "skin": [],
+  "ski": [
+    {
+      "name": "Perseverance",
+      "desc": [
+        "Grants 30% bonus Movement Speed for 1.5 seconds. One second later, a fiery eagle flies to Prometheus to remove control effects from him and empower his next two basic attacks with Life Steal."
+      ],
+      "data": [
+        "Life Steal Proportion: 15%/20%/25%/30%",
+        "Mana Cost: 30/40/50/60",
+        "Cooldown: 6s"
+      ],
+      "img": "01.png",
+      "keyword": "Buff",
+      "study": [
+        "Increase the Movement Speed, removes control effects, and grants Life Steal for basic attacks."
+      ],
+      "update": ["Life Stealâ†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "Fire of Hope",
+      "desc": [
+        "Summons a fireball upon a target area, dealing damage to and marking enemy heroes within the range for 6 seconds. After that, continuously deals damage and reduces their speed by 25% within 6 seconds. The units marked gets a stack of Kindling when taking damage from Prometheus' basic attacks and abilities, and will suffer extra damage at 3 stacks of Kindling."
+      ],
+      "data": [
+        "Initial Physical Damage: 50/70/90/110",
+        "Physical Damage per Second: 50/70/90/110",
+        "Bonus Physical Damage: 150/200/250/300",
+        "Mana Cost: 60/70/80/90",
+        "Cooldown: 6s at all levels"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Marks enemies to deal extra damage."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Physical", "Control"]
+    },
+    {
+      "name": "Flame Chase",
+      "desc": [
+        "Summons a chariot to the target location, dealing damage to and stunning nearby enemy units there for 1.5 seconds. When standing within a range of 450 from the chariot, Prometheus can cast this ability again to ride the chariot and dash forward in the Invincibility status. Prometheus will stay at the destination when the dash ends."
+      ],
+      "data": [
+        "Physical Damage: 200/350/500",
+        "Mana Cost: 100",
+        "Cooldown: 40/35/30s"
+      ],
+      "img": "03.png",
+      "keyword": "Control",
+      "study": ["Dashes forward and stuns enemies."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Ultimate", "Control"]
+    },
+    {
+      "name": "Thrill of Destiny",
+      "desc": [
+        "Prometheus' basic attack bounces to two additional targets, dealing pure damage equal to a certain proportion of the attack damage to each additional target hit. After casting this ability, Prometheus gains bonus Attack Speed for his next two basic attacks within 4 seconds."
+      ],
+      "data": [
+        "Bonus Attack Speed: 15/20/25/30",
+        "Damage Proportion: 25%/35%/45%/55%"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Increases the Attack Speed and bounces."],
+      "update": ["Basic Attack Speed â†‘ Damage Proportion â†‘"],
+      "tag": ["Buff", "Passive"]
+    }
+  ],
+  "story": [
+    "It's been thousands of years since Prometheus stole the fire for humans. After being freed from the perpetual torture, Prometheus chose to settle in the mortal world. As humans developed thanks to fire, Prometheus sadly noticed that they also used fire to create weapons and destroy each other in wars. They would ruin the peace if let the behaviors continue, making Prometheusâ€™ gift of fire a great irony.<br>    While running around to settle disputes, Prometheus happened to know that Pandora left her Box of Doom in the war of deities. At the bottom of the box, Hope still remained. To free humans from the fever of war and bring civilization back to the mortal world, Prometheus had no other choice, but to betray deities again and steal the Spark of Hope."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10058", "10047", "12508", "10127", "10069"],
+      "reason": ["Ganker\nDPS"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10127", "10237", "12516"],
+      "reason": ["Harasser\nEscape"]
+    },
+    {
+      "arr": ["10100", "10272", "10237", "10127", "12516", "10069"],
+      "reason": ["Escape\nHarasser"]
+    },
+    {}
+  ],
+  "strategy": "167161",
+  "video": ["167162", "https://yhkd.99.com/inc/20210427021717.inc", ""]
+}

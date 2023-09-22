@@ -1,0 +1,140 @@
+{
+  "id": "140001",
+  "name": "Fusilia",
+  "type": "2",
+  "features": ["Ranged", "Carry", "Pusher"],
+  "data": [7, 7, 3, 6],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "-",
+  "point": "688",
+  "tips": ["è¶…è¿œç¨‹æŠ•å°„å¯¹è¡€é‡ä½Žçš„ç›®æ ‡ä¼šé€ æˆé¢å¤–ä¼¤å®³ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "id": "140001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Magical Medic",
+      "vid": "CRz_9aYtP4I"
+    },
+    {
+      "id": "140001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Hunting Wanderer",
+      "vid": "z8sHWR90tic"
+    },
+    {
+      "id": "140001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Rain Walker"
+    },
+    {
+      "id": "140001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Sentinel Gunner",
+      "vid": "LclRVifvs7s"
+    }
+  ],
+  "ski": [
+    {
+      "name": "HEAVY ARTILLERY",
+      "desc": [
+        "Fusilia fires Heavy Artillery in the target direction which causes knockback when colliding with enemy heroes. Projectile explodes after traveling for a distance of 1100, causes Movement Slow, and deals massive Physical Damage to nearby enemy units."
+      ],
+      "data": [
+        "Physical Damage: 120/170/220/270",
+        "Cast Range: 1100",
+        "Radius: 350",
+        "Movement Slow: 25% for 3s",
+        "Mana Cost: 50/55/60/65",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": ["Deal damage and knockback enemy heroes"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "GUIDED MISSILE",
+      "desc": [
+        "Fusilia fires a Guided Missile at a target enemy unit. Damage is increased the further the missile travels."
+      ],
+      "data": [
+        "Magical Damage per 100 Distance: 10/15/20/25 Bonus 0.6x Attack Damage",
+        "Cast Range: 800",
+        "Cooldown: 5s",
+        "Mana Cost: 40/50/60/70"
+      ],
+      "img": "02.png",
+      "keyword": "Magical",
+      "study": ["Damage increased the further projectile travels"],
+      "update": ["Magical Damage â†‘"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "DIRECT HIT",
+      "desc": [
+        "Active: For 5s, increase Movement Speed and imbue basic attacks with additional Magical Damage equivalent to 5% of the target's Max Health. Passive: Increase the range of Fusilia's basic attacks, Guided Missile, and Long Range Missile."
+      ],
+      "data": [
+        "Bonus Movement Speed: 10%/15%/20%/25%",
+        "Passive: Bonus Basic Attack Range: 35/45/55/65",
+        "Passive: Bonus Guided Missile Range: 140/200/260/320",
+        "Passive: Bonus Long Range Missile Cast Range: 150/250/350/450",
+        "Cooldown: 8s",
+        "Mana Cost: 60"
+      ],
+      "img": "03.png",
+      "keyword": "Buff",
+      "study": ["Gain comprehensive buffs and increase range"],
+      "update": ["Buff Effect â†‘ Range â†‘"],
+      "tag": ["Buff"]
+    },
+    {
+      "name": "LONG RANGE MISSILE",
+      "desc": [
+        "Fusilia shoots a long range projectile which explodes in the target area after 0.75s to deal Magical Damage to enemy units within range. Enemy units with less than 40% Health will suffer an additional 50% damage. If an enemy unit is hit, increase own Attack Speed for 3s. Hit enemy units will be affected by Movement Slow for a short time and be exposed for 2.5s. Mana Cost for this ability is increased if used again within 6s. This ability's cooldown is not affected by cooldown reduction effects from gear."
+      ],
+      "data": [
+        "Magical Damage per Hit: 120/170/220",
+        "Bonus Movement Speed: 30/45/60",
+        "Movement Slow: 50% for 1s",
+        "Cast Range: 1200",
+        "Radius: 350",
+        "Use within 6s Mana Cost Increase: 50 Mana Cost Max Increase: 6 stacks",
+        "Cooldown: 3/2.5/2s",
+        "Mana Cost: 50"
+      ],
+      "img": "04.png",
+      "keyword": "Magical",
+      "study": ["Increase damage dealt by Long Range Missile"],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Magical"]
+    }
+  ],
+  "story": [
+    "Love the Lord and destroy the Devil. This is the sacrament of Fusilia. She has to leave behind the light of her secure upbringing to challenge the darkness of the realm; to confront those who dare to attack. She has to destroy evil, and never be sated."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10237", "10047", "10069", "12516"],
+      "reason": ["çˆ†å‘ã€æ”¶å‰²"]
+    },
+    {
+      "arr": ["10100", "10068", "10115", "10237", "12508", "10127"],
+      "reason": ["Carryã€PUSHER"]
+    },
+    {
+      "arr": ["12502", "10068", "10272", "10069", "10237", "10127"],
+      "reason": ["æŒç»­ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "162743",
+  "video": [
+    "162742",
+    "https://yhkd.99.com/inc/20181219192854.inc",
+    "https://yhkd.99.com/news/12192018/192802152.shtml"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "168001",
+  "name": "Beiluo Shimen",
+  "type": "1",
+  "features": ["Melee", "Ganker", "Durable"],
+  "data": [8, 0, 6, 3],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "åœŸçŸ³å·¨é¾™åœ¨åˆ°è¾¾ç»ˆç‚¹åŽè¿˜ä¼šç»§ç»­é£žè¡Œï¼Œå¯ä»¥åˆ©ç”¨è¿™ç‚¹æ”»å‡»æ›´å¤šçš„æ•Œäººã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "168001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Tactical Espionage"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SHI LINGMING",
+      "desc": [
+        "Summons his Guardian Spirit, Shi Lingming, to smash physical damage in a target area, automatically chasing after nearby enemies. hi Lingming deals area damage and causes Stun with a flurry attack for 0.75s every 2 attacks. Shi Lingming is immune to magical damage and disappears for 5s after a certain number of attacks."
+      ],
+      "data": [
+        "Area Physical Damage: 140/180/220/260",
+        "Spirit Attack: Hero Attack x 0.8",
+        "Flurry Radius: 150/200/250/300",
+        "Spirit Health: 6/8/10/12",
+        "Cast Range: 900",
+        "Mana Cost: 60",
+        "Cooldown: 12/11/10/9s"
+      ],
+      "img": "01.png",
+      "keyword": "Physical",
+      "study": ["Area magical damage, summons Shi Lingming"],
+      "update": ["Damage â†‘ Effect â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Disabler"]
+    },
+    {
+      "name": "STONE WALL",
+      "desc": [
+        "Casts out a stone wall in a target direction to damage, slowdown and knockback enemies along its path. Wall breaks into rubble at end; affected enemies suffer Root for 0.5s every 1s. Lasts 5s. Passive: Shi Lingming deals more damage nearby rubble, and Beiluo Shimen is immune to CC while nearby rubble."
+      ],
+      "data": [
+        "Physical Damage: 150/180/210/240",
+        "Bonus Damage: 80/120/160/200",
+        "Cast Range: 900",
+        "Rubble Radius: 600",
+        "Cooldown: 10s",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Summons a massive rock wall to knockback enemies and generate a rubble zone"
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Disabler", "Physical"]
+    },
+    {
+      "name": "STONE DRAGONRIDER",
+      "desc": [
+        "Beiluo Shimen mounts an almighty stone dragon toward a target point, with dragon continuing after dismount before vanishing. Dragon deals punishing damage to enemies touched while causing knockup for 1s. Grants immunity to CC while riding dragon. "
+      ],
+      "data": [
+        "Magical Damage: 200/350/500",
+        "Slowdown: 30% for 4s",
+        "Cast Range: 2200",
+        "Cooldown: 50/45/40s",
+        "Mana Cost: 120"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": [
+        "Summons and rides an almighty dragon to a target location,  dealing damage and slows movement "
+      ],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Magical", "Rush"]
+    },
+    {
+      "name": "STONE SHRUG",
+      "desc": [
+        "Each basic attack or ability concentrates 1 stack of Stone Might. Stack up 5 times to summon stone arms that increase basic attack range and buff damage dealt. Hitting a target ambushes them, causing Beiluo Shimen to relocate there. Cooldown: 4s. Shi Lingming will focus on ambushed targets."
+      ],
+      "data": [
+        "Physical Damage: 60/95/130/165",
+        "Increased Attack Range: 300",
+        "Duration: 7/8/9/10",
+        "Cooldown: 12s",
+        "Mana Cost: 50"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": [
+        "Summons stone arms that increase attack range and damage dealt"
+      ],
+      "update": ["Damage â†‘ duration â†‘"],
+      "tag": ["Physical", "Buff"]
+    }
+  ],
+  "story": ["Coming soon!"],
+  "equip": [
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12516", "10127"],
+      "reason": ["æŽ¨è¿›ã€çˆ†å‘"]
+    },
+    {
+      "arr": ["10302", "10272", "10053", "10127", "12508", "10237"],
+      "reason": ["æ¸¸èµ°ã€æ”¯æ´"]
+    },
+    {
+      "arr": ["10100", "10272", "10047", "10237", "12508", "12516"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "164481",
+  "video": [
+    "164482",
+    "https://yhkd.99.com/inc/20191204002842.inc",
+    "https://yhkd.99.com/news/12042019/230558791.shtml"
+  ]
+}

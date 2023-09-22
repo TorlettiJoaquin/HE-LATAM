@@ -1,0 +1,145 @@
+{
+  "id": "153001",
+  "name": "Murry",
+  "type": "1",
+  "features": ["Ganker", "Disabler"],
+  "data": [7, 6, 5, 4],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Water brings a lot of benefits to Murry. Select a water area to help Murry win easily."
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "153001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Blue Adventure"
+    },
+    {
+      "id": "153001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Lollibaby"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Fragrant Trace",
+      "desc": [
+        "Murry throws a fragrant sachet at the target area, dealing magic damage to the enemy units within the range and reducing their Armor and Spell Resist. A wider area will be affected if the sachet drops in the waters of Water Dominator."
+      ],
+      "data": [
+        "Magic Damage: 90/150/210/280",
+        "Enemy's Armor Reduced: 8/13/18/23",
+        "Enemy's Spell Resist Reduced: 4/5/6/7",
+        "Reduction Duration: 4s",
+        "Radius: 300",
+        "Radius in the Waters: 450",
+        "Cast Range: 1100",
+        "Cooldown: 5s",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": [
+        "Deals area damage, and reduces enemy's Armor and Spell Resist."
+      ],
+      "update": ["Damageâ†‘Enemy Weakeningâ†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Water Dominator",
+      "desc": [
+        "Murry creates an area of water that delays and slows enemy units. If casting it again within 3s, Murry may dive in and jump out of the water to strike unexpectedly, dealing magic damage and kicking enemies into the air._Passive: Increases Murry's underwater movement speed by 20%."
+      ],
+      "data": [
+        "Magic Damage (Kickaway): 140/200/260/300 +2% Caster's Max Health",
+        "Water Duration: 5s",
+        "Kickaway Radius: 320",
+        "Kickaway Duration: 0.5s",
+        "Cast Range: 900",
+        "Water Radius: 1000",
+        "Slowdown: 20% for 1s",
+        "Cooldown: 14/13/12/11s",
+        "Mana Cost: 70"
+      ],
+      "img": "02.png",
+      "keyword": "Disable",
+      "study": ["Deals damage, slows enemies, and kicks enemies into the air"],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Magic", "Disable"]
+    },
+    {
+      "name": "Rolling Strike",
+      "desc": [
+        "Murry curls up in a ball and rolls in the target direction for 9s to deal physical damage and kick away non-hero enemy units along its path. When an enemy hero unit is hit, time is up, or this ability is reactivated, Murry stops and strikes at enemy units nearby, causing physical damage, kick-away, and slowdown effects. Murry gains a Hyper Armor and moves faster gradually, but can neither use basic attacks nor abilities while rolling. The direction may be adjusted with the touch controls."
+      ],
+      "data": [
+        "Physical Damage (Basic Strike): 150/250/300 +2% of Caster's Max Health",
+        "Physical Damage (Max Strike): 250/400/550 +5% of Caster's Max Health",
+        "Path Damage: 130/170/210 +1% of Caster's Max Health",
+        "Cast Range: 900",
+        "Path Radius: 250",
+        "Dash Radius: 350",
+        "Slow Effect: 25% for 3s",
+        "Kickaway Duration: 1s",
+        "Cooldown: 60/55/50s",
+        "Mana Cost: 100/120/140"
+      ],
+      "img": "03.png",
+      "keyword": "Disable",
+      "study": [
+        "Rolls at a high speed, dealing damage and kick enemies into the air."
+      ],
+      "update": ["Damageâ†‘ Cooldownâ†“"],
+      "tag": ["Disable", "ULT"]
+    },
+    {
+      "name": "Sweet Inspiration",
+      "desc": [
+        "Murry eats a rice dumpling which restores a few Health and enhances Murry's next basic attack. 1 rice dumplings are ready every 8s, stocking up to 3 rice dumplings._Passive: Rice dumplings are scattered around for each ability cast, providing temporary movement buffs to allies or movement debuffs to enemies."
+      ],
+      "data": [
+        "Physical Damage: 50/100/150/200",
+        "Health Regen: 70/140/210/280",
+        "Duration of Normal Attack Enhancement: 5s",
+        "Rice Dumpling Duration: 8s",
+        "Speed Up: 15%/20%/25%/30% for 2s",
+        "Slow Effect: 20% for 2s",
+        "Cooldown: 1s",
+        "Mana Cost: 30/40/50/60"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Restores Health and enhances normal attacks"],
+      "update": ["Damageâ†‘ Recoveryâ†‘"],
+      "tag": ["Buff", "Physical"]
+    }
+  ],
+  "story": [
+    "     Come on, friends coming from afar, please come here, come to my home and sit for a while. I live in a despicable and utterly destitute cottage. Although I am also a fairy, I live in seclusion near the magic water, far away from the prosperous fairyland. I really don't have anything good to entertain you. Oops, you said that there must be something good in this food steamer? You really have flattered me, really... but I think you're sighted after all, so I seem to be mean if I continue to hide the truth from you.<br>     Uh~ I have delicious scented glutinous rice dumplings, do you want to have a taste?<br>     Wait! Let's come to an agreement at first. Don't spill the beans to other fairies of Penglai! If you let them know that this food steamer still exists in the world, then the peace scenario of Penglai will be destroyed at once... Don't laugh! Murry is a quite serious fairy otter! You eat your glutinous rice dumpling while let me talk with you so that you don't blame me for being mad.<br>     At that time, human beings destructed the rite and music system and smashed gods, which made the Royal Emperor of the supreme heaven bristle with anger and bring a series of heavy disasters to the human world. Therefore, violent social upheavals occurred and people suffered from the chaos caused by war and famine. The Royal Emperor cooled down forty-nine days later. He stood on the edge of Jade Mirror Pool and had a look at the human world. He could not help gaining compassion for humans. As one day in Heaven was equal to one year in the human world, the human world underwent disasters and people were plunged into dire suffering for forty-nine years over the past forty-nine days in Heaven. The Royal Emperor stopped heavenly disasters and then summoned an otter from the Jade Mirror Pool and ordered him to go to the human world with a steamer called \"Cloud Steamer\" and cook meals for people to end their famine suffering.<br>     After Murry came to the human world, it steamed rice with \"Cloud Steamer\" and added various ingredients. But it suddenly realized that there was no suitable container for distributing the food to people. Murry could not make people scoop and eat the food with a ladle around the \"Cloud Steamer\", could it? So Murry worked out a measure according to local conditions. It collected reed leaves by riverside and wrapped food with them for people to fill their stomach. Later generations named this kind of food as glutinous rice dumpling and the human custom of putting glutinous rice dumpling into water was not only commemoration but also gratitude to Heaven.<br>     Yes, I am the otter and this is that \"Cloud Steamer\". The people who ate glutinous rice dumplings got a part of faint fairy power. If their offspring were the only children, these offspring would inherit the gathered fairy power from their parents. These only children were the ancestors of the gods of Penglai. Please must not let them know that this fairy artifact is under their noses before they pledge allegiance to the supreme heaven.... Hey, don't be so nervous, otherwise glutinous rice dumpling is not tasteful. Don't worry, I am a fairy who once skied water in the Jade Mirror Pool! I also had a very good theurgy!"
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "10265", "12316", "10263"],
+      "reason": ["TANK\nDISABLER"]
+    },
+    {
+      "arr": ["12514", "10048", "10265", "12316", "10069", "10263"],
+      "reason": ["ESCAPE\nHARASSER"]
+    },
+    {
+      "arr": ["10302", "12535", "12316", "10265", "10263", "10069"],
+      "reason": ["ESCAPE\nGANKER"]
+    },
+    {}
+  ],
+  "strategy": "166062",
+  "video": [
+    "166061",
+    "https://yhkd.99.com/inc/20200622234846.inc",
+    "https://yhkd.99.com/news/06232020/012345663.shtml"
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "id": "65001",
+  "name": "Lotus",
+  "type": "3",
+  "features": ["RANGED", "NUKER", "DISABLER"],
+  "data": [2, 9, 5, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["Can be mage and assistant at the same time."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Loving Maiden"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Bikini Bottom",
+      "vid": "k_dD5zjco0s"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Digital Love",
+      "vid": "UaO1Ak_nO9s"
+    },
+    {
+      "id": "65001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Dream Sojourn"
+    },
+    {
+      "id": "65001301",
+      "imgSrc": "5.jpg",
+      "skinName": "Copper Concerto"
+    },
+    {
+      "imgSrc": "7.jpg",
+      "skinName": "HER Qiao Wan"
+    },
+    {
+      "imgSrc": "8.jpg",
+      "skinName": "HER Erhu Chic"
+    },
+    {
+      "id": "65001305",
+      "imgSrc": "6.jpg",
+      "skinName": "Nanjing Beauty"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SPRING BLOSSOMS",
+      "desc": [
+        "Plays a song of Spring Blossoms, healing Lotus and up to 2 allied hero units within a 900 radius around her, while granting bonus physical damage on her next basic attack."
+      ],
+      "data": [
+        "Bonus Damage: 120/160/200/240",
+        "Heal: 60/90/120/150",
+        "Effect Radius: 900",
+        "Cooldown: 8s",
+        "Mana Cost: 80/100/120/140"
+      ],
+      "img": "01.png",
+      "keyword": "BUFF",
+      "study": ["Increases damage of next attack while healing heroes."],
+      "update": ["Bonus damage and healing effect increased."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "WALTZ OF THE LARK",
+      "desc": [
+        "Plays the Waltz of the Lark, dealing magical damage to 5 random enemy units within a 900 radius around Lotus, while granting 80 bonus movement speed to her and up to 2 allied hero units within a 900 radius. Lotus' next basic attack causes Movement Slow for 3s."
+      ],
+      "data": [
+        "Magical Damage: 100/160/220/280",
+        "Movement Slow: 30%/35%/40%/45%",
+        "Effect Radius: 900",
+        "Cooldown: 8s",
+        "Mana Cost: 120"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": [" Deals damage to a target area while slowing movement speed."],
+      "update": ["Ability Damage and movement slow effect increased."],
+      "tag": ["DISABLER", "AOE", "BUFF"]
+    },
+    {
+      "name": "PHOENIX RISING",
+      "desc": [
+        "Lotus plays Phoenix Rising for 2.5s, becoming Untouchable and unable to move, while causes continuous Movement Slow by 35% to nearby enemy units. When Phoenix Rising ends, deals magical damage to nearby enemy units and causes Stun for 0.5s."
+      ],
+      "data": [
+        "Magical Damage: 300/450/600",
+        "Cooldown: 60/55/50",
+        "Effect Radius: 1000",
+        "Mana Cost: 200/250/300"
+      ],
+      "img": "03.png",
+      "keyword": "AOE CC",
+      "study": ["Slows nearby enemies, then stuns and deals magical damage."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "DISABLER"]
+    },
+    {
+      "name": "MYSTICAL MELODY",
+      "desc": [
+        "Plays a Mystical Melody, dealing magical damage to a target enemy unit, and causing Confusion for 1s."
+      ],
+      "data": [
+        "Magical Damage: 140/200/260/320",
+        "Cast Range: 900",
+        "Cooldown: 8s",
+        "Mana Cost: 100"
+      ],
+      "img": "04.png",
+      "keyword": "DISABLER",
+      "study": ["Deals damage to a target, causing Confusion."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL", "DISABLER", "SINGLE"]
+    }
+  ],
+  "story": [
+    "Lotus was born beauty and gentle. After Wu army conquered her city, she went to Wu County and got married with Pyrrhus. This marriage was finally passed down as a much-told story."
+  ],
+  "equip": [
+    {
+      "arr": ["12514", "10123", "12313", "10228", "12305", "10109"],
+      "reason": ["INITIATOR\nESCAPE"]
+    },
+    {
+      "arr": ["12503", "10123", "12312", "12313", "12305", "10124"],
+      "reason": ["SUPPORT\nESCAPE"]
+    },
+    {
+      "arr": ["12307", "10123", "10251", "10228", "12313", "12513"],
+      "reason": ["DISABLER\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "156099",
+  "video": [
+    "156100",
+    "https://yhkd.99.com/inc/20170208223949.inc",
+    "https://yhkd.99.com/news/02142017/034508922.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+1.8%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g17.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+6.12"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+2.7%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g27.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+7.92"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+3.6%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g37.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+9.81"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+4.5%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g47.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "SPELL POWER",
+            "val": "+12.24"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "CDRD",
+            "val": "+5.4%"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "MAGE CRAFT",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g57.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

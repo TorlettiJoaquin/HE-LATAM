@@ -1,0 +1,409 @@
+{
+  "id": "14001",
+  "name": "Nazar",
+  "type": "1",
+  "features": ["MELEE", "PUSHER", "TANK"],
+  "data": [8, 4, 7, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "You have an ability that shows allies the enemy Hero unit`s field of vision!"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Pumpkin Lord",
+      "vid": "NFpY20FliUY"
+    },
+    {
+      "id": "14001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Wicked Magistrate"
+    },
+    {
+      "id": "14001201",
+      "imgSrc": "3.jpg",
+      "skinName": "Berserk Clerk"
+    }
+  ],
+  "ski": [
+    {
+      "name": "DEADLY BRUSHSTROKE",
+      "desc": [
+        "ACTIVE: Nazar waves a writing brush around himself. The ink splashes nearby enemy units and deals physical damage while slowing their movement speed by 20% for 2s. Enemy units splashed by the outer circle of this ability will take bonus pure damage. PASSIVE: For every enemy hero unit hit by Deadly Brushstroke, Nazar is granted a damage bonus for 5s that stacks up to 5 times. Pure damage from the outer circle does not benefit from this damage bonus."
+      ],
+      "data": [
+        "Physical Damage: 150/200/250/300",
+        "Bonus Damage: 100/120/140/160",
+        "Damage Bonus: 2%/3%/4%/5% Per Stack",
+        "Radius: 650",
+        "Mana Cost: 60",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": ["Deals damage to nearby enemy units."],
+      "update": ["Increased damage dealt."],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "CURSED SHACKLES",
+      "desc": [
+        "Nazar tosses a talisman imbued with curses, dealing physical damage to the enemy unit it clings on to. If Cursed Shackles is activated again, Nazar dashes to that enemy unit and turns the talisman into a seal, dealing physical damage and causing root for 1s."
+      ],
+      "data": [
+        "Talisman Physical Damage: 60/80/100/120",
+        "Dash Physical Damage: 120/160/200/240 + 18% of its missing Health",
+        "Range: 1200",
+        "Mana Cost: 50",
+        "Cooldown: 9 /8/7/6s"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLE",
+      "study": [
+        "Talisman deals damage to target. Dashes to and roots the target upon second cast."
+      ],
+      "update": ["Increased damage and reduced cooldown."],
+      "tag": ["PHYSICAL", "DISABLE"]
+    },
+    {
+      "name": "YIN-YANG JUDGMENT",
+      "desc": [
+        "ACTIVE: Nazar places Yin-Yang traps under the feet of all enemy hero units, which explodes in 1.2s and deal magical damage to nearby enemy units. Nazar receives bonus movement speed for 5s and gains true sight of the enemy units._PASSIVE: The presence of enemy hero units within a 1200 radius grants Nazar 10% bonus movement speed."
+      ],
+      "data": [
+        "Magical Damage: 250/375/500",
+        "Bonus Movement Speed: 15% ",
+        "Cooldown: 65/55/45",
+        "Mana Cost: 150"
+      ],
+      "img": "03.png",
+      "keyword": "PHYSICAL",
+      "study": [
+        "Deals damage to enemy heroes on the entire map and increases movement speed."
+      ],
+      "update": ["Increased damage and reduced cooldown."],
+      "tag": ["PHYSICAL", "BUFF"]
+    },
+    {
+      "name": "NECRO SHIELD (PASSIVE)",
+      "desc": [
+        "Nazar uses the power of the dead to grant himself 1% Damage Reduction for every portion of his missing max Health."
+      ],
+      "data": [
+        "Increase Damage Reduction by 1% as max Health decreases 6%/5%/4%/3%."
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Grants Damage Reduction based on missing max Health."],
+      "update": ["Damage Reduction requires less missing max Health."],
+      "tag": ["PASSIVE", "BUFF"]
+    }
+  ],
+  "story": [
+    "Professor Nazar was a Taoist scholar who could use runes to catch ghosts. Hating evil, Nazar hoped to get into government to use the might of the empire to bust more ghosts."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12512", "12309", "10263", "10265"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["12307", "10115", "10048", "12309", "10127", "12516"],
+      "reason": ["SUSTAINED DPS\nPUSHER"]
+    },
+    {
+      "arr": ["12502", "10048", "10125", "10263", "12316", "12516"],
+      "reason": ["ESCAPE"]
+    },
+    {}
+  ],
+  "strategy": "160642",
+  "video": [
+    "160641",
+    "https://yhkd.99.com/inc/20171026011752.inc",
+    "https://v.qq.com/x/page/n05653bbqvs.html"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+21.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+2.43"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+30.15"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+3.51"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+39.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+4.59"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+48.24"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+5.58"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+60.3"
+          },
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "SPELL RESIST",
+            "val": "+7.02"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "DEFENSE",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

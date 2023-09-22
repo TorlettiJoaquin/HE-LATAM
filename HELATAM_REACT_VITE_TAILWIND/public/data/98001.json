@@ -1,0 +1,415 @@
+{
+  "id": "98001",
+  "name": "Una",
+  "type": "3",
+  "features": ["RANGED", "GANKER", "PUSHER"],
+  "data": [3, 8, 5, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["â€œçµæ´»è¿ç”¨\"å®šæ—¶çˆ†ç«¹â€ï¼Œå¯ä»¥è®©ä½ é€ƒå‡ºç”Ÿå¤©ã€‚"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Feathered Darling"
+    },
+    {
+      "id": "98001302",
+      "imgSrc": "2.jpg",
+      "skinName": "MVP Slam Dunk",
+      "vid": "Y6SZQ-yzXyo"
+    },
+    {
+      "id": "98001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Christmas Surprise"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Envoy of Breeze",
+      "status": "en"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FIRE CRACKERS",
+      "desc": [
+        "Drops firecrackers at a target position, dealing magical damage within a small radius. Firecrackers scatter into 3 smaller ones at random positions within the area, dealing magical damage."
+      ],
+      "data": [
+        "Magical Damage: 150/200/250/300",
+        "Scatter Damage: 100/125/150/175",
+        "Cast Range: 1200",
+        "Mana Cost: 45/55/65/75",
+        "Cooldown: 5s",
+        "Primary Radius: 350",
+        "Scatter Radius: 200"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage to enemy units in affected area"],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical", "AOE"]
+    },
+    {
+      "name": "TIMED EXPLOSION",
+      "desc": [
+        "Una drops a timed explosive at the target position, which explodes after 5 or immediately when using this ability again.  Deals magical damage to nearby enemy units and causes knockback and 1s Stun once the enemies land. Also causes knockback to Una if she is within the area, but she takes no damage and instead get 20% bonus movement speed for 2s."
+      ],
+      "data": [
+        "Damage: 180/230/280/330",
+        "Cast Range: 1100",
+        "Mana Cost: 100",
+        "Cooldown: 12/11/10/9s",
+        "Blast Radius: 400",
+        "Enemy Knockback Range: 300",
+        "Self Knockback Range: 800"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Deals magical damage to enemies in affected area. Causes knockback to Una and enemies"
+      ],
+      "update": ["Ability damage increased and cooldown reduced"],
+      "tag": ["Magical", "Disabler", "AOE"]
+    },
+    {
+      "name": "FIREWORKS",
+      "desc": [
+        "Places a gigantic firecracker on the ground for 8s, shooting out fireworks every 0.75s to a random area nearby, dealing area magical damage. Firecrackers are immune to abilities and can take multiple hits."
+      ],
+      "data": [
+        "Damage: 125/175/225",
+        "Cast Range: 1000",
+        "Radius: 600",
+        "Cooldown:  55/50/45s",
+        "Maga Cost: 120",
+        "Splash Radius: 500",
+        "Blast Radius: 300",
+        "Hits to Destroy: 6/7/8"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals massive magical damage to enemies in a target area"],
+      "update": ["Ability damage increased and cooldown reduced"],
+      "tag": ["ULT", "AOE"]
+    },
+    {
+      "name": "MOCKERY (PASSIVE)",
+      "desc": [
+        "PASSIVE: Una tricks enemies into getting a taste of their own medicine. Una's abilities deal bonus magical damage to enemy units and cause Movement Slow for 2s."
+      ],
+      "data": ["Damage: 20/40/60/80", "Movement Slow: 10%/15%/20%/25%"],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Deals bonus magical damage and slows down enemy movement"],
+      "update": ["Ability damage and movement slow effect increased"],
+      "tag": ["Passive", "Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "In the beginning, there was no grain in the world and the people lived on fruits and grass. Seeing thin, pale people, Una decided that she could make things better by bringing food to the world. Diving into the garden at night, she plucked rice, wheat, beans and hemp, returning back to earth before daylight. After delivering the seeds and instructions, Una quietly slipped away. The common people starved and froze no more, thanks to the help of Una."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "10228", "10251", "10109", "12305"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12503", "10123", "12310", "10124", "10109", "12513"],
+      "reason": ["æ¶ˆè€—ã€ç”Ÿå­˜"]
+    },
+    {
+      "arr": ["12307", "12310", "10251", "12509", "10109", "12305"],
+      "reason": ["æŽ¨è¿›ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "155800",
+  "video": [
+    "155801",
+    "https://yhkd.99.com/inc/20170123191247.inc",
+    "https://yhkd.99.com/news/01232017/021829259.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+18"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+3.06"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+14.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+25.2"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+20.07"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+32.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+5.58"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+26.01"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+40.5"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.93"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+32.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+50.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+8.64"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+40.05"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "id": "30001",
+  "name": "Raven",
+  "type": "2",
+  "features": ["MELEE", "RANGED", "CARRY"],
+  "data": [8, 5, 6, 5],
+  "way": "3",
+  "gold": "-",
+  "diamond": "-",
+  "tips": ["Use Phoenix power toegether with Golden Chakram."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Android Warrior"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Lord Phoenix",
+      "vid": "isvR4BfWzgo"
+    },
+    {
+      "id": "30001101",
+      "imgSrc": "3.jpg",
+      "skinName": "Eclipse Marauder"
+    },
+    {
+      "id": "30001301",
+      "imgSrc": "4.jpg",
+      "skinName": "Golden Glory"
+    },
+    {
+      "imgSrc": "5.jpg",
+      "skinName": "Envoy of Hope",
+      "status": "en"
+    },
+    {
+      "id": "30001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Moonlit Sky"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SUNFIRE",
+      "desc": [
+        "ACTIVE: grants bonus Armor and bonus Spell Resist. PASSIVE: Grants bonus Health Regen."
+      ],
+      "data": [
+        "Bonus Armor: 24/30/36/42, Bonus Spell Resist: 5/10/15/20 for 5s.",
+        "Bonus Health Regen: 4/6/8/10 ",
+        "Cooldown: 8s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "BUFF",
+      "study": [
+        "Increases Health Regen. Activate to increase Armor and Spell Resist."
+      ],
+      "update": ["Health regen, Spell Resist and Armor increased."],
+      "tag": ["BUFF"]
+    },
+    {
+      "name": "GOLDEN CHAKRAM",
+      "desc": [
+        "ACTIVE: Hurls a golden chakram in a target direction that deals magical damage and bounces between enemy units, dealing reduced damage with each bounce. PHOENIX FORM: Shoots forth a fiery blaze, with increased effect radius."
+      ],
+      "data": [
+        "Magic damage to first unit: 120/160/200/240, Damage Reduction per hit: 15%, Min Damage: 40%. ",
+        "Range: 1200",
+        "Cooldown: 6s",
+        "Mana Cost: 80"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage in a target direction."],
+      "update": ["Ability damage increased."],
+      "tag": ["MAGICAL"]
+    },
+    {
+      "name": "PHOENIX POWER",
+      "desc": [
+        "Passive: When in the Phoenix state, Raven scorches nearby enemies. This damage does not trigger Internal Fire._Passive: Upon death, Raven fuses into an egg that has 60% of Raven`s maximum Health. If the egg remains unattacked for a short period, Raven respawns with 50% maximum Health. Effect may be triggered once every 60s. Active: Enters the Phoenix state, boosting Raven`s attack power and enhancing basic attacks into ranged attacks. 35 Health is deducted per second. Re-cast Phoenix Power again to return to human form."
+      ],
+      "data": [
+        "Health drained per second: 35, Bonus Movement Speed: 10%/15%/20%, Bonus Damage: 40/55/70",
+        "Scorch Damage per second: 20/40/60",
+        "Scorch Radius: 800",
+        "Cooldown: 2s"
+      ],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Changes form to get stronger, turns into a sun upon death."],
+      "update": ["Movement speed, damage, and magical damage increased."],
+      "tag": ["ULT", "BUFF"]
+    },
+    {
+      "name": "INTERNAL FIRE",
+      "desc": [
+        "PASSIVE: Raven`s basic attacks and abilities debuff enemy units with stacks of Burning, dealing continuous magical damage. At 4 Burning stacks, deals explosive magical damage to enemy units while causing Movement Slow, and consumes the stacks."
+      ],
+      "data": [
+        "Damage per second: 7/8/9/10. Duration: 5s, Explosion at 4 Stacks: 150/175/200/225"
+      ],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals bonus damage and slows target after being hit 5 times."],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "MAGICAL", "DISABLER"]
+    }
+  ],
+  "story": [
+    "In primordial times, ten suns appeared in the sky. Solus took up his bow and arrow and shot nine suns out of the sky, sending them crashing to earth. Their bodies looked like giant golden ravens. The universe was dark, and only the glimmer of the godsoul remained. The gods had no choice but to reignite a single sun-raven."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "12308", "10053", "10272", "10237", "10127"],
+      "reason": ["GANKER\nDPS"]
+    },
+    {
+      "arr": ["10100", "10272", "10058", "10069", "10127", "10047"],
+      "reason": ["SUSTAINED\nNUKER"]
+    },
+    {
+      "arr": ["12307", "10058", "10272", "10127", "10047", "10237"],
+      "reason": ["NUKER\nCARRY"]
+    },
+    {}
+  ],
+  "strategy": "151544",
+  "video": [
+    "151527",
+    "https://yhkd.99.com/inc/20160919031234.inc",
+    "https://yhkd.99.com/news/11032016/044002784.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+1.8"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.73"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r16.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b18.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g12.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+2.52"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+12.51"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r26.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b28.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g22.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g15.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+3.24"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+16.29"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r36.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b38.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g32.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.05"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+19.98"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r46.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b48.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g42.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+5.04"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+25.02"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "TRICKSTER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r56.png"
+          },
+          {
+            "name": "BURST",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b58.png"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g52.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "LIFE AND DEATH",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g16.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

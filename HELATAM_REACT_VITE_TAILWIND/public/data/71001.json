@@ -1,0 +1,408 @@
+{
+  "id": "71001",
+  "name": "Estrath",
+  "type": "2",
+  "features": ["MELEE", "DISABLER", "ROAMER"],
+  "data": [10, 2, 5, 8],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "tips": [
+    "Use disabling abilities to penetrate enemy lines like an arrow piercing silk"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "The Last Duellist",
+      "vid": "fNNkx2_w2FI"
+    },
+    {
+      "id": "71001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Robed Swordmaster",
+      "vid": "ea9iN15G2sI"
+    },
+    {
+      "id": "71001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Swordsage",
+      "vid": "5fnOK_AWrbU"
+    }
+  ],
+  "ski": [
+    {
+      "name": "ICY TORNADO",
+      "desc": [
+        "Estrath unleashes a sword beam in a target direction, dealing physical damage to enemy units along its path and causing Movement Slow by 70% for 1s. Against enemy units with 4 Hyperthermia notches, Icy Tornado causes Stun for 1s instead. Estrath gains bonus movement speed for 3s if Icy Tornado hits an enemy unit."
+      ],
+      "data": [
+        "Damage: 150/180/210/240",
+        "Bonus Movement Speed: 6%/12%/18%/24%",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 60",
+        "Range: 750"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": [
+        "Slashes in a target direction, dealing damage and stunning enemies."
+      ],
+      "update": ["Grants bonus physical damage and movement speed."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    },
+    {
+      "name": "WINDS OF FROST",
+      "desc": [
+        "Estrath raises his sword and dashes in a target direction, dealing physical damage to all enemy units along his path. Cast again within 5s to perform another dash, and if both dashes hit enemy units, Estrath gains bonus Attack Speed for 4s."
+      ],
+      "data": [
+        "Charge Damage: 60/90/120/150",
+        "Bonus Attack Speed: 15/30/45/60",
+        "Mana Cost: 75",
+        "Cooldown: 7s",
+        "Range: 600"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": [
+        "Dashes towards a target direction, May be cast again for a second dash."
+      ],
+      "update": ["Ability damage increased."],
+      "tag": ["PHYSICAL", "DASH"]
+    },
+    {
+      "name": "HYPOTHERMIA",
+      "desc": [
+        "PASSIVE: Being an expert in swordsmanship, each basic attack or ability cast leaves a notch on enemy units that can stack up to 4 times. Estrath deals bonus physical damage to these enemy units. At 4 notches, deals a burst of magical damage equal to 12% of their missing Health. A notch lasts 5s."
+      ],
+      "data": ["Bonus Damage per Notch: 18/24/30/36"],
+      "img": "03.png",
+      "keyword": "BUFF",
+      "study": ["Grants bonus damage to basic attacks."],
+      "update": ["Bonus damage increased."],
+      "tag": ["PASSIVE", "BUFF"]
+    },
+    {
+      "name": "KISS OF THE WIND",
+      "desc": [
+        "Estrath dashes to the target area and causes Airborne to enemy units inside, performing 4 basic attacks in quick succession. Estrath cannot be attacked while Airborne."
+      ],
+      "data": [
+        "Physical Damage: 60%/80%/100%",
+        "Mana Cost: 100/125/150",
+        "Cast Range: 750",
+        "Radius: 300",
+        "Cooldown: 30s"
+      ],
+      "img": "04.png",
+      "keyword": "DISABLER",
+      "study": ["Unleashes a wave of attacks in a target area."],
+      "update": ["Increases damage dealt."],
+      "tag": ["PHYSICAL", "DISABLER"]
+    }
+  ],
+  "story": [
+    "The legendary swordsman was ruthless and constantly challenged the masters of the martial art in order to pursue his own kendo. In the process of the constant challenges, his sword skills became more and more powerful. Finally, he disappeared and went to an unknown place to continue his practice."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "10127", "10237", "12508"],
+      "reason": ["NUKER\nASSASSIN"]
+    },
+    {
+      "arr": ["10100", "10272", "10068", "10237", "10069", "12516"],
+      "reason": ["GANKER\nJUNGLE"]
+    },
+    {
+      "arr": ["10100", "10058", "10237", "12508", "12516", "10127"],
+      "reason": ["ESCAPE\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "159442",
+  "video": [
+    "159441",
+    "https://yhkd.99.com/inc/20170704031902.inc",
+    "https://yhkd.99.com/news/07042017/031324143.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+4.23"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+2.79"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b17.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+6.03"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+4.05"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b27.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+7.83"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+5.22"
+          },
+          {
+            "name": "CRIT",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+0.9%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+0.9%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b37.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+9.63"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+6.39"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b47.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ATTACK",
+            "val": "+12.06"
+          },
+          {
+            "name": "ATTACK SPEED",
+            "val": "+8.01"
+          },
+          {
+            "name": "CRIT",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "PHPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "THIEVERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "SHIV",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b57.png"
+          },
+          {
+            "name": "PENETRATION",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

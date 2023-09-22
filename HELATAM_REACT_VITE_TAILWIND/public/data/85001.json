@@ -1,0 +1,425 @@
+{
+  "id": "85001",
+  "name": "Apollo",
+  "type": "1",
+  "features": ["MELEE", "GANKER"],
+  "data": [6, 6, 6, 6],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": [
+    "å¤ªé˜³ä¹‹å­å†²æ’žè¿‡ç¨‹ä¸­æ˜¯æ— æ•Œçš„ï¼Œå†²æ’žç«ç§æºå¸¦è€…å¯ä»¥ç©¿æ¢­æˆ˜åœºã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Relentless Killer"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Immolation Avenger"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Pyrate Marquis",
+      "vid": "Mm0lISDS9tE"
+    },
+    {
+      "id": "85001303",
+      "imgSrc": "4.jpg",
+      "skinName": "Solar Emperor"
+    },
+    {
+      "id": "85001302",
+      "imgSrc": "5.jpg",
+      "skinName": "Galaxy Defender"
+    },
+    {
+      "id": "85001304",
+      "imgSrc": "6.jpg",
+      "skinName": "Country Knight"
+    }
+  ],
+  "ski": [
+    {
+      "name": "BLADES OF FIRE",
+      "desc": [
+        "Hurls blades of fire in a target direction, dealing physical damage to enemy units along its path, and debuffing them with Flameseed, granting sight of them for 6s."
+      ],
+      "data": [
+        "Physical Damage: 170/220/270/320ç‚¹",
+        "Cast Range: 1200",
+        "Mana Cost: 50/60/70/80 ",
+        "Radius: 300 ",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals physical damage to targets and gains vision"],
+      "update": ["Ability damage increased and cooldown reduced"],
+      "tag": ["Physical"]
+    },
+    {
+      "name": "FLAME ARMOR",
+      "desc": [
+        "Apollo envelopes himself with a Flame Armor that absorbs damage for up to 6s, while dealing continuous magical damage to nearby enemy units."
+      ],
+      "data": [
+        "Damage Absorbed: 140/200/260/320 +3%Max Health",
+        "Damage per Second: 50/60/70/80ç‚¹ ",
+        "Radius: 500",
+        "Mana Cost: 100",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": ["Grants a shield, dealing magical damage to nearby enemies"],
+      "update": ["Ability damage and sheild effect increased"],
+      "tag": ["Magical", "Buff"]
+    },
+    {
+      "name": "SON OF THE SUN",
+      "desc": [
+        "Dashes at a target direction, dealing physical damage to enemy units along his path. The cooldown of this ability is reset if it hits an enemy hero unit debuffed with Flameseed. Apollo is Untouchable during the dash."
+      ],
+      "data": [
+        "Physical Damage: 250/350/450 ",
+        "Cast Range: 1200 ",
+        "Mana Cost: 100/125/150",
+        "Cooldown: 12s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": [
+        "Charges in a target direction, dealing physical to enemies hit by Apollo"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["ULT", "Physical"]
+    },
+    {
+      "name": "BURNING BLADES",
+      "desc": [
+        "Flames engulf Apollo's blades, dealing bonus physical damage on his next basic attack and causing Stun for 1s. This ability is not affected by cooldown reduction gear. Units with Flameseed will explode and deal on-hit area bonus magical damage, and add Flameseeds to heroes involved."
+      ],
+      "data": [
+        "Bonus Physical Damage: 150/200/250/300",
+        "Cooldown: 6s",
+        "Area Magical Damage: 50/70/90/110",
+        "Radius: 800"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Passively increases physical damage and stuns the target "],
+      "update": ["Ability damage increased"],
+      "tag": ["Physical", "Disabler"]
+    }
+  ],
+  "story": [
+    "The symbol of the sun; the embodiment of light. This son of Zeus is always energetic, tireless, and brave. Minstrels strums their zithers in praise of his achievement."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12512", "10125", "10263", "12516"],
+      "reason": ["æ¶ˆè€—ã€ç”Ÿå­˜"]
+    },
+    {
+      "arr": ["12514", "10115", "10065", "10048", "12516", "12316"],
+      "reason": ["å¦å…‹ã€å›¢é˜Ÿå¢žç›Š"]
+    },
+    {
+      "arr": ["10302", "12308", "12309", "10263", "12512", "10265"],
+      "reason": ["å¸¦çº¿ã€æ¸¸èµ°"]
+    },
+    {}
+  ],
+  "strategy": "151536",
+  "video": [
+    "151535",
+    "https://yhkd.99.com/inc/20160919031725.inc",
+    "https://yhkd.99.com/news/09222016/004202699.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+21.15"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+4.23"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+2.43"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+30.15"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+6.03"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+3.51"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+39.24"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+7.83"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+4.59"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+48.24"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+9.63"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+5.58"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+60.3"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+12.06"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+7.02"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+5.4%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

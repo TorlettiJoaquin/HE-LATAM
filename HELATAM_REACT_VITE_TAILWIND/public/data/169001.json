@@ -1,0 +1,122 @@
+{
+  "id": "169001",
+  "name": "Momo",
+  "type": "1",
+  "features": ["Ganker", "Nuker"],
+  "data": [9, 0, 5, 6],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["åˆç†è¿ç”¨å‡‹é›¶ä¹‹èˆžæä¾›å¼ºå¤§çš„å‡ä¼¤æ•ˆæžœæ¥æŠµæŒ¡ä¼¤å®³"],
+  "vid": "",
+  "skin": [],
+  "ski": [
+    {
+      "name": "LEAP ATTACK",
+      "desc": [
+        "Momo leaps and causes area of effect physical damage to targets with two swords. It`s immune to the disabler effect. Deal bonus physical damage and the stun effect to enemies in the center for 0.5s."
+      ],
+      "data": [
+        "Physical Damage: 140/200/260/320",
+        "Bonus Physical Damage: 80/130/180/230",
+        "Cast Range: 850",
+        "Radius: 400",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": [
+        "Leap to the target zone to deal bonus damage and the stun effect to enemies in the center."
+      ],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Rush", "Physical"]
+    },
+    {
+      "name": "ABSOLUTE CRUSHER",
+      "desc": [
+        "Momo slashes in the target direction with the absolute power to deal damage and stun enemies for 0.2s. When it hits the enemy heroes, it stops and can release a greater power to increase the cast range, cause damage and stun enemies for 0.5s. It gains Hyper Armor when it uses the skill."
+      ],
+      "data": [
+        "Physical Damage: 60/80/100/120",
+        "2nd Bonus Physical Damage: 90/120/150/180",
+        "Cast Range: 800",
+        "Radius: 350",
+        "Cooldown: 7s",
+        "Mana Cost: 60"
+      ],
+      "img": "02.png",
+      "keyword": "Disabler",
+      "study": [
+        "Leap to cause damage and stun. Hit the enemy to release the stronger power."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Rush", "Disabler"]
+    },
+    {
+      "name": "WITHERING DANCE",
+      "desc": [
+        "Momo hugs the ememy tightly to cause damage for 5s. During it, Momo grants immunity to disables and gains damage reduction. After releasing the skill for 1 second, it can cancel it on its own."
+      ],
+      "data": [
+        "Physical Damage Per Sec: 120/170/220",
+        "Damage Immune: 25%/30%/35%",
+        "Cast Range: 500",
+        "Cooldown: 50/45/40s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "Disabler",
+      "study": [
+        "Controls enemies, deals damage to them continuously and grants Damage Reduction"
+      ],
+      "update": ["Damage Reduction â†‘ Damage â†‘ Cooldown â†“"],
+      "tag": ["ULT", "Disabler"]
+    },
+    {
+      "name": "FROST EXPLOSION",
+      "desc": [
+        "Deals damage and the frost effect to enemies with the frost pain. Enemies in the destination will be dealt with Bonus Physical Damage. Charge for 6 stacks to release. Attack once to charge for 1 stack. Use common skills to charge for 2 stacks. Use Withering Dance to charge for 5 stacks."
+      ],
+      "data": [
+        "Physical Damage: 150/200/250/300",
+        "Bonus Physical Damage: 110/140/170/200",
+        "Cooldown: 0s",
+        "Cast Range: 900",
+        "Mana Cost: 60"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": [
+        "Damages and frosts enemies to deal Bonus Physical Damage to enemies in the destination"
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Disabler"]
+    }
+  ],
+  "story": [
+    "æ¥è‡ªå¼‚ä¸–ç•Œçš„å®‰å…¹å¯¹è¿™ä¸ªä¸–ç•Œå‘å‡ºäº†å¾æœçš„å®£å‘Šï¼Œè‹±é­‚å¤§é™†æž•æˆˆå¾…æ—¦ï¼Œæ—¶åˆ»å‡†å¤‡ç€åº”å¯¹è¿™ä¸ªå¯æ€•çš„æ•Œæ‰‹ã€‚ä½†çº³è¨åŠ›å…‹å´é™·å…¥äº†æ²‰å¯‚ï¼Œå‰åŽ»ä¾¦æŸ¥æƒ…å†µçš„æ–¥å€™å‘çŽ°å¤§å¢“åœ°å¤§é—¨ç´§é—­ï¼Œè¢«æžå…¶å¼ºåŠ›çš„é˜²æŠ¤ç»“ç•Œç‰¢ç‰¢ç½©ä½ï¼Œåºžå¤§çš„å†›é˜µåœ¨åœ°é¢ä¹‹ä¸‹é›†ç»“ï¼Œè§„æ¨¡ä¹‹å¤§ç”šè‡³å¼•å‘å°è§„æ¨¡çš„åœ°éœ‡ã€‚è¿™ä¸€æƒ…å†µè®©äººä»¬æ›´åŠ ç´§å¼ ï¼Œä»–ä»¬æ— ä»Žå¾—çŸ¥çº³è¨åŠ›å…‹ä¹‹ä¸­åœ¨é…é…¿ä»€ä¹ˆæ›´åŠ é»‘æš—çš„é˜´è°‹ã€‚ä»¤äººä¸å®‰çš„æ°›å›´ä¸­ï¼Œä¸€ä½æ¼†é»‘çš„è‹±é›„æŒºèº«è€Œå‡ºï¼Œå¸å¼•äº†æ‰€æœ‰äººçš„ç›®å…‰ã€‚è¿™ä½æ¼†é»‘çš„è‹±é›„é›„å£®é­æ¢§ï¼Œèº«ç€æ¼†é»‘æ— æš‡çš„é‡è£…æ¿ç”²ï¼Œæ‰‹æŒä¸€å¯¹ç¬”ç›´çš„é‡å‰‘ã€‚ä»–è‡ªç§°å†’é™©è€…èŽ«èŽ«ï¼Œæ“…é•¿è§£å†³å„ç§å§”æ‰˜ï¼Œå°¤å…¶æ˜¯å¯¹æŠ—ä¸æ­»æ—ä»¥åŠæ¶é­”ã€‚ä»–è‡ªç§°å¯ä»¥ååŠ©äººä»¬å¯¹æŠ—ææ€–çš„çº³è¨åŠ›å…‹å¤§åŸå¢“ã€‚è‹±é›„çš„å‡ºçŽ°ä¸å•»äºŽé›ªä¸­é€ç‚­ï¼Œåœ¨èŽ«èŽ«çš„æ´»è·ƒè¡¨çŽ°ä¹‹ä¸‹ï¼Œè‹±é­‚å¤§é™†å‡»é€€äº†å¤§æ¶é­”ä»¥åŠæ¶é­”å¥³ä»†å›¢å¯¹äºŽåŸŽå¸‚çš„è¢­å‡»ï¼Œå¹¶å°†é­æ¢§çš„ç”²è™«å°†é¢†æ‰€çŽ‡é¢†çš„ä¸æ­»å¤§å†›æ‹’ä¹‹é—¨å¤–ã€‚èŽ«èŽ«ä¸€è·ƒæˆä¸ºè‹±é­‚å¤§é™†æœ€ä¸ºçŸ¥åçš„æ˜Žæ—¥ä¹‹æ˜Ÿï¼Œä¸Žæ— æ•°è‹±é›„ç»“ä¸‹äº†æ·±åŽšçš„æƒ…è°Šï¼Œä»–è°¨æ…Žçš„æ€§æ ¼ä¸Žå¼ºå¤§çš„æˆ˜åŠ›æˆä¸ºäº†å†’é™©è€…è¿™ä¸ªè¡Œå½“ä¸­çš„ç¾Žè°ˆã€‚ç„¶è€Œï¼Œåªæœ‰èŽ«èŽ«ï¼Œå’Œä»–èº«è¾¹çš„é‚£ä½ç¾Žä¸½çš„æ­æ¡£æ˜Žç™½ï¼Œä¸€åˆ‡éƒ½æ˜¯èŽ«èŽ«çš„æ™ºè°‹ï¼Œä¸€åˆ‡éƒ½æ˜¯ä¸ºäº†çº³è¨åŠ›å…‹çš„æ— ä¸Šè£è€€ï¼"
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "12512", "10237", "10265"],
+      "reason": ["çˆ†å‘ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12514", "10048", "10069", "12316", "10263", "10265"],
+      "reason": ["æ¶ˆè€—ã€åŽæŽ’"]
+    },
+    {
+      "arr": ["10302", "10048", "12512", "10069", "12316", "10263"],
+      "reason": ["å¦å…‹ã€æ”¯æ´"]
+    },
+    {}
+  ],
+  "strategy": "165362",
+  "video": [
+    "165361",
+    "https://yhkd.99.com/inc/20200318195842.inc",
+    "https://yhkd.99.com/news/03192020/005345110.shtml"
+  ]
+}

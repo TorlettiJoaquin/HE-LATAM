@@ -1,0 +1,129 @@
+{
+  "id": "162001",
+  "name": "Asura",
+  "type": "2",
+  "features": ["Melee", "Ganker", "Nuker"],
+  "data": [8, 0, 5, 6],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "å¹¶ä¸æ˜¯æ¯æ¬¡å¹»æ–©éƒ½è¦å‘åŠ¨å†²é”‹æ–©å‡»ï¼Œè™šè™šå®žå®žæ‰æ˜¯ä»¤äººéš¾ä»¥æ‰æ‘¸çš„ä¿®ç½—ã€‚"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "id": "162001301",
+      "imgSrc": "1.jpg",
+      "skinName": "Fashion Blade"
+    },
+    {
+      "id": "162001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Flame Star",
+      "vid": "_074-JTB4eY"
+    }
+  ],
+  "ski": [
+    {
+      "name": "PHASMA SLASH",
+      "desc": [
+        "Asura unleashes a continuous stream of phasmatic blades once every 1 second for 3s in the direction she is facing. Blades deal low damage to enemies and affect them with Slow. Cast the ability again to dash towards the target, dealing additional damage and rooting enemies in her path for 1s. If a hero is hit, reduce ability cooldown by 1s."
+      ],
+      "data": [
+        "Physical Damage: 160/185/210/235 Per Blade",
+        "Slow: 15%/20%/25%30% for 3s",
+        "Slash Damage: 120/170/220/270",
+        "Cast Range: 1000",
+        "Cooldown: 12/11/10/9s",
+        "Mana Cost: 50"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": [
+        "Unleash phasma blades at enemies and then dash to deal additional damage"
+      ],
+      "update": ["Magical Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "Rush"]
+    },
+    {
+      "name": "PHANTOM",
+      "desc": [
+        "Asura begins charging energy and increasing the effect radius. When the ability is cast again or is fully charged up to 6s, a massive field of phasmatic energy will deal damage and Slow all enemies by 25% within range. The effect lasts for 1s after enemies leave the range. Asura receives a Speed Up effect by 30% while the ability is active, and phasma blades deal more damage with each attack or ability which strikes a target."
+      ],
+      "data": [
+        "Phasma Blades Physical Damage: 40/50/60/70 Per Sec",
+        "Phasma Blade Damage Bonus: 15/20/25/30 Per Attack, Max Stacks: 3",
+        "Base Radius: 350, Charge Radius Increase: 50 Per Sec up to 150",
+        "Duration: 8s",
+        "Cooldown: 12s",
+        "Mana Cost: 60"
+      ],
+      "img": "02.png",
+      "keyword": "Physical",
+      "study": ["Charge to deal continuous damage to enemies in range"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Buff"]
+    },
+    {
+      "name": "ANNIHILATION",
+      "desc": [
+        "Asura unleashes her ultimate strength and marks an enemy hero, piercing them with 6 phantoms, stunning and dealing damage to them. Targets in the path will also take damage. Gain invincibility while casting this ability."
+      ],
+      "data": [
+        "Physical Damage: 75/90/105 Per Hit",
+        "Stun Duration: 1.5s",
+        "Cast Range: 900",
+        "Cooldown: 40/35/30s",
+        "Mana Cost: 80/100/120"
+      ],
+      "img": "03.png",
+      "keyword": "Physical",
+      "study": ["Transfigure into a phantom, and damages and stuns enemies"],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["Physical", "ULT"]
+    },
+    {
+      "name": "ASURAN EDGE",
+      "desc": [
+        "Asura communicates with the spirit world to unlock more attack methods. 1st attack: Increases damage (1 blade); 2nd attack: Attack with 1 more blade (2 blades); 3rd Blade: Attack with 2 more blades (3 blades); 4th Blade: 4 Blades combine into Asuran Edge to deal damage to enemies to the addtional area. Remain as Asuran Edge and increase Attack Damage for 4s. Passive: May directly use the 4th Attack after using Phasma Slash and gain Asuran Edge status effect."
+      ],
+      "data": [
+        "Bonus Physical Damage: 20/30/40/50 Per Blade",
+        "Fourth Attack Physical Damage: 40/55/70/85",
+        "Radius: 400",
+        "Asuran Edge Bonus Attack Damage: 15/20/25/30"
+      ],
+      "img": "04.png",
+      "keyword": "Physical",
+      "study": ["Use multiple methods to attack enemies"],
+      "update": ["Damage â†‘"],
+      "tag": ["Physical", "Buff"]
+    }
+  ],
+  "story": [
+    "Everyone knows that the descendants of Asura love a good fight. Even though they are good-natured, they're still not quite... good. If upset, they'll turn into bloodthirsty goblins."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10068", "10272", "12516", "10065", "10237"],
+      "reason": ["çˆ†å‘ã€åˆºå®¢"]
+    },
+    {
+      "arr": ["10302", "10048", "10272", "10065", "10237", "12516"],
+      "reason": ["æ‰“é‡Žã€æ¸¸èµ°"]
+    },
+    {
+      "arr": ["10100", "10058", "10237", "12508", "12516", "10127"],
+      "reason": ["ç”Ÿå­˜ã€è¾“å‡º"]
+    },
+    {}
+  ],
+  "strategy": "163682",
+  "video": [
+    "163681",
+    "https://yhkd.99.com/inc/20190724194245.inc",
+    "https://yhkd.99.com/news/07242019/230550507.shtml"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "66001",
+  "name": "Caesar",
+  "type": "1",
+  "features": ["Melee", "Ganker"],
+  "data": [4, 8, 7, 5],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": [
+    "Caesar is a real jungle killer whose movement speed contributes to damage."
+  ],
+  "skin": [
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Lord Glory"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Fiery Comet",
+      "vid": "fVgX5YYf_uk"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Eternal Sword",
+      "desc": [
+        "Caesar wields his sword, dealing magic damage to surrounding enemies. The higher the bonus Movement Speed, the higher the damage. Hitting an enemy hero or monster grants 1 stack(s) of Eternal Energy for 6s. Each time Caesar casts Eternal Sword while the Eternal Energy is active reduces the cooldown on this ability by 1s per stack, up to 2 stacks. This ability deals additional 75% damage against monsters and will not be affected by cooldown-reduction effects."
+      ],
+      "data": [
+        "Magic Damage: 130/170/210/250",
+        "Bonus Damage Every 10 Bonus Movement Speed: 5",
+        "Mana Cost: 50",
+        "Cooldown: 3.5s"
+      ],
+      "img": "01.png",
+      "keyword": "AoE Attack",
+      "study": ["AoE Damage"],
+      "update": ["Damage â†‘"],
+      "tag": ["Magic", "AoE Attack"]
+    },
+    {
+      "name": "Lion Charge",
+      "desc": [
+        "White lion Theuth charges in a target direction, seizing up to two enemies in its path. All targets hit by Theuth during the charge will suffer damage and 30% Movement Slow for 4s."
+      ],
+      "data": [
+        "Magic Damage: 110/140/170/200 (30% bonus Attack)",
+        "Mana Cost: 70",
+        "Cooldown: 11/9/7/5s"
+      ],
+      "img": "02.png",
+      "keyword": "Dash",
+      "study": ["Charges and causes crowd control."],
+      "update": ["Damage â†‘   Cooldown â†“"],
+      "tag": ["Dash", "Crowd Control"]
+    },
+    {
+      "name": "Chariot Rush",
+      "desc": [
+        "Caesar unleashes powerful chariots that crash through enemies and deal high magic damage. Each unit on impact suffers full damage at the first time, and then half damage in subsequent crashes. Allied heroes in the area of effect gain bonus Movement Speed for the duration."
+      ],
+      "data": [
+        "Magic Damage: 200/275/350",
+        "Bonus Movement Speed: 50/100/150",
+        "Mana Cost: 100",
+        "Cooldown: 60/50/40s"
+      ],
+      "img": "03.png",
+      "keyword": "AoE Attack",
+      "study": ["High AoE Damage"],
+      "update": ["Damage â†‘  Effect â†‘"],
+      "tag": ["Buff", "AoE Attack"]
+    },
+    {
+      "name": "Lion Roar",
+      "desc": [
+        "White lion Theuth roars angrily, enhancing allied units' Armor and Movement Speed for 5s and granting an extra 50% of such bonus Armor and Movement Speed effect to Caesar.<br>Passive: There is no limit on Caesar's Movement Speed."
+      ],
+      "data": [
+        "Bonus Movement Speed: 50/70/90/110",
+        "Bonus Defense: 18/24/30/36",
+        "Mana Cost: 80",
+        "Cooldown: 10s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Grants team buffs."],
+      "update": ["Effect â†‘"],
+      "tag": ["Buff"]
+    }
+  ],
+  "story": [
+    "     \"I will conquer the land I see with my lifelong power; I come, I see and I conquer!\"<br>     The emperor said so. He took up the Eternal Sword and the people acknowledged allegiance to him where his sword pointed at â€“ This was Caesar, the most beloved son of the gods. The elegant and sacred white lion Theuth came to our emperor from the mountain of gods. It brought the holy shrine from the gods: only the great emperor was the real king in this world! No one could stop the army led by him. The resolution that he made led us to the top of glory.<br>     He was the strongest warrior. He set the eternal cornerstone for the sacred Roman Empire. When everything was over, he gave up his honor as a great emperor.<br>     He and the sacred beast Theuth left quietly under sacred sunglow. The mountain of god was his upcoming destination. He would be the god who always covered Rome with divine light â€“ the king of eternity, the great emperor Caesar, Julius!"
+  ],
+  "equip": [
+    {
+      "arr": ["125151", "10058", "10300", "10048", "12516", "12316"],
+      "reason": ["Ganker\nDPS"]
+    }
+  ],
+  "strategy": "168342",
+  "video": [
+    "168341",
+    "https://yhkd.99.com/inc/20220620011010.inc",
+    "https://wjdown.99.com/games/yhkd/video/hero/220622/ksdd-1.mp4",
+    "https://yhkd.99.com/news/07262022/024816179.shtml"
+  ]
+}

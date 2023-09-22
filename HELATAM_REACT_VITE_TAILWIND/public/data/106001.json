@@ -1,0 +1,433 @@
+{
+  "id": "106001",
+  "name": "Magicka",
+  "type": "3",
+  "features": ["RANGED", "GANKER", "NUKER"],
+  "data": [3, 8, 6, 8],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": [
+    "å¦‚æžœä½ æŠŠ\"ä¸‰é‡å¡ç»„\"å åŠ æ»¡buffï¼Œç®€ç›´äººç¥žå…±æ„¤ï¼Œå¤©ç†éš¾å®¹ï¼"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Magic Princess"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Rainbow Ice"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Gilded Aurora"
+    },
+    {
+      "imgSrc": "4.jpg",
+      "skinName": "Deadly Blossom",
+      "vid": "1e07hyrXLZs"
+    },
+    {
+      "id": "106001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Minty Fresh",
+      "vid": "wOpLUplAu_g"
+    },
+    {
+      "id": "106001303",
+      "imgSrc": "6.jpg",
+      "skinName": "Flourishing Majesty"
+    },
+    {
+      "id": "106001306",
+      "imgSrc": "7.jpg",
+      "skinName": "Lady Luck"
+    },
+    {
+      "id": "106001307",
+      "imgSrc": "8.jpg",
+      "skinName": "Ace Pitcher",
+      "vid": "wojJyWsV3x8"
+    }
+  ],
+  "ski": [
+    {
+      "name": "CARD ATTACK",
+      "desc": [
+        "Throws a card in a target direction, dealing magical damage to enemy units along its path."
+      ],
+      "data": [
+        "Magical Damage: 120/170/220/270 ",
+        "Raidus: 1350",
+        "Cooldown: 4s",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage to enemies along its path"],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical"]
+    },
+    {
+      "name": "POWER UP",
+      "desc": [
+        "Life and death is a matter of seconds! Whenever one of  Magicka's abilities hits an enemy unit, she is granted bonus Spell Power and bonus movement speed for 6s, to a maximum of 5 stacks. Passive: Grants bonus Movement Speed by 10%."
+      ],
+      "data": [
+        "Bonus Spell Power per Stack: 6/10/14/18",
+        "Bonus Movement Speed per Stack: 4/5/6/7%"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": ["Temporarily boosts movement speed and spell power"],
+      "update": ["Movement Speed and Spell Power increased"],
+      "tag": ["Passive", "Buff"]
+    },
+    {
+      "name": "TRIPLE DEAL",
+      "desc": [
+        "Pick a lucky card! Magicka throws 3 cards in a target direction, each dealing magical damage. Enemy units hit by more than one card only take 30% of damage per subsequent card."
+      ],
+      "data": [
+        "Damage: 275/325/375",
+        "Cooldown: 20s",
+        "Mana Cost: 150/200/250",
+        "Radius: 1350"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": [
+        "Deal magic damage in a target direction and increases spell power"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["ULT", "Magical", "Buff"]
+    },
+    {
+      "name": "MAGICAL DECK",
+      "desc": [
+        "Throws a card in a target direction, dealing magical damage to enemy units along its path and causing Stun."
+      ],
+      "data": [
+        "Magical Damage: 140/180/220/260 ",
+        "Radius: 1350",
+        "Cooldown: 10s",
+        "Mana Cost: 80",
+        "Stun Duration: 0.6/0.8/1.0/1.2s"
+      ],
+      "img": "04.png",
+      "keyword": "Disabler",
+      "study": ["Can trap target after attack to stun possible."],
+      "update": ["Ability damage and stun chance increased"],
+      "tag": ["Passive", "Magical", "Disabler"]
+    }
+  ],
+  "story": [
+    "Cute, smart Magicka had always been drawn to the mysteries of magic. The king and queen so loved their only daughter that they scoured the whole kingdom for a powerful witch to teach magic to their girl. The witch said to Magicka:\"I'll give you one magic card. When you really need to use magic, say a prayer and then throw away your most valuable item. Magic will come to help you.\""
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "12533", "10109", "12532", "10228", "12305"],
+      "reason": ["çˆ†å‘ã€æŽ§åˆ¶"]
+    },
+    {
+      "arr": ["12503", "12509", "10124", "12305", "12313", "10109"],
+      "reason": ["ç”Ÿå­˜ã€è¾“å‡º"]
+    },
+    {
+      "arr": ["12307", "12310", "12509", "12513", "12305", "10072"],
+      "reason": ["ç”Ÿå­˜ã€æ¶ˆè€—"]
+    },
+    {}
+  ],
+  "strategy": "151551",
+  "video": [
+    "151521",
+    "https://yhkd.99.com/inc/20160919024206.inc",
+    "https://yhkd.99.com/news/11032016/053024932.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+18"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+3.06"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+14.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+25.2"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+20.07"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+32.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+5.58"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+26.01"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+40.5"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.93"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+32.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+50.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+8.64"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+40.05"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

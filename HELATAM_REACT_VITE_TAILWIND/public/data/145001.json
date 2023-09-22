@@ -1,0 +1,139 @@
+{
+  "id": "145001",
+  "name": "Naiad",
+  "type": "3",
+  "features": ["Ranged", "Support"],
+  "data": [2, 6, 4, 5],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Control your distance from enemies to maximize ability effects."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "HER Qiao Ying"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Ancient Charm"
+    },
+    {
+      "id": "145001304",
+      "imgSrc": "4.jpg",
+      "skinName": "HER Antique Charm"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Phoenix Chant",
+      "desc": [
+        "Naiad plays her zither and generates a sound wave that travels in the target direction. When reaching the farthest, it returns to cause additional damage and slowdown."
+      ],
+      "data": [
+        "Basic Magic Damage: 110/160/210/260",
+        "Bonus Damage: 80/120/160/200",
+        "Slowdown: 50% for 2s",
+        "Radius: 400",
+        "Cast Range: 1500",
+        "Mana Cost: 60/70/80/90",
+        "Cooldown: 9/8/7/6s"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": [
+        "Shoots a sound wave in the target direction and deals extra damage when it returns."
+      ],
+      "update": ["Damage â†‘  Cooldown â†“"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Chasing Echoes",
+      "desc": [
+        "Naiad plucks a silver string to attack the target enemy hero. The sound wave generated will bounce back and forth between two sides 5 times, dealing magical damage to the enemy heroes hit and healing the allied heroes touched. The effect decreases as more times a target is impacted."
+      ],
+      "data": [
+        "Magic Damage: 100/150/200/250",
+        "Healing Effect: 80/130/180/230",
+        "Effect Decay Rate (Same Target): 30%",
+        "Cast Range: 900",
+        "Mana Cost: 90",
+        "Cooldown: 10s"
+      ],
+      "img": "02.png",
+      "keyword": "Regeneration",
+      "study": [
+        "Bounces between enemy heroes and allied heroes, dealing magic damage to enemy heroes and healing allied heroes."
+      ],
+      "update": ["Damage â†‘  Healing â†‘"],
+      "tag": ["Magic", "Buff"]
+    },
+    {
+      "name": "Chaos Tune",
+      "desc": [
+        "Naiad plays aggressive music towards the fan-shape area in front after a short delay, granting bonus speed to herself and the allied heroes impacted. These allied heroes will also recover 30% of their Health lost. The enemy heroes hit will be knocked into the air for 1s and knocked back a distance of 300, suffering magic damage."
+      ],
+      "data": [
+        "Magic Damage: 280/370/460",
+        "Healing Effect: 30% of the Health lost",
+        "Bonus Speed: 15% for 3s",
+        "Knockback Distance: 300",
+        "Knockaway Duration: 1s",
+        "Radius: 1100",
+        "Mana Cost: 200/250/300",
+        "Cooldown: 50/45/40s"
+      ],
+      "img": "03.png",
+      "keyword": "Crowd Control",
+      "study": [
+        "Pushes enemy units away, while grants allied units within the range healing and bonus speed."
+      ],
+      "update": ["Damage â†‘ Speed â†‘"],
+      "tag": ["Ultimate", "Magic"]
+    },
+    {
+      "name": "Feather Dance",
+      "desc": [
+        "Passive: Increases movement speed for a short duration. Hitting the same enemy unit 3 times will trigger additional magic damage."
+      ],
+      "data": [
+        "Bonus Magic Damage: 70/130/190/250",
+        "Bonus Movement Speed: 30% for 1.5s",
+        "Duration (Same Hero): 3s",
+        "Cooldown (Same Hero): 5s"
+      ],
+      "img": "04.png",
+      "keyword": "Magic",
+      "study": [
+        "Increases movement speed. Hitting an enemy unit 3 times will trigger additional magic damage."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["Magic"]
+    }
+  ],
+  "story": [
+    "     In late Eastern Han Dynasty, the city of Wan fell in the control of the Kingdom of Wu. After spring passed by, fallen flowers were scattered all over the city and every place was desolate due to chaos caused by war. A group of soldiers led by two general-like men carried eight/nine large cases full of gold and silver and came to a residence in the eastern suburbs. After the cases were landed, the two men sit down. The leading man saluted to the residence owner and said happily, \"I heard that Duke Qiao have two daughters who are all national beauties. Today Sun Ce comes for proposing marriage. What do you think, Duke Qiao?\"<br>     In the backyard boudoir, Naiad played the zither while listening to a servant reporting the affair that occurred in the front hall. Lotus, who was born pretty, had already become impatient. She hugged the arm of Naiad and swayed it gently, \"Naiad, Naiad, do we two really have to marry the same husband...\" \"Sun Ce is handsome, but he is called the Bully of Jiangdong. I'm afraid that he is not gentle and romantic...\" \"Naiad, isn't it very interesting if the flute of General Pyrrhus can be matched with our zither...\" Naiad patted on the hand of Lotus and said faintly, \"Later you go to the hall together with me. You don't say anything. Just let me handle all things.\"<br>     Sun Ce expressed his intention straightforward in the hall. Duke Qiao knew that he had no way out, but it was difficult for him to make a decision. He had been rushing around with his two daughters for decades in order to escape from the disaster of wars. He was not willing for his two daughters to get involved in wars, but they gradually demonstrated their extreme beauty and their prettiness was widely spread out, so they had to accept their destiny in the end. Noticing that Duke Qiao kept silent, Sun Ce got somewhat impatient. Pyrrhus saw this and opened his mouth. \"Duke Qiao and your two daughters have been homeless for so many years. Isn't it a joyful thing if Duke Wu can become your son-in-law?\"<br>     \"Pyrrhus hits the mark with a single comment. How do you know it's joyful? You seem to understand us two sisters better than Duke Wuâ€”\" Someone said lightly. The voice sounded like a jade falling into an ice pool and even the splash of water was cold.<br>     Sun Ce and Pyrrhus turned back and looked toward the hall parlor. The soldiers crowding the front hall dispersed unconsciously. Two women came over slowly, one in the front and the other one in the back. The woman who spoke just now walked in the front and raised her head slightly with her hair top-knotted and inserted with a phoenix-like spiral feather. She had tall figure and well-proportioned eyes. When she walked, the golden phoenix-like spiral feather and the pendent between her eyebrows wobbled rhythmically. Her clothing was elegant with winding cuffs from the ground and a long skirt tail dragged behind her body. She was as light as water but as noble as a phoenix. She overlooked at Pyrrhus like a monarch overlooked the whole world, \"Why doesn't Pyrrhus propose marriage? Is it because that you look down upon Naiad and Lotus because of our Sinister Prisoner identity?\"<br>     Pyrrhus realized that what he said just now was impolite and was about to say something. But Naiad ignored him and turned over to Sun Ce and bowed slightly, \"Duke Wu, I beg your forgiveness. My father feels awkward because he worries,\" Naiad pulled Lotus to her side. \"We two sisters are always close with each other, but it's inevitable that we will gradually become alienated from each other if we serve the same husband. My father and we two sisters are not willing to see this.\" Having seen that Sun Ce seemed to be absorbed in thought, Naiad continued, \"I heard that Duke Wu has always been kind to talented people and he treated Pyrrhus like his own brother. Duke Wu, you two people propose marriage together. Two talents match two beauties respectively. Both sisterhood and brotherhood are respected in this way. Isn't this a perfect idea?\"<br>     \"Ha-ha, what a perfect idea! Ah, Pyrrhus, you have good luck today. Ehâ€”\" Sun Ce looked at Naiad with great interest. \"Would you marry me or your younger sister married me?\" Naiad couldn't help smiling. Her smile agitated the heart of Sun Ce. \"Duke Wu is joking. I never say that I'm the elder sister. Lotus thinks it's an ancient ritual to respect for seniority. As Duke Wu is elder than Pyrrhus, so Duke Wu should match with the elder sister and I match with Pyrrhus.\" Naiad then pushed Lotus to the side of Sun Ce gently. Sun Ce was in a hurry and yelled that this was improper. Lotus tittered and felt at ease after catching a glimpse of her elder sister. She knew that her elder sister would always protected her.<br>     After marriage was nailed down, Sun Ce responded to the request of Naiad: treating the whole members of Qiao family well. Naiad then re-introduced herself the elder sister. Sun Ce was not angry or annoyed. He smiled and looked Naiad, thinking that he really could not see through this wife. A long time later, Sun Ce asked Naiad what she would do if he agreed with her matching proposal of respecting the seniority at that time.<br>     \"This shows that you are a person who abides by etiquette, then you mean what you say in terms of big issues. After you know the truth and find that I'm elder, then you will still marry me. You chose to follow your heart at that time.\" Naiad then looked back at Sun Ce with a smile, looking like a phoenix falling into the human world. The eyes of Sun Ce were blinkered. He really wanted to ask her, \"What is really in her mind? Did she just want to help Lotus?\" But he hesitated and didn't dare to open his mouth."
+  ],
+  "equip": [
+    {
+      "arr": ["10302", "10228", "12532", "12313", "12305", "10109"],
+      "reason": ["Nuker\nDPS"]
+    },
+    {
+      "arr": ["125151", "10109", "12532", "12317", "12305", "10072"],
+      "reason": ["Escape\nDPS"]
+    },
+    {
+      "arr": ["12514", "12532", "12313", "10109", "10228", "12305"],
+      "reason": ["Ganker\nDisabler"]
+    },
+    {}
+  ],
+  "strategy": "166842",
+  "video": [
+    "166841",
+    "https://yhkd.99.com/inc/20201208020629.inc",
+    "https://yhkd.99.com/news/01052021/184459041.shtml"
+  ]
+}

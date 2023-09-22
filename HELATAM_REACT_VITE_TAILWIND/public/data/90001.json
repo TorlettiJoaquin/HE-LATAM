@@ -1,0 +1,132 @@
+{
+  "id": "90001",
+  "name": "Titan",
+  "type": "1",
+  "features": ["TANK", "DISABLER"],
+  "data": [7, 0, 6, 3],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": ["Earthen Shield reduces the time of Paralysis debuff."],
+  "vid": "",
+  "skin": [
+    {
+      "id": "90001303",
+      "imgSrc": "1.jpg",
+      "skinName": "Super Weightlifter"
+    },
+    {
+      "id": "90001302",
+      "imgSrc": "2.jpg",
+      "skinName": "Master Chef"
+    },
+    {
+      "id": "90001304",
+      "imgSrc": "3.jpg",
+      "skinName": "Chrono Hammer"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SHOCKHAMMER",
+      "desc": [
+        "Titan wields his almighty hammer, dealing damage and slowing Movement Speed to enemies in the area. Titan is paralyzed for a brief moment after throwing the hammer. Hitting a target reduces the cooldown on Sudden Attack by 50%."
+      ],
+      "data": [
+        "Physical Damage: 120/190/260/330",
+        "Paralysis Duration: 0.75s",
+        "Slowdown: 30% for 3s",
+        "Radius: 550",
+        "Cooldown: 5s",
+        "Mana Cost: 40"
+      ],
+      "img": "01.png",
+      "keyword": "PHYSICAL",
+      "study": ["Deals physical damage and reduces movement speed"],
+      "update": ["Damage â†‘"],
+      "tag": ["PHYSICAL"]
+    },
+    {
+      "name": "SUDDEN ATTACK",
+      "desc": [
+        "Titan charges in a target direction, dealing damage and gaining an Earthen Shield. Enemies hit by this stop and slow down. Using this ability after Shockhammer removes Paralysis debuff."
+      ],
+      "data": [
+        "Physical Damage: 90/150/210/270",
+        "Cast Range: 850",
+        "Slowdown: 20% for 3s",
+        "Cooldown: 10/9/8/7s",
+        "Mana Cost: 40/45/50/55"
+      ],
+      "img": "02.png",
+      "keyword": "CHARGE",
+      "study": ["Charges, dealing damage and gaining a shield."],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["PHYSICAL", "CHARGE"]
+    },
+    {
+      "name": "TITANIC ANGER",
+      "desc": [
+        "Titan's rage soars. Upon activation, enemy movement is slowed by 30%, which continues for 3 seconds after leaving the area of effect. Thereafter, Titan accumulates rage for up to 2 seconds, with a 1-second buffer. Re-casting or interrupting causes Titan to slam his hammer into the ground, dealing physical damage to an area and causing Stun for 0.5 to 1.5 seconds depending on the duration of rage charge-up. Titan is immune to Stun during charge-up period."
+      ],
+      "data": [
+        "Base Physical Damage: 300/400/500 +3% Max Health",
+        "Bonus Physical Damage per Second: 100/160/220",
+        "Radius: 1000",
+        "Cooldown: 60/55/50s",
+        "Mana Cost: 100"
+      ],
+      "img": "03.png",
+      "keyword": "PHYSICAL",
+      "study": ["Cause damage and stun after charge-up."],
+      "update": ["Damage â†‘ Cooldown â†“"],
+      "tag": ["DISABLER", "PHYSICAL"]
+    },
+    {
+      "name": "EARTHEN SHIELD",
+      "desc": [
+        "Grants Titan a shield to block damage. Titan's next attack Roots a target, dealing bonus physical damage. Casting Shockhammer while Earthen Shield is erected prevents Paralysis debuff."
+      ],
+      "data": [
+        "Damage Blocked: 150/200/250/300 +4% Max Health",
+        "Bonus Damage: 110/160/210/260",
+        "Duration: 5s",
+        "Root Duration: 1s",
+        "Cooldown: 8s",
+        "Mana Cost: 50"
+      ],
+      "img": "04.png",
+      "keyword": "PHYSICAL",
+      "study": [
+        "Grants a shield that imbues the next attack with Root, causing extra damage."
+      ],
+      "update": ["Damage â†‘"],
+      "tag": ["BUFF", "DISABLER"]
+    }
+  ],
+  "story": [
+    "     The depths of his memory were covered with occult haze and could never be removed. The prophet told his ominous future at the time of his birth â€“ he and his brothers would kill their father, got bad repute and became the enemies of all people in the most tragic manner. This curse ran throughout his life like a haunting shadow. The father never hid his abomination of them and even wanted to get rid of them soon, but the mother hid them in the name of the earth. His childhood memories were all about hiding from place to place and surviving humbly.<br>     Titan wielded the heavy hammer in his hands, trying to expel the memories out of his mind. His father, the Great God Uranus, stood high in the sky and overlooked at him arrogantly. However, this reunion was not worth celebrating. He would rather cut off the disgusting relationship with his great father than carrying curses, living humbly and bearing baseless charges. The air was filled with smoke and blood. The disparity in power failed to break Titan's fighting spirit. His body got as dilapidated as the land under him, but he would never yield as long as he was able to fight again! Titan stood up again and again, keeping his body upright. He would never be defeated unless his head was cut off!<br>     Prophecy was finally realized in a horrifying way, but Titan laughed loudly.<br>     \"Come on!\" he muttered. \"I have seized my fate! I am fearless!\""
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10048", "12309", "10265", "12316", "10263"],
+      "reason": ["TANK\nDISABLER"]
+    },
+    {
+      "arr": ["12514", "10048", "12512", "12316", "10263", "10069"],
+      "reason": ["DPS\nTANK"]
+    },
+    {
+      "arr": ["10302", "10048", "12316", "12516", "10263", "10069"],
+      "reason": ["GANKER\nDISABLER"]
+    },
+    {}
+  ],
+  "strategy": "166002",
+  "video": [
+    "166001",
+    "https://yhkd.99.com/inc/20200603194658.inc",
+    "https://yhkd.99.com/news/06032020/204731097.shtml"
+  ]
+}

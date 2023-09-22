@@ -1,0 +1,137 @@
+{
+  "id": "3001",
+  "name": "Yang Jian",
+  "type": "2",
+  "features": ["Ganker", "Melee"],
+  "data": [8, 0, 6, 7],
+  "way": "1",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Flash into the crowds and cast the ultimate ability after your enemy uses a control ability."
+  ],
+  "skin": [
+    {
+      "id": "3001201",
+      "imgSrc": "1.jpg",
+      "skinName": "Winged Fiend"
+    },
+    {
+      "id": "3001301",
+      "imgSrc": "2.jpg",
+      "skinName": "Moon Rider"
+    },
+    {
+      "id": "3001302",
+      "imgSrc": "3.jpg",
+      "skinName": "Feathered Deity"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Silver Halberd ",
+      "desc": [
+        "Yang Jian hurls a halberd to attack enemy units along its path and slow nearby enemy units after it lands on the ground, getting the vision of the halberd at the same time. (If the halberd hits an enemy hero, it stops at the hero's feet). Re-casts it to dash to the halberd's location, dealing damage and silencing nearby enemies."
+      ],
+      "data": [
+        "Physical Damage (Hurl): 130/190/250/310",
+        "Physical Damage (Dash): 110/160/210/240",
+        "Radius: 500",
+        "Cast Range (1st Cast): 1200",
+        "Cast Range (2nd Cast): 1600",
+        "Slow Effect: 50% (Lasts for 1 second after leaving the range.)",
+        "Cooldown: 11/10/9/8s",
+        "Mana Cost: 60"
+      ],
+      "img": "01.png",
+      "keyword": "Push",
+      "study": ["Causes damage and slowdown. Dashes at the 2nd cast."],
+      "update": ["Damageâ†‘  Cooldownâ†“"],
+      "tag": ["Push", "Control"]
+    },
+    {
+      "name": "Shield Glare",
+      "desc": [
+        "Yang Jian drains enemies' energy to slow enemy units and generates a shield for 3 seconds that blocks damage based on the number of enemy hero units hit."
+      ],
+      "data": [
+        "Damage Blocked: 150/260/370/480",
+        "Bonus Shield for Hitting Heroes: 40/70/100/130",
+        "Slow Effect: 50% for 2s",
+        "Radius: 500",
+        "Shield Duration: 3s",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "02.png",
+      "keyword": "Buff",
+      "study": ["Slows enemies and gives a shield."],
+      "update": ["Damage Blockedâ†‘"],
+      "tag": ["Control", "Buff"]
+    },
+    {
+      "name": "Spinning Sharp",
+      "desc": [
+        "Yang Jian spins a heavy halberd around to form a whirlwind which pulls units closer and stuns them. The radius and Stun duration can be extended by channeling energy. Yang Jian is immune to control effects while channeling. If not cast in 4 seconds, the ability will be deactivated automatically and 75% of the cooldown time will be returned."
+      ],
+      "data": [
+        "Physical Damage: 225/300/375",
+        "Stun Duration: 0.5 to 1.7s",
+        "Basic Radius: 300",
+        "Max Radius: 600",
+        "Mana Cost: 100/120/140",
+        "Cooldown: 60/55/50s"
+      ],
+      "img": "03.png",
+      "keyword": "Control",
+      "study": ["Pulls enemies closer and stuns them."],
+      "update": ["Damageâ†‘ Cooldownâ†“"],
+      "tag": ["Control", "Ultimate"]
+    },
+    {
+      "name": "Boundless Sight",
+      "desc": [
+        "With the third eye open, Yang Jian receives a high bonus of Attack based on the number of nearby enemy hero units. Meanwhile, his basic attacks splash damage to adjacent units. Passive: Fully energizes Yang Jian with mana and grants bonus Attack."
+      ],
+      "data": [
+        "Bonus Attack (Passive): 20/40/60/80",
+        "Bonus Attack per Hero: 20/40/60/80",
+        "Radius: 400",
+        "Damage Splashed: 65%",
+        "Duration: 5s",
+        "Mana Cost: 70",
+        "Cooldown: 10s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Get buffs based on nearby enemy heroes' Health."],
+      "update": ["Rangeâ†‘ Buffâ†‘"],
+      "tag": ["Buff", "Passive"]
+    }
+  ],
+  "story": [
+    "     No one knew why gods liked to place people under mountains. So many mountains looked like tombstones and once-free souls were placed under them. Maybe gods thought that the mountain never collapsed, but Yang Jian knew that there was no eternity. Sea could turn into farmland within an instant.<br>     As the immortal of law enforcement, Yang Jian had been wearing a cold mask. He held a two-blade and three-pointed halberd in his hand and mastered the mysterious nine-turning martial arts and seventy-three metamorphoses. He could turn into numerous things to sweep away all enemies and wipe out demons and monsters for Celestial Temple and the human world. However, the sky eye on his forehead had not opened for nearly five hundred years, perhaps because he was unwilling to see his younger sister Yang Chan and his buddy monkey trapped under mountain just like his mother in the past. Yang Jian resisted, but unfortunately, he failed. His fleshy body was destroyed. Only his primordial spirit remained and had to continue to follow the order of the Celestial Temple.<br>     The Sky Barking Hound was the only remaining partner of Yang Jian. This guy always looked up and barked at the heaven and the uncle of Yang Jian. Yang Jian was waiting in the small temple at the mouth of Guan River, waiting for the monkey to be set free and poke through the heaven together with him."
+  ],
+  "equip": [
+    {
+      "arr": ["10100", "10058", "10048", "10065", "10069", "10049"],
+      "reason": ["Ganker\nInitiator"]
+    },
+    {
+      "arr": ["10302", "10272", "10068", "10237", "10069", "12516"],
+      "reason": ["Ganker\nRoamer"]
+    },
+    {
+      "arr": ["10100", "10058", "10237", "12508", "12516", "10127"],
+      "reason": ["Escape\nHarasser"]
+    },
+    {}
+  ],
+  "strategy": "166281",
+  "video": [
+    "166282",
+    "https://yhkd.99.com/inc/20200819001612.inc",
+    "https://yhkd.99.com/news/08192020/025454687.shtml"
+  ]
+}

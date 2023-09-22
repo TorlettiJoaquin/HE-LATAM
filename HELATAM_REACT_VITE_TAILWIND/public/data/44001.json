@@ -1,0 +1,119 @@
+{
+  "id": "44001",
+  "name": "Rena",
+  "type": "3",
+  "features": ["Ranged", "Intelligence", "Nuker"],
+  "data": [2, 8, 3, 6],
+  "way": "0",
+  "gold": "-",
+  "diamond": "-",
+  "point": "-",
+  "tips": [
+    "Select ability combos based on enemies' status to perform explosive attacks efficiently."
+  ],
+  "skin": [
+    {
+      "id": "44001304",
+      "imgSrc": "2.jpg",
+      "skinName": "Fashion Star"
+    },
+    {
+      "id": "44001305",
+      "imgSrc": "4.jpg",
+      "skinName": "Dream Carp",
+      "vid": "a-seTToIYPg"
+    }
+  ],
+  "ski": [
+    {
+      "name": "Spirit Possession",
+      "desc": [
+        "Summons a fox spirit to charge forward, dealing magic damage to enemies along its path. If it hits an enemy hero, deals magic damage and applies a number of Possession Stamps based on Rena's current stacks of Charm Surge.<br>Possession Stamp: Slows the target for 3s. All the stamps explode if the target takes magic damage from Rena (except item abilities and effects), each dealing true damage equal to a certain percentage of the target's Max Health."
+      ],
+      "data": [
+        "Magic Damage: 100/160/220/280",
+        "Slow: 30%/35%/40%/45%",
+        "Max Health as True Damage (%): 1%/1%/2%/2%",
+        "Mana Cost: 40/50/60/70"
+      ],
+      "img": "01.png",
+      "keyword": "Magic",
+      "study": ["Deals magic damage and true damage."],
+      "update": ["Damageâ†‘  Effectâ†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Demonic Strike",
+      "desc": [
+        "Unleashes demonic power to a fan-shaped area in front. The area of effect is divided into two parts. In the outer part, the power becomes ground spikes to deal magic damage and the final damage may increase based on Rena's stacks of Charm Surge. While in the inner part, it deals 2/3 of the damage.<br>Damage Boost: Each stack of Charm Surge grants a fixed percentage of damage. All these percentages add together to increase the final damage."
+      ],
+      "data": [
+        "Magic Damage: 150/210/270/330",
+        "Fixed Percentage: 8%/9%/10%/11%",
+        "Mana Cost: 50/60/70/80"
+      ],
+      "img": "02.png",
+      "keyword": "Magic",
+      "study": ["Deals massive damage to enemies."],
+      "update": ["Damageâ†‘"],
+      "tag": ["Magic"]
+    },
+    {
+      "name": "Illusive Charm",
+      "desc": [
+        "Summons a charming shadow to dash forward, dealing magic damage to and alluring an enemy hero it encounters while applying Soulcurses.<br>Allure: Tempts the target to walk towards Rena for 0.6s. The duration extends by 0.1s for every certain distance from the target hit (Maximum Range: 1400). Allure doesn't apply again while Soulcurse is active.<br>Soulcurse: Applies Soulcurses which are three times the number of the magical tails sacrificed while casting the ability, lasting for a while. During the period, death of an enemy hero restores Rena's magical tails equal to the number of Soulcurses."
+      ],
+      "data": [
+        "Magic Damage: 120/220/320",
+        "Hit Distance: 500/400/300",
+        "Duration: 5s",
+        "Mana Cost: 80/100/120"
+      ],
+      "img": "03.png",
+      "keyword": "Ultimate",
+      "study": ["Deals magic damage to and allures."],
+      "update": ["Crowd Controlâ†‘"],
+      "tag": ["Ultimate", "Crowd Control"]
+    },
+    {
+      "name": "Charm Surge",
+      "desc": [
+        "Charm Surge: No cooldowns on all abilities. Sacrifices her magical tails to use this ability and waits 3s to enter the Charm Surge status. Charm Surge is stacked immediately after using the ability and takes effect. The number of Charm Surge stacks is equal to the number of magical tails sacrificed. Stacks Charm Surge up to 9 times, each giving bonus Movement Speed. Under the status of Charm Surge, using this ability again increases the number of magical tails sacrificed by 1, up to 3. Rena has 9 magical tails initially and restores 1 tail at set intervals except during the Charm Surge status. Every 1% Cooldown Reduction obtained from items gets converted into 1 Magic Power.<br>Resentment: Rena restores all her magical tails upon her own death and continues to act for a while, becoming Untouchable. During the period, participating in kills reduces the time required to revive by 20% per kill. This status ends early when running out of magical tails."
+      ],
+      "data": [
+        "Movement Speed: 0%/5%/6%/7%/8%",
+        "Restoration Interval: 0.7/0.7/0.6/0.5/0.4",
+        "Act Duration: 0/3/4/5/6s"
+      ],
+      "img": "04.png",
+      "keyword": "Buff",
+      "study": ["Casts the ability continuously and increases movement speed."],
+      "update": ["Tail Restoration Speedâ†‘"],
+      "tag": ["Passive", "Buff"]
+    }
+  ],
+  "story": [
+    "     On the glorious painting unscrolled, the fairy fox saw a kingdom with prosperous landscapes and the king was waiting at the end of a flower road. Did she accept the arrangement that would make her the queen of the most powerful king?<br>     Ten years have passed in a flash and the fairy fox has become the king's most loved queen named Rena. People fell down and praised in adoration to her beauty, but she was still in the pain of missing someone. When the palace gates were broke through, she felt like falling into an endless abyss along with the perfect world. No one could escape the fate.<br>     As the flame of war burnt itself out, Rena woke up from the dream. She bowed down to the divine master, then left for the love she was longing for."
+  ],
+  "equip": [
+    {
+      "arr": ["12503", "10109", "12509", "12305", "12313", "12312"],
+      "reason": ["Normal DPS"]
+    },
+    {
+      "arr": ["125030", "10071", "12312", "12305", "12532", "12513"],
+      "reason": ["Sustained Combat"]
+    },
+    {
+      "arr": ["125030", "10071", "12310", "12305", "12532", "12313"],
+      "reason": ["Burst"]
+    },
+    {}
+  ],
+  "strategy": "168041",
+  "video": [
+    "168042",
+    "https://yhkd.99.com/inc/20220328181615.inc",
+    "https://yhkd.99.com/news/03282022/223528748.shtml?index=3"
+  ]
+}

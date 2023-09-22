@@ -1,0 +1,423 @@
+{
+  "id": "138001",
+  "name": "Cherith",
+  "type": "1",
+  "features": ["Melee", "Disabler", "Durable"],
+  "data": [8, 5, 7, 5],
+  "way": "0",
+  "gold": "13888",
+  "diamond": "-",
+  "point": "588",
+  "tips": ["é­”çŽ‹æ’’æ—¦çš„å¥³å„¿ï¼Œæ¥è‡ªåœ°ç‹±çš„å…¬ä¸»ï¼"],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Missy Stardust",
+      "vid": "fSKjYjN4gJM"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Fairy Maiden",
+      "vid": "FNJybr65d00"
+    },
+    {
+      "id": "138001303",
+      "imgSrc": "3.jpg",
+      "skinName": "Alchemist",
+      "vid": "osA1L1P41H8"
+    },
+    {
+      "id": "138001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Eternal Dream"
+    },
+    {
+      "id": "138001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Bubblegator Fairy",
+      "vid": "qWaOHUyaEt0"
+    }
+  ],
+  "ski": [
+    {
+      "name": "SUCCUBUS RUSH",
+      "desc": [
+        "Cherith drags along her enormous scythe and dashes to the target area, cleaving all enemy units inside for magical damage while causing Movement Slow by 30%. Cherith is immune to disables during the dash and at the end of it she recovers all Health lost within the last 1.75s."
+      ],
+      "data": [
+        "Magical Damageï¼š140/180/220/260",
+        "Cast Range: 1000",
+        "Radius: 500",
+        "Cooldown: 12/11/10/9ç§’",
+        "Mana Cost: 70"
+      ],
+      "img": "01.png",
+      "keyword": "Rush",
+      "study": [
+        "Dashes, damages, slows and recovers Health lost within a period"
+      ],
+      "update": ["Increased damage, reduced cooldown"],
+      "tag": ["Magical", "DISABLER", "Rush"]
+    },
+    {
+      "name": "SCYTHE BOOGIE",
+      "desc": [
+        "Cherith swings her enormous scythe with all of her might, dealing magical damage to surrounding enemy units. Each subsequent Scythe Boogie cast within the next 5s deals increased damage, stacking up to 4 times. Scythe Boogie also deals bonus magical damage to enemy units slowed by Queen of Bliss, and causes Confusion for 1s."
+      ],
+      "data": [
+        "Magical Damageï¼š80/120/160/200",
+        "Increase Per Cast: 30/40/50/60 Magical Damage",
+        "Bonus Magical Damage: 50/70/90/110",
+        "Cooldown: 3s",
+        "Radius: 600",
+        "Mana Cost: 45/50/55/60"
+      ],
+      "img": "02.png",
+      "keyword": "AOE",
+      "study": [
+        "Damages nearby enemies, bonus damage to units slowed by Queen of Bliss"
+      ],
+      "update": ["Increased damage and bonus damage"],
+      "tag": ["Magical", "DISABLER"]
+    },
+    {
+      "name": "PLEASURE GROUND",
+      "desc": [
+        "Cherith channels for a split second and tosses her scythe to the target area, creating a zone for 6s that deals magical damage to enemy units and causes slow by 30%. The zone detonates when Cherith steps inside of it, dealing bonus magical damage to enemy units and causing Confusion for 1s. The zone dissipates after detonation."
+      ],
+      "data": [
+        "Magical Damageï¼š225/300/375",
+        "Bonus Magical Damage: 50/100/150",
+        "Cooldown: 50/45/40s",
+        "Radius: 500",
+        "Cast Range: 1300",
+        "Mana Cost: 100/125/150"
+      ],
+      "img": "03.png",
+      "keyword": "Magical",
+      "study": [
+        "Release the zone to deal damage continuously and cause slow, detonate the zone to cause Confusion and bonus damage"
+      ],
+      "update": ["Increased damage and bonus damage, reduced cooldown"],
+      "tag": ["Magical", "DISABLER", "ULT"]
+    },
+    {
+      "name": "QUEEN OF BLISS",
+      "desc": [
+        "Cherith imbues her scythe with the powers of the Succubus whenever she performs a basic attack or casts an ability. At 4 stacks her next basic attack will deal on-hit bonus magical damage and cause slow by 30% for 2.5s."
+      ],
+      "data": ["Bonus Magical Damage: 60/80/100/120"],
+      "img": "04.png",
+      "keyword": "Passive",
+      "study": [
+        "At max stacks, the next basic attack deals bonus damage and causes slow"
+      ],
+      "update": ["Increased bonus damage"],
+      "tag": ["Passive", "DISABLER"]
+    }
+  ],
+  "story": [
+    "Cherith was the demoness of the night and the daughter of Satan. Unlike her fun-loving sisters, Cherith was far more dangerous and ambitious. She wanted to turn all of the human jurisdiction into monster territory. However, Diana the Huntress kept blocking her plan, and she chased Diana back to the human citadel."
+  ],
+  "equip": [
+    {
+      "arr": ["12502", "10048", "12309", "12533", "12316", "12516"],
+      "reason": ["æ‰“é‡Žã€è¾“å‡º"]
+    },
+    {
+      "arr": ["10100", "12309", "10069", "12512", "10125", "12516"],
+      "reason": ["æ¸¸èµ°ã€æŽ¨è¿›"]
+    },
+    {
+      "arr": ["12502", "10048", "12533", "12316", "10263", "10265"],
+      "reason": ["ç”Ÿå­˜ã€æŽ¨è¿›"]
+    },
+    {}
+  ],
+  "strategy": "160801",
+  "video": [
+    "160802",
+    "https://yhkd.99.com/inc/20171120225604.inc",
+    "https://v.qq.com/x/page/g0508i11jv7.html"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+21.15"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+4.23"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+2.43"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r15.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b16.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g19.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+30.15"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+6.03"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+3.51"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r25.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b26.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g29.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+39.24"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+7.83"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+4.59"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r35.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b36.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g39.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+48.24"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+9.63"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+5.58"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r45.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b46.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g49.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+60.3"
+          },
+          {
+            "name": "æ”»å‡»",
+            "val": "+12.06"
+          },
+          {
+            "name": "æ³•æŠ—",
+            "val": "+7.02"
+          },
+          {
+            "name": "ç‰©ç†å¸è¡€",
+            "val": "+5.4%"
+          },
+          {
+            "name": "ç‰©ç†ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "è¡€åˆƒ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r55.png"
+          },
+          {
+            "name": "é­”éšœ",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b56.png"
+          },
+          {
+            "name": "å¼ºè¢­",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g59.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b10.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

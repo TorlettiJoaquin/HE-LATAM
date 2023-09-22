@@ -1,0 +1,423 @@
+{
+  "id": "61001",
+  "name": "Lunaria",
+  "type": "3",
+  "features": ["RANGED", "ROAMER", "NUKER"],
+  "data": [2, 7, 6, 7],
+  "way": "0",
+  "gold": 13888,
+  "diamond": 588,
+  "tips": ["Don`t forget to detonate Luna Seed."],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Moon Fairy"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Moon Maiden",
+      "vid": "a8GkD1B3jyk"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Crescent Duchess",
+      "vid": "sBdxbOC3f8Y"
+    },
+    {
+      "id": "61001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Flawless Twilight"
+    },
+    {
+      "imgSrc": "5.jpg",
+      "skinName": "Floral Curse"
+    },
+    {
+      "id": "61001306",
+      "imgSrc": "6.jpg",
+      "skinName": "Morpheus"
+    }
+  ],
+  "ski": [
+    {
+      "name": "MOONFLOWER",
+      "desc": [
+        "Plants a Moonflower at a target area, causing Movement Slow to nearby enemy units. The Moonflower explodes after 0.5s, dealing magical damage to nearby enemy units and causes Movement Slow for 2.5s."
+      ],
+      "data": [
+        "Damage: 170/230/290/350 ",
+        "Movement Slow: 24/28/32/36%",
+        "Cast Range: 1000",
+        "Effect Radius: 450",
+        "Cooldown: 9/8/7/6s",
+        "Mana Cost: 100"
+      ],
+      "img": "01.png",
+      "keyword": "AOE CC",
+      "study": [
+        "Slows and deals magical damage to enemies in the affected area."
+      ],
+      "update": ["Ability damage and slowing effect increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "MOON FORCE",
+      "desc": [
+        "Uses the power of the illusory moon to cause Rabbit Form to the target enemy hero unit, dealing magical damage and causes Mana Drain. Rabbit Form causes the enemy hero unit to move slowly and prevents the usage of basic attacks and abilities."
+      ],
+      "data": [
+        "Damage: 175/225/275/325",
+        "_Mana Drain: 80/120/160/200",
+        "Cast Range: 800",
+        "Cooldown: 12s",
+        "Mana Cost: 100",
+        "Rabbit Form: 1s/1.23s/1.5s/1.75s",
+        "Movement Slow: 20%"
+      ],
+      "img": "02.png",
+      "keyword": "DISABLER",
+      "study": [
+        "Causes Rabbit Form, dealing magical damage and causes Mana Drain."
+      ],
+      "update": ["Ability damage and Mana drain increased."],
+      "tag": ["MAGICAL", "DISABLER"]
+    },
+    {
+      "name": "SONG OF THE MOON",
+      "desc": [
+        "Lunaria channels for a short while and fires a powerful moon beam at a target direction, dealing massive magical damage to enemy units along its path."
+      ],
+      "data": [
+        "Damage: 400/500/600",
+        "Cast Range: 5000",
+        "Mana Cost: 200/250/300",
+        "Cooldown: 55/45/35s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals massive magical damage at a target direction."],
+      "update": ["Ability damage increased and cooldown reduced."],
+      "tag": ["ULT", "MAGICAL"]
+    },
+    {
+      "name": "FLORAL ECLIPSE",
+      "desc": [
+        "PASSIVE: Whenever Lunaria deals damage to an enemy unit with an ability, she debuffs them with Floral Eclipse for 6s. Lunaria`s basic attacks and abilities against these enemy units consume Floral Eclipse, which deals bonus magical damage."
+      ],
+      "data": ["Bonus Damage: 80/110/140/170"],
+      "img": "04.png",
+      "keyword": "BUFF",
+      "study": ["Deals bonus magical damage to the target."],
+      "update": ["Ability damage increased."],
+      "tag": ["PASSIVE", "MAGICAL", "BUFF"]
+    }
+  ],
+  "story": [
+    "Lunaria used to be a mortal girl, but she had the elixir by mistake and lived on the moon with Lapina ever after."
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12310", "10109", "12532", "12305"],
+      "reason": ["NUKER\nDPS"]
+    },
+    {
+      "arr": ["12503", "10123", "12513", "10228", "12305", "10124"],
+      "reason": ["ESCAPE\nSUPPORT"]
+    },
+    {
+      "arr": ["10089", "12310", "10109", "12513", "10228", "12305"],
+      "reason": ["DISABLER\nDPS"]
+    },
+    {}
+  ],
+  "strategy": "151539",
+  "video": [
+    "151531",
+    "https://yhkd.99.com/inc/20160919031631.inc",
+    "https://yhkd.99.com/news/09222016/004016354.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+18"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+3.06"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+14.04"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "OPPRESSOR",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+25.2"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+4.32"
+          },
+          {
+            "name": "SPLS",
+            "val": "+1.8%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+20.07"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+32.4"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+5.58"
+          },
+          {
+            "name": "SPLS",
+            "val": "+2.7%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+26.01"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MINOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+40.5"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+6.93"
+          },
+          {
+            "name": "SPLS",
+            "val": "+3.6%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+32.04"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+
+      {
+        "attr": [
+          {
+            "name": "HEALTH",
+            "val": "+50.4"
+          },
+          {
+            "name": "SPELL POWER",
+            "val": "+8.64"
+          },
+          {
+            "name": "SPLS",
+            "val": "+4.5%"
+          },
+          {
+            "name": "MOVEMENT SPEED",
+            "val": "+40.05"
+          },
+          {
+            "name": "SPPUNCT",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "CUNNING",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "SORCERY",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "RACER",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "MISER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "BOUNTY HUNTER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "DEVOURER",
+            "level": "MAJOR",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}

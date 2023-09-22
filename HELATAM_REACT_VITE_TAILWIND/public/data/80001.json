@@ -1,0 +1,434 @@
+{
+  "id": "80001",
+  "name": "Flavia",
+  "type": "3",
+  "features": ["RANGED", "DISABLER", "GANKER"],
+  "data": [3, 8, 6, 7],
+  "way": "0",
+  "gold": "18888",
+  "diamond": "688",
+  "point": "-",
+  "tips": [
+    "å…ˆç”¨â€œç«ç„°é”å®šâ€å‡»ä¸­ç›®æ ‡ï¼Œè¿™æ ·ä»–å°±å˜æˆä½ å…¶ä»–æŠ€èƒ½çš„é¶å­äº†ï¼"
+  ],
+  "vid": "",
+  "skin": [
+    {
+      "imgSrc": "1.jpg",
+      "skinName": "Blazing Enchantress"
+    },
+    {
+      "imgSrc": "2.jpg",
+      "skinName": "Tempting Incendiary"
+    },
+    {
+      "imgSrc": "3.jpg",
+      "skinName": "Flower Power",
+      "vid": "nAFCjOG71_M"
+    },
+    {
+      "id": "80001304",
+      "imgSrc": "4.jpg",
+      "skinName": "Smoldering Tease",
+      "vid": "6iGKGx90zJQ"
+    },
+    {
+      "status": "en",
+      "imgSrc": "6-en.jpg",
+      "skinName": "Toxic Lurker"
+    },
+    {
+      "id": "80001305",
+      "imgSrc": "5.jpg",
+      "skinName": "Lady Shine"
+    },
+    {
+      "id": "80001309",
+      "imgSrc": "6.jpg?",
+      "skinName": "Astro Director"
+    }
+  ],
+  "ski": [
+    {
+      "name": "FIRELANCE",
+      "desc": [
+        "Launches a fiery lance in a target direction, dealing magical damage to the first enemy unit it hits. The Firelance then explodes, dealing magical damage to nearby enemy units within a 400 radius, and causing Stun for 1s to enemy hero units debuffed with Flame Lock."
+      ],
+      "data": [
+        "Primary Damage: 80/100/120/140",
+        "Burst Damage: 110/140/170/200",
+        "Cast Range: 1200",
+        "Mana Cost: 70/80/90/100",
+        "Cooldown: 5s"
+      ],
+      "img": "01.png",
+      "keyword": "Disabler",
+      "study": [
+        "Launches arrow in a target direction, dealing magical damage to enemies"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "FLAME LOCK",
+      "desc": [
+        "Deals magical damage to a target area after 0.5s, causing Movement Slow 30% for 4s. Enemy hero units in the area are debuffed with Flame Lock for 6s."
+      ],
+      "data": [
+        "Magical Damage: 160/220/280/340",
+        "Radius: 400",
+        "Cast Range: 900",
+        "Mana Cost: 100",
+        "Cooldown: 10/9/8/7s"
+      ],
+      "img": "02.png",
+      "keyword": "AOE CC",
+      "study": [
+        "Deals magic damage and slows enemy movement in a target area, while marking enemy heroes"
+      ],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "Disabler"]
+    },
+    {
+      "name": "SEA OF FIRE",
+      "desc": [
+        "Summons a Sea of Fire around Flavia for 5s, dealing continuous Magical Damage to nearby enemy units, while causing Movement Slow by 20%. Flavia reduces her damage taken, gains bonus Movement Speed, and bonus Health Regen."
+      ],
+      "data": [
+        "Magic Damage Every 0.5s: 60/80/100",
+        "Bonus Movement Speed: 60/80/100",
+        "Bonus Health Regen: 40/60/80 Per sec",
+        "Duration: 5s",
+        "Damage Reduction: 7%/10%/13%",
+        "Radius: 800",
+        "Mana Cost: 100/150/200",
+        "Cooldown: 45s"
+      ],
+      "img": "03.png",
+      "keyword": "AOE",
+      "study": ["Deals massive magical damage and increases movement speed"],
+      "update": ["Ability damage and movement speed are increased"],
+      "tag": ["ULT", "AOE", "Buff"]
+    },
+    {
+      "name": "FLAME SPIRAL",
+      "desc": [
+        "Summons 3 flaming orbs that orbit Flavia, automatically attacking nearby enemy units, dealing magical damage. Prioritizes enemy units debuffed with Flame Lock."
+      ],
+      "data": [
+        "Damage per Orb: 60/75/90/105",
+        "Radius:900",
+        " Mana Cost: 60/70/80/90",
+        "Cooldown: 5s"
+      ],
+      "img": "04.png",
+      "keyword": "AOE",
+      "study": ["Deals magical damage to nearby enemies"],
+      "update": ["Ability damage increased"],
+      "tag": ["Magical", "AOE"]
+    }
+  ],
+  "story": [
+    "Dinah was born with a mastery of fire. However, her mother cursed her existence for this. If Falstaff had never found her; if he had never explained her unique, latent abilities; if she had never been to study at the Academy: would the world have ever seen the hero we today call Flavia?"
+  ],
+  "equip": [
+    {
+      "arr": ["12307", "10123", "12509", "10251", "10124", "12305"],
+      "reason": ["çˆ†å‘ã€æŽ§åˆ¶"]
+    },
+    {
+      "arr": ["12503", "10123", "12312", "10228", "12313", "12305"],
+      "reason": ["æ¶ˆè€—ã€æŽ§åˆ¶"]
+    },
+    {
+      "arr": ["12307", "12312", "10123", "10124", "12513", "10228"],
+      "reason": ["æŽ¨è¿›ã€ç”Ÿå­˜"]
+    },
+    {}
+  ],
+  "strategy": "154329",
+  "video": [
+    "154330",
+    "https://yhkd.99.com/inc/20161228181931.inc",
+    "https://yhkd.99.com/news/01232017/190558295.shtml"
+  ],
+  "jewel": [
+    [
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+18"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+3.06"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+14.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+1.8%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r17.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b19.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g16.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "æƒå¼ºå‡Œå¼±",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b9.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+25.2"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+4.32"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+1.8%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+20.07"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+2.7%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r27.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b29.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g26.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r1.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g13.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+32.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+5.58"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+2.7%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+26.01"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+3.6%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r37.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b39.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g36.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "åˆçº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b11.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+40.5"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+6.93"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+3.6%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+32.04"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+4.5%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r47.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b49.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g46.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      },
+      {
+        "attr": [
+          {
+            "name": "ç”Ÿå‘½",
+            "val": "+50.4"
+          },
+          {
+            "name": "æ³•å¼º",
+            "val": "+8.64"
+          },
+          {
+            "name": "æ³•æœ¯å¸è¡€",
+            "val": "+4.5%"
+          },
+          {
+            "name": "ç§»é€Ÿ",
+            "val": "+40.05"
+          },
+          {
+            "name": "æ³•æœ¯ç©¿é€",
+            "val": "+5.4%"
+          }
+        ],
+        "jewelArr": [
+          {
+            "name": "æ™ºå–",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/red/r57.png"
+          },
+          {
+            "name": "å¥¥æ³•",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/green/b59.png"
+          },
+          {
+            "name": "æ•‘æ´",
+            "img": "https://img7.99.com/yhkd/image/data/hero/jewel/blue/g56.png"
+          }
+        ],
+        "talentArr": [
+          {
+            "name": "å®ˆè´¢å¥´",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/r2.png"
+          },
+          {
+            "name": "èµé‡‘çŒŽäºº",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/b12.png"
+          },
+          {
+            "name": "å¸æ˜Ÿå¤§æ³•",
+            "level": "é«˜çº§",
+            "img": "https://img8.99.com/yhkd/image/data/hero/jewel/talent/g14.png"
+          }
+        ]
+      }
+    ]
+  ]
+}
