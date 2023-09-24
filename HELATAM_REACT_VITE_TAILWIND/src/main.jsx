@@ -16,6 +16,7 @@ import { TermsServices } from "./constant/TermsServices.jsx";
 import { PrivacyPolicy } from "./constant/PrivacyPolicy.jsx";
 import { Heroes } from "./pages/Heroes/Heroes.jsx";
 import { Details } from "./pages/Details/Details.jsx";
+import 'animate.css';
 
 const router = createBrowserRouter([
   {

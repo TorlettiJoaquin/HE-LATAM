@@ -18,7 +18,6 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
         <ul className="flex flex-wrap gap-1 justify-center">
           <li>
             <button
-              // className={`${filter.type === 0 ? 'bg-black text-gray-600 border-gray-300' : 'bg-secondary border-transparent' } inline-block w-[200px] rounded-l-xl py-4 border-b-2  hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-30 text-2xl`}
               className={`${filter.type === 0 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
               onClick={() => setFilter({ ...filter, type: 0 }) }

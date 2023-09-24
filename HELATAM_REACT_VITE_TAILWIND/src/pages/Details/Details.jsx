@@ -3,6 +3,9 @@ import { Footer } from "../../constant/Footer";
 import { Navbar } from "../../constant/Navbar";
 import { useEffect, useState } from "react";
 import { ComplexityRombos } from "../Heroes/components/ComplexityRombos";
+import ItemData2 from "../Guide/Items/Content/ItemData2";
+import './Details.css'
+import { CombinationItem } from "./components/CombinationItem";
 
 export const Details = () => {
   const { heroId } = useParams();
@@ -93,9 +96,11 @@ export const Details = () => {
                   <ComplexityRombos complexityArray={heroeDetail?.data} />
                 </div>
                 <div>
-                  {
-                    heroeDetail?.skin.length !== 0 && <h2 className="text-gray-200 text-2xl font-bold mb-4">Skins</h2>
-                  }
+                  {heroeDetail?.skin.length !== 0 && (
+                    <h2 className="text-gray-200 text-2xl font-bold mb-4">
+                      Skins
+                    </h2>
+                  )}
                   <div className="flex gap-2 items-center">
                     {heroeDetail?.skin.map((ski) => (
                       <img
@@ -154,39 +159,7 @@ export const Details = () => {
         <section className="container mx-auto py-20">
           <div className="bg-thrid p-4 rounded-md mx-2 lg:mx-0">
             <h2 className="text-4xl font-bold mb-6">Equipamiento</h2>
-            <div className="flex flex-col items-center gap-5 p-4 rounded-md">
-              {heroeDetail?.equip?.map((item, i) => (
-                <div key={i} className="mt-10">
-                  <div className="mb-6">
-                    {item?.reason?.map((obj) => (
-                      <h2 key={obj} className="text-2xl">
-                        {obj}
-                      </h2>
-                    ))}
-                  </div>
-                  <div className="grid grid-cols-3 lg:grid-cols-6 gap-10">
-                    {item?.arr?.map((obj) => {
-                      const imgSrc = `https://img6.99.com/yhkd/image/data/equip/${obj}.png`;
-
-                      return (
-                        <div
-                          className="flex gap-2 border border-spacing-3 border-orange-700"
-                          key={obj}
-                        >
-                          <img
-                            src={imgSrc}
-                            onError={(e) => {
-                              e.target.src = `https://img6.99.com/yhkd/image/data/equip/${obj}.jpg`;
-                            }}
-                            alt={obj}
-                          />
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
-            </div>
+            <CombinationItem heroeDetail={heroeDetail} ItemData2={ItemData2}/>
           </div>
         </section>
       </div>
