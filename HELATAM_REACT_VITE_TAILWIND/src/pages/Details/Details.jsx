@@ -16,13 +16,12 @@ export const Details = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const url = `/public/data/${heroId}.json`;
+        const url = `../public/data/${heroId}.json`;
 
         const response = await fetch(url);
 
         if (response.status === 200) {
           const data = await response.json();
-          console.log(data);
           setHeroeDetail(data);
         } else {
           console.error("Error al cargar los datos del héroe");
