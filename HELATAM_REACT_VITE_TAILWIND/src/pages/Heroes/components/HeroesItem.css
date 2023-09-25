@@ -1,6 +1,6 @@
 .heroes {
   position: relative;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .heroes .name {
@@ -14,7 +14,7 @@
   transition: opacity 0.3s;
   text-align: center;
   line-height: 1.6rem;
-  margin-bottom: .4rem;
+  margin-bottom: 0.4rem;
 }
 
 .heroes:hover .name {
@@ -22,18 +22,22 @@
   z-index: 1;
 }
 
-.heroes:hover::after{
-  content: "";
+.heroes:hover::after {
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(7, 7, 7, 0.582));
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(7, 7, 7, 0.582)
+  );
   transition: opacity 0.3s;
   opacity: 1;
 }
-.heroes:hover{
+.heroes:hover {
   transform: scale(1.1);
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
