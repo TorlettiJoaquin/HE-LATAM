@@ -1,12 +1,12 @@
-import { useEffect, useMemo, useState } from "react";
-import { Footer } from "../constant/Footer";
-import { Navbar } from "../constant/Navbar";
-import { PostFacebook } from "./components/PostFacebook";
-import { Spinner } from "../components/Spinner/Spinner";
-import { FilterSeccionPost } from "./components/FilterSeccionPost";
-import { convertData } from "../helpers/convertData";
+import { useEffect, useMemo, useState } from "react"
+import { Spinner } from "../components/Spinner/Spinner"
+import { Footer } from "../constant/Footer"
+import { Navbar } from "../constant/Navbar"
+import { convertData } from "../helpers/convertData"
+import { FilterSeccionPost } from "./components/FilterSeccionPost"
+import { PostFacebook } from "./components/PostFacebook"
 
-export const Guide = () => {
+export const News = () => {
   const [posts, setPosts] = useState(null);
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
@@ -55,20 +55,16 @@ export const Guide = () => {
       getPostData();
     };
   }, []);
-
   return (
     <div>
       <Navbar />
-      <main className="bg-primary">
-        <h2 className="text-4xl text-center pt-20 lg:py-28 lg:text-6xl">
-          Portal de victoria
-        </h2>
+      <main className="bg-primary pt-28">
         {loading ? (
           <Spinner />
         ) : (
           <div className="container mx-auto lg:w-[1000px] grid grid-cols-3 mb-20 gap-6">
             {posts?.slice(0, 3).map((post) => (
-              <a target="_blank" href={post.link}  key={post.id} className="bg-thrid border border-spacing-2 border-orange-700 transition-all hover:scale-105" rel="noreferrer">
+              <a target="_blank" href={post.link}  key={post.id} className="bg-thrid border border-spacing-2 border-orange-700" rel="noreferrer">
                 <img
                   src={
                     post.photo !== ""
@@ -78,7 +74,7 @@ export const Guide = () => {
                   alt={post.message}
                   className="object-cover"
                 />
-                <div className="py-4 px-2 flex flex-col justify-between border border-t-4 border-black">
+                <div className="py-4 px-2 flex flex-col justify-between">
                   <h2 className="font-bold line-clamp-1">{post.message}</h2>
                   <span className="text-sm">{convertData(post.time)}</span>
                 </div>
@@ -111,5 +107,5 @@ export const Guide = () => {
       </main>
       <Footer />
     </div>
-  );
-};
+  )
+}

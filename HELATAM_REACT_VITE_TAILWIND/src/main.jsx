@@ -17,6 +17,7 @@ import { PrivacyPolicy } from "./constant/PrivacyPolicy.jsx";
 import { Heroes } from "./pages/Heroes/Heroes.jsx";
 import { Details } from "./pages/Details/Details.jsx";
 import 'animate.css';
+import { News } from "./routes/News.jsx";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
   {
     path: "/heroes",
     element: <Heroes />,
+  },
+  {
+    path: "/news",
+    element: <News />,
   },
   {
     path: "/heroes/:heroId",
