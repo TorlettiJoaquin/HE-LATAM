@@ -44,6 +44,7 @@ export const Heroes = () => {
 
           <FilterHeroesItem filter={filter} setFilter={setFilter} />
 
+          {heroes.length === 0 && <h2 className="text-center font-bold text-4xl my-12">No hay heroes con esas caracteristicas...</h2>}
           <div className="pt-6 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-10 gap-y-5 gap-x-5 pb-20 mx-2 md:mx-0">
             {heroes.map((heroe) => (
               <HeroesItem key={heroe.id} id={heroe.id} name={heroe.name} />
