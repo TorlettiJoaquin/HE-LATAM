@@ -43,12 +43,12 @@ export const Details = () => {
           />
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-1 xxl:grid-cols-2 gap-2 py-20">
             <section
-              className="z-10 p-10 md:px-6 md:py-4 rounded-3xl lg:w-5/5 xl:w-3/5 mx-2 md:mt-28 border border-orange-500"
+              className="z-10 p-10 md:px-6 md:py-4 rounded-3xl lg:w-5/5 xl:w-3/5 mx-2 md:mt-28 border border-orange-500 grid grid-cols-1 md:grid-cols-2 gap-5"
               style={{ backgroundColor: "#00000050" }}
             >
               <div className="flex flex-col gap-7">
                 <div className="flex flex-col md:flex-row gap-4">
-                  <div className="w-2/4">
+                  <div>
                     <h2 className="text-6xl">{heroeDetail?.name}</h2>
                     <p
                       className={`${
@@ -68,47 +68,44 @@ export const Details = () => {
                       </button>
                     </div>
                   </div>
-
-                  <div>
-                    <h2 className="text-gray-200 text-2xl font-bold">
-                      Tipo de ataque
-                    </h2>
-                    <div className="flex gap-2 mt-4">
-                      {heroeDetail?.features?.map((feat) => (
-                        <span
-                          className="bg-blue-900 px-4 py-2 rounded-2xl"
-                          key={feat}
-                        >
-                          {feat}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
                 </div>
-                <div>
-                  <h2 className="text-gray-200 text-2xl font-bold">
-                    Dificultad
+              </div>
+              <div>
+                <h2 className="text-gray-200 text-2xl font-bold">
+                  Tipo de ataque
+                </h2>
+                <div className="flex gap-2 mt-4">
+                  {heroeDetail?.features?.map((feat) => (
+                    <span
+                      className="bg-blue-900 px-4 py-2 rounded-2xl"
+                      key={feat}
+                    >
+                      {feat}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h2 className="text-gray-200 text-2xl font-bold">Dificultad</h2>
+                <ComplexityRombos complexityArray={heroeDetail?.data} />
+              </div>
+              <div>
+                {heroeDetail?.skin.length !== 0 && (
+                  <h2 className="text-gray-200 text-2xl font-bold mb-4">
+                    Skins
                   </h2>
-                  <ComplexityRombos complexityArray={heroeDetail?.data} />
-                </div>
-                <div>
-                  {heroeDetail?.skin.length !== 0 && (
-                    <h2 className="text-gray-200 text-2xl font-bold mb-4">
-                      Skins
-                    </h2>
-                  )}
-                  <div className="flex gap-2 items-center">
-                    {heroeDetail?.skin.map((ski) => (
-                      <img
-                        width={40}
-                        height={40}
-                        className="object-contain"
-                        key={ski.id}
-                        src={`https://img5.99.com/yhkd/image/data/hero/${heroId}/head/${ski.imgSrc}?`}
-                        alt=""
-                      />
-                    ))}
-                  </div>
+                )}
+                <div className="flex gap-2 items-center">
+                  {heroeDetail?.skin.map((ski) => (
+                    <img
+                      width={40}
+                      height={40}
+                      className="object-contain"
+                      key={ski.id}
+                      src={`https://img5.99.com/yhkd/image/data/hero/${heroId}/head/${ski.imgSrc}?`}
+                      alt=""
+                    />
+                  ))}
                 </div>
               </div>
             </section>
