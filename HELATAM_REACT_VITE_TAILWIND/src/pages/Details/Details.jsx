@@ -16,7 +16,7 @@ export const Details = () => {
   });
   const [moreHistory, setMoreHistory] = useState(false);
   const [stepTab, setStepTab] = useState(0);
-
+  console.log(heroeDetail)
   const handleReedHistory = () => {
     setMoreHistory(!moreHistory);
   };
