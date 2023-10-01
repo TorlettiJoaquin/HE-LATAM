@@ -10,16 +10,12 @@ import { HeroesData } from "../../service/getDataHeroe";
 
 export const Details = () => {
   const { heroId } = useParams();
-  const [heroeDetail, ] = useState(() => {
-    const data = HeroesData.find((heroe) => heroe.id === heroId)
-    return data
-  });
   const [moreHistory, setMoreHistory] = useState(false);
   const [stepTab, setStepTab] = useState(0);
-  console.log(heroeDetail)
   const handleReedHistory = () => {
     setMoreHistory(!moreHistory);
   };
+  const heroeDetail = HeroesData.find((heroe) => heroe.id === heroId)
 
   return (
     <>
