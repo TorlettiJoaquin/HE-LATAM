@@ -17,6 +17,8 @@ export const Details = () => {
   useEffect(() => {
     const getDetailHeroe = () => {
       const data = HeroesData.find((heroe) => heroe.id === heroId);
+      console.log(data)
+      console.log(HeroesData)
       setHeroeDetail(data);
     };
 
