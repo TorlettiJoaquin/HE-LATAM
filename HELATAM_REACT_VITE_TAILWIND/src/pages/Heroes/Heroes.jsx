@@ -4,6 +4,7 @@ import HeroesData from "../../constant/Heroes/HeroesData";
 import { HeroesItem } from "./components/HeroesItem";
 import { FilterHeroesItem } from "./components/FilterHeroesItem";
 import { useMemo, useState } from "react";
+import './Heroes.css'
 
 export const Heroes = () => {
   const [filter, setFilter] = useState({
@@ -38,9 +39,9 @@ export const Heroes = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-primary">
+      <section className="bg-img -mt-16">
         <div className="container mx-auto pt-28">
-          <h2 className="py-6 text-center text-4xl">Elegi tu heroe</h2>
+          <h2 className="py-6 text-center text-6xl mt-12 mb-5 font-bold">Elegi tu heroe</h2>
 
           <FilterHeroesItem filter={filter} setFilter={setFilter} />
 
