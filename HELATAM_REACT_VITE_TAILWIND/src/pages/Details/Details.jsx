@@ -4,11 +4,9 @@ import { Navbar } from "../../constant/Navbar";
 import { useEffect, useState } from "react";
 import { ComplexityRombos } from "../Heroes/components/ComplexityRombos";
 import ItemData2 from "../Guide/Items/Content/ItemData2";
-import Heroes from "../../heroes.json";
 import "./Details.css";
 import { CombinationItem } from "./components/CombinationItem";
-
-const GetDataHeroe = Heroes;
+import { HeroesData } from "../../service/getDataHeroe";
 
 export const Details = () => {
   const { heroId } = useParams();
@@ -18,7 +16,7 @@ export const Details = () => {
 
   useEffect(() => {
     const getDetailHeroe = () => {
-      const data = GetDataHeroe.find((heroe) => heroe.id === heroId);
+      const data = HeroesData.find((heroe) => heroe.id === heroId);
       setHeroeDetail(data);
     };
 
