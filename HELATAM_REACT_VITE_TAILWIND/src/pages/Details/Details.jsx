@@ -10,16 +10,12 @@ import { HeroesData } from "../../service/getDataHeroe";
 
 export const Details = () => {
   const { heroId } = useParams();
-  const [heroeDetail, ] = useState(() => {
-    const data = HeroesData.find((heroe) => heroe.id === heroId)
-    return data
-  });
   const [moreHistory, setMoreHistory] = useState(false);
   const [stepTab, setStepTab] = useState(0);
-  console.log(heroeDetail)
   const handleReedHistory = () => {
     setMoreHistory(!moreHistory);
   };
+  const heroeDetail = HeroesData.find((heroe) => heroe.id === heroId)
 
   return (
     <>
@@ -38,7 +34,7 @@ export const Details = () => {
             >
               <div className="flex flex-col gap-7">
                 <div className="flex flex-col md:flex-row gap-4">
-                  <div>
+                  <div className="flex flex-col gap-3">
                     <h2 className="text-6xl">{heroeDetail?.name}</h2>
                     <p
                       className={`${
@@ -90,7 +86,7 @@ export const Details = () => {
                     <img
                       width={40}
                       height={40}
-                      className="object-contain"
+                      className="object-contain border border-orange-500 rounded-xl transition-all"
                       key={ski.id}
                       src={`https://img5.99.com/yhkd/image/data/hero/${heroId}/head/${ski.imgSrc}?`}
                       alt=""
