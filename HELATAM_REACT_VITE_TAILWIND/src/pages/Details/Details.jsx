@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Footer } from "../../constant/Footer";
 import { Navbar } from "../../constant/Navbar";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { ComplexityRombos } from "../Heroes/components/ComplexityRombos";
 import ItemData2 from "../Guide/Items/Content/ItemData2";
 import "./Details.css";
@@ -10,23 +10,13 @@ import { HeroesData } from "../../service/getDataHeroe";
 
 export const Details = () => {
   const { heroId } = useParams();
-  const [heroeDetail, setHeroeDetail] = useState(null);
+  const [heroeDetail, ] = useState(() => {
+    const data = HeroesData.find((heroe) => heroe.id === heroId)
+    return data
+  });
   const [moreHistory, setMoreHistory] = useState(false);
   const [stepTab, setStepTab] = useState(0);
-
-  useEffect(() => {
-    const getDetailHeroe = () => {
-      const data = HeroesData.find((heroe) => heroe.id === heroId);
-      console.log(data)
-      console.log(HeroesData)
-      setHeroeDetail(data);
-    };
-
-    return () => {
-      getDetailHeroe();
-    };
-  }, [heroId, heroeDetail]);
-
+  console.log(heroeDetail)
   const handleReedHistory = () => {
     setMoreHistory(!moreHistory);
   };
