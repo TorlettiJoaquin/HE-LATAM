@@ -7,7 +7,7 @@ import { FilterSeccionPost } from "./components/FilterSeccionPost";
 import { convertData } from "../helpers/convertData";
 
 export const Guide = () => {
-  const [posts, setPosts] = useState(null);
+  const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
 
@@ -33,14 +33,20 @@ export const Guide = () => {
         const response = await fetch(url);
         if (response.ok) {
           const result = await response.json();
-          const mock = result.posts.data.map((post) => {
-            return {
-              message: post.message ?? "",
-              id: post.id,
-              photo: post.full_picture ?? "",
-              link: post.permalink_url ?? "",
-              time: post.created_time,
-            };
+          const mock = result.posts.data.filter((post) => {
+            if (
+              post?.message
+                ?.toLocaleLowerCase()
+                .includes("#HeroesEvolvedGuide".toLowerCase())
+            ) {
+              return {
+                message: post.message ?? "",
+                id: post.id,
+                photo: post.full_picture ?? "",
+                link: post.permalink_url ?? "",
+                time: post.created_time,
+              };
+            }
           });
           setPosts(mock);
         }
@@ -59,16 +65,22 @@ export const Guide = () => {
   return (
     <div>
       <Navbar />
-      <main className="bg-primary">
+      <main className="bg-img">
         <h2 className="text-4xl text-center pt-20 lg:py-28 lg:text-6xl">
           Portal de victoria
         </h2>
         {loading ? (
           <Spinner />
-        ) : (
+        ) : posts.length !== 0 ? (
           <div className="container mx-auto lg:w-[1000px] grid grid-cols-3 mb-20 gap-6">
             {posts?.slice(0, 3).map((post) => (
-              <a target="_blank" href={post.link}  key={post.id} className="bg-thrid border border-spacing-2 border-orange-700 transition-all hover:scale-105" rel="noreferrer">
+              <a
+                target="_blank"
+                href={post.link}
+                key={post.id}
+                className="bg-thrid border border-spacing-2 border-orange-700 transition-all hover:scale-105"
+                rel="noreferrer"
+              >
                 <img
                   src={
                     post.photo !== ""
@@ -85,6 +97,10 @@ export const Guide = () => {
               </a>
             ))}
           </div>
+        ) : (
+          <h2 className="font-bold text-center text-2xl py-10">
+            No hay articulos disponibles...
+          </h2>
         )}
 
         <section className="container mx-auto">
@@ -100,11 +116,6 @@ export const Guide = () => {
                   <PostFacebook key={post.id} post={post} />
                 ))}
               </div>
-            )}
-            {postsFacebook?.lenght === 0 && (
-              <h2 className="font-bold text-center text-2xl">
-                No hay articulos disponibles
-              </h2>
             )}
           </div>
         </section>
