@@ -1,7 +1,7 @@
 [
   {
     "id": "1001",
-    "name": "Venom",
+    "name": "Venenosa",
     "type": "1",
     "features": ["Melee", "Ganker", "Carry"],
     "data": [10, 2, 6, 3],
