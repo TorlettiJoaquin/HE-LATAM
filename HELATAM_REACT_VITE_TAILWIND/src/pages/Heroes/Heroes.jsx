@@ -39,7 +39,7 @@ export const Heroes = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-img -mt-16">
+      <section className="bg-no-repeat bg-[center_top] bg-newbg-bg bg-fixed">
         <div className="container mx-auto pt-28">
           <h2 className="py-6 text-center text-6xl mt-12 mb-5 font-bold">Elegi tu heroe</h2>
 
