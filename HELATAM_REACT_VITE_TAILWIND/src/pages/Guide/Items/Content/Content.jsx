@@ -63,6 +63,9 @@ export const Content = () => {
                     ))
                     }
                 </div>
+                <div className="w-full mt-2">
+                    <input type="text" name="" id="" placeholder="BUSCA TU ITEM" className="w-full bg-indigo-950 border-2 rounded-lg text-center py-2" />
+                </div>
                 {/* Items */}
                 <div>
                     <ul className="relative flex flex-row flex-wrap mx-auto my-0 p-4 py-8 overflow-x-hidden justify-start">

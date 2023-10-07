@@ -1,10 +1,10 @@
-export const FilterHeroesItem = ({filter, setFilter}) => {
+export const FilterHeroesItem = ({ filter, setFilter }) => {
   const handleChangeCheck = (e) => {
     const { value, checked } = e.target;
 
     if (checked) {
       setFilter({ ...filter, check: [...filter.check, value] })
-    }else{
+    } else {
       const filterCheckBox = filter.check.filter(check => check !== value)
 
       setFilter({ ...filter, check: filterCheckBox })
@@ -20,7 +20,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
             <button
               className={`${filter.type === 0 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
-              onClick={() => setFilter({ ...filter, type: 0 }) }
+              onClick={() => setFilter({ ...filter, type: 0 })}
             >
               Todos
             </button>
@@ -29,7 +29,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
             <button
               className={`${filter.type === 1 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
-              onClick={() => setFilter({ ...filter, type: 1 }) }
+              onClick={() => setFilter({ ...filter, type: 1 })}
             >
               Fuerza
             </button>
@@ -38,7 +38,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
             <button
               className={`${filter.type === 2 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
-              onClick={() => setFilter({ ...filter, type: 2 }) }
+              onClick={() => setFilter({ ...filter, type: 2 })}
             >
               Agilidad
             </button>
@@ -47,12 +47,15 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
             <button
               className={`${filter.type === 3 ? "bg-indigo-900" : ""} leading-10 text-center hover:bg-indigo-900 border w-[200px] uppercase cursor-pointer`}
               type="button"
-              onClick={() => setFilter({ ...filter, type: 3 }) }
+              onClick={() => setFilter({ ...filter, type: 3 })}
             >
               Inteligencia
             </button>
           </li>
         </ul>
+        <div className="mt-2">
+          <input type="text" name="" id="" placeholder="ELIGE TU HEROE" className=" bg-indigo-950 border-2 rounded-lg text-center py-2 w-[814px]" />
+        </div>
       </div>
 
       <section className="flex flex-wrap gap-4 justify-center my-5">
@@ -77,7 +80,7 @@ export const FilterHeroesItem = ({filter, setFilter}) => {
           <label htmlFor="">Disabler</label>
         </div>
         <div className="flex gap-2">
-          <input value='ganker' onChange={handleChangeCheck} type="checkbox"/>
+          <input value='ganker' onChange={handleChangeCheck} type="checkbox" />
           <label htmlFor="">Ganker</label>
         </div>
         <div className="flex gap-2">

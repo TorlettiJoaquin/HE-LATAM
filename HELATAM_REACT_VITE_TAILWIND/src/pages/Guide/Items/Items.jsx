@@ -4,7 +4,7 @@ import { Content } from "./Content/Content";
 
 export const Items = () => {
     return (
-        <div className="w-full bg-newbg-bg bg-no-repeat bg-fixed bg-[center_top] flex flex-col">
+        <div className="w-full bg-newbg-bg bg-no-repeat bg-fixed bg-[center_top] flex flex-col pt-16">
             <Navbar />
             <Content />
             <Footer />
