@@ -128,7 +128,7 @@ export const News = () => {
               <li
                 key={index}
                 onClick={() => handlePageChange(index + 1)}
-                className="bg-thrid hover:bg-secondary transition-all rounded-md w-8 h-8 flex justify-center items-center cursor-pointer"
+                className={` hover:bg-secondary transition-all rounded-md w-8 h-8 flex justify-center items-center cursor-pointer ${currentPage === index + 1 ? 'bg-black' : 'bg-thrid'}`}
               >
                 {index + 1}
               </li>
