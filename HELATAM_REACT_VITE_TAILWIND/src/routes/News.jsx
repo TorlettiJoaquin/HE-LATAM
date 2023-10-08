@@ -1,15 +1,17 @@
-import { useEffect, useMemo, useState } from "react"
-import { Spinner } from "../components/Spinner/Spinner"
-import { Footer } from "../constant/Footer"
-import { Navbar } from "../constant/Navbar"
-import { convertData } from "../helpers/convertData"
-import { FilterSeccionPost } from "./components/FilterSeccionPost"
-import { PostFacebook } from "./components/PostFacebook"
+import { useEffect, useMemo, useState } from "react";
+import { Spinner } from "../components/Spinner/Spinner";
+import { Footer } from "../constant/Footer";
+import { Navbar } from "../constant/Navbar";
+import { convertData } from "../helpers/convertData";
+import { FilterSeccionPost } from "./components/FilterSeccionPost";
+import { PostFacebook } from "./components/PostFacebook";
 
 export const News = () => {
   const [posts, setPosts] = useState(null);
   const [loading, setLoading] = useState(false);
   const [filter, setFilter] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   const postsFacebook = useMemo(() => {
     if (filter === "") {
@@ -26,7 +28,7 @@ export const News = () => {
   useEffect(() => {
     const getPostData = async () => {
       const url =
-        "https://graph.facebook.com/me?fields=id,posts.limit(10){created_time,message,link,full_picture,permalink_url}&access_token=EAATD7F2VFCgBO5Fiqq1CwluZAv3pJHmfVxpZBZBZCTlnjHDMmf5neKyqXDHTKNGr66elUyqs0t3eWlRZBBcBeahC2jsiYkUcdYWsPqORIB4s3QDf2LZClQk4vF5sNCufQ4jAsWuxOYiEnIr0l9yEaW2HZA7k7eetJVU29ZBrCuaJulahsaXlZCGhJ6AcR";
+        "https://graph.facebook.com/me?fields=id,posts.limit(20){created_time,message,link,full_picture,permalink_url}&access_token=EAATD7F2VFCgBO5Fiqq1CwluZAv3pJHmfVxpZBZBZCTlnjHDMmf5neKyqXDHTKNGr66elUyqs0t3eWlRZBBcBeahC2jsiYkUcdYWsPqORIB4s3QDf2LZClQk4vF5sNCufQ4jAsWuxOYiEnIr0l9yEaW2HZA7k7eetJVU29ZBrCuaJulahsaXlZCGhJ6AcR";
 
       try {
         setLoading(true);
@@ -55,6 +57,16 @@ export const News = () => {
       getPostData();
     };
   }, []);
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = currentPage * itemsPerPage;
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const totalPages = Math.ceil(posts?.length / itemsPerPage);
+
   return (
     <div>
       <Navbar />
@@ -64,7 +76,13 @@ export const News = () => {
         ) : (
           <div className="container mx-auto lg:w-[1000px] grid grid-cols-3 mb-20 gap-6">
             {posts?.slice(0, 3).map((post) => (
-              <a target="_blank" href={post.link}  key={post.id} className="bg-thrid border border-spacing-2 border-orange-700" rel="noreferrer">
+              <a
+                target="_blank"
+                href={post.link}
+                key={post.id}
+                className="bg-thrid border border-spacing-2 border-orange-700"
+                rel="noreferrer"
+              >
                 <img
                   src={
                     post.photo !== ""
@@ -92,7 +110,7 @@ export const News = () => {
             {loading && <Spinner />}
             {postsFacebook && (
               <div className="animate__animated animate__fadeIn flex flex-col gap-5">
-                {postsFacebook?.map((post) => (
+                {postsFacebook?.slice(startIndex, endIndex).map((post) => (
                   <PostFacebook key={post.id} post={post} />
                 ))}
               </div>
@@ -104,8 +122,21 @@ export const News = () => {
             )}
           </div>
         </section>
+        <section className="container mx-auto">
+          <ul className="flex justify-center flex-wrap gap-2 pb-10">
+            {Array.from({ length: totalPages }, (_, index) => (
+              <li
+                key={index}
+                onClick={() => handlePageChange(index + 1)}
+                className="bg-thrid hover:bg-secondary transition-all rounded-md w-8 h-8 flex justify-center items-center cursor-pointer"
+              >
+                {index + 1}
+              </li>
+            ))}
+          </ul>
+        </section>
       </main>
       <Footer />
     </div>
-  )
-}
+  );
+};
