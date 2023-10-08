@@ -3,5 +3,5 @@
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
-  background-size: cover;
+  background-size: fixed;
 }
