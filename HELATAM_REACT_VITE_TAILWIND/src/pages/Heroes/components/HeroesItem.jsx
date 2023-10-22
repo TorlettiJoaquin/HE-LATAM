@@ -3,11 +3,11 @@ import './HeroesItem.css'
 
 export const HeroesItem = ({ name, id }) => {
   return (
-    <Link to={`/heroes/${id}`} className="cursor-pointer heroes mx-auto ">
+    <Link to={`/heroes/${id}`} className="cursor-pointer heroes mx-auto aspect-square rounded-xl overflow-hidden">
       <img
         src={`https://img6.99.com/yhkd/image/data/hero/head/${id}.jpg`}
         alt={name}
-        className="object-contain flex items-center gap-[0 0.2rem] rounded-xl mr-4 shadow-[0_0.1rem_0.2rem_#000] transition-transform h-28 md:h-auto"
+        className="w-full h-full object-contain aspect-square flex items-center rounded-xl shadow-[0_0.1rem_0.2rem_#000] transition-transform overflow-hidden"
       />
       <h2 className="name">{name}</h2>
     </Link>
