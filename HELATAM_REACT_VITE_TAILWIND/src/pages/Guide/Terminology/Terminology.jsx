@@ -1,7 +1,6 @@
 import { Footer } from "../../../constant/Footer";
 import { Navbar } from "../../../constant/Navbar";
 import { Content } from "./Content/Content";
-import { Header } from "./Header";
 
 export const Terminology = () => {
     return (

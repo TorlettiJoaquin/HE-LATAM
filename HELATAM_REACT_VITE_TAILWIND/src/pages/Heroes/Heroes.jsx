@@ -10,36 +10,39 @@ export const Heroes = () => {
   const [filter, setFilter] = useState({
     type: 0,
     check: [],
+    search: ''
   });
-
+  
   const heroes = useMemo(() => {
-    if (filter.type === 0 && filter.check.length === 0) {
-      return HeroesData.HeroesData;
+    let filteredHeroes = HeroesData.HeroesData;
+  
+    if (filter.type >= 1) {
+      filteredHeroes = filteredHeroes.filter((hero) => hero.type == filter.type);
     }
-
-    if (filter.type >= 1 && filter.check.length === 0) {
-      return HeroesData.HeroesData.filter((hero) => hero.type == filter.type);
+  
+    if (filter.check.length > 0) {
+      filteredHeroes = filteredHeroes.filter((hero) =>
+        filter.check.every((skill) => {
+          const data = hero["features"]?.map(heroSkill => heroSkill.toLowerCase());
+          return data?.includes(skill.toLowerCase());
+        })
+      );
     }
-
-    const filterType =
-      filter.type === 0
-        ? HeroesData.HeroesData
-        : HeroesData.HeroesData.filter((hero) => hero.type == filter.type);
-
-    const dataFilterCheckbox = filterType.filter((hero) =>
-      filter.check.every((skill) => {
-        const data = hero["features"]?.map(heroSkill => heroSkill.toLowerCase())
-        return data?.includes(skill.toLowerCase())
-      })
-    );
-
-    return dataFilterCheckbox;
+  
+    if (filter.search.trim() !== '') {
+      filteredHeroes = filteredHeroes.filter((hero) =>
+        hero.name.toLowerCase().includes(filter.search.toLowerCase())
+      );
+    }
+  
+    return filteredHeroes;
   }, [filter]);
+  
 
   return (
     <>
       <Navbar />
-      <section className="bg-img -mt-16">
+      <section className="bg-no-repeat bg-[center_top] bg-newbg-bg bg-fixed">
         <div className="container mx-auto pt-28">
           <h2 className="py-6 text-center text-6xl mt-12 mb-5 font-bold">Elegi tu heroe</h2>
 

@@ -20,7 +20,7 @@ export const Details = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-img">
+      <div className="bg-no-repeat bg-[center_top] bg-newbg-bg bg-fixed">
         <section className="relative w-full h-screen flex items-center">
           <img
             className="absolute bottom-0 left-0 top-0 right-0 z-0 h-full w-full object-cover"
@@ -37,9 +37,8 @@ export const Details = () => {
                   <div className="flex flex-col gap-3">
                     <h2 className="text-6xl">{heroeDetail?.name}</h2>
                     <p
-                      className={`${
-                        moreHistory ? "overflow-y-auto h-40" : "line-clamp-5"
-                      } text-gray-100`}
+                      className={`${moreHistory ? "overflow-y-auto h-40" : "line-clamp-5"
+                        } text-gray-100`}
                     >
                       {heroeDetail?.story}
                     </p>
@@ -104,11 +103,10 @@ export const Details = () => {
               <div className="flex gap-3">
                 {heroeDetail?.ski.map((sk, i) => (
                   <button
-                    className={`${
-                      stepTab === i
-                        ? "bg-primary border-t-2 border-l-2 border-r-2 border-spacing-3 border-gray-600"
-                        : ""
-                    } p-4`}
+                    className={`${stepTab === i
+                      ? "bg-primary border-t-2 border-l-2 border-r-2 border-spacing-3 border-gray-600"
+                      : ""
+                      } p-4`}
                     onClick={() => setStepTab(i)}
                     key={sk.keyword}
                   >
